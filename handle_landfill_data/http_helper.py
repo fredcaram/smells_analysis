@@ -9,4 +9,4 @@ class http_helper:
         req = self.http_get_request(url)
         if req.status == 200:
             return req.data.decode('utf-8')
-        raise Exception("Invalid Request")
+        return ""
