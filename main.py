@@ -1,0 +1,3 @@
+from smells_dataset_handler.smells_dataset_handler import smells_dataset_handler
+
+projects = smells_dataset_handler().get_smells_dataset_by_project_id(108)
