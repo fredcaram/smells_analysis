@@ -1,0 +1,13 @@
+Chidamber-Kemerer metrics,Sex, 6 out 2017 19:04:34 BRT
+Class,CBO,DIT,LCOM,NOC,RFC,WMC
+"com.android.tests.basicJavaProject.Foo",3,0,1,0,2,2
+"com.android.tests.basicProjectWithJava.Main",1,0,1,0,2,1
+"com.android.tests.basicProjectWithJava.MyTextView",1,0,0,0,4,3
+"com.android.tests.basicjar.Foo",2,0,1,0,2,2
+"com.android.tests.basiclib.Main",0,0,1,0,1,1
+"com.android.tests.basiclibwithjar.Main",1,0,1,0,2,1
+"com.android.tests.basicproject.Main",0,0,1,0,1,1
+"com.android.tests.basicprojectwithaidl.Main",0,0,1,0,1,1
+"com.android.tests.basicprojectwithaidl.Rect",0,0,3,0,6,8
+"com.android.tests.basicprojectwithjar.Main",1,0,1,0,2,1
+
