@@ -16,3 +16,10 @@ class mongodb_helper:
     def drop_collection(self, collection_name):
         db = self.get_db()
         db[collection_name].drop()
+
+    def set_projects_prefix(self):
+        db = self.get_db()
+        project_prefix_dict = {55: "aard"}
+        coll = db["smells_projects"]
+        for id, prefix in project_prefix_dict.items():
+            coll.update_one(({"id": id}, {"$set": {"prefix", prefix}}))

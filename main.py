@@ -1,3 +1,5 @@
-from smells_dataset_handler.smells_dataset_handler import smells_dataset_handler
+from models.model_helper import model_helper
 
-projects = smells_dataset_handler().get_smells_dataset_by_project_id(108)
+model = model_helper()
+model.run_train_test_validation()
+model.run_train_test_validation_with_cv()

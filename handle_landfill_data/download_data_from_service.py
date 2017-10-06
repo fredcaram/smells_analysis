@@ -2,7 +2,7 @@ import json
 from handle_landfill_data.http_helper import http_helper
 from handle_landfill_data.mongodb_helper import mongodb_helper
 
-dataSetId = 2
+dataSetId = 1
 
 systems_url = "http://www.sesa.unisa.it/landfill/GetSystems?datasetId=" + str(dataSetId)
 smells_url = "http://www.sesa.unisa.it/landfill/GetBadSmells?system={0}&type={1}"
@@ -30,4 +30,5 @@ for project in smells_db.smells_projects.find():
                 smellData["project_id"] = project["id"]
                 mongohelper.insert_one("smells", smellData)
 
+mongohelper.set_projects_prefix()
 print(systemsJson)
