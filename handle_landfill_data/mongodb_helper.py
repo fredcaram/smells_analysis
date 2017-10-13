@@ -19,7 +19,7 @@ class mongodb_helper:
 
     def set_projects_prefix(self):
         db = self.get_db()
-        project_prefix_dict = {55: "aard"}
+        project_prefix_dict = {54: "ant", 55: "aard", 64: "android_sdk"}
         coll = db["smells_projects"]
         for id, prefix in project_prefix_dict.items():
             coll.update_one(({"id": id}, {"$set": {"prefix", prefix}}))

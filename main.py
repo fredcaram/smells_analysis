@@ -1,5 +1,5 @@
-from models.model_helper import model_helper
+from models.class_metrics_model import class_metrics_model
 
-model = model_helper()
+model = class_metrics_model()
 model.run_train_test_validation()
 model.run_train_test_validation_with_cv()
