@@ -1,6 +1,6 @@
-import pandas as pd
 import os
-import re
+
+import pandas as pd
 
 from smells_dataset_handler.base_smells_dataset_handler import base_smells_dataset_handler
 
@@ -49,40 +49,4 @@ class metric_reloaded_class_smells_dataset_handler(base_smells_dataset_handler):
         smells_df = pd.DataFrame(smells_by_type)
         return smells_df
 
-
-class history_based_method_smells_dataset_handler(base_smells_dataset_handler):
-    def __init__(self):
-        base_smells_dataset_handler.__init__(self)
-        self.metrics_dir = "change_history"
-        self.handled_smell_types = ['ShotgunSurgery',"DivergentChange"]
-        self.file_name = "methodChanges.csv"
-
-    def get_handled_smell_types(self):
-        return self.handled_smell_types
-
-    def get_metrics_dataframe(self, prefix):
-        file = "{0}/{1}/{2}.csv".format(self.metrics_dir, prefix, self.file_name)
-
-        metrics_df = pd.read_csv(file, skiprows=1, index_col=2)
-
-        for col in metrics_df.columns.values:
-            metrics_df[col] = pd.to_numeric(metrics_df[col], errors="coerce")
-
-        metrics_df.index.names = ["instance"]
-        metrics_df = metrics_df.reset_index()
-        metrics_df["instance"] = (self.extract_class_from_method(method) for method in metrics_df["instance"])
-
-        return metrics_df
-
-    def extract_class_from_method(self, method_desc):
-        m = re.match("(.*)[.]\w+(\w*)", method_desc)
-        class_ = m.group(0)
-        return class_
-
-
-    def convert_smells_list_to_df(self, smells):
-        smells_by_type = [{"instance": smell["instance"].replace(';', ''), "smell_type": smell["type"]} for smell in
-                          smells]
-        smells_df = pd.DataFrame(smells_by_type)
-        return smells_df
 

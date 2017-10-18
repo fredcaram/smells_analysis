@@ -36,6 +36,8 @@ class base_smells_dataset_handler:
 
     def get_annotated_smells_df(self, db, project_id):
         smells = list(db.smells.find({"project_id": project_id, "type": {"$in": self.get_handled_smell_types()}}))
+        if len(smells) == 0:
+            return pd.DataFrame()
         smells_df = self.convert_smells_list_to_df(smells)
         smells_df = self.get_smells_dummies(smells_df)
         return smells_df
@@ -54,6 +56,9 @@ class base_smells_dataset_handler:
         project = db.smells_projects.find_one({"id": project_id})
         metrics_df = self.get_metrics_dataframe(project["prefix"])
         smells_df = self.get_annotated_smells_df(db, project_id)
+
+        if len(smells_df) == 0:
+            return metrics_df
 
         assert "instance" in smells_df.columns.values
 
