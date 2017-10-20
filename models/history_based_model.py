@@ -6,8 +6,8 @@ import pandas as pd
 import numpy as np
 
 from models.model_base import model_base
-from smells_dataset_handler.history_based_method_smells_dataset_handler import \
-    history_based_method_smells_dataset_handler
+from smells_repository.relationships_smells_repository import \
+    relationship_smells_repository
 
 
 class history_based_model(model_base):
@@ -20,7 +20,7 @@ class history_based_model(model_base):
         return self.classifier
 
     def get_dataset(self):
-        df = history_based_method_smells_dataset_handler().get_smells_dataset_from_projects(self.projects_ids)
+        df = relationship_smells_repository().get_smells_dataset_from_projects(self.projects_ids)
         a_rules_df = self.get_association_rules(df)
         a_rules_df = a_rules_df.drop(["antecedants", "commit"], axis=1)
         return a_rules_df

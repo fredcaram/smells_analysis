@@ -1,7 +1,7 @@
 from sklearn import tree
 
 from models.model_base import model_base
-from smells_dataset_handler.metric_reloaded_class_smells_dataset_handler import metric_reloaded_class_smells_dataset_handler
+from smells_repository.blob_repository import blob_repository
 
 
 class class_metrics_model(model_base):
@@ -14,7 +14,7 @@ class class_metrics_model(model_base):
         return self.classifier
 
     def get_dataset(self):
-        return metric_reloaded_class_smells_dataset_handler().get_smells_dataset_from_projects(self.projects_ids)
+        return blob_repository().get_smells_dataset_from_projects(self.projects_ids)
 
     def get_handled_smells(self):
         return self.class_metrics_smells

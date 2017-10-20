@@ -7,16 +7,11 @@ from messages import error_messages
 from handle_landfill_data.mongodb_helper import mongodb_helper
 
 
-class base_smells_dataset_handler:
+class base_smells_repository:
     def __init__(self, metaclass=abc.ABCMeta):
         self.metrics_dir = "metrics_files"
         #self.metrics_reloaded_package_metrics = ["martin"]
         #self.metrics_reloaded_metrod_metrics = ["method_complexity"]
-
-
-    @abc.abstractproperty
-    def get_metrics(self):
-        raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_metrics'))
 
 
     @abc.abstractproperty
@@ -60,12 +55,14 @@ class base_smells_dataset_handler:
         if len(smells_df) == 0:
             return metrics_df
 
-        assert "instance" in smells_df.columns.values
+        combined_df = self.merge_metrics_with_annotation(metrics_df, smells_df)
+        return combined_df
 
+    def merge_metrics_with_annotation(self, metrics_df, smells_df):
+        assert "instance" in smells_df.columns.values
         smells_grouped_by_class = smells_df.groupby("instance").max().reset_index()
         combined_df = metrics_df.merge(smells_grouped_by_class, how="left", left_on="instance", right_on="instance")
         return combined_df
-
 
     def get_smells_dataset_from_projects(self, project_ids):
         projects_df = pd.DataFrame()
