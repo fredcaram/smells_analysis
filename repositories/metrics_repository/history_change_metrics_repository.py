@@ -1,8 +1,7 @@
-import re
-
 import pandas as pd
 
 from repositories.metrics_repository.base_metrics_repository import base_metrics_repository
+from repositories.metrics_repository.metrics_repository_helper import extract_class_from_method
 
 
 class history_change_metrics_repository(base_metrics_repository):
@@ -24,17 +23,9 @@ class history_change_metrics_repository(base_metrics_repository):
 
         metrics_df.columns = ["commit", "instance"]
 
-        metrics_df["instance"] = list([self.extract_class_from_method(method) for method in metrics_df["instance"].values])
+        metrics_df["instance"] = list([extract_class_from_method(method) for method in metrics_df["instance"].values])
 
         return metrics_df
-
-    def extract_class_from_method(self, method_desc):
-        m = re.match("(.*)[.]\w+\(.*\)", method_desc)
-        if m is None:
-            print("error")
-            return method_desc
-        class_ = m.group(1)
-        return class_
 
     def handle_android_method_change_file(self, file_df):
         metrics_df = file_df[file_df["Entity"].values == "METHOD"]

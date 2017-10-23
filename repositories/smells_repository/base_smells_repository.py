@@ -52,7 +52,7 @@ class base_smells_repository:
         metrics_df = self.get_metrics_dataframe(project["prefix"])
         smells_df = self.get_annotated_smells_df(db, project_id)
 
-        if len(smells_df) == 0:
+        if len(smells_df) == 0 or len(metrics_df) == 0:
             return metrics_df
 
         combined_df = self.merge_metrics_with_annotation(metrics_df, smells_df)
