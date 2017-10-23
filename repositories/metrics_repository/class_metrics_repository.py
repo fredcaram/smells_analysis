@@ -2,7 +2,7 @@ import os
 
 import pandas as pd
 
-from metrics_repository.base_metrics_repository import base_metrics_repository
+from repositories.metrics_repository.base_metrics_repository import base_metrics_repository
 
 
 class class_metrics_repository(base_metrics_repository):

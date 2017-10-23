@@ -31,8 +31,6 @@ class model_base:
     def get_handled_smells(self):
         raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_handled_smells'))
 
-
-    @abc.abstractmethod
     def get_score(self, trained_classifier, X_test, y_test):
         print("Score: {0}".format(trained_classifier.score(X_test, y_test)))
 

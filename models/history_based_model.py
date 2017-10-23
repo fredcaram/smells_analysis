@@ -1,13 +1,10 @@
-from mlxtend.preprocessing import OnehotTransactions
+import pandas as pd
 from mlxtend.frequent_patterns import apriori, association_rules
+from mlxtend.preprocessing import OnehotTransactions
 from sklearn.tree import DecisionTreeClassifier
 
-import pandas as pd
-import numpy as np
-
 from models.model_base import model_base
-from smells_repository.relationships_smells_repository import \
-    relationship_smells_repository
+from repositories.smells_repository.relationships_smells_repository import relationship_smells_repository
 
 
 class history_based_model(model_base):
@@ -35,7 +32,7 @@ class history_based_model(model_base):
         rules = association_rules(frequent_itemsets, metric="lift", min_threshold=1)
 
         one_ante_rule = rules[[len(ante) == 1 for ante in rules["antecedants"]]]
-        one_ante_rule["antecedants"] = one_ante_rule["antecedants"].apply(lambda x: next(iter(x)))
+        one_ante_rule.loc[:,"antecedants"] = one_ante_rule["antecedants"].apply(lambda x: next(iter(x)))
         one_ante_rule = one_ante_rule.drop("consequents", axis=1)
         max_ante_rule = one_ante_rule.groupby("antecedants").max().reset_index()
 

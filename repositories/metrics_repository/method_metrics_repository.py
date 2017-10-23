@@ -2,10 +2,10 @@ import os
 
 import pandas as pd
 
-from metrics_repository.base_metrics_repository import base_metrics_repository
+from repositories.metrics_repository.base_metrics_repository import base_metrics_repository
 
 
-class class_metrics_repository(base_metrics_repository):
+class method_metrics_repository(base_metrics_repository):
     def __init__(self):
         base_metrics_repository.__init__(self)
         self.metrics_dir = "metrics_files"

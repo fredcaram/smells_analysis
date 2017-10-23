@@ -1,9 +1,7 @@
-import os
-
 import pandas as pd
 
-from smells_repository.base_smells_repository import base_smells_repository
-from metrics_repository.class_metrics_repository import  class_metrics_repository
+from repositories.metrics_repository.class_metrics_repository import  class_metrics_repository
+from repositories.smells_repository.base_smells_repository import base_smells_repository
 
 
 class blob_repository(base_smells_repository):

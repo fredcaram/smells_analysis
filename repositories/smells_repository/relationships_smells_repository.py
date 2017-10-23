@@ -1,10 +1,8 @@
-import re
-
 import pandas as pd
+from repositories.metrics_repository.history_change_metrics_repository import history_change_metrics_repository
 
-from smells_repository.base_smells_repository import base_smells_repository
-from metrics_repository.history_change_metrics_repository import history_change_metrics_repository
-from metrics_repository.class_metrics_repository import class_metrics_repository
+from repositories.metrics_repository.class_metrics_repository import class_metrics_repository
+from repositories.smells_repository.base_smells_repository import base_smells_repository
 
 
 class relationship_smells_repository(base_smells_repository):
