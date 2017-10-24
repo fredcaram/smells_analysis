@@ -1,0 +1,17 @@
+Interface,Cyclic,Dcy,Dcy*,Dpt,Dpt*
+"android.provider.Telephony.BaseMmsColumns",0,0,0,5,51
+"android.provider.Telephony.CanonicalAddressesColumns",0,0,0,0,0
+"android.provider.Telephony.TextBasedSmsColumns",0,0,0,7,35
+"android.provider.Telephony.ThreadsColumns",0,0,0,1,1
+"com.android.internal.telephony.CommandsInterface",0,2,2,21,32
+"com.android.internal.telephony.IccConstants",0,0,0,7,43
+"com.android.internal.telephony.IccRecords.IccRecordLoaded",0,0,0,11,27
+"com.android.internal.telephony.MmiCode",0,1,1,4,23
+"com.android.internal.telephony.Phone",0,4,7,14,39
+"com.android.internal.telephony.PhoneNotifier",0,0,0,6,29
+"com.android.internal.telephony.cat.AppInterface",0,0,0,0,0
+"com.android.internal.telephony.cdma.CallFailCause",0,0,0,0,0
+"com.android.internal.telephony.gsm.CallFailCause",0,0,0,2,2
+"com.android.internal.telephony.ims.IsimRecords",0,0,0,7,50
+"com.android.internal.telephony.test.SimulatedRadioControl",0,0,0,4,44
+

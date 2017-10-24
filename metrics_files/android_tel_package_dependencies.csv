@@ -1,0 +1,14 @@
+Package,PDcy,PDpt
+"java.android.provider",1,4
+"java.android.telephony",2,5
+"java.android.telephony.gsm",1,0
+"java.com.android.internal.telephony",8,10
+"java.com.android.internal.telephony.cat",1,2
+"java.com.android.internal.telephony.cdma",7,2
+"java.com.android.internal.telephony.cdma.sms",2,1
+"java.com.android.internal.telephony.gsm",6,6
+"java.com.android.internal.telephony.ims",2,2
+"java.com.android.internal.telephony.sip",2,1
+"java.com.android.internal.telephony.test",2,2
+"java.com.android.internal.telephony.uicc",3,2
+

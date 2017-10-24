@@ -1,0 +1,17 @@
+Module,v(G)avg,v(G)tot
+"adt","3,31",129
+"assetstudio","2,58",116
+"common","3,15",375
+"ddmlib","2,45",2.146
+"draw9patch","2,96",240
+"dvlib","2,82",31
+"layoutlib-api","1,46",481
+"lint-api","3,51",1.656
+"lint-checks","5,12",3.886
+"lint-cli","5,26",589
+"manifmerger","6,02",373
+"ninepatch","2,83",102
+"rule_api","1,74",207
+"sdk_common","2,35",1.457
+"sdklib","3,35",4.192
+

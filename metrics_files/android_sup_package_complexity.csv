@@ -1,0 +1,13 @@
+Package,v(G)avg,v(G)tot
+"android.support.v4.accessibilityservice","1,50",27
+"android.support.v4.app","2,89",1.441
+"android.support.v4.content","2,06",202
+"android.support.v4.content.pm","1,00",1
+"android.support.v4.database","2,33",7
+"android.support.v4.net","1,14",32
+"android.support.v4.os","1,25",5
+"android.support.v4.util","2,80",232
+"android.support.v4.view","2,60",784
+"android.support.v4.view.accessibility","1,05",381
+"android.support.v4.widget","2,31",358
+
