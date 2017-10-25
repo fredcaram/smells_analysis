@@ -20,7 +20,7 @@ class method_metrics_repository(base_metrics_repository):
             if not os.path.isfile(file):
                 continue
 
-            df = pd.read_csv(file, skiprows=1, index_col=0, prefix=metric)
+            df = pd.read_csv(file, skiprows=0, index_col=0, prefix=metric)
 
             if len(df) == 0:
                 continue

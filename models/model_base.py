@@ -13,7 +13,7 @@ class model_base:
     def __init__(self, metaclass=abc.ABCMeta):
         self.smells_columns = ['Blob', 'FeatureEnvy', 'LongMethod', 'ShotgunSurgery',
                                "DivergentChange", "ParallelInheritance"]
-        self.projects_ids = [54, 55, 64]
+        self.projects_ids = [52, 54, 55, 63, 64, 71, 78, 80, 81, 86]
         self.remove_from_train = ["instance"]
 
 

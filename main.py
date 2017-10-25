@@ -5,12 +5,12 @@ from models.history_based_model import history_based_model
 
 model = method_based_model()
 model.run_train_test_validation()
-model.run_train_test_validation_with_cv()
+#model.run_train_test_validation_with_cv()
 
 model = class_metrics_model()
 model.run_train_test_validation()
-model.run_train_test_validation_with_cv()
+#model.run_train_test_validation_with_cv()
 
 model = history_based_model()
 model.run_train_test_validation()
-model.run_train_test_validation_with_cv()
+#model.run_train_test_validation_with_cv()

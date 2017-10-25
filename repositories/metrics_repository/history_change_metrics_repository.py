@@ -1,4 +1,6 @@
 import pandas as pd
+from mlxtend.frequent_patterns import apriori, association_rules
+from mlxtend.preprocessing import OnehotTransactions
 
 from repositories.metrics_repository.base_metrics_repository import base_metrics_repository
 from repositories.metrics_repository.metrics_repository_helper import extract_class_from_method
@@ -10,6 +12,7 @@ class history_change_metrics_repository(base_metrics_repository):
         self.metrics_dir = "change_history"
         self.handled_smell_types = ['ShotgunSurgery', "DivergentChange"]
         self.file_name = "methodChanges"
+
 
     def get_metrics_dataframe(self, prefix):
         file = "{0}/{1}/{2}.csv".format(self.metrics_dir, prefix, self.file_name)
@@ -25,7 +28,37 @@ class history_change_metrics_repository(base_metrics_repository):
 
         metrics_df["instance"] = list([extract_class_from_method(method) for method in metrics_df["instance"].values])
 
-        return metrics_df
+        a_rules_df = self.get_association_rules(metrics_df)
+        a_rules_df = a_rules_df.drop(["antecedants", "commit"], axis=1)
+
+        return a_rules_df
+
+    def remove_one_change_only_commit(self, df):
+        combined_df = df.groupby("commit")
+        cleaned_df = combined_df.filter(lambda c: c["instance"].count() > 1)
+        return cleaned_df
+
+
+    def get_association_rules(self, df):
+
+        oht = OnehotTransactions()
+        #treated_df = self.remove_one_change_only_commit(df)
+
+        data = [list(v["instance"].values) for k, v in df.groupby("commit")]
+        oht_data = oht.fit_transform(data)
+        oht_df = pd.DataFrame(oht_data, columns=oht.columns_)
+        frequent_itemsets = apriori(oht_df, min_support=0.005, use_colnames=True)
+        #frequent_itemsets = apriori(oht_df, min_support=0.002, use_colnames=True)
+        rules = association_rules(frequent_itemsets, metric="lift", min_threshold=1)
+
+        one_ante_rule = rules[[len(ante) == 1 for ante in rules["antecedants"]]]
+        one_ante_rule.loc[:,"antecedants"] = one_ante_rule["antecedants"].apply(lambda x: next(iter(x)))
+        one_ante_rule = one_ante_rule.drop("consequents", axis=1)
+        max_ante_rule = one_ante_rule.groupby("antecedants").max().reset_index()
+
+        df = df.merge(max_ante_rule, left_on="instance", right_on="antecedants")
+
+        return df
 
     def handle_android_method_change_file(self, file_df):
         metrics_df = file_df[file_df["Entity"].values == "METHOD"]

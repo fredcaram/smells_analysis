@@ -48,7 +48,9 @@ class base_smells_repository:
 
     def get_smells_dataset_by_project_id(self, project_id):
         db = mongodb_helper().get_db()
-        project = db.smells_projects.find_one({"id": project_id})
+        project = db.smells_projects.find_one({"id": project_id, "types": {"$elemMatch": {"type": {"$in": self.get_handled_smell_types()}}}})
+        if project is None:
+            return pd.DataFrame()
         metrics_df = self.get_metrics_dataframe(project["prefix"])
         smells_df = self.get_annotated_smells_df(db, project_id)
 

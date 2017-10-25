@@ -1,4 +1,3 @@
-Complexity metrics,Ter, 10 out 2017 11:43:01 BRT
 Class,OCavg,WMC
 "org.apache.tools.ant.AntClassLoader","2,77",144
 "org.apache.tools.ant.AntClassLoader.ResourceEnumeration","1,25",5

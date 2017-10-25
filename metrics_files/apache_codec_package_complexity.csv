@@ -1,0 +1,8 @@
+Package,v(G)avg,v(G)tot
+"org.apache.commons.codec","1,10",11
+"org.apache.commons.codec.binary","2,54",292
+"org.apache.commons.codec.digest","1,05",40
+"org.apache.commons.codec.language","4,52",511
+"org.apache.commons.codec.language.bm","2,69",156
+"org.apache.commons.codec.net","2,54",137
+

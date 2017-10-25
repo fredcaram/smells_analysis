@@ -1,4 +1,3 @@
-Dependency metrics,Ter, 10 out 2017 13:39:46 BRT
 Class,Cyclic,Dcy,Dcy*,Dpt,Dpt*
 "org.apache.tools.ant.AntClassLoader",218,17,266,31,1.119
 "org.apache.tools.ant.AntClassLoader.ResourceEnumeration",218,2,266,1,1.119

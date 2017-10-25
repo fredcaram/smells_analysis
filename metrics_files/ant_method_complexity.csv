@@ -1,4 +1,3 @@
-Complexity metrics,Seg, 9 out 2017 13:07:45 BRT
 Method,ev(G),iv(G),v(G)
 "null.compare(Object,Object)",1,1,1
 "null.getCollection()",4,3,4

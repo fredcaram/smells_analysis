@@ -9,7 +9,7 @@ class class_metrics_repository(base_metrics_repository):
     def __init__(self):
         base_metrics_repository.__init__(self)
         self.metrics_dir = "metrics_files"
-        self.metrics_reloaded_class_metrics = ["ck", "class_complexity", "class_dep"]
+        self.metrics_reloaded_class_metrics = ["ck", "class_complexity", "class_dependency"]
 
     def get_metrics_dataframe(self, prefix):
         metrics_df = pd.DataFrame()
@@ -20,7 +20,11 @@ class class_metrics_repository(base_metrics_repository):
             if not os.path.isfile(file):
                 continue
 
-            df = pd.read_csv(file, skiprows=1, index_col=0, prefix=metric)
+            skiprows = 0
+            if metric == "ck":
+                skiprows = 1
+
+            df = pd.read_csv(file, skiprows=skiprows, index_col=0, prefix=metric)
 
             if len(df) == 0:
                 continue
