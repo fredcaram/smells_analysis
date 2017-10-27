@@ -1,0 +1,22 @@
+Martin packaging metrics,Qui, 26 out 2017 16:51:22 BRST
+Package,A,Ca,Ce,D,I
+"javacc.org.apache.james.mime4j.field.contentdisposition","0,00",1,1,"0,50","0,50"
+"javacc.org.apache.james.mime4j.field.contenttype","0,00",2,1,"0,67","0,33"
+"javacc.org.apache.james.mime4j.field.datetime","0,00",3,1,"0,75","0,25"
+"javacc.org.apache.james.mime4j.field.language","0,00",0,1,"0,00","1,00"
+"javacc.org.apache.james.mime4j.field.mimeversion","0,00",1,1,"0,50","0,50"
+"javacc.org.apache.james.mime4j.field.structured","0,00",0,1,"0,00","1,00"
+"jjtree.org.apache.james.mime4j.field.address","0,00",2,1,"0,67","0,33"
+"org.apache.james.mime4j","0,00",12,1,"0,92","0,08"
+"org.apache.james.mime4j.codec","0,00",23,9,"0,72","0,31"
+"org.apache.james.mime4j.descriptor","0,60",12,12,"0,10","0,50"
+"org.apache.james.mime4j.field","0,19",34,41,"0,27","0,55"
+"org.apache.james.mime4j.field.address","0,12",18,12,"0,47","0,41"
+"org.apache.james.mime4j.field.address.parser","1,00",0,0,"1,00","1,00"
+"org.apache.james.mime4j.field.datetime","0,00",1,0,"1,00","0,00"
+"org.apache.james.mime4j.io","0,18",19,11,"0,45","0,37"
+"org.apache.james.mime4j.message","0,39",17,52,"0,14","0,75"
+"org.apache.james.mime4j.parser","0,47",23,36,"0,08","0,61"
+"org.apache.james.mime4j.storage","0,22",24,20,"0,32","0,38"
+"org.apache.james.mime4j.util","0,11",27,6,"0,71","0,19"
+

@@ -1,0 +1,8 @@
+Package,v(G)avg,v(G)tot
+"org.apache.commons.io","2,58",832
+"org.apache.commons.io.comparator","1,80",54
+"org.apache.commons.io.filefilter","1,85",290
+"org.apache.commons.io.input","1,98",406
+"org.apache.commons.io.monitor","1,85",111
+"org.apache.commons.io.output","1,55",263
+

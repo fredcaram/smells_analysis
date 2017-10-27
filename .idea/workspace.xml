@@ -2,34 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f2db29c-bd5d-41cd-92f6-d08cb00fc32a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/andEngine/__MACOSX/._andEngine" afterPath="$PROJECT_DIR$/change_history/andengine/__MACOSX/._andEngine" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/andEngine/__MACOSX/andEngine/._.DS_Store" afterPath="$PROJECT_DIR$/change_history/andengine/__MACOSX/andEngine/._.DS_Store" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/andEngine/__MACOSX/andEngine/._methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/andengine/__MACOSX/andEngine/._methodChanges.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/andEngine/__MACOSX/andEngine/._parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/andengine/__MACOSX/andEngine/._parallelInheritance.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/andEngine/methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/andengine/methodChanges.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/andEngine/parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/andengine/parallelInheritance.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-cassandra/__MACOSX/._apache-cassandra" afterPath="$PROJECT_DIR$/change_history/cassandra/__MACOSX/._apache-cassandra" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-cassandra/__MACOSX/apache-cassandra/._.DS_Store" afterPath="$PROJECT_DIR$/change_history/cassandra/__MACOSX/apache-cassandra/._.DS_Store" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-cassandra/__MACOSX/apache-cassandra/._methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/cassandra/__MACOSX/apache-cassandra/._methodChanges.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-cassandra/__MACOSX/apache-cassandra/._parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/cassandra/__MACOSX/apache-cassandra/._parallelInheritance.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-cassandra/apache-cassandra/methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/cassandra/methodChanges.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-cassandra/apache-cassandra/parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/cassandra/parallelInheritance.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/framework-opt-telephony/framework-opt-telephony.csv" afterPath="$PROJECT_DIR$/change_history/android_tel/methodChanges.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/frameworks-base/frameworks-base.csv" afterPath="$PROJECT_DIR$/change_history/android_base/methodChanges.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/frameworks-support/frameworks-support.csv" afterPath="$PROJECT_DIR$/change_history/android_sup/methodChanges.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/platform-tools-base/platform-tools-base.csv" afterPath="$PROJECT_DIR$/change_history/android_tool_base/methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-codec/__MACOSX/._apache-commons-codec" afterPath="$PROJECT_DIR$/change_history/apache_codec/__MACOSX/._apache-commons-codec" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-codec/__MACOSX/apache-commons-codec/._.DS_Store" afterPath="$PROJECT_DIR$/change_history/apache_codec/__MACOSX/apache-commons-codec/._.DS_Store" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-codec/__MACOSX/apache-commons-codec/._codec_methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_codec/__MACOSX/apache-commons-codec/._codec_methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-codec/__MACOSX/apache-commons-codec/._codec_parallelChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_codec/__MACOSX/apache-commons-codec/._codec_parallelChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-codec/apache-commons-codec/codec_methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_codec/methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-codec/apache-commons-codec/codec_parallelChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_codec/parallelChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-io/__MACOSX/._apache-commons-io" afterPath="$PROJECT_DIR$/change_history/apache_io/__MACOSX/._apache-commons-io" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-io/__MACOSX/apache-commons-io/._.DS_Store" afterPath="$PROJECT_DIR$/change_history/apache_io/__MACOSX/apache-commons-io/._.DS_Store" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-io/__MACOSX/apache-commons-io/._methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_io/__MACOSX/apache-commons-io/._methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-io/__MACOSX/apache-commons-io/._parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/apache_io/__MACOSX/apache-commons-io/._parallelInheritance.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-io/apache-commons-io/methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_io/methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-io/apache-commons-io/parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/apache_io/parallelInheritance.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-lang/__MACOSX/._apache-commons-lang" afterPath="$PROJECT_DIR$/change_history/apache_lang/__MACOSX/._apache-commons-lang" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-lang/__MACOSX/apache-commons-lang/._.DS_Store" afterPath="$PROJECT_DIR$/change_history/apache_lang/__MACOSX/apache-commons-lang/._.DS_Store" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-lang/__MACOSX/apache-commons-lang/._lang-methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_lang/__MACOSX/apache-commons-lang/._lang-methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-lang/__MACOSX/apache-commons-lang/._lang-parallelChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_lang/__MACOSX/apache-commons-lang/._lang-parallelChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-lang/apache-commons-lang/lang-methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_lang/methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-lang/apache-commons-lang/lang-parallelChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_lang/parallelChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-logging/__MACOSX/._apache-commons-logging" afterPath="$PROJECT_DIR$/change_history/apache_logging/__MACOSX/._apache-commons-logging" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-logging/__MACOSX/apache-commons-logging/._.DS_Store" afterPath="$PROJECT_DIR$/change_history/apache_logging/__MACOSX/apache-commons-logging/._.DS_Store" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-logging/__MACOSX/apache-commons-logging/._methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_logging/__MACOSX/apache-commons-logging/._methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-logging/__MACOSX/apache-commons-logging/._parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/apache_logging/__MACOSX/apache-commons-logging/._parallelInheritance.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-logging/apache-commons-logging/methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_logging/methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-commons-logging/apache-commons-logging/parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/apache_logging/parallelInheritance.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-derby/__MACOSX/._apache-derby" afterPath="$PROJECT_DIR$/change_history/apache_derby/__MACOSX/._apache-derby" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-derby/__MACOSX/apache-derby/._.DS_Store" afterPath="$PROJECT_DIR$/change_history/apache_derby/__MACOSX/apache-derby/._.DS_Store" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-derby/__MACOSX/apache-derby/._methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_derby/__MACOSX/apache-derby/._methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-derby/__MACOSX/apache-derby/._parallellInheritance.csv" afterPath="$PROJECT_DIR$/change_history/apache_derby/__MACOSX/apache-derby/._parallellInheritance.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-derby/apache-derby/methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_derby/methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-derby/apache-derby/parallellInheritance.csv" afterPath="$PROJECT_DIR$/change_history/apache_derby/parallellInheritance.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-james-mime4j/__MACOSX/._apache-james-mime4j" afterPath="$PROJECT_DIR$/change_history/apache_james/__MACOSX/._apache-james-mime4j" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-james-mime4j/__MACOSX/apache-james-mime4j/._.DS_Store" afterPath="$PROJECT_DIR$/change_history/apache_james/__MACOSX/apache-james-mime4j/._.DS_Store" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-james-mime4j/__MACOSX/apache-james-mime4j/._james-methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_james/__MACOSX/apache-james-mime4j/._james-methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-james-mime4j/__MACOSX/apache-james-mime4j/._james-parallelChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_james/__MACOSX/apache-james-mime4j/._james-parallelChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-james-mime4j/apache-james-mime4j/james-methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_james/methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-james-mime4j/apache-james-mime4j/james-parallelChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_james/parallelChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-tomcat/__MACOSX/._tomcat-methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_tomcat/__MACOSX/._tomcat-methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-tomcat/__MACOSX/._tomcat-parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/apache_tomcat/__MACOSX/._tomcat-parallelInheritance.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-tomcat/tomcat-methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/apache_tomcat/methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/apache-tomcat/tomcat-parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/apache_tomcat/parallelInheritance.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/eclipse/__MACOSX/._eclipse" afterPath="$PROJECT_DIR$/change_history/eclipse_core/__MACOSX/._eclipse" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/eclipse/__MACOSX/eclipse/._.DS_Store" afterPath="$PROJECT_DIR$/change_history/eclipse_core/__MACOSX/eclipse/._.DS_Store" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/eclipse/__MACOSX/eclipse/._methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/eclipse_core/__MACOSX/eclipse/._methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/eclipse/__MACOSX/eclipse/._parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/eclipse_core/__MACOSX/eclipse/._parallelInheritance.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/eclipse/eclipse/methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/eclipse_core/methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/eclipse/eclipse/parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/eclipse_core/parallelInheritance.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/jedit/jedit-methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/jedit/methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/jedit/jedit-parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/jedit/parallelInheritance.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/mongodb/__MACOSX/._mongodb" afterPath="$PROJECT_DIR$/change_history/mongo_java/__MACOSX/._mongodb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/mongodb/__MACOSX/mongodb/._.DS_Store" afterPath="$PROJECT_DIR$/change_history/mongo_java/__MACOSX/mongodb/._.DS_Store" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/mongodb/__MACOSX/mongodb/._methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/mongo_java/__MACOSX/mongodb/._methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/mongodb/__MACOSX/mongodb/._parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/mongo_java/__MACOSX/mongodb/._parallelInheritance.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/mongodb/mongodb/methodChanges.csv" afterPath="$PROJECT_DIR$/change_history/mongo_java/methodChanges.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/change_history/mongodb/mongodb/parallelInheritance.csv" afterPath="$PROJECT_DIR$/change_history/mongo_java/parallelInheritance.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metrics_files/ant_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/ant_class_complexity.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metrics_files/ant_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/ant_class_dependencies.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metrics_files/ant_martin.csv" afterPath="$PROJECT_DIR$/metrics_files/ant_martin.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metrics_files/ant_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/ant_method_complexity.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/history_based_model.py" afterPath="$PROJECT_DIR$/models/history_based_model.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/model_base.py" afterPath="$PROJECT_DIR$/models/model_base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repositories/metrics_repository/class_metrics_repository.py" afterPath="$PROJECT_DIR$/repositories/metrics_repository/class_metrics_repository.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repositories/metrics_repository/history_change_metrics_repository.py" afterPath="$PROJECT_DIR$/repositories/metrics_repository/history_change_metrics_repository.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repositories/metrics_repository/method_metrics_repository.py" afterPath="$PROJECT_DIR$/repositories/metrics_repository/method_metrics_repository.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py" afterPath="$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +77,7 @@
       <file leaf-file-name="relationships_smells_repository.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repositories/smells_repository/relationships_smells_repository.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="297">
               <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -59,7 +89,7 @@
       <file leaf-file-name="base_smells_repository.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="507">
               <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
@@ -69,7 +99,7 @@
       <file leaf-file-name="history_based_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/history_based_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="210">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#1#48#0" expanded="true" />
@@ -81,8 +111,8 @@
       <file leaf-file-name="history_change_metrics_repository.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repositories/metrics_repository/history_change_metrics_repository.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -90,13 +120,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="315">
+              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding>
-                <element signature="e#0#58#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,8 +135,8 @@
       <file leaf-file-name="metrics_file_helper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/metrics_file_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -124,11 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model_base.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="model_base.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/model_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="-285">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -194,7 +224,6 @@
         <option value="$PROJECT_DIR$/repositories/metrics_repository/metrics_repository_helper.py" />
         <option value="$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py" />
         <option value="$PROJECT_DIR$/metrics_file_helper.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/repositories/metrics_repository/method_metrics_repository.py" />
         <option value="$PROJECT_DIR$/repositories/metrics_repository/class_metrics_repository.py" />
         <option value="$PROJECT_DIR$/metrics_files/ant_class_complexity.csv" />
@@ -203,6 +232,7 @@
         <option value="$PROJECT_DIR$/metrics_files/ant_method_complexity.csv" />
         <option value="$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py" />
         <option value="$PROJECT_DIR$/models/history_based_model.py" />
+        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/repositories/metrics_repository/history_change_metrics_repository.py" />
         <option value="$PROJECT_DIR$/models/model_base.py" />
       </list>
@@ -229,8 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,8 +285,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smells_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smells_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="change_history" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,11 +311,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/change_history/apache-cassandra" />
-      <recent name="$PROJECT_DIR$/raw_metrics_files" />
-      <recent name="$PROJECT_DIR$/repositories" />
-      <recent name="$PROJECT_DIR$/change_history/andEngine" />
-      <recent name="$PROJECT_DIR$/change_history/aardvarkcms" />
+      <recent name="$PROJECT_DIR$/change_history/mongo_java" />
+      <recent name="$PROJECT_DIR$/change_history/apache_james" />
+      <recent name="$PROJECT_DIR$/change_history/eclipse_core" />
+      <recent name="$PROJECT_DIR$/change_history/apache_derby" />
+      <recent name="$PROJECT_DIR$/change_history/apache_logging" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -516,8 +560,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.metrics_file_helper" />
-        <item index="2" class="java.lang.String" itemvalue="Python.history_change_metrics_repository" />
+        <item index="1" class="java.lang.String" itemvalue="Python.history_change_metrics_repository" />
+        <item index="2" class="java.lang.String" itemvalue="Python.metrics_file_helper" />
         <item index="3" class="java.lang.String" itemvalue="Python.model_base" />
         <item index="4" class="java.lang.String" itemvalue="Python.method_smells_repository" />
       </list>
@@ -545,7 +589,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3352872" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3352872" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -572,7 +616,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="126" />
+      <option name="time" value="127" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -581,27 +625,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/pandas/core/frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="305" column="0" lean-forward="false" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metrics_files/ant_pmd_coupling.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="122" lean-forward="false" selection-start-line="13" selection-start-column="122" selection-end-line="13" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/pandas/core/indexing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="532" column="0" lean-forward="true" selection-start-line="532" selection-start-column="0" selection-end-line="532" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/metrics_files/ant_ck.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -819,15 +842,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="2441" column="0" lean-forward="false" selection-start-line="2441" selection-start-column="0" selection-end-line="2441" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_history/apache_tomcat/parallelInheritance.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="114" lean-forward="false" selection-start-line="16" selection-start-column="114" selection-end-line="16" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrics_file_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/history_based_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_history/apache_james/methodChanges.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="69" lean-forward="true" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/blob_repository.py">
+    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/relationships_smells_repository.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="297">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -841,91 +921,53 @@
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/numpy/core/_methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/pandas/core/indexes/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="2441" column="0" lean-forward="false" selection-start-line="2441" selection-start-column="0" selection-end-line="2441" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/relationships_smells_repository.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/history_based_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repositories/metrics_repository/history_change_metrics_repository.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metrics_file_helper.py">
+    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/blob_repository.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/model_base.py">
+    <entry file="file://$PROJECT_DIR$/change_history/jedit/parallelInheritance.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="93" lean-forward="true" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="315">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

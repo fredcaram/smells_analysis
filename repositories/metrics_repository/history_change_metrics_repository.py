@@ -12,6 +12,8 @@ class history_change_metrics_repository(base_metrics_repository):
         self.metrics_dir = "change_history"
         self.handled_smell_types = ['ShotgunSurgery', "DivergentChange"]
         self.file_name = "methodChanges"
+        self.support_by_project = {"apache_james": 0.01,
+                                   "default": 0.006}
 
 
     def get_metrics_dataframe(self, prefix):
@@ -27,9 +29,10 @@ class history_change_metrics_repository(base_metrics_repository):
         metrics_df.columns = ["commit", "instance"]
 
         metrics_df["instance"] = list([extract_class_from_method(method) for method in metrics_df["instance"].values])
+        metrics_df = metrics_df.drop_duplicates()
 
-        a_rules_df = self.get_association_rules(metrics_df)
-        a_rules_df = a_rules_df.drop(["antecedants", "commit"], axis=1)
+        a_rules_df = self.get_association_rules(metrics_df, prefix)
+        a_rules_df = a_rules_df.drop(["antecedants", "commit"], axis=1, errors="ignore")
 
         return a_rules_df
 
@@ -39,7 +42,7 @@ class history_change_metrics_repository(base_metrics_repository):
         return cleaned_df
 
 
-    def get_association_rules(self, df):
+    def get_association_rules(self, df, prefix):
 
         oht = OnehotTransactions()
         #treated_df = self.remove_one_change_only_commit(df)
@@ -47,9 +50,15 @@ class history_change_metrics_repository(base_metrics_repository):
         data = [list(v["instance"].values) for k, v in df.groupby("commit")]
         oht_data = oht.fit_transform(data)
         oht_df = pd.DataFrame(oht_data, columns=oht.columns_)
-        frequent_itemsets = apriori(oht_df, min_support=0.005, use_colnames=True)
+        support = self.support_by_project.get(prefix, self.support_by_project["default"])
+
+        print("Generating Apriori for {0} with support {1}".format(prefix, support))
+        frequent_itemsets = apriori(oht_df, min_support=support, use_colnames=True)
         #frequent_itemsets = apriori(oht_df, min_support=0.002, use_colnames=True)
         rules = association_rules(frequent_itemsets, metric="lift", min_threshold=1)
+
+        if len(rules) == 0:
+            return df
 
         one_ante_rule = rules[[len(ante) == 1 for ante in rules["antecedants"]]]
         one_ante_rule.loc[:,"antecedants"] = one_ante_rule["antecedants"].apply(lambda x: next(iter(x)))
