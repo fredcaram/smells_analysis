@@ -1,0 +1,15 @@
+Package,v(G)avg,v(G)tot
+"com.google.common.base","1,59",851
+"com.google.common.base.internal","3,00",18
+"com.google.common.cache","1,69",1.060
+"com.google.common.collect","1,45",7.259
+"com.google.common.collect.testing","1,00",2
+"com.google.common.eventbus","1,88",64
+"com.google.common.hash","1,45",269
+"com.google.common.io","1,65",398
+"com.google.common.math","4,17",342
+"com.google.common.net","2,42",291
+"com.google.common.primitives","2,01",796
+"com.google.common.reflect","1,86",358
+"com.google.common.util.concurrent","1,77",889
+

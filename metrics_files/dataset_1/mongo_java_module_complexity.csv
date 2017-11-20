@@ -1,0 +1,7 @@
+Module,v(G)avg,v(G)tot
+"bson_main","1,83",3.325
+"driver-async_main","1,55",731
+"driver-core_main","1,72",6.656
+"driver_main","1,59",3.436
+"util_main","1,17",21
+

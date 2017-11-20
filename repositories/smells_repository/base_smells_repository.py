@@ -20,7 +20,7 @@ class base_smells_repository:
 
 
     @abc.abstractmethod
-    def get_metrics_dataframe(self, prefix):
+    def get_metrics_dataframe(self, prefix, dataset_id):
         raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_metrics_dataframe'))
 
 
@@ -46,12 +46,12 @@ class base_smells_repository:
         return smells_df
 
 
-    def get_smells_dataset_by_project_id(self, project_id):
+    def get_smells_dataset_by_project_id(self, project_id, dataset_id):
         db = mongodb_helper().get_db()
-        project = db.smells_projects.find_one({"id": project_id, "types": {"$elemMatch": {"type": {"$in": self.get_handled_smell_types()}}}})
+        project = db.smells_projects.find_one({"id": project_id, "dataset_id": dataset_id, "types": {"$elemMatch": {"type": {"$in": self.get_handled_smell_types()}}}})
         if project is None:
             return pd.DataFrame()
-        metrics_df = self.get_metrics_dataframe(project["prefix"])
+        metrics_df = self.get_metrics_dataframe(project["prefix"], dataset_id)
         smells_df = self.get_annotated_smells_df(db, project_id)
 
         if len(smells_df) == 0 or len(metrics_df) == 0:
@@ -66,11 +66,12 @@ class base_smells_repository:
         combined_df = metrics_df.merge(smells_grouped_by_class, how="left", left_on="instance", right_on="instance")
         return combined_df
 
-    def get_smells_dataset_from_projects(self, project_ids):
+    def get_smells_dataset_from_projects(self, project_ids, dataset_ids):
         projects_df = pd.DataFrame()
-        for project_id in project_ids:
-            df = self.get_smells_dataset_by_project_id(project_id)
-            projects_df = pd.concat((projects_df, df), ignore_index=True)
+        for dataset_id in dataset_ids:
+            for project_id in project_ids:
+                df = self.get_smells_dataset_by_project_id(project_id, dataset_id)
+                projects_df = pd.concat((projects_df, df), ignore_index=True)
 
         projects_df.fillna(0, inplace=True)
 

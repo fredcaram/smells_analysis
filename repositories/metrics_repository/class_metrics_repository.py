@@ -11,11 +11,12 @@ class class_metrics_repository(base_metrics_repository):
         self.metrics_dir = "metrics_files"
         self.metrics_reloaded_class_metrics = ["ck", "class_complexity", "class_dependency"]
 
-    def get_metrics_dataframe(self, prefix):
+    def get_metrics_dataframe(self, prefix, dataset_id):
         metrics_df = pd.DataFrame()
+        dataset_folder = "dataset_{0}".format(dataset_id)
 
         for metric in self.metrics_reloaded_class_metrics:
-            file = "{0}/{1}_{2}.csv".format(self.metrics_dir, prefix, metric)
+            file = "{0}/{1}/{2}_{3}.csv".format(self.metrics_dir, dataset_folder, prefix, metric)
 
             if not os.path.isfile(file):
                 continue

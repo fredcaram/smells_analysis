@@ -7,6 +7,6 @@ class base_metrics_repository:
         pass
 
     @abc.abstractmethod
-    def get_metrics_dataframe(self, prefix):
+    def get_metrics_dataframe(self, prefix, dataset_id):
         raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_metrics_dataframe'))
 

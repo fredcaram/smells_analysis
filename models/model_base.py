@@ -14,6 +14,7 @@ class model_base:
         self.smells_columns = ['Blob', 'FeatureEnvy', 'LongMethod', 'ShotgunSurgery',
                                "DivergentChange", "ParallelInheritance"]
         self.projects_ids = [49, 52, 54, 55, 56, 57, 60, 61, 63, 64, 70, 71, 72, 73, 77, 78, 79, 80, 81, 86]
+        self.dataset_ids = [1]
         self.remove_from_train = ["instance"]
 
 
@@ -114,7 +115,7 @@ class model_base:
 
     def print_score(self, y_pred, y_test):
         print("Precision, Recall, F1 Score, Support:")
-        prec_rec_f = precision_recall_fscore_support(y_test, y_pred, average="micro")
+        prec_rec_f = precision_recall_fscore_support(y_test, y_pred, average="binary")
         print(prec_rec_f)
 
 

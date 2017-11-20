@@ -18,9 +18,9 @@ class relationship_smells_repository(base_smells_repository):
     def get_handled_smell_types(self):
         return self.handled_smell_types
 
-    def get_metrics_dataframe(self, prefix):
+    def get_metrics_dataframe(self, prefix, dataset_id):
         history_metrics = self.history_change_metrics_repo.get_metrics_dataframe(prefix)
-        class_metrics = self.class_metrics_repo.get_metrics_dataframe(prefix)
+        class_metrics = self.class_metrics_repo.get_metrics_dataframe(prefix, dataset_id)
         combined_metrics = pd.concat([history_metrics, class_metrics])
         return combined_metrics
 
