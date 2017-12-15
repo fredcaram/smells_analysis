@@ -2,217 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f2db29c-bd5d-41cd-92f6-d08cb00fc32a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/aard_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/aard_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/aard_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/aard_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/aard_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/aard_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/aard_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/aard_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/aard_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/aard_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/aard_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/aard_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/aard_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/aard_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/aard_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/aard_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/aard_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/aard_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/andengine_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/andengine_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/andengine_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/andengine_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/andengine_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/andengine_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/andengine_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/andengine_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/andengine_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/andengine_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/andengine_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/andengine_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/andengine_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/andengine_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/andengine_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/andengine_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/andengine_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/andengine_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_base_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_base_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_base_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_base_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_base_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_base_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_base_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_base_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_base_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_base_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_base_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_base_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_base_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_base_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_base_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_base_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_base_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_base_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sdk_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sdk_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sdk_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sdk_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sdk_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sdk_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sdk_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sdk_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sdk_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sdk_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sdk_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sdk_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sdk_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sdk_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sdk_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sdk_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sdk_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sdk_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sup_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sup_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sup_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sup_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sup_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sup_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sup_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sup_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sup_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sup_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sup_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sup_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sup_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sup_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sup_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sup_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_sup_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_sup_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tel_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tel_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tel_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tel_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tel_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tel_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tel_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tel_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tel_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tel_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tel_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tel_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tel_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tel_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tel_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tel_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tel_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tel_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tool_base_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tool_base_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tool_base_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tool_base_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tool_base_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tool_base_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tool_base_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tool_base_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tool_base_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tool_base_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tool_base_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tool_base_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tool_base_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tool_base_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tool_base_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tool_base_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/android_tool_base_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_tool_base_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/ant_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/ant_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/ant_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/ant_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/ant_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/ant_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/ant_martin.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/ant_martin.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/ant_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/ant_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/ant_pmd_code_size.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/ant_pmd_code_size.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/ant_pmd_coupling.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/ant_pmd_coupling.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_codec_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_codec_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_codec_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_codec_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_codec_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_codec_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_codec_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_codec_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_codec_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_codec_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_codec_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_codec_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_derby_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_derby_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_derby_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_derby_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_derby_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_derby_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_derby_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_derby_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_derby_martin.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_derby_martin.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_derby_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_derby_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_derby_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_derby_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_derby_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_derby_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_derby_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_derby_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_derby_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_derby_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_io_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_io_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_io_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_io_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_io_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_io_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_io_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_io_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_io_martin.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_io_martin.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_io_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_io_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_io_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_io_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_io_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_io_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_io_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_io_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_io_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_io_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_james_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_james_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_james_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_james_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_james_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_james_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_james_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_james_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_james_martin.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_james_martin.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_james_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_james_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_james_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_james_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_james_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_james_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_james_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_james_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_james_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_james_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_lang_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_lang_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_lang_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_lang_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_lang_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_lang_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_lang_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_lang_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_lang_martin.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_lang_martin.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_lang_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_lang_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_lang_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_lang_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_lang_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_lang_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_lang_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_lang_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_lang_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_lang_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_logging_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_logging_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_logging_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_logging_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_logging_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_logging_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_logging_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_logging_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_logging_martin.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_logging_martin.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_logging_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_logging_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_logging_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_logging_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_logging_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_logging_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_logging_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_logging_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_logging_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_logging_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_tomacat_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_tomacat_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_tomacat_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_tomacat_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_tomacat_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_tomacat_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_tomacat_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_tomacat_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_tomacat_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_tomacat_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_tomacat_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_tomacat_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_tomacat_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_tomacat_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_tomacat_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_tomacat_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_tomcat_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_tomcat_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/apache_tomcat_martin.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/apache_tomcat_martin.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/cassandra_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/cassandra_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/cassandra_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/cassandra_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/cassandra_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/cassandra_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/cassandra_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/cassandra_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/cassandra_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/cassandra_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/cassandra_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/cassandra_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/cassandra_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/cassandra_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/cassandra_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/cassandra_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/cassandra_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/cassandra_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/eclipse_core_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/eclipse_core_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/eclipse_core_class_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/eclipse_core_class_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/eclipse_core_class_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/eclipse_core_class_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/eclipse_core_interface_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/eclipse_core_interface_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/eclipse_core_martin.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/eclipse_core_martin.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/eclipse_core_method_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/eclipse_core_method_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/eclipse_core_module_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/eclipse_core_module_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/eclipse_core_package_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/eclipse_core_package_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/eclipse_core_package_dependencies.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/eclipse_core_package_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/eclipse_core_project_complexity.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/eclipse_core_project_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/google_guava_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/google_guava_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/google_guava_martin.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/google_guava_martin.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/jedit_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/jedit_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/jedit_martin.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/jedit_martin.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/mongo_java_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/mongo_java_ck.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/metrics_files/mongo_java_martin.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/mongo_java_martin.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/aard_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/aard_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/aard_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/aard_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/andengine_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/andengine_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/andengine_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/andengine_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/android_base_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/android_base_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/android_base_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/android_base_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/android_sdk_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/android_sdk_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/android_sdk_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/android_sdk_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/android_sup_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/android_sup_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/android_sup_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/android_sup_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/android_tel_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/android_tel_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/android_tel_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/android_tel_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/android_tool_base_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/android_tool_base_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/android_tool_base_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/android_tool_base_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_codec_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_codec_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_codec_dependency.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_codec_dependency.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_derby_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_derby_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_derby_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_derby_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_io_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_io_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_io_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_io_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_james_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_james_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_james_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_james_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_lang_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_lang_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_lang_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_lang_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_logging_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_logging_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_logging_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_logging_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_tomacat_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_tomacat_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/apache_tomacat_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/apache_tomacat_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/cassandra_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/cassandra_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/cassandra_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/cassandra_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/eclipse_core_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/eclipse_core_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/eclipse_core_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/eclipse_core_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/google_guava_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/google_guava_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/google_guava_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/google_guava_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/jedit_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/jedit_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/jedit_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/jedit_dependencies.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/mongo_java_complexity.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/mongo_java_complexity.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/raw_metrics_files/mongo_java_dependencies.csv" afterPath="$PROJECT_DIR$/raw_metrics_files/dataset_1/mongo_java_dependencies.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handle_landfill_data/download_data_from_service.py" afterPath="$PROJECT_DIR$/handle_landfill_data/download_data_from_service.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handle_landfill_data/mongodb_helper.py" afterPath="$PROJECT_DIR$/handle_landfill_data/mongodb_helper.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metrics_file_helper.py" afterPath="$PROJECT_DIR$/metrics_file_helper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metrics_files/dataset_1/android_base_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/android_base_ck.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metrics_files/dataset_1/cassandra_ck.csv" afterPath="$PROJECT_DIR$/metrics_files/dataset_1/cassandra_ck.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/class_metrics_model.py" afterPath="$PROJECT_DIR$/models/class_metrics_model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/history_based_model.py" afterPath="$PROJECT_DIR$/models/history_based_model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/method_based_model.py" afterPath="$PROJECT_DIR$/models/method_based_model.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/model_base.py" afterPath="$PROJECT_DIR$/models/model_base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repositories/metrics_repository/base_metrics_repository.py" afterPath="$PROJECT_DIR$/repositories/metrics_repository/base_metrics_repository.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repositories/metrics_repository/class_metrics_repository.py" afterPath="$PROJECT_DIR$/repositories/metrics_repository/class_metrics_repository.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repositories/metrics_repository/method_metrics_repository.py" afterPath="$PROJECT_DIR$/repositories/metrics_repository/method_metrics_repository.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py" afterPath="$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repositories/smells_repository/blob_repository.py" afterPath="$PROJECT_DIR$/repositories/smells_repository/blob_repository.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py" afterPath="$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py" />
@@ -229,23 +25,38 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="smells_analysis" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="relationships_smells_repository.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repositories/smells_repository/relationships_smells_repository.py">
+      <file leaf-file-name="model_base.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/model_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="57" column="59" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="method_based_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/method_based_model.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base_smells_repository.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+            <state relative-caret-position="375">
+              <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -255,59 +66,7 @@
         <entry file="file://$PROJECT_DIR$/models/history_based_model.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="17" column="114" lean-forward="false" selection-start-line="17" selection-start-column="114" selection-end-line="17" selection-end-column="114" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="method_smells_repository.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="metrics_file_helper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/metrics_file_helper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="method_based_model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/method_based_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model_base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/model_base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="96" column="52" lean-forward="true" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
+              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -316,8 +75,30 @@
       <file leaf-file-name="class_metrics_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/class_metrics_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="101" lean-forward="false" selection-start-line="16" selection-start-column="101" selection-end-line="16" selection-end-column="101" />
+            <state relative-caret-position="60">
+              <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="relationships_smells_repository.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repositories/smells_repository/relationships_smells_repository.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="28" column="73" lean-forward="false" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="method_smells_repository.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -326,8 +107,18 @@
       <file leaf-file-name="blob_repository.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repositories/smells_repository/blob_repository.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="285">
+              <caret line="22" column="69" lean-forward="false" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_smells_repository.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -359,6 +150,7 @@
       <find>base_metrics_repository</find>
       <find>get_metrics_dataframe</find>
       <find>projects_ids</find>
+      <find>max</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -392,22 +184,22 @@
         <option value="$PROJECT_DIR$/metrics_files/ant_class_dependencies.csv" />
         <option value="$PROJECT_DIR$/metrics_files/ant_martin.csv" />
         <option value="$PROJECT_DIR$/metrics_files/ant_method_complexity.csv" />
-        <option value="$PROJECT_DIR$/repositories/metrics_repository/history_change_metrics_repository.py" />
         <option value="$PROJECT_DIR$/repositories/metrics_repository/base_metrics_repository.py" />
         <option value="$PROJECT_DIR$/repositories/metrics_repository/class_metrics_repository.py" />
         <option value="$PROJECT_DIR$/repositories/metrics_repository/method_metrics_repository.py" />
         <option value="$PROJECT_DIR$/handle_landfill_data/mongodb_helper.py" />
-        <option value="$PROJECT_DIR$/handle_landfill_data/download_data_from_service.py" />
-        <option value="$PROJECT_DIR$/repositories/smells_repository/blob_repository.py" />
-        <option value="$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py" />
-        <option value="$PROJECT_DIR$/repositories/smells_repository/relationships_smells_repository.py" />
-        <option value="$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py" />
-        <option value="$PROJECT_DIR$/models/class_metrics_model.py" />
         <option value="$PROJECT_DIR$/models/history_based_model.py" />
         <option value="$PROJECT_DIR$/models/method_based_model.py" />
         <option value="$PROJECT_DIR$/metrics_file_helper.py" />
-        <option value="$PROJECT_DIR$/models/model_base.py" />
+        <option value="$PROJECT_DIR$/models/class_metrics_model.py" />
+        <option value="$PROJECT_DIR$/repositories/metrics_repository/history_change_metrics_repository.py" />
+        <option value="$PROJECT_DIR$/repositories/smells_repository/relationships_smells_repository.py" />
+        <option value="$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py" />
+        <option value="$PROJECT_DIR$/repositories/smells_repository/blob_repository.py" />
+        <option value="$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py" />
+        <option value="$PROJECT_DIR$/handle_landfill_data/download_data_from_service.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/models/model_base.py" />
       </list>
     </option>
   </component>
@@ -415,7 +207,7 @@
     <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="951" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -432,6 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -486,6 +279,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="repositories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metrics_repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smells_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smells_analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="raw_metrics_files" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -501,24 +312,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smells_analysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smells_analysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metrics_files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataset_2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -553,7 +346,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -811,8 +603,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.metrics_file_helper" />
-        <item index="2" class="java.lang.String" itemvalue="Python.download_data_from_service" />
+        <item index="1" class="java.lang.String" itemvalue="Python.download_data_from_service" />
+        <item index="2" class="java.lang.String" itemvalue="Python.metrics_file_helper" />
         <item index="3" class="java.lang.String" itemvalue="Python.history_change_metrics_repository" />
         <item index="4" class="java.lang.String" itemvalue="Python.model_base" />
       </list>
@@ -832,18 +624,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="951" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2521834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2521834" sideWeight="0.49589685" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3352872" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33507308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2521834" sideWeight="0.5041032" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3739742" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -860,6 +652,16 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -867,66 +669,15 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="127" />
+      <option name="time" value="139" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="oht_df.shape" language="Python" />
+        <watch expression="projects_df[projects_df[&quot;DivergentChange&quot;]==1]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/metrics_files/dataset_1/andengine_ck.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9903">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw_metrics_files/dataset_1/aard_dependencies.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8257">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw_metrics_files/dataset_1/android_base_dependencies.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35684">
-          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metrics_files/android_sdk_class_dep.csv" />
-    <entry file="file://$PROJECT_DIR$/raw_metrics_files/dataset_1/android_sup_dependencies.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2440">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw_metrics_files/dataset_1/android_tel_dependencies.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4848">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw_metrics_files/dataset_1/android_tool_base_dependencies.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1110">
-          <caret line="52" column="57" lean-forward="true" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raw_metrics_files/dataset_1/andengine_dependencies.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part4.csv" />
     <entry file="file://$PROJECT_DIR$/part3.csv" />
     <entry file="file://$PROJECT_DIR$/part2.csv" />
     <entry file="file://$PROJECT_DIR$/part1.csv" />
@@ -1082,17 +833,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repositories/metrics_repository/class_metrics_repository.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repositories/metrics_repository/method_metrics_repository.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/imblearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repositories/metrics_repository/class_metrics_repository.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrics_file_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1105,68 +870,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repositories/metrics_repository/base_metrics_repository.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="150">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repositories/metrics_repository/history_change_metrics_repository.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        <state relative-caret-position="429">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handle_landfill_data/http_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handle_landfill_data/mongodb_helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-828">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="1032">
+          <caret line="99" column="26" lean-forward="true" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handle_landfill_data/download_data_from_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/blob_repository.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="345">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/imblearn/under_sampling/prototype_generation/cluster_centroids.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/sklearn/cluster/k_means_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="892" column="0" lean-forward="false" selection-start-line="892" selection-start-column="0" selection-end-line="892" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/imblearn/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/sklearn/model_selection/_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="215" column="4" lean-forward="false" selection-start-line="215" selection-start-column="4" selection-end-line="215" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repositories/smells_repository/relationships_smells_repository.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        <state relative-caret-position="360">
+          <caret line="28" column="73" lean-forward="false" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py">
+    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/blob_repository.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="68" column="23" lean-forward="false" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/class_metrics_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="101" lean-forward="false" selection-start-line="16" selection-start-column="101" selection-end-line="16" selection-end-column="101" />
+        <state relative-caret-position="285">
+          <caret line="22" column="69" lean-forward="false" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -1174,41 +965,65 @@
     <entry file="file://$PROJECT_DIR$/models/history_based_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="17" column="114" lean-forward="false" selection-start-line="17" selection-start-column="114" selection-end-line="17" selection-end-column="114" />
+          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/sklearn/neighbors/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="346" column="0" lean-forward="false" selection-start-line="346" selection-start-column="0" selection-end-line="346" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/class_metrics_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/imblearn/ensemble/balance_cascade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="130" column="8" lean-forward="false" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/method_based_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metrics_file_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/model_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="96" column="52" lean-forward="true" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
+        <state relative-caret-position="240">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="375">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="57" column="59" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="59" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

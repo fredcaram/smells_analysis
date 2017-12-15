@@ -1,0 +1,2146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/ql/plan/api/Task.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.plan.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.plan.api.Task" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Task&lt;/code&gt; (cyclomatic complexity = 235) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/ql/plan/api/Stage.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.plan.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.plan.api.Stage" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Stage&lt;/code&gt; (cyclomatic complexity = 207) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/ql/plan/api/Operator.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.plan.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.plan.api.Operator" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Operator&lt;/code&gt; (cyclomatic complexity = 175) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/ql/plan/api/Adjacency.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.plan.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.plan.api.Adjacency" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Adjacency&lt;/code&gt; (cyclomatic complexity = 109) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/ql/plan/api/Graph.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.plan.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.plan.api.Graph" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Graph&lt;/code&gt; (cyclomatic complexity = 116) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/ql/plan/api/Query.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.plan.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.plan.api.Query" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Query&lt;/code&gt; (cyclomatic complexity = 233) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/ql/plan/api/QueryPlan.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.plan.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.plan.api.QueryPlan" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;QueryPlan&lt;/code&gt; (cyclomatic complexity = 97) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/protobuf/gen-java/org/apache/hadoop/hive/ql/io/orc/OrcProto.java</file>
+    <line>5368</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.orc.OrcProto.ColumnStatistics.Builder" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Builder&lt;/code&gt; (cyclomatic complexity = 212) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/protobuf/gen-java/org/apache/hadoop/hive/ql/io/orc/OrcProto.java</file>
+    <line>9625</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.orc.OrcProto.StripeFooter.Builder" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Builder&lt;/code&gt; (cyclomatic complexity = 122) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/protobuf/gen-java/org/apache/hadoop/hive/ql/io/orc/OrcProto.java</file>
+    <line>16391</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.orc.OrcProto.PostScript" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;PostScript&lt;/code&gt; (cyclomatic complexity = 82) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/protobuf/gen-java/org/apache/hadoop/hive/ql/io/orc/OrcProto.java</file>
+    <line>14875</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.orc.OrcProto.Footer.Builder" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Builder&lt;/code&gt; (cyclomatic complexity = 242) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/protobuf/gen-java/org/apache/hadoop/hive/ql/io/orc/OrcProto.java</file>
+    <line>14335</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.orc.OrcProto.Footer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Footer&lt;/code&gt; (cyclomatic complexity = 102) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/protobuf/gen-java/org/apache/hadoop/hive/ql/io/orc/OrcProto.java</file>
+    <line>10396</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.orc.OrcProto.Type" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Type&lt;/code&gt; (cyclomatic complexity = 83) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/gen/protobuf/gen-java/org/apache/hadoop/hive/ql/io/orc/OrcProto.java</file>
+    <line>4803</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.orc.OrcProto.ColumnStatistics" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ColumnStatistics&lt;/code&gt; (cyclomatic complexity = 107) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/Context.java</file>
+    <line>60</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.Context" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Context&lt;/code&gt; (cyclomatic complexity = 84) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/Driver.java</file>
+    <line>118</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.Driver" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Driver&lt;/code&gt; (cyclomatic complexity = 277) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/QueryPlan.java</file>
+    <line>67</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.QueryPlan" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;QueryPlan&lt;/code&gt; (cyclomatic complexity = 121) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/io/RCFile.java</file>
+    <line>1283</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.RCFile.Reader" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Reader&lt;/code&gt; (cyclomatic complexity = 113) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/io/orc/SerializationUtils.java</file>
+    <line>27</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.orc.SerializationUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SerializationUtils&lt;/code&gt; (cyclomatic complexity = 263) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/io/orc/RunLengthIntegerWriterV2.java</file>
+    <line>128</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.orc.RunLengthIntegerWriterV2" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;RunLengthIntegerWriterV2&lt;/code&gt; (cyclomatic complexity = 102) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/io/orc/RecordReaderImpl.java</file>
+    <line>76</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.orc.RecordReaderImpl" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;RecordReaderImpl&lt;/code&gt; (cyclomatic complexity = 257) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/io/orc/WriterImpl.java</file>
+    <line>92</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.orc.WriterImpl" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;WriterImpl&lt;/code&gt; (cyclomatic complexity = 162) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/io/sarg/SearchArgumentImpl.java</file>
+    <line>302</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.sarg</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.sarg.SearchArgumentImpl.ExpressionBuilder" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ExpressionBuilder&lt;/code&gt; (cyclomatic complexity = 116) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/udf/ptf/WindowingTableFunction.java</file>
+    <line>62</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.udf.ptf</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.udf.ptf.WindowingTableFunction" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;WindowingTableFunction&lt;/code&gt; (cyclomatic complexity = 105) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/udf/ptf/WindowingTableFunction.java</file>
+    <line>712</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.udf.ptf</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.udf.ptf.WindowingTableFunction.ValueBoundaryScanner" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ValueBoundaryScanner&lt;/code&gt; (cyclomatic complexity = 85) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/CommonJoinOperator.java</file>
+    <line>48</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.CommonJoinOperator" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;CommonJoinOperator&lt;/code&gt; (cyclomatic complexity = 136) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/Utilities.java</file>
+    <line>194</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.Utilities" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Utilities&lt;/code&gt; (cyclomatic complexity = 502) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/Operator.java</file>
+    <line>55</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.Operator" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Operator&lt;/code&gt; (cyclomatic complexity = 224) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/DDLTask.java</file>
+    <line>201</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.DDLTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;DDLTask&lt;/code&gt; (cyclomatic complexity = 650) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/FunctionRegistry.java</file>
+    <line>156</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.FunctionRegistry" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;FunctionRegistry&lt;/code&gt; (cyclomatic complexity = 302) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/Task.java</file>
+    <line>50</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.Task" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Task&lt;/code&gt; (cyclomatic complexity = 106) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/GroupByOperator.java</file>
+    <line>75</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.GroupByOperator" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;GroupByOperator&lt;/code&gt; (cyclomatic complexity = 186) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/ExplainTask.java</file>
+    <line>69</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.ExplainTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ExplainTask&lt;/code&gt; (cyclomatic complexity = 232) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/MapOperator.java</file>
+    <line>68</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.MapOperator" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;MapOperator&lt;/code&gt; (cyclomatic complexity = 83) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/FetchOperator.java</file>
+    <line>80</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.FetchOperator" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;FetchOperator&lt;/code&gt; (cyclomatic complexity = 126) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/MoveTask.java</file>
+    <line>63</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.MoveTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;MoveTask&lt;/code&gt; (cyclomatic complexity = 93) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/FileSinkOperator.java</file>
+    <line>75</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.FileSinkOperator" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;FileSinkOperator&lt;/code&gt; (cyclomatic complexity = 147) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/SMBMapJoinOperator.java</file>
+    <line>57</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.SMBMapJoinOperator" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SMBMapJoinOperator&lt;/code&gt; (cyclomatic complexity = 115) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/mr/ExecDriver.java</file>
+    <line>101</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.mr</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.mr.ExecDriver" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ExecDriver&lt;/code&gt; (cyclomatic complexity = 124) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/mr/HadoopJobExecHelper.java</file>
+    <line>65</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.mr</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.mr.HadoopJobExecHelper" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HadoopJobExecHelper&lt;/code&gt; (cyclomatic complexity = 86) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/tez/DagUtils.java</file>
+    <line>125</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.tez</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.tez.DagUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;DagUtils&lt;/code&gt; (cyclomatic complexity = 113) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/vector/VectorHashKeyWrapperBatch.java</file>
+    <line>35</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.vector.VectorHashKeyWrapperBatch" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;VectorHashKeyWrapperBatch&lt;/code&gt; (cyclomatic complexity = 152) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/vector/VectorizationContext.java</file>
+    <line>112</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.vector.VectorizationContext" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;VectorizationContext&lt;/code&gt; (cyclomatic complexity = 366) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/vector/expressions/NullUtil.java</file>
+    <line>30</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector.expressions</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.vector.expressions.NullUtil" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;NullUtil&lt;/code&gt; (cyclomatic complexity = 123) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/vector/expressions/ColAndCol.java</file>
+    <line>27</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector.expressions</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.vector.expressions.ColAndCol" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ColAndCol&lt;/code&gt; (cyclomatic complexity = 128) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/vector/expressions/StringConcatColCol.java</file>
+    <line>30</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector.expressions</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.vector.expressions.StringConcatColCol" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;StringConcatColCol&lt;/code&gt; (cyclomatic complexity = 119) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/vector/expressions/ColOrCol.java</file>
+    <line>30</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector.expressions</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.vector.expressions.ColOrCol" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ColOrCol&lt;/code&gt; (cyclomatic complexity = 128) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/persistence/RowContainer.java</file>
+    <line>74</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.persistence</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.persistence.RowContainer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;RowContainer&lt;/code&gt; (cyclomatic complexity = 97) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/plan/DDLWork.java</file>
+    <line>31</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.plan</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.plan.DDLWork" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;DDLWork&lt;/code&gt; (cyclomatic complexity = 146) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/plan/JoinDesc.java</file>
+    <line>37</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.plan</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.plan.JoinDesc" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;JoinDesc&lt;/code&gt; (cyclomatic complexity = 89) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/plan/PlanUtils.java</file>
+    <line>79</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.plan</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.plan.PlanUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;PlanUtils&lt;/code&gt; (cyclomatic complexity = 123) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/plan/ExprNodeDescUtils.java</file>
+    <line>38</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.plan</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.plan.ExprNodeDescUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ExprNodeDescUtils&lt;/code&gt; (cyclomatic complexity = 92) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/plan/CreateTableDesc.java</file>
+    <line>49</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.plan</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.plan.CreateTableDesc" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;CreateTableDesc&lt;/code&gt; (cyclomatic complexity = 85) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/plan/MapWork.java</file>
+    <line>61</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.plan</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.plan.MapWork" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;MapWork&lt;/code&gt; (cyclomatic complexity = 91) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/ColumnStatsSemanticAnalyzer.java</file>
+    <line>44</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.parse.ColumnStatsSemanticAnalyzer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ColumnStatsSemanticAnalyzer&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/QBSubQuery.java</file>
+    <line>40</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.parse.QBSubQuery" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;QBSubQuery&lt;/code&gt; (cyclomatic complexity = 82) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/DDLSemanticAnalyzer.java</file>
+    <line>163</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.parse.DDLSemanticAnalyzer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;DDLSemanticAnalyzer&lt;/code&gt; (cyclomatic complexity = 501) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/SemanticAnalyzer.java</file>
+    <line>205</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.parse.SemanticAnalyzer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SemanticAnalyzer&lt;/code&gt; (cyclomatic complexity = 1.701) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/QBParseInfo.java</file>
+    <line>38</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.parse.QBParseInfo" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;QBParseInfo&lt;/code&gt; (cyclomatic complexity = 105) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/PTFTranslator.java</file>
+    <line>103</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.parse.PTFTranslator" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;PTFTranslator&lt;/code&gt; (cyclomatic complexity = 141) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/BaseSemanticAnalyzer.java</file>
+    <line>79</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.parse.BaseSemanticAnalyzer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;BaseSemanticAnalyzer&lt;/code&gt; (cyclomatic complexity = 198) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/TypeCheckProcFactory.java</file>
+    <line>556</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.parse.TypeCheckProcFactory.DefaultExprProcessor" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;DefaultExprProcessor&lt;/code&gt; (cyclomatic complexity = 112) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/stats/StatsUtils.java</file>
+    <line>86</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.stats</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.stats.StatsUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;StatsUtils&lt;/code&gt; (cyclomatic complexity = 244) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/lockmgr/zookeeper/ZooKeeperHiveLockManager.java</file>
+    <line>43</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.lockmgr.zookeeper</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.lockmgr.zookeeper.ZooKeeperHiveLockManager" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ZooKeeperHiveLockManager&lt;/code&gt; (cyclomatic complexity = 127) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/session/SessionState.java</file>
+    <line>83</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.session</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.session.SessionState" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SessionState&lt;/code&gt; (cyclomatic complexity = 172) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/metadata/SessionHiveMetaStoreClient.java</file>
+    <line>46</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.metadata</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SessionHiveMetaStoreClient&lt;/code&gt; (cyclomatic complexity = 98) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/metadata/Table.java</file>
+    <line>76</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.metadata</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.metadata.Table" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Table&lt;/code&gt; (cyclomatic complexity = 194) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java</file>
+    <line>125</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.metadata</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.metadata.Hive" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Hive&lt;/code&gt; (cyclomatic complexity = 424) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/metadata/Partition.java</file>
+    <line>60</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.metadata</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.metadata.Partition" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Partition&lt;/code&gt; (cyclomatic complexity = 108) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/metadata/formatting/MetaDataFormatUtils.java</file>
+    <line>61</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.metadata.formatting</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.metadata.formatting.MetaDataFormatUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;MetaDataFormatUtils&lt;/code&gt; (cyclomatic complexity = 85) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/metadata/formatting/TextMetaDataFormatter.java</file>
+    <line>51</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.metadata.formatting</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.metadata.formatting.TextMetaDataFormatter" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TextMetaDataFormatter&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/security/authorization/BitSetCheckedAuthorizationProvider.java</file>
+    <line>36</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.security.authorization</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.security.authorization.BitSetCheckedAuthorizationProvider" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;BitSetCheckedAuthorizationProvider&lt;/code&gt; (cyclomatic complexity = 87) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/security/authorization/plugin/sqlstd/SQLStdHiveAccessController.java</file>
+    <line>72</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.security.authorization.plugin.sqlstd</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.security.authorization.plugin.sqlstd.SQLStdHiveAccessController" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SQLStdHiveAccessController&lt;/code&gt; (cyclomatic complexity = 108) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/GenMapRedUtils.java</file>
+    <line>114</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.optimizer.GenMapRedUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;GenMapRedUtils&lt;/code&gt; (cyclomatic complexity = 241) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/StatsOptimizer.java</file>
+    <line>124</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.optimizer.StatsOptimizer.MetaDataProcessor" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;MetaDataProcessor&lt;/code&gt; (cyclomatic complexity = 103) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/ConstantPropagateProcFactory.java</file>
+    <line>89</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.optimizer.ConstantPropagateProcFactory" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ConstantPropagateProcFactory&lt;/code&gt; (cyclomatic complexity = 100) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/MapJoinProcessor.java</file>
+    <line>90</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.optimizer.MapJoinProcessor" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;MapJoinProcessor&lt;/code&gt; (cyclomatic complexity = 115) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/physical/Vectorizer.java</file>
+    <line>121</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.physical</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.optimizer.physical.Vectorizer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Vectorizer&lt;/code&gt; (cyclomatic complexity = 87) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/physical/CommonJoinTaskDispatcher.java</file>
+    <line>106</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.physical</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.optimizer.physical.CommonJoinTaskDispatcher" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;CommonJoinTaskDispatcher&lt;/code&gt; (cyclomatic complexity = 84) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/correlation/CorrelationOptimizer.java</file>
+    <line>251</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.correlation</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.optimizer.correlation.CorrelationOptimizer.CorrelationNodeProc" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;CorrelationNodeProc&lt;/code&gt; (cyclomatic complexity = 83) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/correlation/CorrelationUtilities.java</file>
+    <line>65</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.correlation</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.optimizer.correlation.CorrelationUtilities" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;CorrelationUtilities&lt;/code&gt; (cyclomatic complexity = 99) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/io/orc/TestNewIntegerEncoding.java</file>
+    <line>50</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.orc.TestNewIntegerEncoding" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TestNewIntegerEncoding&lt;/code&gt; (cyclomatic complexity = 102) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/io/orc/TestOrcFile.java</file>
+    <line>89</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.io.orc.TestOrcFile" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TestOrcFile&lt;/code&gt; (cyclomatic complexity = 105) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/TestVectorGroupByOperator.java</file>
+    <line>71</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.vector.TestVectorGroupByOperator" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TestVectorGroupByOperator&lt;/code&gt; (cyclomatic complexity = 161) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/expressions/TestVectorTimestampExpressions.java</file>
+    <line>56</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector.expressions</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorTimestampExpressions" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TestVectorTimestampExpressions&lt;/code&gt; (cyclomatic complexity = 111) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/expressions/TestVectorGenericDateExpressions.java</file>
+    <line>38</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector.expressions</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.exec.vector.expressions.TestVectorGenericDateExpressions" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TestVectorGenericDateExpressions&lt;/code&gt; (cyclomatic complexity = 104) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ant/src/org/apache/hadoop/hive/ant/QTestGenTask.java</file>
+    <line>48</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ant.QTestGenTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;QTestGenTask&lt;/code&gt; (cyclomatic complexity = 86) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ant/src/org/apache/hadoop/hive/ant/GenVectorCode.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ant.GenVectorCode" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;GenVectorCode&lt;/code&gt; (cyclomatic complexity = 139) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/cli/src/java/org/apache/hadoop/hive/cli/CliDriver.java</file>
+    <line>83</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.cli</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.cli.CliDriver" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;CliDriver&lt;/code&gt; (cyclomatic complexity = 117) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/jdbc/src/java/org/apache/hive/jdbc/JdbcColumn.java</file>
+    <line>33</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.jdbc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.jdbc.JdbcColumn" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;JdbcColumn&lt;/code&gt; (cyclomatic complexity = 103) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/jdbc/src/java/org/apache/hive/jdbc/HiveBaseResultSet.java</file>
+    <line>54</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.jdbc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.jdbc.HiveBaseResultSet" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveBaseResultSet&lt;/code&gt; (cyclomatic complexity = 247) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/jdbc/src/java/org/apache/hive/jdbc/HiveCallableStatement.java</file>
+    <line>48</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.jdbc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.jdbc.HiveCallableStatement" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveCallableStatement&lt;/code&gt; (cyclomatic complexity = 213) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/jdbc/src/java/org/apache/hive/jdbc/HiveConnection.java</file>
+    <line>87</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.jdbc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.jdbc.HiveConnection" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveConnection&lt;/code&gt; (cyclomatic complexity = 136) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/jdbc/src/java/org/apache/hive/jdbc/HiveDatabaseMetaData.java</file>
+    <line>57</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.jdbc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.jdbc.HiveDatabaseMetaData" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveDatabaseMetaData&lt;/code&gt; (cyclomatic complexity = 206) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/jdbc/src/java/org/apache/hadoop/hive/jdbc/HiveBaseResultSet.java</file>
+    <line>51</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.jdbc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.jdbc.HiveBaseResultSet" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveBaseResultSet&lt;/code&gt; (cyclomatic complexity = 232) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/jdbc/src/java/org/apache/hadoop/hive/jdbc/HiveCallableStatement.java</file>
+    <line>48</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.jdbc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.jdbc.HiveCallableStatement" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveCallableStatement&lt;/code&gt; (cyclomatic complexity = 213) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/jdbc/src/java/org/apache/hadoop/hive/jdbc/HivePreparedStatement.java</file>
+    <line>53</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.jdbc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.jdbc.HivePreparedStatement" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HivePreparedStatement&lt;/code&gt; (cyclomatic complexity = 126) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/jdbc/src/java/org/apache/hadoop/hive/jdbc/HiveDatabaseMetaData.java</file>
+    <line>43</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.jdbc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.jdbc.HiveDatabaseMetaData" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveDatabaseMetaData&lt;/code&gt; (cyclomatic complexity = 206) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/serde/test/ThriftTestObj.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde.test</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde.test.ThriftTestObj" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ThriftTestObj&lt;/code&gt; (cyclomatic complexity = 103) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/serde2/thrift/test/Complex.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.thrift.test</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.thrift.test.Complex" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Complex&lt;/code&gt; (cyclomatic complexity = 197) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/serde2/thrift/test/MegaStruct.java</file>
+    <line>2111</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.thrift.test</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.thrift.test.MegaStruct.MegaStructStandardScheme" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;MegaStructStandardScheme&lt;/code&gt; (cyclomatic complexity = 107) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/serde2/thrift/test/MegaStruct.java</file>
+    <line>2696</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.thrift.test</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.thrift.test.MegaStruct.MegaStructTupleScheme" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;MegaStructTupleScheme&lt;/code&gt; (cyclomatic complexity = 90) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/serde2/thrift/test/MegaStruct.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.thrift.test</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.thrift.test.MegaStruct" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;MegaStruct&lt;/code&gt; (cyclomatic complexity = 606) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/serde2/thrift/test/IntString.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.thrift.test</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.thrift.test.IntString" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;IntString&lt;/code&gt; (cyclomatic complexity = 90) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/WriteBuffers.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.WriteBuffers" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;WriteBuffers&lt;/code&gt; (cyclomatic complexity = 87) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/SerDeUtils.java</file>
+    <line>60</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.SerDeUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SerDeUtils&lt;/code&gt; (cyclomatic complexity = 93) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/io/TimestampWritable.java</file>
+    <line>57</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.io</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.io.TimestampWritable" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TimestampWritable&lt;/code&gt; (cyclomatic complexity = 96) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/thrift/TBinarySortableProtocol.java</file>
+    <line>71</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.thrift.TBinarySortableProtocol" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TBinarySortableProtocol&lt;/code&gt; (cyclomatic complexity = 108) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/thrift/TCTLSeparatedProtocol.java</file>
+    <line>55</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.thrift.TCTLSeparatedProtocol" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TCTLSeparatedProtocol&lt;/code&gt; (cyclomatic complexity = 129) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/dynamic_type/thrift_grammar.java</file>
+    <line>13</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.dynamic_type</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.dynamic_type.thrift_grammar" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;thrift_grammar&lt;/code&gt; (cyclomatic complexity = 618) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/dynamic_type/thrift_grammarTokenManager.java</file>
+    <line>5</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.dynamic_type</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.dynamic_type.thrift_grammarTokenManager" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;thrift_grammarTokenManager&lt;/code&gt; (cyclomatic complexity = 532) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/binarysortable/BinarySortableSerDe.java</file>
+    <line>113</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.binarysortable</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.binarysortable.BinarySortableSerDe" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;BinarySortableSerDe&lt;/code&gt; (cyclomatic complexity = 142) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/objectinspector/ObjectInspectorUtils.java</file>
+    <line>86</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.objectinspector</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ObjectInspectorUtils&lt;/code&gt; (cyclomatic complexity = 247) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/objectinspector/primitive/PrimitiveObjectInspectorUtils.java</file>
+    <line>67</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.objectinspector.primitive</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectInspectorUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;PrimitiveObjectInspectorUtils&lt;/code&gt; (cyclomatic complexity = 223) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/test/org/apache/hadoop/hive/serde2/lazybinary/TestLazyBinarySerDe.java</file>
+    <line>64</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.lazybinary</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.serde2.lazybinary.TestLazyBinarySerDe" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TestLazyBinarySerDe&lt;/code&gt; (cyclomatic complexity = 94) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/common/src/java/org/apache/hive/common/util/HiveStringUtils.java</file>
+    <line>52</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.common.util</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.common.util.HiveStringUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveStringUtils&lt;/code&gt; (cyclomatic complexity = 111) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/common/src/java/org/apache/hadoop/hive/conf/HiveConf.java</file>
+    <line>56</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.conf</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.conf.HiveConf" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveConf&lt;/code&gt; (cyclomatic complexity = 109) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/common/src/java/org/apache/hadoop/hive/common/FileUtils.java</file>
+    <line>51</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.common</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.common.FileUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;FileUtils&lt;/code&gt; (cyclomatic complexity = 86) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/common/src/java/org/apache/hadoop/hive/common/type/UnsignedInt128.java</file>
+    <line>39</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.common.type</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.common.type.UnsignedInt128" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;UnsignedInt128&lt;/code&gt; (cyclomatic complexity = 394) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/common/src/java/org/apache/hadoop/hive/common/type/Decimal128.java</file>
+    <line>64</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.common.type</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.common.type.Decimal128" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Decimal128&lt;/code&gt; (cyclomatic complexity = 203) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/common/src/java/org/apache/hadoop/hive/common/type/SignedInt128.java</file>
+    <line>30</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.common.type</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.common.type.SignedInt128" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SignedInt128&lt;/code&gt; (cyclomatic complexity = 142) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/itests/util/src/main/java/org/apache/hadoop/hive/ql/QTestUtil.java</file>
+    <line>113</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.ql.QTestUtil" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;QTestUtil&lt;/code&gt; (cyclomatic complexity = 249) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/itests/hive-unit/src/test/java/org/apache/hive/jdbc/TestJdbcDriver2.java</file>
+    <line>72</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.jdbc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.jdbc.TestJdbcDriver2" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TestJdbcDriver2&lt;/code&gt; (cyclomatic complexity = 143) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/itests/hive-unit/src/test/java/org/apache/hadoop/hive/jdbc/TestJdbcDriver.java</file>
+    <line>52</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.jdbc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.jdbc.TestJdbcDriver" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TestJdbcDriver&lt;/code&gt; (cyclomatic complexity = 82) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/itests/hive-unit/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetaStore.java</file>
+    <line>81</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.TestHiveMetaStore" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TestHiveMetaStore&lt;/code&gt; (cyclomatic complexity = 154) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/beeline/src/java/org/apache/hive/beeline/BeeLineOpts.java</file>
+    <line>46</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.beeline</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.beeline.BeeLineOpts" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;BeeLineOpts&lt;/code&gt; (cyclomatic complexity = 98) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/beeline/src/java/org/apache/hive/beeline/Commands.java</file>
+    <line>52</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.beeline</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.beeline.Commands" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Commands&lt;/code&gt; (cyclomatic complexity = 229) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/beeline/src/java/org/apache/hive/beeline/BeeLine.java</file>
+    <line>107</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.beeline</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.beeline.BeeLine" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;BeeLine&lt;/code&gt; (cyclomatic complexity = 283) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/contrib/src/java/org/apache/hadoop/hive/contrib/util/typedbytes/TypedBytesWritableInput.java</file>
+    <line>54</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.contrib.util.typedbytes</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesWritableInput" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TypedBytesWritableInput&lt;/code&gt; (cyclomatic complexity = 94) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TRowSet.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TRowSet" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TRowSet&lt;/code&gt; (cyclomatic complexity = 113) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetDelegationTokenReq.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetDelegationTokenReq" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetDelegationTokenReq&lt;/code&gt; (cyclomatic complexity = 106) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetTablesResp.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetTablesResp" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetTablesResp&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TFetchResultsResp.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TFetchResultsResp" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TFetchResultsResp&lt;/code&gt; (cyclomatic complexity = 104) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TExecuteStatementResp.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TExecuteStatementResp" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TExecuteStatementResp&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetCatalogsResp.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetCatalogsResp" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetCatalogsResp&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TBinaryColumn.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TBinaryColumn" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TBinaryColumn&lt;/code&gt; (cyclomatic complexity = 90) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetOperationStatusResp.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetOperationStatusResp" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetOperationStatusResp&lt;/code&gt; (cyclomatic complexity = 155) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TDoubleColumn.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TDoubleColumn" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TDoubleColumn&lt;/code&gt; (cyclomatic complexity = 90) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetSchemasResp.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetSchemasResp" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetSchemasResp&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetColumnsReq.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetColumnsReq" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetColumnsReq&lt;/code&gt; (cyclomatic complexity = 158) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TExecuteStatementReq.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TExecuteStatementReq" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TExecuteStatementReq&lt;/code&gt; (cyclomatic complexity = 134) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TOpenSessionReq.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TOpenSessionReq" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TOpenSessionReq&lt;/code&gt; (cyclomatic complexity = 136) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetInfoValue.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetInfoValue" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetInfoValue&lt;/code&gt; (cyclomatic complexity = 115) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TStringColumn.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TStringColumn" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TStringColumn&lt;/code&gt; (cyclomatic complexity = 90) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TI64Column.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TI64Column" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TI64Column&lt;/code&gt; (cyclomatic complexity = 90) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TColumnValue.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TColumnValue" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TColumnValue&lt;/code&gt; (cyclomatic complexity = 134) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetResultSetMetadataResp.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetResultSetMetadataResp" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetResultSetMetadataResp&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetFunctionsReq.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetFunctionsReq" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetFunctionsReq&lt;/code&gt; (cyclomatic complexity = 132) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetTableTypesResp.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetTableTypesResp" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetTableTypesResp&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetColumnsResp.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetColumnsResp" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetColumnsResp&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TBoolColumn.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TBoolColumn" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TBoolColumn&lt;/code&gt; (cyclomatic complexity = 90) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TByteColumn.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TByteColumn" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TByteColumn&lt;/code&gt; (cyclomatic complexity = 90) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TI16Column.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TI16Column" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TI16Column&lt;/code&gt; (cyclomatic complexity = 90) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TColumnDesc.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TColumnDesc" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TColumnDesc&lt;/code&gt; (cyclomatic complexity = 126) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TOpenSessionResp.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TOpenSessionResp" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TOpenSessionResp&lt;/code&gt; (cyclomatic complexity = 138) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TOperationHandle.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TOperationHandle" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TOperationHandle&lt;/code&gt; (cyclomatic complexity = 123) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetFunctionsResp.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetFunctionsResp" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetFunctionsResp&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetTypeInfoResp.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetTypeInfoResp" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetTypeInfoResp&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/THandleIdentifier.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.THandleIdentifier" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;THandleIdentifier&lt;/code&gt; (cyclomatic complexity = 87) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetSchemasReq.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetSchemasReq" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetSchemasReq&lt;/code&gt; (cyclomatic complexity = 106) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TGetTablesReq.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TGetTablesReq" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TGetTablesReq&lt;/code&gt; (cyclomatic complexity = 165) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TTypeEntry.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TTypeEntry" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TTypeEntry&lt;/code&gt; (cyclomatic complexity = 120) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TFetchResultsReq.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TFetchResultsReq" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TFetchResultsReq&lt;/code&gt; (cyclomatic complexity = 123) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TStatus.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TStatus" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TStatus&lt;/code&gt; (cyclomatic complexity = 161) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TColumn.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TColumn" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TColumn&lt;/code&gt; (cyclomatic complexity = 148) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hive/service/cli/thrift/TI32Column.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.TI32Column" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TI32Column&lt;/code&gt; (cyclomatic complexity = 90) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/service/ThriftHive.java</file>
+    <line>2626</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.service</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.service.ThriftHive.fetchN_result" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;fetchN_result&lt;/code&gt; (cyclomatic complexity = 84) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/service/ThriftHive.java</file>
+    <line>3388</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.service</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.service.ThriftHive.fetchAll_result" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;fetchAll_result&lt;/code&gt; (cyclomatic complexity = 84) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/service/HiveServerException.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.service</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.service.HiveServerException" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveServerException&lt;/code&gt; (cyclomatic complexity = 96) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/service/HiveClusterStatus.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.service</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.service.HiveClusterStatus" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveClusterStatus&lt;/code&gt; (cyclomatic complexity = 147) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/java/org/apache/hive/service/cli/Column.java</file>
+    <line>47</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.Column" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Column&lt;/code&gt; (cyclomatic complexity = 93) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/java/org/apache/hive/service/cli/thrift/ThriftCLIService.java</file>
+    <line>44</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.thrift</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.thrift.ThriftCLIService" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ThriftCLIService&lt;/code&gt; (cyclomatic complexity = 86) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/service/src/java/org/apache/hive/service/cli/session/HiveSessionImpl.java</file>
+    <line>65</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.service.cli.session</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.service.cli.session.HiveSessionImpl" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveSessionImpl&lt;/code&gt; (cyclomatic complexity = 84) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/hcatalog/core/src/main/java/org/apache/hive/hcatalog/data/JsonSerDe.java</file>
+    <line>85</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.hcatalog.data</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.hcatalog.data.JsonSerDe" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;JsonSerDe&lt;/code&gt; (cyclomatic complexity = 126) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/hcatalog/core/src/main/java/org/apache/hive/hcatalog/common/HCatUtil.java</file>
+    <line>79</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.hcatalog.common</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.hcatalog.common.HCatUtil" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HCatUtil&lt;/code&gt; (cyclomatic complexity = 107) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/hcatalog/core/src/main/java/org/apache/hive/hcatalog/mapreduce/FileOutputCommitterContainer.java</file>
+    <line>70</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.hcatalog.mapreduce</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;FileOutputCommitterContainer&lt;/code&gt; (cyclomatic complexity = 161) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/HcatDelegator.java</file>
+    <line>45</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.hcatalog.templeton</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.hcatalog.templeton.HcatDelegator" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HcatDelegator&lt;/code&gt; (cyclomatic complexity = 133) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/hcatalog/webhcat/svr/src/main/java/org/apache/hive/hcatalog/templeton/Server.java</file>
+    <line>61</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.hcatalog.templeton</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.hcatalog.templeton.Server" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Server&lt;/code&gt; (cyclomatic complexity = 98) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/hcatalog/webhcat/java-client/src/main/java/org/apache/hive/hcatalog/api/HCatTable.java</file>
+    <line>60</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.hcatalog.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.hcatalog.api.HCatTable" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HCatTable&lt;/code&gt; (cyclomatic complexity = 121) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/hcatalog/webhcat/java-client/src/main/java/org/apache/hive/hcatalog/api/HCatClientHMSImpl.java</file>
+    <line>55</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.hcatalog.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.hcatalog.api.HCatClientHMSImpl" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HCatClientHMSImpl&lt;/code&gt; (cyclomatic complexity = 161) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/hcatalog/hcatalog-pig-adapter/src/main/java/org/apache/hive/hcatalog/pig/HCatBaseStorer.java</file>
+    <line>79</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.hcatalog.pig</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.hcatalog.pig.HCatBaseStorer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HCatBaseStorer&lt;/code&gt; (cyclomatic complexity = 141) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/hcatalog/hcatalog-pig-adapter/src/main/java/org/apache/hive/hcatalog/pig/PigHCatUtil.java</file>
+    <line>70</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.hcatalog.pig</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.hcatalog.pig.PigHCatUtil" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;PigHCatUtil&lt;/code&gt; (cyclomatic complexity = 95) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/hcatalog/hcatalog-pig-adapter/src/test/java/org/apache/hive/hcatalog/pig/TestHCatStorer.java</file>
+    <line>51</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.hcatalog.pig</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hive.hcatalog.pig.TestHCatStorer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TestHCatStorer&lt;/code&gt; (cyclomatic complexity = 91) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/Database.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.Database" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Database&lt;/code&gt; (cyclomatic complexity = 211) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/HeartbeatTxnRangeResponse.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.HeartbeatTxnRangeResponse" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HeartbeatTxnRangeResponse&lt;/code&gt; (cyclomatic complexity = 93) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/ColumnStatistics.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.ColumnStatistics" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ColumnStatistics&lt;/code&gt; (cyclomatic complexity = 87) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/Function.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.Function" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Function&lt;/code&gt; (cyclomatic complexity = 228) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/TxnInfo.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.TxnInfo" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TxnInfo&lt;/code&gt; (cyclomatic complexity = 125) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/Table.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.Table" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Table&lt;/code&gt; (cyclomatic complexity = 372) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/SerDeInfo.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.SerDeInfo" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SerDeInfo&lt;/code&gt; (cyclomatic complexity = 107) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/ColumnStatisticsDesc.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.ColumnStatisticsDesc" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ColumnStatisticsDesc&lt;/code&gt; (cyclomatic complexity = 148) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/DropPartitionsRequest.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.DropPartitionsRequest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;DropPartitionsRequest&lt;/code&gt; (cyclomatic complexity = 224) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/SkewedInfo.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.SkewedInfo" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SkewedInfo&lt;/code&gt; (cyclomatic complexity = 123) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/DecimalColumnStatsData.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.DecimalColumnStatsData" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;DecimalColumnStatsData&lt;/code&gt; (cyclomatic complexity = 121) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/GrantRevokeRoleRequest.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.GrantRevokeRoleRequest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;GrantRevokeRoleRequest&lt;/code&gt; (cyclomatic complexity = 202) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/Schema.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.Schema" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Schema&lt;/code&gt; (cyclomatic complexity = 89) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/StorageDescriptor.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.StorageDescriptor" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;StorageDescriptor&lt;/code&gt; (cyclomatic complexity = 342) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/PrivilegeGrantInfo.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.PrivilegeGrantInfo" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;PrivilegeGrantInfo&lt;/code&gt; (cyclomatic complexity = 140) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/PrincipalPrivilegeSet.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.PrincipalPrivilegeSet" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;PrincipalPrivilegeSet&lt;/code&gt; (cyclomatic complexity = 120) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/Index.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.Index" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Index&lt;/code&gt; (cyclomatic complexity = 265) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/BinaryColumnStatsData.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.BinaryColumnStatsData" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;BinaryColumnStatsData&lt;/code&gt; (cyclomatic complexity = 87) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/ShowCompactResponseElement.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.ShowCompactResponseElement" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ShowCompactResponseElement&lt;/code&gt; (cyclomatic complexity = 229) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/RolePrincipalGrant.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.RolePrincipalGrant" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;RolePrincipalGrant&lt;/code&gt; (cyclomatic complexity = 190) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/FieldSchema.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.FieldSchema" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;FieldSchema&lt;/code&gt; (cyclomatic complexity = 102) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/ShowLocksResponseElement.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.ShowLocksResponseElement" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ShowLocksResponseElement&lt;/code&gt; (cyclomatic complexity = 295) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/Type.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.Type" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Type&lt;/code&gt; (cyclomatic complexity = 137) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/ColumnStatisticsData.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.ColumnStatisticsData" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ColumnStatisticsData&lt;/code&gt; (cyclomatic complexity = 120) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/AddPartitionsRequest.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.AddPartitionsRequest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;AddPartitionsRequest&lt;/code&gt; (cyclomatic complexity = 155) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/PartitionsStatsRequest.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.PartitionsStatsRequest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;PartitionsStatsRequest&lt;/code&gt; (cyclomatic complexity = 145) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/HiveObjectRef.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.HiveObjectRef" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveObjectRef&lt;/code&gt; (cyclomatic complexity = 159) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/HiveObjectPrivilege.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.HiveObjectPrivilege" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveObjectPrivilege&lt;/code&gt; (cyclomatic complexity = 129) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/LockRequest.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.LockRequest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;LockRequest&lt;/code&gt; (cyclomatic complexity = 135) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/PartitionsByExprRequest.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.PartitionsByExprRequest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;PartitionsByExprRequest&lt;/code&gt; (cyclomatic complexity = 158) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/LongColumnStatsData.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.LongColumnStatsData" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;LongColumnStatsData&lt;/code&gt; (cyclomatic complexity = 113) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/Partition.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.Partition" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Partition&lt;/code&gt; (cyclomatic complexity = 230) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/DoubleColumnStatsData.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.DoubleColumnStatsData" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;DoubleColumnStatsData&lt;/code&gt; (cyclomatic complexity = 113) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/Role.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.Role" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Role&lt;/code&gt; (cyclomatic complexity = 96) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/StringColumnStatsData.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.StringColumnStatsData" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;StringColumnStatsData&lt;/code&gt; (cyclomatic complexity = 107) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/ColumnStatisticsObj.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.ColumnStatisticsObj" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ColumnStatisticsObj&lt;/code&gt; (cyclomatic complexity = 105) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/LockComponent.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.LockComponent" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;LockComponent&lt;/code&gt; (cyclomatic complexity = 157) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/BooleanColumnStatsData.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.BooleanColumnStatsData" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;BooleanColumnStatsData&lt;/code&gt; (cyclomatic complexity = 87) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/CompactionRequest.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.CompactionRequest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;CompactionRequest&lt;/code&gt; (cyclomatic complexity = 157) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/GrantRevokePrivilegeRequest.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.GrantRevokePrivilegeRequest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;GrantRevokePrivilegeRequest&lt;/code&gt; (cyclomatic complexity = 101) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/TableStatsRequest.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.TableStatsRequest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TableStatsRequest&lt;/code&gt; (cyclomatic complexity = 112) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/gen/thrift/gen-javabean/org/apache/hadoop/hive/metastore/api/OpenTxnRequest.java</file>
+    <line>34</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.api</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.api.OpenTxnRequest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;OpenTxnRequest&lt;/code&gt; (cyclomatic complexity = 99) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/MetaStoreDirectSql.java</file>
+    <line>83</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.MetaStoreDirectSql" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;MetaStoreDirectSql&lt;/code&gt; (cyclomatic complexity = 152) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/Warehouse.java</file>
+    <line>64</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.Warehouse" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Warehouse&lt;/code&gt; (cyclomatic complexity = 96) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/RawStore.java</file>
+    <line>62</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.RawStore" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;RawStore&lt;/code&gt; (cyclomatic complexity = 104) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/HiveMetaStoreClient.java</file>
+    <line>140</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.HiveMetaStoreClient" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveMetaStoreClient&lt;/code&gt; (cyclomatic complexity = 250) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/HiveAlterHandler.java</file>
+    <line>49</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.HiveAlterHandler" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HiveAlterHandler&lt;/code&gt; (cyclomatic complexity = 84) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/ObjectStore.java</file>
+    <line>150</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.ObjectStore" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ObjectStore&lt;/code&gt; (cyclomatic complexity = 934) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/StatObjectConverter.java</file>
+    <line>48</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.StatObjectConverter" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;StatObjectConverter&lt;/code&gt; (cyclomatic complexity = 155) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/IMetaStoreClient.java</file>
+    <line>78</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.IMetaStoreClient" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;IMetaStoreClient&lt;/code&gt; (cyclomatic complexity = 106) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/MetaStoreUtils.java</file>
+    <line>78</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.MetaStoreUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;MetaStoreUtils&lt;/code&gt; (cyclomatic complexity = 259) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java</file>
+    <line>243</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.HiveMetaStore.HMSHandler" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;HMSHandler&lt;/code&gt; (cyclomatic complexity = 844) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/txn/TxnHandler.java</file>
+    <line>48</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore.txn</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.txn.TxnHandler" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TxnHandler&lt;/code&gt; (cyclomatic complexity = 220) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/test/org/apache/hadoop/hive/metastore/DummyRawStoreForJdoConnection.java</file>
+    <line>72</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.DummyRawStoreForJdoConnection" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;DummyRawStoreForJdoConnection&lt;/code&gt; (cyclomatic complexity = 106) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/test/org/apache/hadoop/hive/metastore/DummyRawStoreControlledCommit.java</file>
+    <line>69</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="class" FQNAME="org.apache.hadoop.hive.metastore.DummyRawStoreControlledCommit" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;DummyRawStoreControlledCommit&lt;/code&gt; (cyclomatic complexity = 109) #loc</description>
+  </problem>
+</problems>
+

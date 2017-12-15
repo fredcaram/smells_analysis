@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/Driver.java</file>
+    <line>497</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.Driver void doAuthorization(org.apache.hadoop.hive.ql.parse.BaseSemanticAnalyzer sem, java.lang.String command)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;doAuthorization&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/io/sarg/SearchArgumentImpl.java</file>
+    <line>516</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.sarg</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.io.sarg.SearchArgumentImpl.ExpressionBuilder org.apache.hadoop.hive.ql.io.sarg.SearchArgumentImpl.ExpressionTree parse(org.apache.hadoop.hive.ql.plan.ExprNodeDesc expression, java.util.List&lt;PredicateLeaf&gt; leafCache)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;parse&lt;/code&gt; is overly coupled (# referenced classes = 17) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/io/parquet/serde/ParquetHiveSerDe.java</file>
+    <line>234</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.parquet.serde</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe Writable createPrimitive(java.lang.Object obj, org.apache.hadoop.hive.serde2.objectinspector.PrimitiveObjectInspector inspector)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;createPrimitive&lt;/code&gt; is overly coupled (# referenced classes = 19) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/ppd/ExprWalkerProcFactory.java</file>
+    <line>255</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.ppd</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.ppd.ExprWalkerProcFactory ExprWalkerInfo extractPushdownPreds(OpWalkerInfo opContext, org.apache.hadoop.hive.ql.exec.Operator&lt;? extends org.apache.hadoop.hive.ql.plan.OperatorDesc&gt; op, java.util.List&lt;org.apache.hadoop.hive.ql.plan.ExprNodeDesc&gt; preds)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;extractPushdownPreds&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/ppd/PredicateTransitivePropagate.java</file>
+    <line>67</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.ppd</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.ppd.PredicateTransitivePropagate org.apache.hadoop.hive.ql.parse.ParseContext transform(org.apache.hadoop.hive.ql.parse.ParseContext pctx)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;transform&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/Utilities.java</file>
+    <line>320</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.Utilities org.apache.hadoop.hive.ql.plan.BaseWork getBaseWork(Configuration conf, java.lang.String name)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;getBaseWork&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/DDLTask.java</file>
+    <line>3229</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.DDLTask int alterTable(org.apache.hadoop.hive.ql.metadata.Hive db, org.apache.hadoop.hive.ql.plan.AlterTableDesc alterTbl)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;alterTable&lt;/code&gt; is overly coupled (# referenced classes = 18) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/DDLTask.java</file>
+    <line>911</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.DDLTask int alterTableAlterPart(org.apache.hadoop.hive.ql.metadata.Hive db, org.apache.hadoop.hive.ql.plan.AlterTableAlterPartDesc alterPartitionDesc)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;alterTableAlterPart&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/DDLTask.java</file>
+    <line>2583</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.DDLTask int lockTable(org.apache.hadoop.hive.ql.plan.LockTableDesc lockTbl)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;lockTable&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/DDLTask.java</file>
+    <line>243</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.DDLTask int execute(org.apache.hadoop.hive.ql.DriverContext driverContext)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is overly coupled (# referenced classes = 47) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/ColumnStatsTask.java</file>
+    <line>189</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.ColumnStatsTask void unpackPrimitiveObject(org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector oi, java.lang.Object o, java.lang.String fieldName, org.apache.hadoop.hive.metastore.api.ColumnStatisticsObj statsObj)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;unpackPrimitiveObject&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/ColumnStatsUpdateTask.java</file>
+    <line>72</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.ColumnStatsUpdateTask org.apache.hadoop.hive.metastore.api.ColumnStatistics constructColumnStatsFromInput()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;constructColumnStatsFromInput&lt;/code&gt; is overly coupled (# referenced classes = 14) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/mr/ExecDriver.java</file>
+    <line>198</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.mr</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.mr.ExecDriver int execute(org.apache.hadoop.hive.ql.DriverContext driverContext)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/vector/VectorizationContext.java</file>
+    <line>526</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.vector.VectorizationContext GenericUDF getGenericUDFForCast(org.apache.hadoop.hive.serde2.typeinfo.TypeInfo castType)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;getGenericUDFForCast&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/exec/vector/expressions/VectorExpressionWriterFactory.java</file>
+    <line>370</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector.expressions</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.vector.expressions.VectorExpressionWriterFactory VectorExpressionWriter genVectorExpressionWritable(org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector fieldObjInspector)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;genVectorExpressionWritable&lt;/code&gt; is overly coupled (# referenced classes = 17) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/index/compact/CompactIndexHandler.java</file>
+    <line>158</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.index.compact</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.index.compact.CompactIndexHandler void generateIndexQuery(java.util.List&lt;org.apache.hadoop.hive.metastore.api.Index&gt; indexes, org.apache.hadoop.hive.ql.plan.ExprNodeDesc predicate, org.apache.hadoop.hive.ql.parse.ParseContext pctx, org.apache.hadoop.hive.ql.index.HiveIndexQueryContext queryContext)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;generateIndexQuery&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/TezCompiler.java</file>
+    <line>129</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.parse.TezCompiler void generateTaskTree(java.util.List&lt;org.apache.hadoop.hive.ql.exec.Task&lt;? extends java.io.Serializable&gt;&gt; rootTasks, ParseContext pCtx, java.util.List&lt;org.apache.hadoop.hive.ql.exec.Task&lt;org.apache.hadoop.hive.ql.plan.MoveWork&gt;&gt; mvTask, java.util.Set&lt;org.apache.hadoop.hive.ql.hooks.ReadEntity&gt; inputs, java.util.Set&lt;org.apache.hadoop.hive.ql.hooks.WriteEntity&gt; outputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;generateTaskTree&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/MapReduceCompiler.java</file>
+    <line>278</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.parse.MapReduceCompiler void generateTaskTree(java.util.List&lt;org.apache.hadoop.hive.ql.exec.Task&lt;? extends java.io.Serializable&gt;&gt; rootTasks, ParseContext pCtx, java.util.List&lt;org.apache.hadoop.hive.ql.exec.Task&lt;org.apache.hadoop.hive.ql.plan.MoveWork&gt;&gt; mvTask, java.util.Set&lt;org.apache.hadoop.hive.ql.hooks.ReadEntity&gt; inputs, java.util.Set&lt;org.apache.hadoop.hive.ql.hooks.WriteEntity&gt; outputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;generateTaskTree&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/TaskCompiler.java</file>
+    <line>80</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.parse.TaskCompiler void compile(ParseContext pCtx, java.util.List&lt;org.apache.hadoop.hive.ql.exec.Task&lt;? extends java.io.Serializable&gt;&gt; rootTasks, java.util.HashSet&lt;org.apache.hadoop.hive.ql.hooks.ReadEntity&gt; inputs, java.util.HashSet&lt;org.apache.hadoop.hive.ql.hooks.WriteEntity&gt; outputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;compile&lt;/code&gt; is overly coupled (# referenced classes = 14) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/DDLSemanticAnalyzer.java</file>
+    <line>855</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.parse.DDLSemanticAnalyzer void analyzeTruncateTable(ASTNode ast)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;analyzeTruncateTable&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/SemanticAnalyzer.java</file>
+    <line>3534</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.parse.SemanticAnalyzer org.apache.hadoop.hive.ql.exec.Operator genGroupByPlanGroupByOperator(QBParseInfo parseInfo, java.lang.String dest, org.apache.hadoop.hive.ql.exec.Operator input, org.apache.hadoop.hive.ql.exec.ReduceSinkOperator rs, org.apache.hadoop.hive.ql.plan.GroupByDesc.Mode mode, java.util.Map&lt;java.lang.String,org.apache.hadoop.hive.ql.udf.generic.GenericUDAFEvaluator&gt; genericUDAFEvaluators)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;genGroupByPlanGroupByOperator&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/SemanticAnalyzer.java</file>
+    <line>6042</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.parse.SemanticAnalyzer org.apache.hadoop.hive.ql.exec.Operator genConversionSelectOperator(java.lang.String dest, QB qb, org.apache.hadoop.hive.ql.exec.Operator input, org.apache.hadoop.hive.ql.plan.TableDesc table_desc, org.apache.hadoop.hive.ql.plan.DynamicPartitionCtx dpCtx)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;genConversionSelectOperator&lt;/code&gt; is overly coupled (# referenced classes = 15) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/SemanticAnalyzer.java</file>
+    <line>3741</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.parse.SemanticAnalyzer org.apache.hadoop.hive.ql.exec.Operator genGroupByPlanGroupByOperator1(QBParseInfo parseInfo, java.lang.String dest, org.apache.hadoop.hive.ql.exec.Operator reduceSinkOperatorInfo, org.apache.hadoop.hive.ql.plan.GroupByDesc.Mode mode, java.util.Map&lt;java.lang.String,org.apache.hadoop.hive.ql.udf.generic.GenericUDAFEvaluator&gt; genericUDAFEvaluators, boolean distPartAgg, java.util.List&lt;java.lang.Integer&gt; groupingSets, boolean groupingSetsPresent, boolean groupingSetsNeedAdditionalMRJob)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;genGroupByPlanGroupByOperator1&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/SemanticAnalyzer.java</file>
+    <line>5578</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.parse.SemanticAnalyzer org.apache.hadoop.hive.ql.exec.Operator genFileSinkPlan(java.lang.String dest, QB qb, org.apache.hadoop.hive.ql.exec.Operator input)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;genFileSinkPlan&lt;/code&gt; is overly coupled (# referenced classes = 19) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/SemanticAnalyzer.java</file>
+    <line>8778</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.parse.SemanticAnalyzer org.apache.hadoop.hive.ql.exec.Operator genTablePlan(java.lang.String alias, QB qb)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;genTablePlan&lt;/code&gt; is overly coupled (# referenced classes = 14) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/GenTezWork.java</file>
+    <line>69</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.parse.GenTezWork java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx procContext, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/PTFTranslator.java</file>
+    <line>144</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.parse.PTFTranslator org.apache.hadoop.hive.ql.plan.PTFDesc translate(WindowingSpec wdwSpec, SemanticAnalyzer semAly, org.apache.hadoop.hive.conf.HiveConf hCfg, RowResolver inputRR, UnparseTranslator unparseT)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;translate&lt;/code&gt; is overly coupled (# referenced classes = 15) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/PTFTranslator.java</file>
+    <line>546</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.parse.PTFTranslator org.apache.hadoop.hive.ql.plan.ptf.BoundaryDef translate(org.apache.hadoop.hive.ql.plan.ptf.ShapeDetails inpShape, org.apache.hadoop.hive.ql.parse.WindowingSpec.BoundarySpec bndSpec)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;translate&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/parse/TypeCheckProcFactory.java</file>
+    <line>703</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.parse</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.parse.TypeCheckProcFactory.DefaultExprProcessor org.apache.hadoop.hive.ql.plan.ExprNodeDesc getXpathOrFuncExprNodeDesc(ASTNode expr, boolean isFunction, java.util.ArrayList&lt;org.apache.hadoop.hive.ql.plan.ExprNodeDesc&gt; children, TypeCheckCtx ctx)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;getXpathOrFuncExprNodeDesc&lt;/code&gt; is overly coupled (# referenced classes = 18) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/stats/StatsUtils.java</file>
+    <line>812</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.stats</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.stats.StatsUtils long getWritableSize(org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector oi, java.lang.Object value)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;getWritableSize&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/stats/StatsUtils.java</file>
+    <line>522</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.stats</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.stats.StatsUtils long getAvgColLenOfVariableLengthTypes(org.apache.hadoop.hive.conf.HiveConf conf, org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector oi, java.lang.String colType)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;getAvgColLenOfVariableLengthTypes&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/metadata/Hive.java</file>
+    <line>667</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.metadata</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.metadata.Hive void createIndex(java.lang.String tableName, java.lang.String indexName, java.lang.String indexHandlerClass, java.util.List&lt;java.lang.String&gt; indexedCols, java.lang.String indexTblName, boolean deferredRebuild, java.lang.String inputFormat, java.lang.String outputFormat, java.lang.String serde, java.lang.String storageHandler, java.lang.String location, java.util.Map&lt;java.lang.String,java.lang.String&gt; idxProps, java.util.Map&lt;java.lang.String,java.lang.String&gt; tblProps, java.util.Map&lt;java.lang.String,java.lang.String&gt; serdeProps, java.lang.String collItemDelim, java.lang.String fieldDelim, java.lang.String fieldEscape, java.lang.String lineDelim, java.lang.String mapKeyDelim, java.lang.String indexComment)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;createIndex&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/security/authorization/AuthorizationPreEventListener.java</file>
+    <line>107</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.security.authorization</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.security.authorization.AuthorizationPreEventListener void onEvent(org.apache.hadoop.hive.metastore.events.PreEventContext context)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;onEvent&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/security/authorization/plugin/sqlstd/SQLStdHiveAccessController.java</file>
+    <line>410</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.security.authorization.plugin.sqlstd</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.security.authorization.plugin.sqlstd.SQLStdHiveAccessController java.util.List&lt;org.apache.hadoop.hive.ql.security.authorization.plugin.HivePrivilegeInfo&gt; showPrivileges(org.apache.hadoop.hive.ql.security.authorization.plugin.HivePrincipal principal, org.apache.hadoop.hive.ql.security.authorization.plugin.HivePrivilegeObject privObj)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;showPrivileges&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/GenMRTableScan1.java</file>
+    <line>68</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.GenMRTableScan1 java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx opProcCtx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 14) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/GroupByOptimizer.java</file>
+    <line>272</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.GroupByOptimizer.SortGroupByProcessor org.apache.hadoop.hive.ql.optimizer.GroupByOptimizer.GroupByOptimizerSortMatch checkSortGroupBy(java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.exec.GroupByOperator groupByOp)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;checkSortGroupBy&lt;/code&gt; is overly coupled (# referenced classes = 14) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/GenMapRedUtils.java</file>
+    <line>1182</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.GenMapRedUtils void createMRWorkForMergingFiles(org.apache.hadoop.hive.ql.exec.FileSinkOperator fsInput, Path finalName, org.apache.hadoop.hive.ql.exec.DependencyCollectionTask dependencyTask, java.util.List&lt;org.apache.hadoop.hive.ql.exec.Task&lt;org.apache.hadoop.hive.ql.plan.MoveWork&gt;&gt; mvTasks, org.apache.hadoop.hive.conf.HiveConf conf, org.apache.hadoop.hive.ql.exec.Task&lt;? extends java.io.Serializable&gt; currTask)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;createMRWorkForMergingFiles&lt;/code&gt; is overly coupled (# referenced classes = 18) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/GenMapRedUtils.java</file>
+    <line>992</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.GenMapRedUtils void splitTasks(org.apache.hadoop.hive.ql.exec.ReduceSinkOperator op, org.apache.hadoop.hive.ql.exec.Task&lt;? extends java.io.Serializable&gt; parentTask, org.apache.hadoop.hive.ql.exec.Task&lt;? extends java.io.Serializable&gt; childTask, GenMRProcContext opProcCtx)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;splitTasks&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/GenMapRedUtils.java</file>
+    <line>476</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.GenMapRedUtils void setMapWork(org.apache.hadoop.hive.ql.plan.MapWork plan, org.apache.hadoop.hive.ql.parse.ParseContext parseCtx, java.util.Set&lt;org.apache.hadoop.hive.ql.hooks.ReadEntity&gt; inputs, org.apache.hadoop.hive.ql.parse.PrunedPartitionList partsList, org.apache.hadoop.hive.ql.exec.Operator&lt;? extends org.apache.hadoop.hive.ql.plan.OperatorDesc&gt; topOp, java.lang.String alias_id, org.apache.hadoop.hive.conf.HiveConf conf, boolean local)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;setMapWork&lt;/code&gt; is overly coupled (# referenced classes = 15) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/Optimizer.java</file>
+    <line>52</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.Optimizer void initialize(org.apache.hadoop.hive.conf.HiveConf hiveConf)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;initialize&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/StatsOptimizer.java</file>
+    <line>176</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.StatsOptimizer.MetaDataProcessor java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx procCtx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 27) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/ColumnPrunerProcFactory.java</file>
+    <line>162</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.ColumnPrunerProcFactory.ColumnPrunerScriptProc java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx ctx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/PrunerUtils.java</file>
+    <line>106</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.PrunerUtils java.util.Map&lt;org.apache.hadoop.hive.ql.lib.Node,java.lang.Object&gt; walkExprTree(org.apache.hadoop.hive.ql.plan.ExprNodeDesc pred, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx ctx, org.apache.hadoop.hive.ql.lib.NodeProcessor colProc, org.apache.hadoop.hive.ql.lib.NodeProcessor fieldProc, org.apache.hadoop.hive.ql.lib.NodeProcessor genFuncProc, org.apache.hadoop.hive.ql.lib.NodeProcessor defProc)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;walkExprTree&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/MapJoinProcessor.java</file>
+    <line>387</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.MapJoinProcessor org.apache.hadoop.hive.ql.exec.MapJoinOperator convertJoinOpMapJoinOp(org.apache.hadoop.hive.conf.HiveConf hconf, java.util.LinkedHashMap&lt;org.apache.hadoop.hive.ql.exec.Operator&lt;? extends org.apache.hadoop.hive.ql.plan.OperatorDesc&gt;,org.apache.hadoop.hive.ql.parse.OpParseContext&gt; opParseCtxMap, org.apache.hadoop.hive.ql.exec.JoinOperator op, org.apache.hadoop.hive.ql.parse.QBJoinTree joinTree, int mapJoinPos, boolean noCheckOuterJoin)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;convertJoinOpMapJoinOp&lt;/code&gt; is overly coupled (# referenced classes = 16) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/BucketingSortingReduceSinkOptimizer.java</file>
+    <line>359</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.BucketingSortingReduceSinkOptimizer.BucketSortReduceSinkProcessor java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx procCtx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 17) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/GlobalLimitOptimizer.java</file>
+    <line>59</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.GlobalLimitOptimizer org.apache.hadoop.hive.ql.parse.ParseContext transform(org.apache.hadoop.hive.ql.parse.ParseContext pctx)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;transform&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/SkewJoinOptimizer.java</file>
+    <line>89</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.SkewJoinOptimizer.SkewJoinProc java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx procCtx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/SortedDynPartitionOptimizer.java</file>
+    <line>121</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.SortedDynPartitionOptimizer.SortedDynamicPartitionProc java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx procCtx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 15) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/ReduceSinkMapJoinProc.java</file>
+    <line>74</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.ReduceSinkMapJoinProc java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx procContext, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 20) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/index/RewriteQueryUsingAggregateIndex.java</file>
+    <line>225</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.index</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.index.RewriteQueryUsingAggregateIndex.NewQueryGroupbySchemaProc java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx ctx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/index/RewriteQueryUsingAggregateIndex.java</file>
+    <line>124</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.index</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.index.RewriteQueryUsingAggregateIndex.ReplaceTableScanOpProc java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx ctx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/stats/annotation/StatsRulesProcFactory.java</file>
+    <line>427</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.stats.annotation</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.stats.annotation.StatsRulesProcFactory.FilterStatsRule long evaluateChildExpr(org.apache.hadoop.hive.ql.plan.Statistics stats, org.apache.hadoop.hive.ql.plan.ExprNodeDesc child, AnnotateStatsProcCtx aspCtx, java.util.List&lt;java.lang.String&gt; neededCols)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;evaluateChildExpr&lt;/code&gt; is overly coupled (# referenced classes = 19) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/stats/annotation/StatsRulesProcFactory.java</file>
+    <line>782</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.stats.annotation</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.stats.annotation.StatsRulesProcFactory.JoinStatsRule java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx procCtx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/lineage/ExprProcFactory.java</file>
+    <line>177</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.lineage</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.lineage.ExprProcFactory org.apache.hadoop.hive.ql.hooks.LineageInfo.Dependency getExprDependency(LineageCtx lctx, org.apache.hadoop.hive.ql.exec.Operator&lt;? extends org.apache.hadoop.hive.ql.plan.OperatorDesc&gt; inpOp, org.apache.hadoop.hive.ql.plan.ExprNodeDesc expr)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;getExprDependency&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/lineage/OpProcFactory.java</file>
+    <line>133</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.lineage</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.lineage.OpProcFactory.TableScanLineage java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx procCtx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 14) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/lineage/OpProcFactory.java</file>
+    <line>434</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.lineage</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.lineage.OpProcFactory.ReduceSinkLineage java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx procCtx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/lineage/OpProcFactory.java</file>
+    <line>317</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.lineage</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.lineage.OpProcFactory.GroupByLineage java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx procCtx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/physical/GenMRSkewJoinProcessor.java</file>
+    <line>108</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.physical</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.physical.GenMRSkewJoinProcessor void processSkewJoin(org.apache.hadoop.hive.ql.exec.JoinOperator joinOp, org.apache.hadoop.hive.ql.exec.Task&lt;? extends java.io.Serializable&gt; currTask, org.apache.hadoop.hive.ql.parse.ParseContext parseCtx)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;processSkewJoin&lt;/code&gt; is overly coupled (# referenced classes = 23) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/physical/Vectorizer.java</file>
+    <line>134</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.physical</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.physical.Vectorizer Vectorizer()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;Vectorizer&lt;/code&gt; is overly coupled (# referenced classes = 38) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/physical/CommonJoinTaskDispatcher.java</file>
+    <line>376</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.physical</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.physical.CommonJoinTaskDispatcher org.apache.hadoop.hive.ql.exec.Task&lt;? extends java.io.Serializable&gt; processCurrentTask(org.apache.hadoop.hive.ql.exec.mr.MapRedTask currTask, org.apache.hadoop.hive.ql.exec.ConditionalTask conditionalTask, org.apache.hadoop.hive.ql.Context context)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;processCurrentTask&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/physical/LocalMapJoinProcFactory.java</file>
+    <line>110</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.physical</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.physical.LocalMapJoinProcFactory.LocalMapJoinProcessor java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx ctx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 14) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/physical/MapJoinResolver.java</file>
+    <line>99</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.physical</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.physical.MapJoinResolver.LocalMapJoinTaskDispatcher void processCurrentTask(org.apache.hadoop.hive.ql.exec.Task&lt;? extends java.io.Serializable&gt; currTask, org.apache.hadoop.hive.ql.exec.ConditionalTask conditionalTask)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;processCurrentTask&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/physical/SortMergeJoinTaskDispatcher.java</file>
+    <line>234</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.physical</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.physical.SortMergeJoinTaskDispatcher org.apache.hadoop.hive.ql.exec.Task&lt;? extends java.io.Serializable&gt; processCurrentTask(org.apache.hadoop.hive.ql.exec.mr.MapRedTask currTask, org.apache.hadoop.hive.ql.exec.ConditionalTask conditionalTask, org.apache.hadoop.hive.ql.Context context)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;processCurrentTask&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/physical/index/IndexWhereProcessor.java</file>
+    <line>77</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.physical.index</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.physical.index.IndexWhereProcessor java.lang.Object process(org.apache.hadoop.hive.ql.lib.Node nd, java.util.Stack&lt;org.apache.hadoop.hive.ql.lib.Node&gt; stack, org.apache.hadoop.hive.ql.lib.NodeProcessorCtx procCtx, java.lang.Object... nodeOutputs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;process&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/java/org/apache/hadoop/hive/ql/optimizer/correlation/CorrelationOptimizer.java</file>
+    <line>336</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.optimizer.correlation</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.optimizer.correlation.CorrelationOptimizer.CorrelationNodeProc java.util.LinkedHashSet&lt;org.apache.hadoop.hive.ql.exec.ReduceSinkOperator&gt; findCorrelatedReduceSinkOperators(org.apache.hadoop.hive.ql.exec.Operator&lt;? extends org.apache.hadoop.hive.ql.plan.OperatorDesc&gt; child, java.util.List&lt;org.apache.hadoop.hive.ql.plan.ExprNodeDesc&gt; childKeyCols, java.util.List&lt;org.apache.hadoop.hive.ql.plan.ExprNodeDesc&gt; childPartitionCols, java.lang.String childRSOrder, org.apache.hadoop.hive.ql.exec.Operator&lt;? extends org.apache.hadoop.hive.ql.plan.OperatorDesc&gt; current, IntraQueryCorrelation correlation)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;findCorrelatedReduceSinkOperators&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/io/orc/TestOrcFile.java</file>
+    <line>228</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.io.orc.TestOrcFile void testReadFormat_0_11()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testReadFormat_0_11&lt;/code&gt; is overly coupled (# referenced classes = 14) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/io/orc/TestOrcFile.java</file>
+    <line>691</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.io.orc</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.io.orc.TestOrcFile void test1()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;test1&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/exec/TestOperators.java</file>
+    <line>236</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.TestOperators void testScriptOperator()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testScriptOperator&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/TestVectorGroupByOperator.java</file>
+    <line>1791</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.vector.TestVectorGroupByOperator void testKeyTypeAggregate(java.lang.String aggregateName, org.apache.hadoop.hive.ql.exec.vector.util.FakeVectorRowBatchFromObjectIterables data, java.util.Map&lt;java.lang.Object,java.lang.Object&gt; expected)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testKeyTypeAggregate&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/TestVectorizationContext.java</file>
+    <line>788</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.vector.TestVectorizationContext void testMathFunctions()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testMathFunctions&lt;/code&gt; is overly coupled (# referenced classes = 14) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/TestVectorizationContext.java</file>
+    <line>343</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.vector.TestVectorizationContext void testVectorizeFilterAndOrExpression()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testVectorizeFilterAndOrExpression&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/TestVectorizationContext.java</file>
+    <line>1029</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.vector.TestVectorizationContext void testIfConditionalExprs()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testIfConditionalExprs&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/TestVectorizationContext.java</file>
+    <line>979</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.vector.TestVectorizationContext void testInFiltersAndExprs()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testInFiltersAndExprs&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/TestVectorizationContext.java</file>
+    <line>404</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.vector.TestVectorizationContext void testVectorizeAndOrProjectionExpression()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testVectorizeAndOrProjectionExpression&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/ql/src/test/org/apache/hadoop/hive/ql/exec/vector/udf/TestVectorUDFAdaptor.java</file>
+    <line>251</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.exec.vector.udf</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.exec.vector.udf.TestVectorUDFAdaptor void testGenericUDF()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testGenericUDF&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/SerDeUtils.java</file>
+    <line>202</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.SerDeUtils void buildJSONString(java.lang.StringBuilder sb, java.lang.Object o, org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector oi, java.lang.String nullStr)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;buildJSONString&lt;/code&gt; is overly coupled (# referenced classes = 20) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/avro/AvroSerializer.java</file>
+    <line>101</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.avro</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.avro.AvroSerializer java.lang.Object serialize(org.apache.hadoop.hive.serde2.typeinfo.TypeInfo typeInfo, org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector fieldOI, java.lang.Object structFieldData, Schema schema)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;serialize&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/lazy/LazyUtils.java</file>
+    <line>182</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.lazy</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.lazy.LazyUtils void writePrimitiveUTF8(java.io.OutputStream out, java.lang.Object o, org.apache.hadoop.hive.serde2.objectinspector.PrimitiveObjectInspector oi, boolean escaped, byte escapeChar, boolean[] needsEscape)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;writePrimitiveUTF8&lt;/code&gt; is overly coupled (# referenced classes = 17) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/lazy/LazyFactory.java</file>
+    <line>96</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.lazy</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.lazy.LazyFactory LazyPrimitive&lt;? extends ObjectInspector,? extends Writable&gt; createLazyPrimitiveClass(org.apache.hadoop.hive.serde2.objectinspector.PrimitiveObjectInspector oi)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;createLazyPrimitiveClass&lt;/code&gt; is overly coupled (# referenced classes = 17) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/lazy/LazyFactory.java</file>
+    <line>137</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.lazy</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.lazy.LazyFactory LazyPrimitive&lt;? extends ObjectInspector,? extends Writable&gt; createLazyPrimitiveBinaryClass(org.apache.hadoop.hive.serde2.objectinspector.PrimitiveObjectInspector poi)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;createLazyPrimitiveBinaryClass&lt;/code&gt; is overly coupled (# referenced classes = 16) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/lazybinary/LazyBinaryFactory.java</file>
+    <line>56</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.lazybinary</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.lazybinary.LazyBinaryFactory LazyBinaryPrimitive&lt;?,?&gt; createLazyBinaryPrimitiveClass(org.apache.hadoop.hive.serde2.objectinspector.PrimitiveObjectInspector oi)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;createLazyBinaryPrimitiveClass&lt;/code&gt; is overly coupled (# referenced classes = 17) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/lazybinary/LazyBinarySerDe.java</file>
+    <line>319</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.lazybinary</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.lazybinary.LazyBinarySerDe void serialize(org.apache.hadoop.hive.serde2.ByteStream.RandomAccessOutput byteStream, java.lang.Object obj, org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector objInspector, boolean skipLengthPrefix, org.apache.hadoop.hive.serde2.lazybinary.LazyBinarySerDe.BooleanRef warnedOnceNullMapKey)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;serialize&lt;/code&gt; is overly coupled (# referenced classes = 24) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/binarysortable/BinarySortableSerDe.java</file>
+    <line>617</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.binarysortable</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.binarysortable.BinarySortableSerDe void serialize(org.apache.hadoop.hive.serde2.ByteStream.Output buffer, java.lang.Object o, org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector oi, boolean invert)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;serialize&lt;/code&gt; is overly coupled (# referenced classes = 26) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/binarysortable/BinarySortableSerDe.java</file>
+    <line>197</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.binarysortable</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.binarysortable.BinarySortableSerDe java.lang.Object deserialize(InputByteBuffer buffer, org.apache.hadoop.hive.serde2.typeinfo.TypeInfo type, boolean invert, java.lang.Object reuse)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;deserialize&lt;/code&gt; is overly coupled (# referenced classes = 16) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/objectinspector/ObjectInspectorUtils.java</file>
+    <line>1070</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.objectinspector</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils boolean isInstanceOfSettablePrimitiveOI(PrimitiveObjectInspector oi)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;isInstanceOfSettablePrimitiveOI&lt;/code&gt; is overly coupled (# referenced classes = 15) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/objectinspector/ObjectInspectorUtils.java</file>
+    <line>665</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.objectinspector</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils int compare(java.lang.Object o1, ObjectInspector oi1, java.lang.Object o2, ObjectInspector oi2, MapEqualComparer mapEqualComparer)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;compare&lt;/code&gt; is overly coupled (# referenced classes = 18) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/objectinspector/ObjectInspectorUtils.java</file>
+    <line>496</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.objectinspector</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils int hashCode(java.lang.Object o, ObjectInspector objIns)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;hashCode&lt;/code&gt; is overly coupled (# referenced classes = 15) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/objectinspector/ObjectInspectorConverters.java</file>
+    <line>68</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.objectinspector</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorConverters org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorConverters.Converter getConverter(PrimitiveObjectInspector inputOI, PrimitiveObjectInspector outputOI)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;getConverter&lt;/code&gt; is overly coupled (# referenced classes = 30) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/serde/src/java/org/apache/hadoop/hive/serde2/objectinspector/primitive/PrimitiveObjectInspectorFactory.java</file>
+    <line>284</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.serde2.objectinspector.primitive</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectInspectorFactory org.apache.hadoop.hive.serde2.objectinspector.ConstantObjectInspector getPrimitiveWritableConstantObjectInspector(org.apache.hadoop.hive.serde2.typeinfo.PrimitiveTypeInfo typeInfo, java.lang.Object value)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;getPrimitiveWritableConstantObjectInspector&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/itests/hive-unit/src/test/java/org/apache/hadoop/hive/ql/security/TestMetastoreAuthorizationProvider.java</file>
+    <line>149</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.ql.security</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.ql.security.TestMetastoreAuthorizationProvider void testSimplePrivileges()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testSimplePrivileges&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/itests/hive-unit/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetaTool.java</file>
+    <line>70</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.metastore.TestHiveMetaTool void setUp()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;setUp&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/itests/hive-unit/src/test/java/org/apache/hadoop/hive/metastore/TestMetaStoreEventListener.java</file>
+    <line>186</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.metastore.TestMetaStoreEventListener void testListener()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testListener&lt;/code&gt; is overly coupled (# referenced classes = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/itests/hive-unit/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetaStore.java</file>
+    <line>1192</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.metastore.TestHiveMetaStore void testSimpleTable()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testSimpleTable&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/itests/hive-unit/src/test/java/org/apache/hadoop/hive/metastore/TestHiveMetaStore.java</file>
+    <line>141</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.metastore.TestHiveMetaStore void partitionTester(HiveMetaStoreClient client, org.apache.hadoop.hive.conf.HiveConf hiveConf)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;partitionTester&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/contrib/src/java/org/apache/hadoop/hive/contrib/serde2/TypedBytesSerDe.java</file>
+    <line>292</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.contrib.serde2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.contrib.serde2.TypedBytesSerDe void serializeField(java.lang.Object o, org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector oi, java.lang.Object reuse)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;serializeField&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/hcatalog/core/src/main/java/org/apache/hive/hcatalog/cli/SemanticAnalysis/HCatSemanticAnalyzer.java</file>
+    <line>286</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.hcatalog.cli.SemanticAnalysis</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hive.hcatalog.cli.SemanticAnalysis.HCatSemanticAnalyzer void authorizeDDLWork(org.apache.hadoop.hive.ql.parse.HiveSemanticAnalyzerHookContext cntxt, org.apache.hadoop.hive.ql.metadata.Hive hive, org.apache.hadoop.hive.ql.plan.DDLWork work)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;authorizeDDLWork&lt;/code&gt; is overly coupled (# referenced classes = 18) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/hcatalog/core/src/main/java/org/apache/hive/hcatalog/data/JsonSerDe.java</file>
+    <line>456</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.hcatalog.data</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hive.hcatalog.data.JsonSerDe void buildJSONString(java.lang.StringBuilder sb, java.lang.Object o, org.apache.hadoop.hive.serde2.objectinspector.ObjectInspector oi)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;buildJSONString&lt;/code&gt; is overly coupled (# referenced classes = 19) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/hcatalog/core/src/test/java/org/apache/hive/hcatalog/cli/TestPermsGrp.java</file>
+    <line>219</line>
+    <module>apache_hive</module>
+    <package>org.apache.hive.hcatalog.cli</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hive.hcatalog.cli.TestPermsGrp org.apache.hadoop.hive.metastore.api.Table getTable(java.lang.String dbName, java.lang.String tblName, java.lang.String typeName)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;getTable&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/ObjectStore.java</file>
+    <line>3723</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.metastore.ObjectStore boolean grantPrivileges(org.apache.hadoop.hive.metastore.api.PrivilegeBag privileges)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;grantPrivileges&lt;/code&gt; is overly coupled (# referenced classes = 16) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/ObjectStore.java</file>
+    <line>3938</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.metastore.ObjectStore boolean revokePrivileges(org.apache.hadoop.hive.metastore.api.PrivilegeBag privileges, boolean grantOption)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;revokePrivileges&lt;/code&gt; is overly coupled (# referenced classes = 15) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/ObjectStore.java</file>
+    <line>5750</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.metastore.ObjectStore boolean updatePartitionColumnStatistics(org.apache.hadoop.hive.metastore.api.ColumnStatistics colStats, java.util.List&lt;java.lang.String&gt; partVals)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;updatePartitionColumnStatistics&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/StatObjectConverter.java</file>
+    <line>50</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.metastore.StatObjectConverter org.apache.hadoop.hive.metastore.model.MTableColumnStatistics convertToMTableColumnStatistics(org.apache.hadoop.hive.metastore.model.MTable table, org.apache.hadoop.hive.metastore.api.ColumnStatisticsDesc statsDesc, org.apache.hadoop.hive.metastore.api.ColumnStatisticsObj statsObj)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;convertToMTableColumnStatistics&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/StatObjectConverter.java</file>
+    <line>276</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.metastore.StatObjectConverter org.apache.hadoop.hive.metastore.model.MPartitionColumnStatistics convertToMPartitionColumnStatistics(org.apache.hadoop.hive.metastore.model.MPartition partition, org.apache.hadoop.hive.metastore.api.ColumnStatisticsDesc statsDesc, org.apache.hadoop.hive.metastore.api.ColumnStatisticsObj statsObj)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;convertToMPartitionColumnStatistics&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/metastore/src/java/org/apache/hadoop/hive/metastore/HiveMetaStore.java</file>
+    <line>2313</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.metastore</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.metastore.HiveMetaStore.HMSHandler org.apache.hadoop.hive.metastore.api.DropPartitionsResult drop_partitions_req(org.apache.hadoop.hive.metastore.api.DropPartitionsRequest request)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;drop_partitions_req&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/mr/TestHiveAccumuloTypes.java</file>
+    <line>117</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.accumulo.mr</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.accumulo.mr.TestHiveAccumuloTypes void testBinaryTypes()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testBinaryTypes&lt;/code&gt; is overly coupled (# referenced classes = 41) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/mr/TestHiveAccumuloTypes.java</file>
+    <line>468</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.accumulo.mr</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.accumulo.mr.TestHiveAccumuloTypes void testUtf8Types()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testUtf8Types&lt;/code&gt; is overly coupled (# referenced classes = 48) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/serde/TestAccumuloSerDe.java</file>
+    <line>357</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.accumulo.serde</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.accumulo.serde.TestAccumuloSerDe void testStructOfMapSerialization()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testStructOfMapSerialization&lt;/code&gt; is overly coupled (# referenced classes = 11) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/predicate/TestAccumuloPredicateHandler.java</file>
+    <line>469</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.accumulo.predicate</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.accumulo.predicate.TestAccumuloPredicateHandler void testCreateIteratorSettings()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testCreateIteratorSettings&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/predicate/TestAccumuloRangeGenerator.java</file>
+    <line>420</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.accumulo.predicate</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.accumulo.predicate.TestAccumuloRangeGenerator void testRangeOverNonRowIdField()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testRangeOverNonRowIdField&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/predicate/TestAccumuloRangeGenerator.java</file>
+    <line>189</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.accumulo.predicate</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.accumulo.predicate.TestAccumuloRangeGenerator void testRangeConjunctionWithDisjunction()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testRangeConjunctionWithDisjunction&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/predicate/TestAccumuloRangeGenerator.java</file>
+    <line>134</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.accumulo.predicate</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.accumulo.predicate.TestAccumuloRangeGenerator void testRangeDisjunction()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testRangeDisjunction&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/predicate/TestAccumuloRangeGenerator.java</file>
+    <line>375</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.accumulo.predicate</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.accumulo.predicate.TestAccumuloRangeGenerator void testCastExpression()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testCastExpression&lt;/code&gt; is overly coupled (# referenced classes = 13) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/predicate/TestAccumuloRangeGenerator.java</file>
+    <line>317</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.accumulo.predicate</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.accumulo.predicate.TestAccumuloRangeGenerator void testDateRangeConjunction()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testDateRangeConjunction&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/predicate/TestAccumuloRangeGenerator.java</file>
+    <line>78</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.accumulo.predicate</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.accumulo.predicate.TestAccumuloRangeGenerator void testRangeConjunction()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testRangeConjunction&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/accumulo-handler/src/test/org/apache/hadoop/hive/accumulo/predicate/TestAccumuloRangeGenerator.java</file>
+    <line>262</line>
+    <module>apache_hive</module>
+    <package>org.apache.hadoop.hive.accumulo.predicate</package>
+    <entry_point TYPE="method" FQNAME="org.apache.hadoop.hive.accumulo.predicate.TestAccumuloRangeGenerator void testPartialRangeConjunction()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled method</problem_class>
+    <description>&lt;code&gt;testPartialRangeConjunction&lt;/code&gt; is overly coupled (# referenced classes = 12) #loc</description>
+  </problem>
+</problems>
+

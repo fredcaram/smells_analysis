@@ -22,12 +22,16 @@ class method_smells_repository(base_smells_repository):
 
     def get_metrics_dataframe(self, prefix, dataset_id):
         method_metrics_df = self.metrics_repository.get_metrics_dataframe(prefix, dataset_id)
-        method_metrics_df.loc[:, "instance"] = method_metrics_df["instance"].apply(lambda m: self.get_method_part(m))
-
         if len(method_metrics_df) == 0:
             return method_metrics_df
 
+        method_metrics_df.loc[:, "instance"] = method_metrics_df["instance"].apply(lambda m: self.get_method_part(m))
         method_metrics_df["class_instance"] = method_metrics_df.loc[:, "instance"].apply(lambda m: extract_class_from_method(m))
+
+        #Long method has class instead of method
+        if dataset_id == 2:
+            method_metrics_df["instance"] = method_metrics_df["class_instance"]
+
         ckmetrics_df = self.ck_metrics_repository.get_metrics_dataframe(prefix, dataset_id)
         combined_df = method_metrics_df.merge(ckmetrics_df, how="left", left_on="class_instance", right_on="instance", suffixes=("", "_y"))
         combined_df = combined_df.drop(["class_instance", "instance_y"], axis=1)
@@ -41,7 +45,7 @@ class method_smells_repository(base_smells_repository):
         else:
             method = regex_match.group(1)
 
-        return method.replace(";", "")
+        return method.replace(";", "").replace('.java', '')
 
 
     def convert_smells_list_to_df(self, smells):

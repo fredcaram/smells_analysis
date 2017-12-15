@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/ExecTask.java</file>
+    <line>43</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.ExecTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ExecTask&lt;/code&gt; (cyclomatic complexity = 90) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Javadoc.java</file>
+    <line>86</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Javadoc" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Javadoc&lt;/code&gt; (cyclomatic complexity = 271) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Property.java</file>
+    <line>77</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Property" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Property&lt;/code&gt; (cyclomatic complexity = 99) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Rmic.java</file>
+    <line>88</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Rmic" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Rmic&lt;/code&gt; (cyclomatic complexity = 101) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Javac.java</file>
+    <line>78</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Javac" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Javac&lt;/code&gt; (cyclomatic complexity = 183) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Java.java</file>
+    <line>53</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Java&lt;/code&gt; (cyclomatic complexity = 124) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Ant.java</file>
+    <line>68</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Ant" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Ant&lt;/code&gt; (cyclomatic complexity = 102) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/ExecuteOn.java</file>
+    <line>52</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.ExecuteOn" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ExecuteOn&lt;/code&gt; (cyclomatic complexity = 120) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/SQLExec.java</file>
+    <line>84</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.SQLExec" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SQLExec&lt;/code&gt; (cyclomatic complexity = 145) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Checksum.java</file>
+    <line>59</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Checksum" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Checksum&lt;/code&gt; (cyclomatic complexity = 96) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/selectors/modifiedselector/ModifiedSelector.java</file>
+    <line>145</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.selectors.modifiedselector</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ModifiedSelector&lt;/code&gt; (cyclomatic complexity = 96) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java</file>
+    <line>38</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.selectors</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.selectors.SelectorUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SelectorUtils&lt;/code&gt; (cyclomatic complexity = 109) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/RedirectorElement.java</file>
+    <line>35</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.RedirectorElement" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;RedirectorElement&lt;/code&gt; (cyclomatic complexity = 116) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/AbstractFileSet.java</file>
+    <line>62</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.AbstractFileSet" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;AbstractFileSet&lt;/code&gt; (cyclomatic complexity = 130) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/Path.java</file>
+    <line>66</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.Path" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Path&lt;/code&gt; (cyclomatic complexity = 105) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/ResourceUtils.java</file>
+    <line>63</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.util.ResourceUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ResourceUtils&lt;/code&gt; (cyclomatic complexity = 110) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/DOMElementWriter.java</file>
+    <line>46</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.util.DOMElementWriter" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;DOMElementWriter&lt;/code&gt; (cyclomatic complexity = 88) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/LayoutPreservingProperties.java</file>
+    <line>80</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.util.LayoutPreservingProperties" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;LayoutPreservingProperties&lt;/code&gt; (cyclomatic complexity = 83) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/FileUtils.java</file>
+    <line>60</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.util.FileUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;FileUtils&lt;/code&gt; (cyclomatic complexity = 201) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/AntClassLoader.java</file>
+    <line>72</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.AntClassLoader" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;AntClassLoader&lt;/code&gt; (cyclomatic complexity = 200) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/UnknownElement.java</file>
+    <line>36</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.UnknownElement" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;UnknownElement&lt;/code&gt; (cyclomatic complexity = 94) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/IntrospectionHelper.java</file>
+    <line>61</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.IntrospectionHelper" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;IntrospectionHelper&lt;/code&gt; (cyclomatic complexity = 198) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Project.java</file>
+    <line>65</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.Project" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Project&lt;/code&gt; (cyclomatic complexity = 233) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Main.java</file>
+    <line>63</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.Main" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Main&lt;/code&gt; (cyclomatic complexity = 193) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/RuntimeConfigurable.java</file>
+    <line>42</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.RuntimeConfigurable" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;RuntimeConfigurable&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/DirectoryScanner.java</file>
+    <line>130</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.DirectoryScanner" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;DirectoryScanner&lt;/code&gt; (cyclomatic complexity = 241) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/PropertyHelper.java</file>
+    <line>90</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.PropertyHelper" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;PropertyHelper&lt;/code&gt; (cyclomatic complexity = 109) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Diagnostics.java</file>
+    <line>54</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.Diagnostics" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Diagnostics&lt;/code&gt; (cyclomatic complexity = 88) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/ComponentHelper.java</file>
+    <line>60</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.ComponentHelper" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ComponentHelper&lt;/code&gt; (cyclomatic complexity = 129) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Tar.java</file>
+    <line>66</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Tar" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Tar&lt;/code&gt; (cyclomatic complexity = 113) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Zip.java</file>
+    <line>79</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Zip" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Zip&lt;/code&gt; (cyclomatic complexity = 276) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Jar.java</file>
+    <line>67</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Jar" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Jar&lt;/code&gt; (cyclomatic complexity = 147) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Copy.java</file>
+    <line>68</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Copy" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Copy&lt;/code&gt; (cyclomatic complexity = 180) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/XmlProperty.java</file>
+    <line>177</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.XmlProperty" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;XmlProperty&lt;/code&gt; (cyclomatic complexity = 117) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/SubAnt.java</file>
+    <line>61</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.SubAnt" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SubAnt&lt;/code&gt; (cyclomatic complexity = 91) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/XSLTProcess.java</file>
+    <line>70</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.XSLTProcess" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;XSLTProcess&lt;/code&gt; (cyclomatic complexity = 146) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Delete.java</file>
+    <line>79</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Delete" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Delete&lt;/code&gt; (cyclomatic complexity = 131) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/AbstractCvsTask.java</file>
+    <line>48</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.AbstractCvsTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;AbstractCvsTask&lt;/code&gt; (cyclomatic complexity = 104) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Execute.java</file>
+    <line>48</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Execute" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Execute&lt;/code&gt; (cyclomatic complexity = 99) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Redirector.java</file>
+    <line>57</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Redirector" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Redirector&lt;/code&gt; (cyclomatic complexity = 121) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/email/EmailTask.java</file>
+    <line>42</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.email</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.email.EmailTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;EmailTask&lt;/code&gt; (cyclomatic complexity = 86) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/NetRexxC.java</file>
+    <line>95</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.NetRexxC" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;NetRexxC&lt;/code&gt; (cyclomatic complexity = 154) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WebsphereDeploymentTool.java</file>
+    <line>63</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.WebsphereDeploymentTool" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;WebsphereDeploymentTool&lt;/code&gt; (cyclomatic complexity = 97) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/JonasDeploymentTool.java</file>
+    <line>40</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.JonasDeploymentTool" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;JonasDeploymentTool&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java</file>
+    <line>57</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.GenericDeploymentTool" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;GenericDeploymentTool&lt;/code&gt; (cyclomatic complexity = 102) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java</file>
+    <line>56</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.WeblogicDeploymentTool" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;WeblogicDeploymentTool&lt;/code&gt; (cyclomatic complexity = 94) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java</file>
+    <line>323</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTP.FTPDirectoryScanner" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;FTPDirectoryScanner&lt;/code&gt; (cyclomatic complexity = 100) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java</file>
+    <line>82</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTP" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;FTP&lt;/code&gt; (cyclomatic complexity = 212) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTask.java</file>
+    <line>55</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTPTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;FTPTask&lt;/code&gt; (cyclomatic complexity = 112) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java</file>
+    <line>55</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirrorImpl" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;FTPTaskMirrorImpl&lt;/code&gt; (cyclomatic complexity = 144) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java</file>
+    <line>224</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirrorImpl.FTPDirectoryScanner" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;FTPDirectoryScanner&lt;/code&gt; (cyclomatic complexity = 100) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java</file>
+    <line>51</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.vss</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;MSVSS&lt;/code&gt; (cyclomatic complexity = 117) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/pvcs/Pvcs.java</file>
+    <line>74</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.pvcs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.pvcs.Pvcs" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Pvcs&lt;/code&gt; (cyclomatic complexity = 83) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java</file>
+    <line>131</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;JUnitTask&lt;/code&gt; (cyclomatic complexity = 250) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java</file>
+    <line>73</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;JUnitTestRunner&lt;/code&gt; (cyclomatic complexity = 173) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/depend/Depend.java</file>
+    <line>47</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.depend</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.depend.Depend" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;Depend&lt;/code&gt; (cyclomatic complexity = 120) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/javacc/JavaCC.java</file>
+    <line>40</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.javacc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.javacc.JavaCC" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;JavaCC&lt;/code&gt; (cyclomatic complexity = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/jdepend/JDependTask.java</file>
+    <line>55</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.jdepend</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.jdepend.JDependTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;JDependTask&lt;/code&gt; (cyclomatic complexity = 84) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java</file>
+    <line>48</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.compilers</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;DefaultCompilerAdapter&lt;/code&gt; (cyclomatic complexity = 112) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/tar/TarEntry.java</file>
+    <line>114</line>
+    <module>ant</module>
+    <package>org.apache.tools.tar</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.tar.TarEntry" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TarEntry&lt;/code&gt; (cyclomatic complexity = 135) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/tar/TarInputStream.java</file>
+    <line>45</line>
+    <module>ant</module>
+    <package>org.apache.tools.tar</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.tar.TarInputStream" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;TarInputStream&lt;/code&gt; (cyclomatic complexity = 88) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/zip/ZipEntry.java</file>
+    <line>49</line>
+    <module>ant</module>
+    <package>org.apache.tools.zip</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.zip.ZipEntry" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ZipEntry&lt;/code&gt; (cyclomatic complexity = 119) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/zip/ZipOutputStream.java</file>
+    <line>76</line>
+    <module>ant</module>
+    <package>org.apache.tools.zip</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.zip.ZipOutputStream" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ZipOutputStream&lt;/code&gt; (cyclomatic complexity = 181) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2InputStream.java</file>
+    <line>46</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.bzip2.CBZip2InputStream" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;CBZip2InputStream&lt;/code&gt; (cyclomatic complexity = 157) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/BlockSort.java</file>
+    <line>80</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.bzip2.BlockSort" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;BlockSort&lt;/code&gt; (cyclomatic complexity = 162) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java</file>
+    <line>132</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.bzip2.CBZip2OutputStream" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;CBZip2OutputStream&lt;/code&gt; (cyclomatic complexity = 185) #loc</description>
+  </problem>
+</problems>
+

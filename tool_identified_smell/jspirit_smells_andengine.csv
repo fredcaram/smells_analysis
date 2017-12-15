@@ -1,0 +1,291 @@
+Brain Class,QuadTreeNode,272,1
+Brain Method,HoldDetector.onManagedTouchEvent,42,1
+Brain Method,TexturePackParser.parseTexture,96,1
+Brain Method,FontUtils.splitLinesByWords,103,1
+Brain Method,Decoder.process,142,1
+Brain Method,Encoder.process,149,1
+Brain Method,Node.insert,152,1
+Brain Method,LowMemoryTextVertexBufferObject.onUpdateVertices,184,1
+Brain Method,AStarPathFinder.findPath,204,1
+Brain Method,HighPerformanceTextVertexBufferObject.onUpdateVertices,225,1
+Brain Method,DigitalOnScreenControl.onUpdateControlKnob,240,1
+Brain Method,HighPerformanceTiledSpriteVertexBufferObject.onUpdateTextureCoordinates,251,1
+Brain Method,LowMemoryTiledSpriteVertexBufferObject.onUpdateTextureCoordinates,261,1
+Brain Method,QuadTreeNode.add,270,1
+Brain Method,Scene.onSceneTouchEvent,273,1
+Brain Method,AnimatedSprite.onManagedUpdate,286,1
+Data Class,Color,14,1
+Data Class,RenderTexture,24,1
+Data Class,SmartList,69,1
+Data Class,SpriteBatch,93,1
+Data Class,BaseGameActivity,113,1
+Data Class,QuadTree,215,1
+Data Class,GLState,218,1
+Data Class,SystemUtils,221,1
+Data Class,Sprite,232,1
+Dispersed Coupling,Font.createLetter,2,1
+Dispersed Coupling,Font.update,3,1
+Dispersed Coupling,PVRTexture.PVRTexture,29,1
+Dispersed Coupling,PVRTexture.writeTextureToHardware,30,1
+Dispersed Coupling,BitmapTextureAtlas.writeTextureToHardware,52,1
+Dispersed Coupling,BitmapFont.BitmapFont,55,1
+Dispersed Coupling,UpdateThread.run,97,1
+Dispersed Coupling,BetaUtils.finishWhenExpired,116,1
+Dispersed Coupling,ActivityUtils.doAsync,125,1
+Dispersed Coupling,ActivityUtils.doProgressAsync,126,1
+Dispersed Coupling,Entity.onManagedDraw,134,1
+Dispersed Coupling,AnimationPackParser.startElement,140,1
+Dispersed Coupling,AnimationPackParser.endElement,141,1
+Dispersed Coupling,ParticleSystem.spawnParticle,145,1
+Dispersed Coupling,LevelStatsDBConnector.submitAsync,203,1
+Dispersed Coupling,AStarPathFinder.findPath,205,1
+Dispersed Coupling,MultiKeyHashMap.get,223,1
+Dispersed Coupling,BlackPawnTextureAtlasBuilder.build,253,1
+Feature Envy,ThreadUtils.dumpCurrentThreadInfo,1,1
+Feature Envy,MultiTouchController.onHandleMotionEvent,6,1
+Feature Envy,MultiTouchController.onHandleTouchMove,7,1
+Feature Envy,MultiTouchController.onHandleTouchAction,8,1
+Feature Envy,MultiTouchController.getPointerIndex,9,1
+Feature Envy,HighPerformanceLineVertexBufferObject.onUpdateVertices,19,1
+Feature Envy,RenderTexture.begin,22,1
+Feature Envy,RenderTexture.begin,23,1
+Feature Envy,ColorParticleInitializer.ColorParticleInitializer,27,1
+Feature Envy,ColorParticleInitializer.ColorParticleInitializer,28,1
+Feature Envy,ButtonSprite.onAreaTouched,33,1
+Feature Envy,MoveByModifier.onChangeValues,36,1
+Feature Envy,TextureAtlas.addTextureAtlasSource,38,1
+Feature Envy,ListUtils.swap,48,1
+Feature Envy,ListUtils.swap,49,1
+Feature Envy,PositionTextureCoordinatesPositionInterpolationTextureSelectShaderProgram.unbind,51,1
+Feature Envy,LineCollisionChecker.fillVertices,54,1
+Feature Envy,LowMemoryLineVertexBufferObject.onUpdateVertices,58,1
+Feature Envy,InnerOnGestureDetectorListener.onFling,59,1
+Feature Envy,IntQuadTreeNode.IntQuadTreeNode,60,1
+Feature Envy,IntQuadTreeNode.contains,61,1
+Feature Envy,TextUtils.formatStackTrace,64,1
+Feature Envy,Shape.initBlendFunction,65,1
+Feature Envy,LongSparseArray.put,70,1
+Feature Envy,LongSparseArray.append,71,1
+Feature Envy,ArrayUtils.equals,72,1
+Feature Envy,ProbabilityGenerator.next,77,1
+Feature Envy,FileUtils.isExternalStorageReadable,79,1
+Feature Envy,SpriteBatch.draw,80,1
+Feature Envy,SpriteBatch.drawWithoutChecks,81,1
+Feature Envy,SpriteBatch.draw,82,1
+Feature Envy,SpriteBatch.drawWithoutChecks,83,1
+Feature Envy,SpriteBatch.draw,84,1
+Feature Envy,SpriteBatch.drawWithoutChecks,86,1
+Feature Envy,SpriteBatch.draw,88,1
+Feature Envy,SpriteBatch.drawWithoutChecks,90,1
+Feature Envy,RectangleBitmapTextureAtlasSourceDecoratorShape.onDecorateBitmap,99,1
+Feature Envy,TextureWarmUpVertexBufferObject.warmup,101,1
+Feature Envy,FontUtils.measureText,102,1
+Feature Envy,FontUtils.getAdvanceCorrection,104,1
+Feature Envy,Engine.disableAccelerationSensor,107,1
+Feature Envy,Engine.disableOrientationSensor,108,1
+Feature Envy,MusicFactory.createMusicFromAssetFileDescriptor,117,1
+Feature Envy,Base64.decode,118,1
+Feature Envy,Base64.encode,119,1
+Feature Envy,FloatBoundsUtils.intersects,120,1
+Feature Envy,FloatBoundsUtils.contains,121,1
+Feature Envy,FloatBoundsUtils.contains,122,1
+Feature Envy,FloatBoundsUtils.contains,123,1
+Feature Envy,ActivityUtils.doAsync,124,1
+Feature Envy,ResourceBitmapTextureAtlasSource.create,127,1
+Feature Envy,Entity.convertLocalToSceneCoordinates,132,1
+Feature Envy,Entity.convertSceneToLocalCoordinates,133,1
+Feature Envy,ShapeCollisionChecker.checkCollision,136,1
+Feature Envy,ShapeCollisionChecker.checkCollision,137,1
+Feature Envy,ShapeCollisionChecker.checkCollisionSub,138,1
+Feature Envy,ShapeCollisionChecker.checkContains,139,1
+Feature Envy,CircleBitmapTextureAtlasSourceDecoratorShape.onDecorateBitmap,151,1
+Feature Envy,Node.createChildren,153,1
+Feature Envy,BaseResolutionPolicy.throwOnNotMeasureSpecEXACTLY,154,1
+Feature Envy,UniformColorSprite.UniformColorSprite,155,1
+Feature Envy,UniformColorSprite.UniformColorSprite,156,1
+Feature Envy,AssetBitmapTextureAtlasSource.create,168,1
+Feature Envy,GLHelper.getPixels,169,1
+Feature Envy,GLHelper.convertARGB_8888toRGBA_8888,170,1
+Feature Envy,GLHelper.convertARGB_8888toRGB_565,171,1
+Feature Envy,GLHelper.convertARGB_8888toRGBA_4444,172,1
+Feature Envy,GLHelper.getPixelsARGB_8888,173,1
+Feature Envy,GLHelper.convertRGBA_8888toARGB_8888,174,1
+Feature Envy,ColorBackgroundModifier.ColorBackgroundModifier,180,1
+Feature Envy,ColorBackgroundModifier.ColorBackgroundModifier,181,1
+Feature Envy,ColorBackgroundModifier.ColorBackgroundModifier,182,1
+Feature Envy,ColorBackgroundModifier.ColorBackgroundModifier,183,1
+Feature Envy,JarvisMarch.jarvisMarch,187,1
+Feature Envy,IntBoundsUtils.intersects,194,1
+Feature Envy,IntBoundsUtils.contains,195,1
+Feature Envy,IntBoundsUtils.contains,196,1
+Feature Envy,IntBoundsUtils.contains,197,1
+Feature Envy,IntBoundsUtils.adjacent,198,1
+Feature Envy,RectangularShapeCollisionChecker.fillVertices,207,1
+Feature Envy,RectangularShapeCollisionChecker.fillVertices,208,1
+Feature Envy,RectangularShapeCollisionChecker.fillVertices,209,1
+Feature Envy,BaseOnScreenControl.updateControlKnob,211,1
+Feature Envy,SingleTouchController.onHandleMotionEvent,213,1
+Feature Envy,ScreenGrabber.grab,214,1
+Feature Envy,GLState.checkFramebufferStatus,216,1
+Feature Envy,SystemUtils.getPackageInfo,219,1
+Feature Envy,SystemUtils.isAndroidVersion,220,1
+Feature Envy,MultiKeyHashMap.isEqualKey,224,1
+Feature Envy,Sprite.Sprite,227,1
+Feature Envy,Sprite.Sprite,228,1
+Feature Envy,BitmapTexture.onGetBitmap,235,1
+Feature Envy,FloatQuadTreeNode.FloatQuadTreeNode,236,1
+Feature Envy,FloatQuadTreeNode.contains,237,1
+Feature Envy,RatioResolutionPolicy.onMeasure,242,1
+Feature Envy,ColorModifier.ColorModifier,243,1
+Feature Envy,ColorModifier.ColorModifier,244,1
+Feature Envy,ColorModifier.ColorModifier,245,1
+Feature Envy,ColorModifier.ColorModifier,246,1
+Feature Envy,InsertionSorter.sort,248,1
+Feature Envy,InsertionSorter.sort,249,1
+Feature Envy,ConfigChooser.chooseConfig,250,1
+Feature Envy,PinchZoomDetector.calculatePointerDistance,254,1
+Feature Envy,AnimationData.set,259,1
+Feature Envy,ColorUtils.convertRGBAToARGBPackedInt,264,1
+Feature Envy,ColorUtils.convertRGBAToABGRPackedInt,265,1
+Feature Envy,DiamondSprite.DiamondSprite,266,1
+Feature Envy,DiamondSprite.DiamondSprite,267,1
+Feature Envy,FillResolutionPolicy.onMeasure,268,1
+Feature Envy,UncoloredSprite.UncoloredSprite,282,1
+Feature Envy,UncoloredSprite.UncoloredSprite,283,1
+Feature Envy,BuildableTextureAtlasTextureRegionFactory.createFromSource,290,1
+Feature Envy,BuildableTextureAtlasTextureRegionFactory.createTiledFromSource,291,1
+God Class,Text,4,1
+God Class,BitmapFont,56,1
+God Class,SmartList,68,1
+God Class,ArrayUtils,73,1
+God Class,SpriteBatch,92,1
+God Class,FontUtils,105,1
+God Class,Engine,109,1
+God Class,TextureManager,112,1
+God Class,Entity,135,1
+God Class,MathUtils,159,1
+God Class,Camera,177,1
+God Class,GLState,217,1
+God Class,Debug,247,1
+God Class,ShaderProgram,256,1
+God Class,QuadTreeNode,271,1
+God Class,Scene,275,1
+God Class,AnimatedSprite,288,1
+Intensive Coupling,ContinuousHoldDetector.onManagedTouchEvent,20,1
+Intensive Coupling,HighPerformanceDiamondSpriteVertexBufferObject.onUpdateTextureCoordinates,21,1
+Intensive Coupling,HighPerformanceSpriteVertexBufferObject.onUpdateTextureCoordinates,26,1
+Intensive Coupling,HighPerformanceUncoloredSpriteVertexBufferObject.onUpdateTextureCoordinates,35,1
+Intensive Coupling,LowMemorySpriteVertexBufferObject.onUpdateTextureCoordinates,41,1
+Intensive Coupling,HoldDetector.onManagedTouchEvent,43,1
+Intensive Coupling,LowMemoryUniformColorSpriteVertexBufferObject.onUpdateTextureCoordinates,50,1
+Intensive Coupling,LowMemoryUncoloredSpriteVertexBufferObject.onUpdateTextureCoordinates,78,1
+Intensive Coupling,SpriteBatch.draw,85,1
+Intensive Coupling,SpriteBatch.drawWithoutChecks,87,1
+Intensive Coupling,SpriteBatch.draw,89,1
+Intensive Coupling,SpriteBatch.drawWithoutChecks,91,1
+Intensive Coupling,TextureManager.loadTexture,110,1
+Intensive Coupling,TextureManager.updateTextures,111,1
+Intensive Coupling,Entity.getLocalToParentTransformation,130,1
+Intensive Coupling,Entity.getParentToLocalTransformation,131,1
+Intensive Coupling,LowMemoryTextVertexBufferObject.onUpdateVertices,185,1
+Intensive Coupling,HighPerformanceTextVertexBufferObject.onUpdateVertices,226,1
+Intensive Coupling,HighPerformanceUniformColorSpriteVertexBufferObject.onUpdateTextureCoordinates,241,1
+Intensive Coupling,HighPerformanceTiledSpriteVertexBufferObject.onUpdateTextureCoordinates,252,1
+Intensive Coupling,LowMemoryDiamondSpriteVertexBufferObject.onUpdateTextureCoordinates,260,1
+Intensive Coupling,LowMemoryTiledSpriteVertexBufferObject.onUpdateTextureCoordinates,262,1
+Intensive Coupling,QuadTreeNode.toString,269,1
+Intensive Coupling,Scene.onSceneTouchEvent,274,1
+Intensive Coupling,PhysicsHandler.onUpdate,280,1
+Intensive Coupling,AnimatedSprite.onManagedUpdate,287,1
+Refused Parent Bequest,Text,5,1
+Refused Parent Bequest,TiledTextureRegion,17,1
+Refused Parent Bequest,Line,18,1
+Refused Parent Bequest,RenderTexture,25,1
+Refused Parent Bequest,PVRTexture,31,1
+Refused Parent Bequest,Music,32,1
+Refused Parent Bequest,ButtonSprite,34,1
+Refused Parent Bequest,TickerText,37,1
+Refused Parent Bequest,TextureAtlas,39,1
+Refused Parent Bequest,HoldDetector,44,1
+Refused Parent Bequest,RectangularShape,47,1
+Refused Parent Bequest,BitmapTextureAtlas,53,1
+Refused Parent Bequest,LoopModifier,57,1
+Refused Parent Bequest,IntQuadTreeNode,62,1
+Refused Parent Bequest,Shape,66,1
+Refused Parent Bequest,SpriteMenuItem,67,1
+Refused Parent Bequest,SequenceModifier,74,1
+Refused Parent Bequest,ScrollDetector,75,1
+Refused Parent Bequest,TextMenuItem,76,1
+Refused Parent Bequest,SpriteBatch,94,1
+Refused Parent Bequest,BoundCamera,98,1
+Refused Parent Bequest,Mesh,100,1
+Refused Parent Bequest,BaseGameActivity,114,1
+Refused Parent Bequest,TiledSprite,128,1
+Refused Parent Bequest,BaseDurationModifier,143,1
+Refused Parent Bequest,ParallelModifier,144,1
+Refused Parent Bequest,ParticleSystem,146,1
+Refused Parent Bequest,TextureRegion,148,1
+Refused Parent Bequest,SpriteGroup,150,1
+Refused Parent Bequest,UniformColorSprite,157,1
+Refused Parent Bequest,ZoomCamera,178,1
+Refused Parent Bequest,IntQuadTree,179,1
+Refused Parent Bequest,FloatQuadTree,186,1
+Refused Parent Bequest,SmoothCamera,188,1
+Refused Parent Bequest,AnimatedSpriteMenuItem,206,1
+Refused Parent Bequest,OrientationData,210,1
+Refused Parent Bequest,BaseOnScreenControl,212,1
+Refused Parent Bequest,Sound,222,1
+Refused Parent Bequest,Sprite,233,1
+Refused Parent Bequest,SlideMenuAnimator,234,1
+Refused Parent Bequest,FloatQuadTreeNode,238,1
+Refused Parent Bequest,MenuScene,255,1
+Refused Parent Bequest,DoubleSceneSplitScreenEngine,258,1
+Refused Parent Bequest,BaseDoubleValueSpanModifier,263,1
+Refused Parent Bequest,Scene,276,1
+Refused Parent Bequest,BaseBitmapTextureAtlasSourceDecorator,278,1
+Refused Parent Bequest,DynamicSpriteBatch,279,1
+Refused Parent Bequest,PhysicsHandler,281,1
+Refused Parent Bequest,PathModifier,284,1
+Refused Parent Bequest,AlphaMenuAnimator,285,1
+Refused Parent Bequest,AnimatedSprite,289,1
+Shotgun Surgery,Color.getRed,10,1
+Shotgun Surgery,Color.getGreen,11,1
+Shotgun Surgery,Color.getBlue,12,1
+Shotgun Surgery,Color.getABGRPackedFloat,13,1
+Shotgun Surgery,ITextureAtlasSource.getTextureWidth,15,1
+Shotgun Surgery,ITextureAtlasSource.getTextureHeight,16,1
+Shotgun Surgery,RectangularShape.getWidth,45,1
+Shotgun Surgery,RectangularShape.getHeight,46,1
+Shotgun Surgery,Transformation.transform,95,1
+Shotgun Surgery,Engine.getEngineOptions,106,1
+Shotgun Surgery,Entity.getColor,129,1
+Shotgun Surgery,IVertexBufferObject.draw,147,1
+Shotgun Surgery,IAreaShape.getHeight,158,1
+Shotgun Surgery,ITextureRegion.getWidth,160,1
+Shotgun Surgery,ITextureRegion.getHeight,161,1
+Shotgun Surgery,ITextureRegion.getU,162,1
+Shotgun Surgery,ITextureRegion.getU2,163,1
+Shotgun Surgery,ITextureRegion.getV,164,1
+Shotgun Surgery,ITextureRegion.getV2,165,1
+Shotgun Surgery,ITextureRegion.isRotated,166,1
+Shotgun Surgery,ITextureRegion.getTexture,167,1
+Shotgun Surgery,Camera.getCenterX,175,1
+Shotgun Surgery,Camera.getCenterY,176,1
+Shotgun Surgery,TouchEvent.getX,189,1
+Shotgun Surgery,TouchEvent.getY,190,1
+Shotgun Surgery,TouchEvent.getPointerID,191,1
+Shotgun Surgery,TouchEvent.getAction,192,1
+Shotgun Surgery,TouchEvent.getMotionEvent,193,1
+Shotgun Surgery,IEntity.getX,199,1
+Shotgun Surgery,IEntity.getY,200,1
+Shotgun Surgery,IEntity.setPosition,201,1
+Shotgun Surgery,IEntity.setRotation,202,1
+Shotgun Surgery,Sprite.getTextureRegion,229,1
+Shotgun Surgery,Sprite.isFlippedHorizontal,230,1
+Shotgun Surgery,Sprite.isFlippedVertical,231,1
+Shotgun Surgery,VertexBufferObject.setDirtyOnHardware,257,1
+Tradition Breaker,TextureAtlas,40,1
+Tradition Breaker,IntQuadTreeNode,63,1
+Tradition Breaker,BaseGameActivity,115,1
+Tradition Breaker,FloatQuadTreeNode,239,1
+Tradition Breaker,Scene,277,1

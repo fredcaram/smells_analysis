@@ -58,12 +58,14 @@ class base_smells_repository:
             return metrics_df
 
         combined_df = self.merge_metrics_with_annotation(metrics_df, smells_df)
+
         return combined_df
 
     def merge_metrics_with_annotation(self, metrics_df, smells_df):
         assert "instance" in smells_df.columns.values
         smells_grouped_by_class = smells_df.groupby("instance").max().reset_index()
-        combined_df = metrics_df.merge(smells_grouped_by_class, how="left", left_on="instance", right_on="instance")
+        metrics_df_grouped_by_class = metrics_df.groupby("instance").max().reset_index()
+        combined_df = metrics_df_grouped_by_class.merge(smells_grouped_by_class, how="left", left_on="instance", right_on="instance")
         return combined_df
 
     def get_smells_dataset_from_projects(self, project_ids, dataset_ids):

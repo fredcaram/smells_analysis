@@ -5,7 +5,7 @@ from repositories.smells_repository.blob_repository import blob_repository
 
 
 class class_metrics_model(model_base):
-    def __init__(self, classifier=tree.DecisionTreeClassifier()):
+    def __init__(self, classifier=tree.DecisionTreeClassifier(max_depth=4, min_samples_leaf=3, max_features="auto")):
         model_base.__init__(self)
         self.classifier = classifier
         self.class_metrics_smells = ["Blob"]

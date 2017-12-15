@@ -1,4 +1,4 @@
-Chidamber-Kemerer metrics,Qua, 25 out 2017 13:40:54 BRST
+Chidamber-Kemerer metrics,Qui, 14 dez 2017 13:49:50 BRST
 Class,CBO,DIT,LCOM,NOC,RFC,WMC
 "org.apache.cassandra.auth.AllowAllAuthenticator",2,0,2,0,3,3
 "org.apache.cassandra.auth.AllowAllAuthority",2,0,2,0,2,2

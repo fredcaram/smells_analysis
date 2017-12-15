@@ -1,0 +1,10 @@
+Interface,Cyclic,Dcy,Dcy*,Dpt,Dpt*
+"org.apache.qpid.qmf2.agent.SubscribableAgent",0,2,2,1,2
+"org.apache.qpid.qmf2.common.Notifier",0,0,0,2,27
+"org.apache.qpid.qmf2.common.QmfCallback",0,0,0,3,30
+"org.apache.qpid.qmf2.common.QmfEventListener",0,0,0,18,29
+"org.apache.qpid.qmf2.console.AgentProxy",0,2,3,0,0
+"org.apache.qpid.restapi.HttpTransaction",0,0,0,2,3
+"org.apache.qpid.restapi.Server",0,0,0,1,2
+"org.apache.qpid.server.qmf2.QmfManagementPlugin",0,0,0,0,0
+

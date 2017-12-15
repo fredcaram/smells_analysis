@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/ExecTask.java</file>
+    <line>43</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.ExecTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ExecTask&lt;/code&gt; has too many methods (method count = 44) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Javadoc.java</file>
+    <line>86</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Javadoc" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Javadoc&lt;/code&gt; has too many methods (method count = 111) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Available.java</file>
+    <line>43</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Available" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Available&lt;/code&gt; has too many methods (method count = 21) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Property.java</file>
+    <line>77</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Property" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Property&lt;/code&gt; has too many methods (method count = 40) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Rmic.java</file>
+    <line>88</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Rmic" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Rmic&lt;/code&gt; has too many methods (method count = 55) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Javac.java</file>
+    <line>78</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Javac" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Javac&lt;/code&gt; has too many methods (method count = 87) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Expand.java</file>
+    <line>60</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Expand" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Expand&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Java.java</file>
+    <line>53</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Java&lt;/code&gt; has too many methods (method count = 60) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Get.java</file>
+    <line>58</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Get" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Get&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Ant.java</file>
+    <line>68</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Ant" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Ant&lt;/code&gt; has too many methods (method count = 27) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/ExecuteOn.java</file>
+    <line>52</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.ExecuteOn" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ExecuteOn&lt;/code&gt; has too many methods (method count = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Definer.java</file>
+    <line>49</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Definer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Definer&lt;/code&gt; has too many methods (method count = 24) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/AbstractJarSignerTask.java</file>
+    <line>39</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.AbstractJarSignerTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;AbstractJarSignerTask&lt;/code&gt; has too many methods (method count = 25) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/SQLExec.java</file>
+    <line>84</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.SQLExec" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;SQLExec&lt;/code&gt; has too many methods (method count = 45) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Checksum.java</file>
+    <line>59</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Checksum" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Checksum&lt;/code&gt; has too many methods (method count = 24) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/listener/MailLogger.java</file>
+    <line>184</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.listener</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.listener.MailLogger.Values" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Values&lt;/code&gt; has too many methods (method count = 30) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/helper/AntXMLContext.java</file>
+    <line>42</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.helper</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.helper.AntXMLContext" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;AntXMLContext&lt;/code&gt; has too many methods (method count = 30) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/selectors/modifiedselector/ModifiedSelector.java</file>
+    <line>145</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.selectors.modifiedselector</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ModifiedSelector&lt;/code&gt; has too many methods (method count = 39) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/selectors/SelectorContainer.java</file>
+    <line>31</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.selectors</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.selectors.SelectorContainer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;SelectorContainer&lt;/code&gt; has too many methods (method count = 24) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/selectors/BaseSelectorContainer.java</file>
+    <line>36</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.selectors</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.selectors.BaseSelectorContainer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;BaseSelectorContainer&lt;/code&gt; has too many methods (method count = 30) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/selectors/AbstractSelectorContainer.java</file>
+    <line>36</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.selectors</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.selectors.AbstractSelectorContainer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;AbstractSelectorContainer&lt;/code&gt; has too many methods (method count = 30) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/resources/FileResource.java</file>
+    <line>38</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.resources</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.resources.FileResource" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;FileResource&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/resources/URLResource.java</file>
+    <line>40</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.resources</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.resources.URLResource" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;URLResource&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/resources/Files.java</file>
+    <line>39</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.resources</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.resources.Files" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Files&lt;/code&gt; has too many methods (method count = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/ArchiveFileSet.java</file>
+    <line>41</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.ArchiveFileSet" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ArchiveFileSet&lt;/code&gt; has too many methods (method count = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/DataType.java</file>
+    <line>40</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.DataType" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;DataType&lt;/code&gt; has too many methods (method count = 23) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/PatternSet.java</file>
+    <line>40</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.PatternSet" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;PatternSet&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/XMLCatalog.java</file>
+    <line>121</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.XMLCatalog" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;XMLCatalog&lt;/code&gt; has too many methods (method count = 23) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/RedirectorElement.java</file>
+    <line>35</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.RedirectorElement" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;RedirectorElement&lt;/code&gt; has too many methods (method count = 28) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/AbstractFileSet.java</file>
+    <line>62</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.AbstractFileSet" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;AbstractFileSet&lt;/code&gt; has too many methods (method count = 64) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/CommandlineJava.java</file>
+    <line>39</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.CommandlineJava" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;CommandlineJava&lt;/code&gt; has too many methods (method count = 38) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/Resource.java</file>
+    <line>39</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.Resource" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Resource&lt;/code&gt; has too many methods (method count = 24) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/PropertySet.java</file>
+    <line>48</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.PropertySet" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;PropertySet&lt;/code&gt; has too many methods (method count = 27) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/Commandline.java</file>
+    <line>54</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.Commandline" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Commandline&lt;/code&gt; has too many methods (method count = 26) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/FilterChain.java</file>
+    <line>48</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.FilterChain" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;FilterChain&lt;/code&gt; has too many methods (method count = 26) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/Path.java</file>
+    <line>66</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.Path" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Path&lt;/code&gt; has too many methods (method count = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/FilterSet.java</file>
+    <line>40</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.FilterSet" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;FilterSet&lt;/code&gt; has too many methods (method count = 24) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/VectorSet.java</file>
+    <line>40</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.util.VectorSet" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;VectorSet&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/ResourceUtils.java</file>
+    <line>63</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.util.ResourceUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ResourceUtils&lt;/code&gt; has too many methods (method count = 21) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/LayoutPreservingProperties.java</file>
+    <line>80</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.util.LayoutPreservingProperties" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;LayoutPreservingProperties&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/ScriptRunnerBase.java</file>
+    <line>44</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.util.ScriptRunnerBase" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ScriptRunnerBase&lt;/code&gt; has too many methods (method count = 27) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/FileUtils.java</file>
+    <line>60</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.util.FileUtils" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;FileUtils&lt;/code&gt; has too many methods (method count = 66) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/AntClassLoader.java</file>
+    <line>72</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.AntClassLoader" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;AntClassLoader&lt;/code&gt; has too many methods (method count = 56) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/UnknownElement.java</file>
+    <line>36</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.UnknownElement" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;UnknownElement&lt;/code&gt; has too many methods (method count = 30) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/IntrospectionHelper.java</file>
+    <line>61</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.IntrospectionHelper" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;IntrospectionHelper&lt;/code&gt; has too many methods (method count = 42) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/ProjectHelper.java</file>
+    <line>39</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.ProjectHelper" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ProjectHelper&lt;/code&gt; has too many methods (method count = 29) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/AntTypeDefinition.java</file>
+    <line>34</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.AntTypeDefinition" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;AntTypeDefinition&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Project.java</file>
+    <line>65</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.Project" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Project&lt;/code&gt; has too many methods (method count = 124) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Main.java</file>
+    <line>63</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.Main" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Main&lt;/code&gt; has too many methods (method count = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/RuntimeConfigurable.java</file>
+    <line>42</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.RuntimeConfigurable" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;RuntimeConfigurable&lt;/code&gt; has too many methods (method count = 27) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/DirectoryScanner.java</file>
+    <line>130</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.DirectoryScanner" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;DirectoryScanner&lt;/code&gt; has too many methods (method count = 70) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Target.java</file>
+    <line>39</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.Target" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Target&lt;/code&gt; has too many methods (method count = 27) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Task.java</file>
+    <line>34</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.Task" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Task&lt;/code&gt; has too many methods (method count = 28) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/PropertyHelper.java</file>
+    <line>90</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.PropertyHelper" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;PropertyHelper&lt;/code&gt; has too many methods (method count = 45) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Diagnostics.java</file>
+    <line>54</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.Diagnostics" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Diagnostics&lt;/code&gt; has too many methods (method count = 34) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/ComponentHelper.java</file>
+    <line>60</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.ComponentHelper" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ComponentHelper&lt;/code&gt; has too many methods (method count = 45) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Tar.java</file>
+    <line>66</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Tar" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Tar&lt;/code&gt; has too many methods (method count = 23) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Concat.java</file>
+    <line>79</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Concat" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Concat&lt;/code&gt; has too many methods (method count = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Zip.java</file>
+    <line>79</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Zip" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Zip&lt;/code&gt; has too many methods (method count = 75) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Jar.java</file>
+    <line>67</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Jar" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Jar&lt;/code&gt; has too many methods (method count = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Copy.java</file>
+    <line>68</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Copy" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Copy&lt;/code&gt; has too many methods (method count = 48) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/XmlProperty.java</file>
+    <line>177</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.XmlProperty" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;XmlProperty&lt;/code&gt; has too many methods (method count = 34) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/SubAnt.java</file>
+    <line>61</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.SubAnt" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;SubAnt&lt;/code&gt; has too many methods (method count = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/XSLTProcess.java</file>
+    <line>70</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.XSLTProcess" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;XSLTProcess&lt;/code&gt; has too many methods (method count = 55) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Replace.java</file>
+    <line>59</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Replace" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Replace&lt;/code&gt; has too many methods (method count = 28) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Delete.java</file>
+    <line>79</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Delete" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Delete&lt;/code&gt; has too many methods (method count = 47) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/MatchingTask.java</file>
+    <line>58</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.MatchingTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;MatchingTask&lt;/code&gt; has too many methods (method count = 41) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/AbstractCvsTask.java</file>
+    <line>48</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.AbstractCvsTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;AbstractCvsTask&lt;/code&gt; has too many methods (method count = 44) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/RecorderEntry.java</file>
+    <line>38</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.RecorderEntry" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;RecorderEntry&lt;/code&gt; has too many methods (method count = 25) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Execute.java</file>
+    <line>48</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Execute" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Execute&lt;/code&gt; has too many methods (method count = 28) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Redirector.java</file>
+    <line>57</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Redirector" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Redirector&lt;/code&gt; has too many methods (method count = 39) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/JDBCTask.java</file>
+    <line>93</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.JDBCTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;JDBCTask&lt;/code&gt; has too many methods (method count = 26) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/SignJar.java</file>
+    <line>50</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.SignJar" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;SignJar&lt;/code&gt; has too many methods (method count = 29) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/email/EmailTask.java</file>
+    <line>42</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.email</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.email.EmailTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;EmailTask&lt;/code&gt; has too many methods (method count = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/email/Mailer.java</file>
+    <line>32</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.email</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.email.Mailer" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Mailer&lt;/code&gt; has too many methods (method count = 24) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ANTLR.java</file>
+    <line>47</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.ANTLR" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ANTLR&lt;/code&gt; has too many methods (method count = 23) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/TraXLiaison.java</file>
+    <line>73</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.TraXLiaison" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;TraXLiaison&lt;/code&gt; has too many methods (method count = 24) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/Javah.java</file>
+    <line>71</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.Javah" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Javah&lt;/code&gt; has too many methods (method count = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/NetRexxC.java</file>
+    <line>95</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.NetRexxC" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;NetRexxC&lt;/code&gt; has too many methods (method count = 47) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/XMLValidateTask.java</file>
+    <line>56</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.XMLValidateTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;XMLValidateTask&lt;/code&gt; has too many methods (method count = 27) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WebsphereDeploymentTool.java</file>
+    <line>63</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.WebsphereDeploymentTool" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;WebsphereDeploymentTool&lt;/code&gt; has too many methods (method count = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java</file>
+    <line>59</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;EjbJar&lt;/code&gt; has too many methods (method count = 27) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/JonasDeploymentTool.java</file>
+    <line>40</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.JonasDeploymentTool" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;JonasDeploymentTool&lt;/code&gt; has too many methods (method count = 27) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/BorlandDeploymentTool.java</file>
+    <line>78</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.BorlandDeploymentTool" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;BorlandDeploymentTool&lt;/code&gt; has too many methods (method count = 24) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java</file>
+    <line>57</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.GenericDeploymentTool" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;GenericDeploymentTool&lt;/code&gt; has too many methods (method count = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/IPlanetEjbc.java</file>
+    <line>892</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;EjbInfo&lt;/code&gt; has too many methods (method count = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java</file>
+    <line>56</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.WeblogicDeploymentTool" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;WeblogicDeploymentTool&lt;/code&gt; has too many methods (method count = 30) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/jsp/JspC.java</file>
+    <line>67</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.jsp</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.jsp.JspC" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;JspC&lt;/code&gt; has too many methods (method count = 41) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java</file>
+    <line>82</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTP" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;FTP&lt;/code&gt; has too many methods (method count = 62) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTask.java</file>
+    <line>55</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTPTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;FTPTask&lt;/code&gt; has too many methods (method count = 76) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/sos/SOS.java</file>
+    <line>38</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.sos</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.sos.SOS" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;SOS&lt;/code&gt; has too many methods (method count = 37) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ssh/Scp.java</file>
+    <line>41</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ssh</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.ssh.Scp" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Scp&lt;/code&gt; has too many methods (method count = 26) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java</file>
+    <line>51</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.vss</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;MSVSS&lt;/code&gt; has too many methods (method count = 54) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/pvcs/Pvcs.java</file>
+    <line>74</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.pvcs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.pvcs.Pvcs" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Pvcs&lt;/code&gt; has too many methods (method count = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/unix/Symlink.java</file>
+    <line>115</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.unix</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.unix.Symlink" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Symlink&lt;/code&gt; has too many methods (method count = 21) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/FailureRecorder.java</file>
+    <line>70</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.FailureRecorder" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;FailureRecorder&lt;/code&gt; has too many methods (method count = 24) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java</file>
+    <line>131</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;JUnitTask&lt;/code&gt; has too many methods (method count = 84) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTest.java</file>
+    <line>41</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;JUnitTest&lt;/code&gt; has too many methods (method count = 27) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java</file>
+    <line>73</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;JUnitTestRunner&lt;/code&gt; has too many methods (method count = 34) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/BaseTest.java</file>
+    <line>28</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.BaseTest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;BaseTest&lt;/code&gt; has too many methods (method count = 23) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/depend/Depend.java</file>
+    <line>47</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.depend</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.depend.Depend" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Depend&lt;/code&gt; has too many methods (method count = 26) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/javacc/JavaCC.java</file>
+    <line>40</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.javacc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.javacc.JavaCC" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;JavaCC&lt;/code&gt; has too many methods (method count = 33) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/javacc/JJTree.java</file>
+    <line>40</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.javacc</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.javacc.JJTree" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;JJTree&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/jdepend/JDependTask.java</file>
+    <line>55</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.jdepend</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.jdepend.JDependTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;JDependTask&lt;/code&gt; has too many methods (method count = 29) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/testing/Funtest.java</file>
+    <line>60</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.testing</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.testing.Funtest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Funtest&lt;/code&gt; has too many methods (method count = 26) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMkelem.java</file>
+    <line>90</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.clearcase</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.clearcase.CCMkelem" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;CCMkelem&lt;/code&gt; has too many methods (method count = 21) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMkattr.java</file>
+    <line>85</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.clearcase</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.clearcase.CCMkattr" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;CCMkattr&lt;/code&gt; has too many methods (method count = 21) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCMklbtype.java</file>
+    <line>96</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.clearcase</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.clearcase.CCMklbtype" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;CCMklbtype&lt;/code&gt; has too many methods (method count = 23) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/clearcase/CCCheckout.java</file>
+    <line>96</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.clearcase</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.clearcase.CCCheckout" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;CCCheckout&lt;/code&gt; has too many methods (method count = 25) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/extension/Extension.java</file>
+    <line>41</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.extension</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.extension.Extension" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;Extension&lt;/code&gt; has too many methods (method count = 21) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java</file>
+    <line>48</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.compilers</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;DefaultCompilerAdapter&lt;/code&gt; has too many methods (method count = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/condition/ConditionBase.java</file>
+    <line>36</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.condition</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.condition.ConditionBase" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ConditionBase&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/tar/TarOutputStream.java</file>
+    <line>44</line>
+    <module>ant</module>
+    <package>org.apache.tools.tar</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.tar.TarOutputStream" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;TarOutputStream&lt;/code&gt; has too many methods (method count = 24) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/tar/TarEntry.java</file>
+    <line>114</line>
+    <module>ant</module>
+    <package>org.apache.tools.tar</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.tar.TarEntry" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;TarEntry&lt;/code&gt; has too many methods (method count = 59) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/zip/ZipEntry.java</file>
+    <line>49</line>
+    <module>ant</module>
+    <package>org.apache.tools.zip</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.zip.ZipEntry" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ZipEntry&lt;/code&gt; has too many methods (method count = 47) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/zip/ZipOutputStream.java</file>
+    <line>76</line>
+    <module>ant</module>
+    <package>org.apache.tools.zip</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.zip.ZipOutputStream" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ZipOutputStream&lt;/code&gt; has too many methods (method count = 59) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/zip/ZipFile.java</file>
+    <line>75</line>
+    <module>ant</module>
+    <package>org.apache.tools.zip</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.zip.ZipFile" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ZipFile&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/mail/MailMessage.java</file>
+    <line>94</line>
+    <module>ant</module>
+    <package>org.apache.tools.mail</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.mail.MailMessage" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;MailMessage&lt;/code&gt; has too many methods (method count = 28) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2InputStream.java</file>
+    <line>46</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.bzip2.CBZip2InputStream" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;CBZip2InputStream&lt;/code&gt; has too many methods (method count = 26) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java</file>
+    <line>132</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.bzip2.CBZip2OutputStream" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;CBZip2OutputStream&lt;/code&gt; has too many methods (method count = 33) #loc</description>
+  </problem>
+</problems>
+

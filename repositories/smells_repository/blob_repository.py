@@ -20,7 +20,7 @@ class blob_repository(base_smells_repository):
 
 
     def convert_smells_list_to_df(self, smells):
-        smells_by_type = [{"instance": smell["instance"].replace(';', ''), "smell_type": smell["type"]} for smell in
+        smells_by_type = [{"instance": smell["instance"].replace(';', '').replace('.java', ''), "smell_type": smell["type"]} for smell in
                           smells]
         smells_df = pd.DataFrame(smells_by_type)
         return smells_df

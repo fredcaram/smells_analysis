@@ -1,0 +1,5 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.andengine.engine.Engine::onTouchHUD(org.andengine.engine.camera.Camera, org.andengine.input.touch.TouchEvent):boolean	org.andengine.engine.camera.Camera	0/2	
+Move Method	org.andengine.engine.Engine::onTouchScene(org.andengine.entity.scene.Scene, org.andengine.input.touch.TouchEvent):boolean	org.andengine.entity.scene.Scene	0/1	
+Move Method	org.andengine.opengl.texture.render.RenderTexture::end(org.andengine.opengl.util.GLState, boolean, boolean):void	org.andengine.opengl.util.GLState	2/5	
+Move Method	org.andengine.engine.camera.Camera::convertSceneToSurfaceTouchEvent(org.andengine.input.touch.TouchEvent, int, int):void	org.andengine.input.touch.TouchEvent	2/3	

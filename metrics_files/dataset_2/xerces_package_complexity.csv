@@ -1,0 +1,17 @@
+Package,v(G)avg,v(G)tot
+"org.apache.xerces.dom","2,76",905
+"org.apache.xerces.dom.events","1,00",14
+"org.apache.xerces.dom.traversal","4,19",130
+"org.apache.xerces.domx","3,92",200
+"org.apache.xerces.framework","4,98",1.191
+"org.apache.xerces.msg","1,00",4
+"org.apache.xerces.parsers","4,95",540
+"org.apache.xerces.readers","8,15",1.736
+"org.apache.xerces.utils","3,98",486
+"org.apache.xerces.validators.datatype","3,89",210
+"org.apache.xerces.validators.dtd","4,15",1.026
+"org.apache.xerces.validators.schema","4,68",580
+"org.w3c.dom","1,00",1
+"org.xml.sax","1,05",46
+"org.xml.sax.helpers","1,31",47
+

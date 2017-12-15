@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/aardvark/core/resources/FlashMovieSettings.java</file>
+    <line>18</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.aardvark.core.resources</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.aardvark.core.resources.FlashMovieSettings" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;FlashMovieSettings&lt;/code&gt; has too many methods (method count = 27) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/domain/FullNodeMetadata.java</file>
+    <line>26</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.domain</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.domain.FullNodeMetadata" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;FullNodeMetadata&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/domain/NodePath.java</file>
+    <line>26</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.domain</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.domain.NodePath" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;NodePath&lt;/code&gt; has too many methods (method count = 23) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/domain/search/MetadataFilterCondition.java</file>
+    <line>30</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.domain.search</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.domain.search.MetadataFilterCondition" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;MetadataFilterCondition&lt;/code&gt; has too many methods (method count = 25) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/domain/search/TextSearchAndReplaceQuery.java</file>
+    <line>26</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.domain.search</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.domain.search.TextSearchAndReplaceQuery" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;TextSearchAndReplaceQuery&lt;/code&gt; has too many methods (method count = 24) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/domain/rendering/DynamicRenderingSpecs.java</file>
+    <line>39</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.domain.rendering</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.domain.rendering.DynamicRenderingSpecs" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;DynamicRenderingSpecs&lt;/code&gt; has too many methods (method count = 23) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/internal/ContentReaderImpl.java</file>
+    <line>48</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.internal</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.internal.ContentReaderImpl" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ContentReaderImpl&lt;/code&gt; has too many methods (method count = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/internal/ContentManagerImpl.java</file>
+    <line>84</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.internal</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.internal.ContentManagerImpl" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ContentManagerImpl&lt;/code&gt; has too many methods (method count = 56) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/internal/editing/ContentEditorImpl.java</file>
+    <line>88</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.internal.editing</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.internal.editing.ContentEditorImpl" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ContentEditorImpl&lt;/code&gt; has too many methods (method count = 33) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/internal/filesystem/FilesystemMetadataManager.java</file>
+    <line>90</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.internal.filesystem</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.internal.filesystem.FilesystemMetadataManager" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;FilesystemMetadataManager&lt;/code&gt; has too many methods (method count = 30) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/internal/filesystem/SimpleFilesystemResourceManager.java</file>
+    <line>69</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.internal.filesystem</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.internal.filesystem.SimpleFilesystemResourceManager" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;SimpleFilesystemResourceManager&lt;/code&gt; has too many methods (method count = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/internal/filesystem/MetadataIndex.java</file>
+    <line>74</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.internal.filesystem</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.internal.filesystem.MetadataIndex" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;MetadataIndex&lt;/code&gt; has too many methods (method count = 27) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/processor/internal/JobExecutor.java</file>
+    <line>68</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.processor.internal</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.processor.internal.JobExecutor" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;JobExecutor&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/processor/internal/ProcessorController.java</file>
+    <line>75</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.processor.internal</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.processor.internal.ProcessorController" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;ProcessorController&lt;/code&gt; has too many methods (method count = 57) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/processor/framework/util/PipelineBuilder.java</file>
+    <line>83</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.processor.framework.util</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.processor.framework.util.PipelineBuilder" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Class with too many methods</problem_class>
+    <description>&lt;code&gt;PipelineBuilder&lt;/code&gt; has too many methods (method count = 22) #loc</description>
+  </problem>
+</problems>
+

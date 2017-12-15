@@ -9,18 +9,19 @@ smells_url = "http://www.sesa.unisa.it/landfill/GetBadSmells?system={0}&type={1}
 httphelper = http_helper()
 mongohelper = mongodb_helper()
 
-smells_projects_collection = mongohelper.get_collection("smells_projects")
-smells_projects_collection.delete_many({"dataset_id": dataSetId})
+# smells_projects_collection = mongohelper.get_collection("smells_projects")
+# smells_projects_collection.delete_many({"dataset_id": dataSetId})
 smells_collection = mongohelper.get_collection("smells")
 smells_collection.delete_many({"dataset_id": dataSetId})
 
 systemsJson = json.loads(httphelper.http_get_data(systems_url))
 for item in systemsJson:
     item["dataset_id"] = dataSetId
-mongohelper.insert_many("smells_projects", systemsJson)
+
+#mongohelper.insert_many("smells_projects", systemsJson)
 smells_db = mongohelper.get_db()
 
-for project in smells_db.smells_projects.find():
+for project in smells_db.smells_projects.find({"dataset_id": dataSetId}):
     project_id = project["id"]
     smells = project["types"]
     for smell in smells:
@@ -35,5 +36,5 @@ for project in smells_db.smells_projects.find():
                 smellData["dataset_id"] = dataSetId
                 mongohelper.insert_one("smells", smellData)
 
-mongohelper.set_projects_prefix()
-print(systemsJson)
+#mongohelper.set_projects_prefix()
+#print(systemsJson)

@@ -1,0 +1,355 @@
+org.andengine.entity.sprite.batch.vbo.HighPerformanceSpriteBatchVertexBufferObject	public void addWithPackedColor(org.andengine.opengl.texture.region.ITextureRegion, float, float, float, float, float, float, float, float, float) 	bufferData	B1	0/75
+org.andengine.entity.sprite.batch.vbo.HighPerformanceSpriteBatchVertexBufferObject	public void addWithPackedColor(org.andengine.opengl.texture.region.ITextureRegion, float, float, float, float, float) 	bufferData	B1	0/71
+org.andengine.entity.sprite.vbo.HighPerformanceTiledSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.TiledSprite) 	bufferData	B1	0/55
+org.andengine.entity.sprite.vbo.HighPerformanceTiledSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.TiledSprite) 	bufferData	B2	0/51
+org.andengine.entity.sprite.vbo.HighPerformanceTiledSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.TiledSprite) 	bufferData	B3	0/49
+org.andengine.entity.sprite.vbo.HighPerformanceTiledSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.TiledSprite) 	bufferData	B10	0/25
+org.andengine.entity.sprite.vbo.HighPerformanceDiamondSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	bufferData	B1	0/44
+org.andengine.entity.sprite.vbo.HighPerformanceDiamondSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	bufferData	B8	0/19
+org.andengine.entity.sprite.vbo.HighPerformanceSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	bufferData	B1	0/42
+org.andengine.entity.sprite.vbo.HighPerformanceSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	bufferData	B8	0/17
+org.andengine.entity.sprite.vbo.HighPerformanceUncoloredSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	bufferData	B1	0/42
+org.andengine.entity.sprite.vbo.HighPerformanceUncoloredSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	bufferData	B8	0/17
+org.andengine.entity.sprite.vbo.HighPerformanceUniformColorSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	bufferData	B1	0/42
+org.andengine.entity.sprite.vbo.HighPerformanceUniformColorSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	bufferData	B8	0/17
+org.andengine.entity.modifier.CardinalSplineMoveModifier	protected void onManagedUpdate(float, org.andengine.entity.IEntity) 	pEntity	B4	0/23
+org.andengine.entity.sprite.vbo.HighPerformanceTiledSpriteVertexBufferObject	public void onUpdateVertices(org.andengine.entity.sprite.TiledSprite) 	bufferData	B1	0/21
+org.andengine.entity.sprite.vbo.HighPerformanceTiledSpriteVertexBufferObject	public void onUpdateVertices(org.andengine.entity.sprite.TiledSprite) 	bufferData	B2	0/14
+org.andengine.entity.scene.menu.animator.AlphaMenuAnimator	public void prepareAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	offsetY	B2	0/17
+org.andengine.entity.scene.menu.animator.AlphaMenuAnimator	public void prepareAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	offsetY	B3	0/16
+org.andengine.entity.scene.menu.animator.AlphaMenuAnimator	public void prepareAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	offsetY	B7	0/3
+org.andengine.entity.scene.menu.animator.DirectMenuAnimator	public void prepareAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	offsetY	B2	0/16
+org.andengine.entity.scene.menu.animator.DirectMenuAnimator	public void prepareAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	offsetY	B3	0/15
+org.andengine.entity.scene.menu.animator.DirectMenuAnimator	public void prepareAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	offsetY	B7	0/2
+org.andengine.entity.scene.menu.animator.SlideMenuAnimator	public void buildAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	menuItem	B3	0/16
+org.andengine.entity.scene.menu.animator.SlideMenuAnimator	public void buildAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	menuItem	B7	0/3
+org.andengine.entity.sprite.vbo.HighPerformanceDiamondSpriteVertexBufferObject	public void onUpdateVertices(org.andengine.entity.sprite.Sprite) 	bufferData	B1	0/15
+org.andengine.entity.scene.menu.animator.AlphaMenuAnimator	public void prepareAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	menuItem	B3	0/15
+org.andengine.entity.scene.menu.animator.AlphaMenuAnimator	public void prepareAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	menuItem	B7	0/2
+org.andengine.entity.scene.menu.animator.DirectMenuAnimator	public void prepareAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	menuItem	B3	0/14
+org.andengine.entity.primitive.vbo.HighPerformanceRectangleVertexBufferObject	public void onUpdateVertices(org.andengine.entity.primitive.Rectangle) 	bufferData	B1	0/13
+org.andengine.entity.sprite.vbo.HighPerformanceSpriteVertexBufferObject	public void onUpdateVertices(org.andengine.entity.sprite.Sprite) 	bufferData	B1	0/13
+org.andengine.entity.sprite.vbo.HighPerformanceUncoloredSpriteVertexBufferObject	public void onUpdateVertices(org.andengine.entity.sprite.Sprite) 	bufferData	B1	0/13
+org.andengine.entity.sprite.vbo.HighPerformanceUniformColorSpriteVertexBufferObject	public void onUpdateVertices(org.andengine.entity.sprite.Sprite) 	bufferData	B1	0/13
+org.andengine.util.algorithm.collision.RectangularShapeCollisionChecker	public static void fillVertices(float, float, float, float, org.andengine.util.adt.transformation.Transformation, float[]) 	pVertices	B1	0/12
+org.andengine.entity.sprite.vbo.HighPerformanceTiledSpriteVertexBufferObject	public void onUpdateColor(org.andengine.entity.sprite.TiledSprite) 	bufferData	B1	0/12
+org.andengine.entity.sprite.vbo.HighPerformanceTiledSpriteVertexBufferObject	public void onUpdateColor(org.andengine.entity.sprite.TiledSprite) 	bufferData	B2	0/8
+org.andengine.entity.text.vbo.HighPerformanceTextVertexBufferObject	public void onUpdateColor(org.andengine.entity.text.Text) 	bufferData	B1	0/12
+org.andengine.entity.text.vbo.HighPerformanceTextVertexBufferObject	public void onUpdateColor(org.andengine.entity.text.Text) 	bufferData	B2	0/8
+org.andengine.engine.handler.physics.PhysicsHandler	protected void onUpdate(float, org.andengine.entity.IEntity) 	pEntity	B2	0/12
+org.andengine.engine.handler.physics.PhysicsHandler	protected void onUpdate(float, org.andengine.entity.IEntity) 	pEntity	B4	0/7
+org.andengine.util.level.LevelParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	entity	B1	0/11
+org.andengine.util.level.LevelParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	entity	B6	0/2
+org.andengine.util.adt.io.out.ByteBufferOutputStream	private void grow(int) 	newCapacity	B1	0/9
+org.andengine.opengl.texture.region.TiledTextureRegion	public static org.andengine.opengl.texture.region.TiledTextureRegion create(org.andengine.opengl.texture.ITexture, int, int, int, int, int, int, boolean) 	textureRegions	B1	0/9
+org.andengine.opengl.texture.region.TiledTextureRegion	public static org.andengine.opengl.texture.region.TiledTextureRegion create(org.andengine.opengl.texture.ITexture, int, int, int, int, int, int, boolean) 	textureRegions	B2	0/6
+org.andengine.opengl.texture.region.TiledTextureRegion	public static org.andengine.opengl.texture.region.TiledTextureRegion create(org.andengine.opengl.texture.ITexture, int, int, int, int, int, int, boolean) 	textureRegions	B3	0/5
+org.andengine.opengl.texture.region.TiledTextureRegion	public static org.andengine.opengl.texture.region.TiledTextureRegion create(org.andengine.opengl.texture.ITexture, int, int, int, int, int, int, boolean) 	textureRegions	B4	0/4
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(byte[]) 	pArray	B3	0/9
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(byte[]) 	pArray	B4	0/6
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(byte[]) 	pArray	B5	0/3
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(double[]) 	pArray	B3	0/9
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(double[]) 	pArray	B4	0/6
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(double[]) 	pArray	B5	0/3
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(float[]) 	pArray	B3	0/9
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(float[]) 	pArray	B4	0/6
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(float[]) 	pArray	B5	0/3
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(int[]) 	pArray	B3	0/9
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(int[]) 	pArray	B4	0/6
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(int[]) 	pArray	B5	0/3
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(java.lang.Object[]) 	pArray	B3	0/9
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(java.lang.Object[]) 	pArray	B4	0/6
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(java.lang.Object[]) 	pArray	B5	0/3
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(long[]) 	pArray	B3	0/9
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(long[]) 	pArray	B4	0/6
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(long[]) 	pArray	B5	0/3
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(short[]) 	pArray	B3	0/9
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(short[]) 	pArray	B4	0/6
+org.andengine.util.adt.array.ArrayUtils	public static final void reverse(short[]) 	pArray	B5	0/3
+org.andengine.util.level.LevelParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	entity	B1	0/8
+org.andengine.util.algorithm.sort.InsertionSorter	public void sort(T[], int, int, Comparator<T>) 	pArray	B1	0/8
+org.andengine.util.algorithm.sort.InsertionSorter	public void sort(T[], int, int, Comparator<T>) 	pArray	B2	0/7
+org.andengine.util.algorithm.sort.InsertionSorter	public void sort(T[], int, int, Comparator<T>) 	pArray	B3	0/4
+org.andengine.util.modifier.ParallelModifier	public float onUpdate(float, T) 	secondsElapsedRemaining	B3	0/8
+org.andengine.util.modifier.ParallelModifier	public float onUpdate(float, T) 	secondsElapsedRemaining	B4	0/5
+org.andengine.util.modifier.ParallelModifier	public float onUpdate(float, T) 	secondsElapsedRemaining	B5	0/4
+org.andengine.util.modifier.ParallelModifier	public float onUpdate(float, T) 	secondsElapsedRemaining	B6	0/3
+org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlasTextureRegionFactory	public static org.andengine.opengl.texture.region.TiledTextureRegion createTiledFromAssetDirectory(org.andengine.opengl.texture.atlas.bitmap.BuildableBitmapTextureAtlas, android.content.res.AssetManager, java.lang.String) 	textures	B1	0/8
+org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlasTextureRegionFactory	public static org.andengine.opengl.texture.region.TiledTextureRegion createTiledFromAssetDirectory(org.andengine.opengl.texture.atlas.bitmap.BuildableBitmapTextureAtlas, android.content.res.AssetManager, java.lang.String) 	textures	B2	0/3
+org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlasTextureRegionFactory	public static org.andengine.opengl.texture.region.TiledTextureRegion createTiledFromAssetDirectory(org.andengine.opengl.texture.atlas.bitmap.BuildableBitmapTextureAtlas, android.content.res.AssetManager, java.lang.String) 	textures	B3	0/2
+org.andengine.opengl.view.EngineRenderer	public void onSurfaceCreated(javax.microedition.khronos.opengles.GL10, javax.microedition.khronos.egl.EGLConfig) 	mRendererListener	B1	0/7
+org.andengine.util.algorithm.sort.InsertionSorter	public void sort(IList<T>, int, int, Comparator<T>) 	pList	B2	0/7
+org.andengine.entity.particle.BatchedPseudoSpriteParticleSystem	protected void onManagedDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pGLState	B2	0/7
+org.andengine.entity.particle.BatchedPseudoSpriteParticleSystem	protected void onManagedDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pGLState	B4	0/2
+org.andengine.entity.particle.BatchedSpriteParticleSystem	protected void onManagedDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pGLState	B2	0/7
+org.andengine.entity.particle.BatchedSpriteParticleSystem	protected void onManagedDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pGLState	B4	0/2
+org.andengine.util.algorithm.sort.InsertionSorter	public void sort(IList<T>, int, int, Comparator<T>) 	prev	B2	0/7
+org.andengine.engine.camera.hud.controls.BaseOnScreenControl	protected void onUpdateControlKnob(float, float) 	controlKnob	B1	0/6
+org.andengine.engine.camera.hud.controls.BaseOnScreenControl	protected void onUpdateControlKnob(float, float) 	mControlKnob	B1	0/6
+org.andengine.entity.primitive.vbo.HighPerformanceRectangleVertexBufferObject	public void onUpdateColor(org.andengine.entity.primitive.Rectangle) 	bufferData	B1	0/6
+org.andengine.entity.sprite.vbo.HighPerformanceSpriteVertexBufferObject	public void onUpdateColor(org.andengine.entity.sprite.Sprite) 	bufferData	B1	0/6
+org.andengine.util.debug.DebugTimer.DebugTime	public void split(java.lang.String) 	split	B1	0/6
+org.andengine.entity.primitive.vbo.HighPerformanceLineVertexBufferObject	public void onUpdateVertices(org.andengine.entity.primitive.Line) 	bufferData	B1	0/5
+org.andengine.entity.sprite.batch.SpriteBatch	protected void preDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pGLState	B1	0/5
+org.andengine.opengl.texture.atlas.buildable.builder.BlackPawnTextureAtlasBuilder	public void build(A, ArrayList<TextureAtlasSourceWithWithLocationCallback<T>>) throws org.andengine.opengl.texture.atlas.buildable.builder.ITextureAtlasBuilder.TextureAtlasBuilderException	textureAtlasSource	B5	0/5
+org.andengine.opengl.view.EngineRenderer	public void onSurfaceCreated(javax.microedition.khronos.opengles.GL10, javax.microedition.khronos.egl.EGLConfig) 	mGLState	B1	0/5
+org.andengine.util.adt.transformation.Transformation	public final void transform(float[]) 	i	B2	0/5
+org.andengine.opengl.font.FontUtils	private static L splitLinesByCJK(org.andengine.opengl.font.IFont, java.lang.CharSequence, L, float) 	j	B8	0/5
+org.andengine.opengl.font.FontUtils	private static L splitLinesByCJK(org.andengine.opengl.font.IFont, java.lang.CharSequence, L, float) 	j	B9	0/4
+org.andengine.util.adt.transformation.Transformation	public final void transform(float[]) 	j	B2	0/5
+org.andengine.util.adt.transformation.Transformation	public final void transform(float[]) 	j	B3	0/4
+org.andengine.util.adt.transformation.Transformation	public final void transform(float[]) 	pVertices	B2	0/5
+org.andengine.util.adt.transformation.Transformation	public final void transform(float[]) 	pVertices	B3	0/4
+org.andengine.util.adt.array.ArrayUtils	public static transient T[] join(Class<T>, T[][]) 	resultLength	B7	0/5
+org.andengine.util.adt.array.ArrayUtils	public static transient T[] join(Class<T>, T[][]) 	resultLength	B8	0/4
+org.andengine.util.adt.array.ArrayUtils	public static transient T[] join(Class<T>, T[][]) 	resultLength	B9	0/3
+org.andengine.engine.splitscreen.SingleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	secondCamera	B2	0/5
+org.andengine.util.algorithm.hull.JarvisMarch	private static int jarvisMarch(float[], int, int, int, int) 	possibleNextHullVertexAngle	B5	0/5
+org.andengine.engine.camera.BoundCamera	protected void ensureInBounds() 	centerX	B1	0/4
+org.andengine.engine.camera.BoundCamera	protected void ensureInBounds() 	centerY	B4	0/4
+org.andengine.entity.primitive.vbo.HighPerformanceLineVertexBufferObject	public void onUpdateColor(org.andengine.entity.primitive.Line) 	bufferData	B1	0/4
+org.andengine.opengl.texture.TextureManager	public synchronized boolean loadTexture(org.andengine.opengl.util.GLState, org.andengine.opengl.texture.ITexture) throws java.io.IOException	pGLState	B3	0/4
+org.andengine.opengl.texture.TextureManager	public synchronized boolean loadTexture(org.andengine.opengl.util.GLState, org.andengine.opengl.texture.ITexture) throws java.io.IOException	pTexture	B3	0/4
+org.andengine.opengl.view.RenderSurfaceView	public void setRenderer(org.andengine.engine.Engine, org.andengine.opengl.view.IRendererListener) 	mEngineRenderer	B1	0/4
+org.andengine.util.adt.bit.BitVector	public byte[] toByteArray() 	byteArrayLength	B1	0/4
+org.andengine.util.adt.cache.IntLRUCache	public V put(int, V) 	IntLRUCacheValueHolder	B5	0/4
+org.andengine.util.adt.cache.LRUCache	public V put(K, V) 	lruCacheValueHolder	B5	0/4
+org.andengine.util.debug.DebugTimer.DebugTime	public void split(java.lang.String) 	split	B1	0/4
+org.andengine.entity.scene.menu.animator.SlideMenuAnimator	public void prepareAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	offsetY	B2	0/4
+org.andengine.entity.scene.menu.animator.SlideMenuAnimator	public void prepareAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	offsetY	B3	0/3
+org.andengine.util.algorithm.hull.HullUtils	public static void swap(float[], int, int, int) 	pVertices	B2	0/4
+org.andengine.util.algorithm.hull.HullUtils	public static void swap(float[], int, int, int) 	pVertices	B3	0/3
+org.andengine.entity.primitive.vbo.HighPerformanceMeshVertexBufferObject	public void onUpdateColor(org.andengine.entity.primitive.Mesh) 	bufferData	B1	0/4
+org.andengine.entity.primitive.vbo.HighPerformanceMeshVertexBufferObject	public void onUpdateColor(org.andengine.entity.primitive.Mesh) 	bufferData	B2	0/2
+org.andengine.opengl.texture.TextureManager	public synchronized boolean unloadTexture(org.andengine.opengl.util.GLState, org.andengine.opengl.texture.ITexture) 	pGLState	B1	0/4
+org.andengine.opengl.texture.TextureManager	public synchronized boolean unloadTexture(org.andengine.opengl.util.GLState, org.andengine.opengl.texture.ITexture) 	pGLState	B3	0/2
+org.andengine.opengl.texture.TextureManager	public synchronized boolean unloadTexture(org.andengine.opengl.util.GLState, org.andengine.opengl.texture.ITexture) 	pTexture	B1	0/4
+org.andengine.opengl.texture.TextureManager	public synchronized boolean unloadTexture(org.andengine.opengl.util.GLState, org.andengine.opengl.texture.ITexture) 	pTexture	B3	0/2
+org.andengine.opengl.texture.region.TiledTextureRegion	public org.andengine.opengl.texture.region.TiledTextureRegion deepCopy() 	textureRegions	B1	0/4
+org.andengine.opengl.texture.region.TiledTextureRegion	public org.andengine.opengl.texture.region.TiledTextureRegion deepCopy() 	textureRegions	B2	0/2
+org.andengine.util.adt.map.LongSparseArray	public void clear() 	values	B1	0/4
+org.andengine.util.adt.map.LongSparseArray	public void clear() 	values	B2	0/2
+org.andengine.util.modifier.LoopModifier	public float onUpdate(float, T) 	secondsElapsedRemaining	B3	0/4
+org.andengine.util.modifier.LoopModifier	public float onUpdate(float, T) 	secondsElapsedRemaining	B4	0/2
+org.andengine.util.modifier.SequenceModifier	public float onUpdate(float, T) 	secondsElapsedRemaining	B3	0/4
+org.andengine.util.modifier.SequenceModifier	public float onUpdate(float, T) 	secondsElapsedRemaining	B4	0/2
+org.andengine.entity.particle.BatchedPseudoSpriteParticleSystem	protected void onManagedDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	entity	B3	0/4
+org.andengine.entity.particle.BatchedSpriteParticleSystem	protected void onManagedDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	sprite	B3	0/4
+org.andengine.entity.util.ScreenCapture	private static void saveCapture(android.graphics.Bitmap, java.lang.String) throws java.io.FileNotFoundException	out	B1	0/3
+org.andengine.opengl.shader.ShaderProgram	public void bind(org.andengine.opengl.util.GLState, org.andengine.opengl.vbo.attribute.VertexBufferObjectAttributes) throws org.andengine.opengl.shader.exception.ShaderProgramException	pGLState	B1	0/3
+org.andengine.opengl.texture.TextureManager	public synchronized void onDestroy() 	texture	B1	0/3
+org.andengine.opengl.texture.TextureManager	public synchronized void updateTextures(org.andengine.opengl.util.GLState) 	textureToBeUnloaded	B12	0/3
+org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlasTextureRegionFactory	public static org.andengine.opengl.texture.region.TiledTextureRegion createTiledFromAssetDirectory(org.andengine.opengl.texture.atlas.bitmap.BuildableBitmapTextureAtlas, android.content.res.AssetManager, java.lang.String) 	files	B1	0/3
+org.andengine.opengl.texture.atlas.bitmap.source.AssetBitmapTextureAtlasSource	public android.graphics.Bitmap onLoadBitmap(android.graphics.Bitmap.Config) 	in	B1	0/3
+org.andengine.opengl.texture.atlas.bitmap.source.AssetBitmapTextureAtlasSource	public static org.andengine.opengl.texture.atlas.bitmap.source.AssetBitmapTextureAtlasSource create(android.content.res.AssetManager, java.lang.String, int, int) 	in	B1	0/3
+org.andengine.opengl.texture.atlas.bitmap.source.FileBitmapTextureAtlasSource	public android.graphics.Bitmap onLoadBitmap(android.graphics.Bitmap.Config) 	in	B1	0/3
+org.andengine.opengl.texture.atlas.bitmap.source.FileBitmapTextureAtlasSource	public static org.andengine.opengl.texture.atlas.bitmap.source.FileBitmapTextureAtlasSource create(java.io.File, int, int) 	in	B1	0/3
+org.andengine.opengl.texture.render.RenderTexture	public void init(org.andengine.opengl.util.GLState) throws org.andengine.opengl.exception.GLFrameBufferException, org.andengine.opengl.exception.GLException	pGLState	B1	0/3
+org.andengine.opengl.vbo.VertexBufferObjectManager	public synchronized void updateVertexBufferObjects(org.andengine.opengl.util.GLState) 	vertexBufferObjectToBeUnloaded	B3	0/3
+org.andengine.opengl.view.EngineRenderer	public void onDrawFrame(javax.microedition.khronos.opengles.GL10) 	mEngine	B1	0/3
+org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueue	public void moveToTail(org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueueNode) 	mTail	B6	0/3
+org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueue	public void moveToTail(org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueueNode) 	pIntLRUCacheQueueNode	B6	0/3
+org.andengine.util.adt.cache.LRUCache.LRUCacheQueue	public void moveToTail(LRUCacheQueueNode<K>) 	pLRUCacheQueueNode	B6	0/3
+org.andengine.util.adt.pool.EntityDetachRunnablePoolUpdateHandler	public void scheduleDetach(org.andengine.entity.IEntity, Callback<org.andengine.entity.IEntity>) 	entityDetachRunnablePoolItem	B1	0/3
+org.andengine.util.algorithm.path.astar.AStarPathFinder	public org.andengine.util.algorithm.path.Path findPath(IPathFinderMap<T>, int, int, int, int, T, int, int, int, int, boolean, IAStarHeuristic<T>, ICostFunction<T>, float, IPathFinderListener<T>) 	length	B32	0/3
+org.andengine.entity.modifier.PathModifier.Path	private void updateLength() 	length	B1	0/3
+org.andengine.entity.modifier.PathModifier.Path	private void updateLength() 	length	B2	0/2
+org.andengine.opengl.view.RenderSurfaceView	public void setRenderer(org.andengine.engine.Engine, org.andengine.opengl.view.IRendererListener) 	mConfigChooser	B1	0/3
+org.andengine.opengl.view.RenderSurfaceView	public void setRenderer(org.andengine.engine.Engine, org.andengine.opengl.view.IRendererListener) 	mConfigChooser	B2	0/2
+org.andengine.util.algorithm.sort.InsertionSorter	public void sort(List<T>, int, int, Comparator<T>) 	j	B3	0/3
+org.andengine.util.algorithm.sort.InsertionSorter	public void sort(List<T>, int, int, Comparator<T>) 	j	B4	0/2
+org.andengine.util.modifier.ParallelModifier	public float onUpdate(float, T) 	secondsElapsedUsed	B5	0/3
+org.andengine.util.modifier.ParallelModifier	public float onUpdate(float, T) 	secondsElapsedUsed	B6	0/2
+org.andengine.util.algorithm.sort.InsertionSorter	public void sort(T[], int, int, Comparator<T>) 	j	B3	0/3
+org.andengine.util.algorithm.sort.InsertionSorter	public void sort(T[], int, int, Comparator<T>) 	j	B4	0/2
+org.andengine.engine.Engine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	mScene	B2	0/2
+org.andengine.engine.camera.Camera	public void setHUD(org.andengine.engine.camera.hud.HUD) 	mHUD	B1	0/2
+org.andengine.engine.camera.Camera	public void setHUD(org.andengine.engine.camera.hud.HUD) 	pHUD	B1	0/2
+org.andengine.entity.particle.BlendFunctionParticleSystem	protected void preDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pGLState	B2	0/2
+org.andengine.entity.primitive.Line	protected void preDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pGLState	B1	0/2
+org.andengine.entity.scene.Scene	protected void onManagedDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	childScene	B5	0/2
+org.andengine.entity.scene.Scene	protected void onManagedDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	mChildScene	B5	0/2
+org.andengine.entity.shape.Shape	protected void preDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pGLState	B2	0/2
+org.andengine.entity.sprite.batch.SpriteBatch	protected void postDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pGLState	B1	0/2
+org.andengine.entity.sprite.batch.SpriteBatch	public void setIndex(int) 	mSpriteBatchVertexBufferObject	B1	0/2
+org.andengine.input.sensor.orientation.OrientationData	private void updateOrientation() 	values	B5	0/2
+org.andengine.opengl.texture.Texture	public void loadToHardware(org.andengine.opengl.util.GLState) throws java.io.IOException	pGLState	B1	0/2
+org.andengine.opengl.texture.atlas.TextureAtlas	public void addTextureAtlasSource(T, int, int) throws java.lang.IllegalArgumentException	pTextureAtlasSource	B1	0/2
+org.andengine.opengl.texture.render.RenderTexture	public int[] getPixelsARGB_8888(org.andengine.opengl.util.GLState, int, int, int, int) 	pGLState	B1	0/2
+org.andengine.opengl.texture.render.RenderTexture	public void destroy(org.andengine.opengl.util.GLState) 	pGLState	B1	0/2
+org.andengine.opengl.texture.render.RenderTexture	public void end(org.andengine.opengl.util.GLState, boolean, boolean) 	pGLState	B5	0/2
+org.andengine.ui.activity.BaseGameActivity	protected void onSetContentView() 	mRenderSurfaceView	B1	0/2
+org.andengine.ui.activity.LayoutGameActivity	protected void onSetContentView() 	mRenderSurfaceView	B1	0/2
+org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueue	public int poll() 	head	B5	0/2
+org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueue	public int poll() 	mHead	B5	0/2
+org.andengine.util.adt.pool.PoolUpdateHandler	public void reset() 	pool	B2	0/2
+org.andengine.util.base64.Base64InputStream	public int read() throws java.io.IOException	coder	B1	0/2
+org.andengine.util.base64.Base64InputStream	public int read(byte[], int, int) throws java.io.IOException	coder	B1	0/2
+org.andengine.util.math.MathUtils	public static final void arraySumInternal(int[]) 	pValues	B2	0/2
+org.andengine.util.math.MathUtils	public static final void arraySumInternal(long[]) 	pValues	B2	0/2
+org.andengine.entity.text.vbo.HighPerformanceTextVertexBufferObject	public void onUpdateVertices(org.andengine.entity.text.Text) 	bufferData	B1	0/67
+org.andengine.entity.text.vbo.HighPerformanceTextVertexBufferObject	public void onUpdateVertices(org.andengine.entity.text.Text) 	bufferData	B2	0/58
+org.andengine.entity.text.vbo.HighPerformanceTextVertexBufferObject	public void onUpdateVertices(org.andengine.entity.text.Text) 	bufferData	B11	1/33
+org.andengine.entity.text.vbo.HighPerformanceTextVertexBufferObject	public void onUpdateVertices(org.andengine.entity.text.Text) 	bufferData	B12	0/32
+org.andengine.entity.util.ScreenGrabber	private static android.graphics.Bitmap grab(int, int, int, int) 	pixels	B1	1/9
+org.andengine.entity.util.ScreenGrabber	private static android.graphics.Bitmap grab(int, int, int, int) 	pixels	B2	0/7
+org.andengine.entity.util.ScreenGrabber	private static android.graphics.Bitmap grab(int, int, int, int) 	pixels	B3	0/6
+org.andengine.entity.util.ScreenGrabber	private static android.graphics.Bitmap grab(int, int, int, int) 	pixels	B4	0/5
+org.andengine.entity.scene.menu.animator.SlideMenuAnimator	public void buildAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	moveModifier	B3	1/16
+org.andengine.entity.scene.menu.animator.AlphaMenuAnimator	public void prepareAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	offsetX	B3	1/15
+org.andengine.entity.scene.menu.animator.DirectMenuAnimator	public void prepareAnimations(ArrayList<org.andengine.entity.scene.menu.item.IMenuItem>, float, float) 	offsetX	B3	1/14
+org.andengine.entity.Entity	public org.andengine.util.adt.transformation.Transformation getLocalToParentTransformation() 	mLocalToParentTransformation	B3	2/27
+org.andengine.entity.Entity	public org.andengine.util.adt.transformation.Transformation getLocalToParentTransformation() 	mLocalToParentTransformation	B4	0/25
+org.andengine.entity.Entity	public org.andengine.util.adt.transformation.Transformation getParentToLocalTransformation() 	mParentToLocalTransformation	B3	2/27
+org.andengine.entity.Entity	public org.andengine.util.adt.transformation.Transformation getParentToLocalTransformation() 	mParentToLocalTransformation	B4	0/25
+org.andengine.entity.sprite.batch.SpriteBatch	public void draw(org.andengine.opengl.texture.region.ITextureRegion, org.andengine.entity.IEntity, float, float, float) 	pEntity	B1	1/4
+org.andengine.entity.sprite.batch.SpriteBatch	public void draw(org.andengine.opengl.texture.region.ITextureRegion, org.andengine.entity.IEntity, float, float, float) 	pEntity	B2	0/3
+org.andengine.entity.sprite.batch.SpriteBatch	public void draw(org.andengine.opengl.texture.region.ITextureRegion, org.andengine.entity.IEntity, float, float, float, float, float, float) 	pEntity	B1	1/4
+org.andengine.entity.sprite.batch.SpriteBatch	public void draw(org.andengine.opengl.texture.region.ITextureRegion, org.andengine.entity.IEntity, float, float, float, float, float, float) 	pEntity	B2	0/3
+org.andengine.entity.sprite.batch.SpriteBatch	public void drawWithoutChecks(org.andengine.opengl.texture.region.ITextureRegion, org.andengine.entity.IEntity, float, float, float) 	pEntity	B1	1/4
+org.andengine.entity.sprite.batch.SpriteBatch	public void drawWithoutChecks(org.andengine.opengl.texture.region.ITextureRegion, org.andengine.entity.IEntity, float, float, float) 	pEntity	B2	0/3
+org.andengine.entity.sprite.batch.SpriteBatch	public void drawWithoutChecks(org.andengine.opengl.texture.region.ITextureRegion, org.andengine.entity.IEntity, float, float, float, float, float, float) 	pEntity	B1	1/4
+org.andengine.entity.sprite.batch.SpriteBatch	public void drawWithoutChecks(org.andengine.opengl.texture.region.ITextureRegion, org.andengine.entity.IEntity, float, float, float, float, float, float) 	pEntity	B2	0/3
+org.andengine.entity.scene.background.ParallaxBackground.ParallaxEntity	public void onDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera, float) 	baseOffset	B1	1/4
+org.andengine.entity.scene.background.ParallaxBackground.ParallaxEntity	public void onDraw(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera, float) 	baseOffset	B2	0/2
+org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueue	private org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueueNode add(org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueueNode) 	pIntLRUCacheQueueNode	B1	1/3
+org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueue	private org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueueNode add(org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueueNode) 	pIntLRUCacheQueueNode	B3	0/2
+org.andengine.util.adt.cache.LRUCache.LRUCacheQueue	private LRUCacheQueueNode<K> add(LRUCacheQueueNode<K>) 	pLRUCacheQueueNode	B1	1/3
+org.andengine.util.adt.cache.LRUCache.LRUCacheQueue	private LRUCacheQueueNode<K> add(LRUCacheQueueNode<K>) 	pLRUCacheQueueNode	B3	0/2
+org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueue	public void moveToTail(org.andengine.util.adt.cache.IntLRUCache.IntLRUCacheQueueNode) 	previous	B3	1/6
+org.andengine.util.adt.cache.LRUCache.LRUCacheQueue	public void moveToTail(LRUCacheQueueNode<K>) 	previous	B3	1/6
+org.andengine.engine.splitscreen.DoubleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	mSecondScene	B1	2/8
+org.andengine.engine.splitscreen.DoubleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	mSecondScene	B3	1/4
+org.andengine.engine.splitscreen.DoubleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	mSecondScene	B4	0/3
+org.andengine.engine.splitscreen.DoubleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	secondCamera	B1	2/8
+org.andengine.engine.splitscreen.DoubleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	secondCamera	B3	1/4
+org.andengine.engine.splitscreen.DoubleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	secondCamera	B4	0/3
+org.andengine.entity.Entity	public org.andengine.util.adt.transformation.Transformation getLocalToSceneTransformation() 	mLocalToSceneTransformation	B3	1/5
+org.andengine.entity.Entity	public org.andengine.util.adt.transformation.Transformation getLocalToSceneTransformation() 	mParent	B3	1/5
+org.andengine.entity.Entity	public org.andengine.util.adt.transformation.Transformation getLocalToSceneTransformation() 	parent	B3	1/5
+org.andengine.entity.Entity	public org.andengine.util.adt.transformation.Transformation getSceneToLocalTransformation() 	mParent	B3	1/5
+org.andengine.entity.Entity	public org.andengine.util.adt.transformation.Transformation getSceneToLocalTransformation() 	mSceneToLocalTransformation	B3	1/5
+org.andengine.entity.Entity	public org.andengine.util.adt.transformation.Transformation getSceneToLocalTransformation() 	parent	B3	1/5
+org.andengine.entity.modifier.CardinalSplineMoveModifier	protected void onManagedUpdate(float, org.andengine.entity.IEntity) 	p	B1	1/5
+org.andengine.util.texturepack.TexturePackParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	mTexturePack	B1	3/7
+org.andengine.util.texturepack.TexturePackParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	mTexturePack	B2	0/4
+org.andengine.engine.splitscreen.DoubleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pFirstCamera	B1	2/8
+org.andengine.engine.splitscreen.DoubleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pFirstCamera	B2	1/5
+org.andengine.opengl.texture.render.RenderTexture	public void begin(org.andengine.opengl.util.GLState, boolean, boolean) 	left	B1	1/4
+org.andengine.opengl.texture.render.RenderTexture	public void begin(org.andengine.opengl.util.GLState, boolean, boolean) 	right	B1	1/4
+org.andengine.util.adt.pool.GenericPool	public synchronized void batchAllocatePoolItems(int) 	allocationCount	B1	1/4
+org.andengine.engine.splitscreen.DoubleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pGLState	B1	2/8
+org.andengine.util.animationpack.AnimationPackParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	mAnimationPack	B1	10/13
+org.andengine.util.animationpack.AnimationPackParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	mAnimationPack	B4	0/3
+org.andengine.engine.splitscreen.SingleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pFirstCamera	B1	2/6
+org.andengine.engine.splitscreen.SingleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pFirstCamera	B2	1/5
+org.andengine.engine.splitscreen.SingleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pGLState	B1	2/6
+org.andengine.engine.splitscreen.SingleSceneSplitScreenEngine	protected void onDrawScene(org.andengine.opengl.util.GLState, org.andengine.engine.camera.Camera) 	pGLState	B2	1/5
+org.andengine.opengl.texture.render.RenderTexture	public void begin(org.andengine.opengl.util.GLState, boolean, boolean) 	bottom	B1	1/4
+org.andengine.opengl.texture.render.RenderTexture	public void begin(org.andengine.opengl.util.GLState, boolean, boolean) 	bottom	B4	1/3
+org.andengine.opengl.texture.render.RenderTexture	public void begin(org.andengine.opengl.util.GLState, boolean, boolean) 	top	B1	1/4
+org.andengine.opengl.texture.render.RenderTexture	public void begin(org.andengine.opengl.util.GLState, boolean, boolean) 	top	B4	1/3
+org.andengine.opengl.font.FontUtils	public static float measureText(org.andengine.opengl.font.IFont, java.lang.CharSequence, int, int, float[]) 	pWidths	B9	3/5
+org.andengine.opengl.font.FontUtils	public static float measureText(org.andengine.opengl.font.IFont, java.lang.CharSequence, int, int, float[]) 	pWidths	B12	0/2
+org.andengine.util.ActivityUtils	public static void setScreenBrightness(android.app.Activity, float) 	windowLayoutParams	B1	1/3
+org.andengine.engine.Engine	public void onDrawFrame(org.andengine.opengl.util.GLState) throws java.lang.InterruptedException	pGLState	B1	2/6
+org.andengine.entity.scene.background.RepeatingSpriteBackground	private org.andengine.entity.sprite.Sprite loadSprite(float, float, org.andengine.opengl.texture.TextureManager, org.andengine.opengl.texture.atlas.bitmap.source.IBitmapTextureAtlasSource, org.andengine.opengl.vbo.VertexBufferObjectManager) throws java.lang.IllegalArgumentException	textureRegion	B1	2/6
+org.andengine.opengl.texture.atlas.buildable.builder.BlackPawnTextureAtlasBuilder	public void build(A, ArrayList<TextureAtlasSourceWithWithLocationCallback<T>>) throws org.andengine.opengl.texture.atlas.buildable.builder.ITextureAtlasBuilder.TextureAtlasBuilderException	pTextureAtlas	B1	12/17
+org.andengine.opengl.texture.atlas.buildable.builder.BlackPawnTextureAtlasBuilder	public void build(A, ArrayList<TextureAtlasSourceWithWithLocationCallback<T>>) throws org.andengine.opengl.texture.atlas.buildable.builder.ITextureAtlasBuilder.TextureAtlasBuilderException	pTextureAtlas	B5	0/5
+org.andengine.util.level.LevelParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	parent	B1	8/11
+org.andengine.util.level.LevelParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	parent	B6	0/2
+org.andengine.AndEngine	private static void checkEGLConfigChooserSupport() throws org.andengine.util.exception.DeviceNotSupportedException	configChooser	B1	2/5
+org.andengine.entity.sprite.vbo.HighPerformanceDiamondSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceDiamondSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u2	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceDiamondSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceDiamondSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v2	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u2	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v2	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceTiledSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.TiledSprite) 	u	B3	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceTiledSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.TiledSprite) 	u2	B3	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceTiledSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.TiledSprite) 	v	B3	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceTiledSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.TiledSprite) 	v2	B3	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceUncoloredSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceUncoloredSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u2	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceUncoloredSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceUncoloredSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v2	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceUniformColorSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceUniformColorSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u2	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceUniformColorSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v	B1	4/9
+org.andengine.entity.sprite.vbo.HighPerformanceUniformColorSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v2	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemoryDiamondSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemoryDiamondSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u2	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemoryDiamondSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemoryDiamondSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v2	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemorySpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemorySpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u2	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemorySpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemorySpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v2	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemoryTiledSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.TiledSprite) 	u	B3	4/9
+org.andengine.entity.sprite.vbo.LowMemoryTiledSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.TiledSprite) 	u2	B3	4/9
+org.andengine.entity.sprite.vbo.LowMemoryTiledSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.TiledSprite) 	v	B3	4/9
+org.andengine.entity.sprite.vbo.LowMemoryTiledSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.TiledSprite) 	v2	B3	4/9
+org.andengine.entity.sprite.vbo.LowMemoryUncoloredSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemoryUncoloredSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u2	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemoryUncoloredSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemoryUncoloredSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v2	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemoryUniformColorSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemoryUniformColorSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	u2	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemoryUniformColorSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v	B1	4/9
+org.andengine.entity.sprite.vbo.LowMemoryUniformColorSpriteVertexBufferObject	public void onUpdateTextureCoordinates(org.andengine.entity.sprite.Sprite) 	v2	B1	4/9
+org.andengine.opengl.texture.TextureManager	public synchronized void updateTextures(org.andengine.opengl.util.GLState) 	pGLState	B1	11/22
+org.andengine.opengl.texture.TextureManager	public synchronized void updateTextures(org.andengine.opengl.util.GLState) 	pGLState	B2	8/19
+org.andengine.opengl.vbo.VertexBufferObjectManager	public synchronized void updateVertexBufferObjects(org.andengine.opengl.util.GLState) 	pGLState	B1	3/5
+org.andengine.opengl.vbo.VertexBufferObjectManager	public synchronized void updateVertexBufferObjects(org.andengine.opengl.util.GLState) 	pGLState	B2	2/4
+org.andengine.opengl.vbo.VertexBufferObjectManager	public synchronized void updateVertexBufferObjects(org.andengine.opengl.util.GLState) 	pGLState	B3	1/3
+org.andengine.entity.scene.Scene	public void back() 	mParentScene	B1	1/2
+org.andengine.opengl.font.FontUtils	private static L splitLinesByLetters(org.andengine.opengl.font.IFont, java.lang.CharSequence, L, float) 	i	B13	1/2
+org.andengine.opengl.shader.ShaderProgram	public void delete(org.andengine.opengl.util.GLState) 	pGLState	B1	1/2
+org.andengine.util.ProbabilityGenerator	public T next() 	random	B3	1/2
+org.andengine.util.adt.map.LongSparseArray	private void gc() 	values	B4	1/2
+org.andengine.audio.sound.SoundManager	public synchronized void onLoadComplete(android.media.SoundPool, int, int) 	sound	B2	2/4
+org.andengine.opengl.texture.atlas.buildable.builder.BlackPawnTextureAtlasBuilder.Node	private org.andengine.opengl.texture.atlas.buildable.builder.BlackPawnTextureAtlasBuilder.Node createChildren(org.andengine.opengl.texture.atlas.source.ITextureAtlasSource, int, int, int, int, int, int) 	mChildB	B1	2/4
+org.andengine.util.animationpack.AnimationPackParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	mCurrentAnimationFrameDurations	B1	10/12
+org.andengine.util.animationpack.AnimationPackParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	mCurrentAnimationFrameDurations	B5	6/8
+org.andengine.util.animationpack.AnimationPackParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	mCurrentAnimationFrameDurations	B6	5/7
+org.andengine.util.animationpack.AnimationPackParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	mCurrentAnimationFrameDurations	B8	4/6
+org.andengine.util.animationpack.AnimationPackParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	mCurrentAnimationFrameDurations	B9	3/5
+org.andengine.util.animationpack.AnimationPackParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	mCurrentAnimationFrameDurations	B11	2/4
+org.andengine.util.animationpack.AnimationPackParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	mCurrentAnimationFrameDurations	B12	0/2
+org.andengine.engine.Engine.UpdateThread	public void run() 	mEngine	B1	2/3
+org.andengine.engine.Engine.UpdateThread	public void run() 	mEngine	B2	1/2
+org.andengine.opengl.font.FontUtils	private static L splitLinesByWords(org.andengine.opengl.font.IFont, java.lang.CharSequence, L, float) 	spacesSkipped	B5	2/4
+org.andengine.opengl.font.FontUtils	private static L splitLinesByWords(org.andengine.opengl.font.IFont, java.lang.CharSequence, L, float) 	spacesSkipped	B6	2/3
+org.andengine.opengl.font.FontUtils	private static L splitLinesByLetters(org.andengine.opengl.font.IFont, java.lang.CharSequence, L, float) 	lastNonWhitespace	B3	4/6
+org.andengine.opengl.font.FontUtils	private static L splitLinesByLetters(org.andengine.opengl.font.IFont, java.lang.CharSequence, L, float) 	lastNonWhitespace	B4	2/4
+org.andengine.util.adt.pool.PoolUpdateHandler	public void onUpdate(float) 	pool	B1	3/5
+org.andengine.opengl.font.FontUtils	private static L splitLinesByLetters(org.andengine.opengl.font.IFont, java.lang.CharSequence, L, float) 	lineStart	B3	3/4
+org.andengine.opengl.font.FontUtils	private static L splitLinesByLetters(org.andengine.opengl.font.IFont, java.lang.CharSequence, L, float) 	lineStart	B4	1/2
+org.andengine.entity.text.vbo.HighPerformanceTextVertexBufferObject	public void onUpdateVertices(org.andengine.entity.text.Text) 	charactersToDraw	B1	9/12
+org.andengine.entity.text.vbo.HighPerformanceTextVertexBufferObject	public void onUpdateVertices(org.andengine.entity.text.Text) 	charactersToDraw	B11	1/2
+org.andengine.entity.text.vbo.LowMemoryTextVertexBufferObject	public void onUpdateVertices(org.andengine.entity.text.Text) 	charactersToDraw	B1	9/12
+org.andengine.entity.text.vbo.LowMemoryTextVertexBufferObject	public void onUpdateVertices(org.andengine.entity.text.Text) 	charactersToDraw	B11	1/2
+org.andengine.opengl.texture.atlas.buildable.builder.BlackPawnTextureAtlasBuilder	public void build(A, ArrayList<TextureAtlasSourceWithWithLocationCallback<T>>) throws org.andengine.opengl.texture.atlas.buildable.builder.ITextureAtlasBuilder.TextureAtlasBuilderException	root	B1	11/17
+org.andengine.util.algorithm.hull.JarvisMarch	private static int jarvisMarch(float[], int, int, int, int) 	currentHullVertexAngle	B14	2/3
+org.andengine.engine.options.resolutionpolicy.RatioResolutionPolicy	public void onMeasure(org.andengine.opengl.view.RenderSurfaceView, int, int) 	measuredHeight	B1	7/10
+org.andengine.engine.options.resolutionpolicy.RatioResolutionPolicy	public void onMeasure(org.andengine.opengl.view.RenderSurfaceView, int, int) 	measuredWidth	B1	7/10
+org.andengine.opengl.font.Font	public synchronized void update(org.andengine.opengl.util.GLState) 	pGLState	B1	3/4
+org.andengine.opengl.font.Font	public synchronized void update(org.andengine.opengl.util.GLState) 	pGLState	B2	2/3
+org.andengine.engine.Engine	public void onAccuracyChanged(android.hardware.Sensor, int) 	mOrientationData	B1	8/11
+org.andengine.engine.Engine	public void onAccuracyChanged(android.hardware.Sensor, int) 	mOrientationData	B2	7/10
+org.andengine.util.modifier.BaseDurationModifier	public final float onUpdate(float, T) 	pItem	B3	5/7
+org.andengine.util.adt.map.LongSparseArray	private void gc() 	keys	B1	9/11
+org.andengine.util.adt.map.LongSparseArray	private void gc() 	keys	B2	6/7
+org.andengine.util.adt.map.LongSparseArray	private void gc() 	keys	B3	3/4
+org.andengine.util.adt.map.LongSparseArray	private void gc() 	keys	B4	1/2
+org.andengine.util.texturepack.TexturePackParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	mTextureRegionLibrary	B1	3/4
+org.andengine.entity.text.vbo.HighPerformanceTextVertexBufferObject	public void onUpdateVertices(org.andengine.entity.text.Text) 	pText	B1	9/12
+org.andengine.entity.text.vbo.LowMemoryTextVertexBufferObject	public void onUpdateVertices(org.andengine.entity.text.Text) 	pText	B1	9/12
+org.andengine.util.algorithm.hull.JarvisMarch	private static int jarvisMarch(float[], int, int, int, int) 	nextHullVertexIndex	B4	9/10
+org.andengine.util.algorithm.hull.JarvisMarch	private static int jarvisMarch(float[], int, int, int, int) 	nextHullVertexIndex	B5	6/7
+org.andengine.util.algorithm.hull.JarvisMarch	private static int jarvisMarch(float[], int, int, int, int) 	nextHullVertexIndex	B7	1/2
+org.andengine.engine.Engine	public void onAccuracyChanged(android.hardware.Sensor, int) 	mAccelerationData	B1	6/7
+org.andengine.engine.Engine	public void onAccuracyChanged(android.hardware.Sensor, int) 	mAccelerationData	B2	5/6
+org.andengine.util.animationpack.AnimationPackParser	public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException	mTexturePackLoader	B1	10/11

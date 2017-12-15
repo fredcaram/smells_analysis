@@ -1,0 +1,2110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/ExecTask.java</file>
+    <line>427</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.ExecTask java.lang.String resolveExecutable(java.lang.String exec, boolean mustSearchPath)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;resolveExecutable&lt;/code&gt; is too long (# Non-comment source statements = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Classloader.java</file>
+    <line>162</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Classloader void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 38) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/AntStructure.java</file>
+    <line>201</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.AntStructure.DTDPrinter void printHead(java.io.PrintWriter out, java.util.Enumeration&lt;java.lang.String&gt; tasks, java.util.Enumeration&lt;java.lang.String&gt; types)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;printHead&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/AntStructure.java</file>
+    <line>280</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.AntStructure.DTDPrinter void printElementDecl(java.io.PrintWriter out, org.apache.tools.ant.Project p, java.lang.String name, java.lang.Class&lt;?&gt; element)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;printElementDecl&lt;/code&gt; is too long (# Non-comment source statements = 95) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Javadoc.java</file>
+    <line>1367</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Javadoc.TagArgument void setScope(java.lang.String verboseScope)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;setScope&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Javadoc.java</file>
+    <line>2002</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Javadoc void doLinks(org.apache.tools.ant.types.Commandline toExecute)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;doLinks&lt;/code&gt; is too long (# Non-comment source statements = 39) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Javadoc.java</file>
+    <line>2369</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Javadoc void parsePackages(java.util.Vector&lt;java.lang.String&gt; pn, org.apache.tools.ant.types.Path sp)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;parsePackages&lt;/code&gt; is too long (# Non-comment source statements = 58) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Javadoc.java</file>
+    <line>1705</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Javadoc void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 70) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Javadoc.java</file>
+    <line>2287</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Javadoc java.lang.String quoteString(java.lang.String str, char delim)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;quoteString&lt;/code&gt; is too long (# Non-comment source statements = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Javadoc.java</file>
+    <line>2134</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Javadoc void doJava14(org.apache.tools.ant.types.Commandline toExecute)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;doJava14&lt;/code&gt; is too long (# Non-comment source statements = 40) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Available.java</file>
+    <line>333</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Available boolean checkFile()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;checkFile&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Available.java</file>
+    <line>263</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Available boolean eval()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;eval&lt;/code&gt; is too long (# Non-comment source statements = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/PathConvert.java</file>
+    <line>337</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.PathConvert void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 41) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Property.java</file>
+    <line>456</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Property void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 33) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/ImportTask.java</file>
+    <line>167</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.ImportTask void importResource(org.apache.tools.ant.ProjectHelper helper, org.apache.tools.ant.types.Resource importedResource)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;importResource&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Rmic.java</file>
+    <line>591</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Rmic void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 43) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Expand.java</file>
+    <line>253</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Expand void extractFile(org.apache.tools.ant.util.FileUtils fileUtils, java.io.File srcF, java.io.File dir, java.io.InputStream compressedInputStream, java.lang.String entryName, java.util.Date entryDate, boolean isDirectory, org.apache.tools.ant.util.FileNameMapper mapper)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;extractFile&lt;/code&gt; is too long (# Non-comment source statements = 69) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Exec.java</file>
+    <line>83</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Exec int run(java.lang.String command)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;run&lt;/code&gt; is too long (# Non-comment source statements = 44) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Sync.java</file>
+    <line>189</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Sync int[] removeOrphanFiles(java.util.Set nonOrphans, java.io.File toDir, java.util.Set preservedDirectories)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;removeOrphanFiles&lt;/code&gt; is too long (# Non-comment source statements = 52) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Java.java</file>
+    <line>143</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Java void checkConfiguration()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;checkConfiguration&lt;/code&gt; is too long (# Non-comment source statements = 33) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/LoadProperties.java</file>
+    <line>161</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.LoadProperties void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/ManifestTask.java</file>
+    <line>220</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.ManifestTask void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 41) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/FixCRLF.java</file>
+    <line>437</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.FixCRLF.OneLiner void nextLine()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;nextLine&lt;/code&gt; is too long (# Non-comment source statements = 51) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Get.java</file>
+    <line>99</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Get void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Get.java</file>
+    <line>201</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Get boolean doGet(java.net.URL source, java.io.File dest, int logLevel, org.apache.tools.ant.taskdefs.Get.DownloadProgress progress)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;doGet&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Get.java</file>
+    <line>691</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Get.GetThread java.net.URLConnection openConnection(java.net.URL aSource)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;openConnection&lt;/code&gt; is too long (# Non-comment source statements = 40) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Parallel.java</file>
+    <line>257</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Parallel void spinThreads()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;spinThreads&lt;/code&gt; is too long (# Non-comment source statements = 80) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Ant.java</file>
+    <line>333</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Ant void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 64) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/ExecuteOn.java</file>
+    <line>525</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.ExecuteOn java.lang.String[] getCommandline(java.lang.String[] srcFiles, java.io.File[] baseDirs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;getCommandline&lt;/code&gt; is too long (# Non-comment source statements = 56) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/ExecuteOn.java</file>
+    <line>348</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.ExecuteOn void runExec(org.apache.tools.ant.taskdefs.Execute exe)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;runExec&lt;/code&gt; is too long (# Non-comment source statements = 98) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/ExecuteOn.java</file>
+    <line>697</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.ExecuteOn void runParallel(org.apache.tools.ant.taskdefs.Execute exe, java.util.Vector&lt;java.lang.String&gt; fileNames, java.util.Vector&lt;java.io.File&gt; baseDirs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;runParallel&lt;/code&gt; is too long (# Non-comment source statements = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/LoadResource.java</file>
+    <line>127</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.LoadResource void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 49) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Definer.java</file>
+    <line>205</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Definer void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Definer.java</file>
+    <line>571</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Definer void addDefinition(java.lang.ClassLoader al, java.lang.String name, java.lang.String classname)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;addDefinition&lt;/code&gt; is too long (# Non-comment source statements = 34) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/SQLExec.java</file>
+    <line>594</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.SQLExec void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 62) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/SQLExec.java</file>
+    <line>780</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.SQLExec void execSQL(java.lang.String sql, java.io.PrintStream out)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execSQL&lt;/code&gt; is too long (# Non-comment source statements = 41) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/GenerateKey.java</file>
+    <line>321</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.GenerateKey void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 62) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Checksum.java</file>
+    <line>321</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Checksum boolean validateAndExecute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;validateAndExecute&lt;/code&gt; is too long (# Non-comment source statements = 56) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Checksum.java</file>
+    <line>472</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Checksum boolean generateChecksums()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;generateChecksums&lt;/code&gt; is too long (# Non-comment source statements = 56) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/ExecuteJava.java</file>
+    <line>116</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.ExecuteJava void execute(org.apache.tools.ant.Project project)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 52) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/listener/CommonsLoggingListener.java</file>
+    <line>252</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.listener</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.listener.CommonsLoggingListener void realLog(Log log, java.lang.String message, int priority, java.lang.Throwable t)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;realLog&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/listener/MailLogger.java</file>
+    <line>390</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.listener</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.listener.MailLogger void sendMimeMail(org.apache.tools.ant.Project project, org.apache.tools.ant.listener.MailLogger.Values values, java.lang.String message)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;sendMimeMail&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/dispatch/DispatchUtils.java</file>
+    <line>37</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.dispatch</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.dispatch.DispatchUtils void execute(java.lang.Object task)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 50) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/filters/util/ChainReaderHelper.java</file>
+    <line>119</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.filters.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.filters.util.ChainReaderHelper java.io.Reader getAssembledReader()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;getAssembledReader&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/filters/util/ChainReaderHelper.java</file>
+    <line>225</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.filters.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.filters.util.ChainReaderHelper java.io.Reader expandReader(org.apache.tools.ant.types.AntFilterReader filter, java.io.Reader ancestor, java.util.List&lt;org.apache.tools.ant.AntClassLoader&gt; classLoadersToCleanUp)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;expandReader&lt;/code&gt; is too long (# Non-comment source statements = 37) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/filters/FixCrLfFilter.java</file>
+    <line>761</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.filters</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.filters.FixCrLfFilter.AddTabFilter int read()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;read&lt;/code&gt; is too long (# Non-comment source statements = 53) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/filters/FixCrLfFilter.java</file>
+    <line>520</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.filters</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.filters.FixCrLfFilter.MaskJavaTabLiteralsFilter int read()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;read&lt;/code&gt; is too long (# Non-comment source statements = 71) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/filters/FixCrLfFilter.java</file>
+    <line>632</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.filters</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.filters.FixCrLfFilter.NormalizeEolFilter int read()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;read&lt;/code&gt; is too long (# Non-comment source statements = 45) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/filters/ClassConstants.java</file>
+    <line>89</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.filters</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.filters.ClassConstants int read()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;read&lt;/code&gt; is too long (# Non-comment source statements = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/launch/Locator.java</file>
+    <line>333</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.launch</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.launch.Locator java.lang.String encodeURI(java.lang.String path)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;encodeURI&lt;/code&gt; is too long (# Non-comment source statements = 39) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/launch/Launcher.java</file>
+    <line>175</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.launch</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.launch.Launcher int run(java.lang.String[] args)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;run&lt;/code&gt; is too long (# Non-comment source statements = 87) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/helper/ProjectHelper2.java</file>
+    <line>885</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.helper</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.helper.ProjectHelper2.TargetHandler void onStartElement(java.lang.String uri, java.lang.String tag, java.lang.String qname, org.xml.sax.Attributes attrs, AntXMLContext context)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;onStartElement&lt;/code&gt; is too long (# Non-comment source statements = 82) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/helper/ProjectHelper2.java</file>
+    <line>1112</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.helper</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.helper.ProjectHelper2.ElementHandler void onStartElement(java.lang.String uri, java.lang.String tag, java.lang.String qname, org.xml.sax.Attributes attrs, AntXMLContext context)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;onStartElement&lt;/code&gt; is too long (# Non-comment source statements = 39) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/helper/ProjectHelper2.java</file>
+    <line>196</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.helper</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.helper.ProjectHelper2 void parse(org.apache.tools.ant.Project project, java.lang.Object source, org.apache.tools.ant.helper.ProjectHelper2.RootHandler handler)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;parse&lt;/code&gt; is too long (# Non-comment source statements = 70) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/helper/ProjectHelper2.java</file>
+    <line>696</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.helper</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.helper.ProjectHelper2.ProjectHandler void onStartElement(java.lang.String uri, java.lang.String tag, java.lang.String qname, org.xml.sax.Attributes attrs, AntXMLContext context)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;onStartElement&lt;/code&gt; is too long (# Non-comment source statements = 69) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/helper/ProjectHelperImpl.java</file>
+    <line>515</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.helper</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.helper.ProjectHelperImpl.TargetHandler void init(java.lang.String tag, org.xml.sax.AttributeList attrs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;init&lt;/code&gt; is too long (# Non-comment source statements = 39) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/helper/ProjectHelperImpl.java</file>
+    <line>381</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.helper</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.helper.ProjectHelperImpl.ProjectHandler void init(java.lang.String tag, org.xml.sax.AttributeList attrs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;init&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/helper/ProjectHelperImpl.java</file>
+    <line>107</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.helper</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.helper.ProjectHelperImpl void parse(org.apache.tools.ant.Project project, java.lang.Object source)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;parse&lt;/code&gt; is too long (# Non-comment source statements = 39) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/selectors/modifiedselector/ModifiedSelector.java</file>
+    <line>272</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.selectors.modifiedselector</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector void configure()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;configure&lt;/code&gt; is too long (# Non-comment source statements = 49) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/selectors/modifiedselector/ModifiedSelector.java</file>
+    <line>718</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.selectors.modifiedselector</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector void useParameter(org.apache.tools.ant.types.Parameter parameter)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;useParameter&lt;/code&gt; is too long (# Non-comment source statements = 33) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java</file>
+    <line>221</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.selectors</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.types.selectors.SelectorUtils boolean matchPath(java.lang.String[] tokenizedPattern, java.lang.String[] strDirs, boolean isCaseSensitive)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;matchPath&lt;/code&gt; is too long (# Non-comment source statements = 73) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java</file>
+    <line>542</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.selectors</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.types.selectors.SelectorUtils java.lang.String[] tokenizePathAsArray(java.lang.String path)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;tokenizePathAsArray&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/selectors/SelectorUtils.java</file>
+    <line>361</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types.selectors</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.types.selectors.SelectorUtils boolean match(java.lang.String pattern, java.lang.String str, boolean caseSensitive)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;match&lt;/code&gt; is too long (# Non-comment source statements = 81) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/XMLCatalog.java</file>
+    <line>626</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.types.XMLCatalog org.xml.sax.InputSource filesystemLookup(org.apache.tools.ant.types.ResourceLocation matchingEntry)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;filesystemLookup&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/RedirectorElement.java</file>
+    <line>458</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.types.RedirectorElement void configure(org.apache.tools.ant.taskdefs.Redirector redirector, java.lang.String sourcefile)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;configure&lt;/code&gt; is too long (# Non-comment source statements = 57) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/Commandline.java</file>
+    <line>463</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.types.Commandline java.lang.String[] translateCommandline(java.lang.String toProcess)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;translateCommandline&lt;/code&gt; is too long (# Non-comment source statements = 42) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/depend/bcel/AncestorAnalyzer.java</file>
+    <line>64</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util.depend.bcel</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.depend.bcel.AncestorAnalyzer void determineDependencies(java.util.Vector&lt;java.io.File&gt; files, java.util.Vector&lt;java.lang.String&gt; classes)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;determineDependencies&lt;/code&gt; is too long (# Non-comment source statements = 44) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/depend/bcel/FullAnalyzer.java</file>
+    <line>63</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util.depend.bcel</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.depend.bcel.FullAnalyzer void determineDependencies(java.util.Vector&lt;java.io.File&gt; files, java.util.Vector&lt;java.lang.String&gt; classes)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;determineDependencies&lt;/code&gt; is too long (# Non-comment source statements = 37) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/StringTokenizer.java</file>
+    <line>86</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.StringTokenizer java.lang.String getToken(java.io.Reader in)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;getToken&lt;/code&gt; is too long (# Non-comment source statements = 33) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/ResourceUtils.java</file>
+    <line>180</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.ResourceUtils org.apache.tools.ant.types.ResourceCollection selectSources(org.apache.tools.ant.ProjectComponent logTo, org.apache.tools.ant.types.ResourceCollection source, FileNameMapper mapper, org.apache.tools.ant.types.ResourceFactory targets, org.apache.tools.ant.util.ResourceUtils.ResourceSelectorProvider selector)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;selectSources&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/ResourceUtils.java</file>
+    <line>661</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.ResourceUtils void copyWithFilterSets(org.apache.tools.ant.types.Resource source, org.apache.tools.ant.types.Resource dest, org.apache.tools.ant.types.FilterSetCollection filters, java.util.Vector filterChains, boolean filterChainsAvailable, boolean append, java.lang.String inputEncoding, java.lang.String outputEncoding, org.apache.tools.ant.Project project)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;copyWithFilterSets&lt;/code&gt; is too long (# Non-comment source statements = 34) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/ResourceUtils.java</file>
+    <line>381</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.ResourceUtils void copyResource(org.apache.tools.ant.types.Resource source, org.apache.tools.ant.types.Resource dest, org.apache.tools.ant.types.FilterSetCollection filters, java.util.Vector filterChains, boolean overwrite, boolean preserveLastModified, boolean append, java.lang.String inputEncoding, java.lang.String outputEncoding, org.apache.tools.ant.Project project, boolean force)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;copyResource&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/DOMElementWriter.java</file>
+    <line>202</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.DOMElementWriter void write(org.w3c.dom.Element element, java.io.Writer out, int indent, java.lang.String indentWith)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;write&lt;/code&gt; is too long (# Non-comment source statements = 45) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/DOMElementWriter.java</file>
+    <line>437</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.DOMElementWriter java.lang.String encode(java.lang.String value, boolean encodeWhitespace)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;encode&lt;/code&gt; is too long (# Non-comment source statements = 34) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/DOMElementWriter.java</file>
+    <line>296</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.DOMElementWriter void openElement(org.w3c.dom.Element element, java.io.Writer out, int indent, java.lang.String indentWith, boolean hasChildren)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;openElement&lt;/code&gt; is too long (# Non-comment source statements = 56) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/LayoutPreservingProperties.java</file>
+    <line>316</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.LayoutPreservingProperties java.lang.String readLines(java.io.InputStream is)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;readLines&lt;/code&gt; is too long (# Non-comment source statements = 33) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/StringUtils.java</file>
+    <line>150</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.StringUtils java.lang.String resolveBackSlash(java.lang.String input)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;resolveBackSlash&lt;/code&gt; is too long (# Non-comment source statements = 33) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/StringUtils.java</file>
+    <line>198</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.StringUtils long parseHumanSizes(java.lang.String humanSize)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;parseHumanSizes&lt;/code&gt; is too long (# Non-comment source statements = 37) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/Base64Converter.java</file>
+    <line>70</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.Base64Converter java.lang.String encode(byte[] octetString)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;encode&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/JavaEnvUtils.java</file>
+    <line>479</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.JavaEnvUtils java.util.Vector&lt;java.lang.String&gt; getJrePackageTestCases()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;getJrePackageTestCases&lt;/code&gt; is too long (# Non-comment source statements = 39) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/util/JavaEnvUtils.java</file>
+    <line>427</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.util</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.util.JavaEnvUtils void buildJrePackages()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;buildJrePackages&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/AntClassLoader.java</file>
+    <line>481</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.AntClassLoader void addPathFile(java.io.File pathComponent)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;addPathFile&lt;/code&gt; is too long (# Non-comment source statements = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/AntClassLoader.java</file>
+    <line>1237</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.AntClassLoader void definePackage(java.io.File container, java.lang.String packageName, java.util.jar.Manifest manifest)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;definePackage&lt;/code&gt; is too long (# Non-comment source statements = 38) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/IntrospectionHelper.java</file>
+    <line>1040</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.IntrospectionHelper org.apache.tools.ant.IntrospectionHelper.AttributeSetter createAttributeSetter(java.lang.reflect.Method m, java.lang.Class&lt;?&gt; arg, java.lang.String attrName)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;createAttributeSetter&lt;/code&gt; is too long (# Non-comment source statements = 34) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/IntrospectionHelper.java</file>
+    <line>179</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.IntrospectionHelper IntrospectionHelper(java.lang.Class&lt;?&gt; bean)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;IntrospectionHelper&lt;/code&gt; is too long (# Non-comment source statements = 58) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Project.java</file>
+    <line>1384</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.Project void executeSortedTargets(java.util.Vector&lt;org.apache.tools.ant.Target&gt; sortedTargets)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;executeSortedTargets&lt;/code&gt; is too long (# Non-comment source statements = 33) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Main.java</file>
+    <line>1009</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.Main void printUsage()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;printUsage&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Main.java</file>
+    <line>749</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.Main void runBuild(java.lang.ClassLoader coreLoader)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;runBuild&lt;/code&gt; is too long (# Non-comment source statements = 75) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Main.java</file>
+    <line>1177</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.Main void printTargets(org.apache.tools.ant.Project project, boolean printSubTargets, boolean printDependencies)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;printTargets&lt;/code&gt; is too long (# Non-comment source statements = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Main.java</file>
+    <line>321</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.Main void processArgs(java.lang.String[] args)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;processArgs&lt;/code&gt; is too long (# Non-comment source statements = 134) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/RuntimeConfigurable.java</file>
+    <line>484</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.RuntimeConfigurable void maybeConfigure(org.apache.tools.ant.Project p, boolean configureChildren)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;maybeConfigure&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/DirectoryScanner.java</file>
+    <line>1208</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.DirectoryScanner void scandir(java.io.File dir, org.apache.tools.ant.types.selectors.TokenizedPath path, boolean fast, java.lang.String[] newfiles, java.util.LinkedList&lt;java.lang.String&gt; directoryNamesFollowed)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;scandir&lt;/code&gt; is too long (# Non-comment source statements = 52) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/DirectoryScanner.java</file>
+    <line>931</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.DirectoryScanner void checkIncludePatterns()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;checkIncludePatterns&lt;/code&gt; is too long (# Non-comment source statements = 54) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/DirectoryScanner.java</file>
+    <line>836</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.DirectoryScanner void scan()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;scan&lt;/code&gt; is too long (# Non-comment source statements = 49) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/DefaultLogger.java</file>
+    <line>255</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.DefaultLogger void messageLogged(org.apache.tools.ant.BuildEvent event)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;messageLogged&lt;/code&gt; is too long (# Non-comment source statements = 40) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/XmlLogger.java</file>
+    <line>374</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.XmlLogger void messageLogged(org.apache.tools.ant.BuildEvent event)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;messageLogged&lt;/code&gt; is too long (# Non-comment source statements = 37) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Diagnostics.java</file>
+    <line>563</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.Diagnostics void doReportTempDir(java.io.PrintStream out)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;doReportTempDir&lt;/code&gt; is too long (# Non-comment source statements = 50) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/ComponentHelper.java</file>
+    <line>883</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.ComponentHelper java.lang.String diagnoseCreationFailure(java.lang.String componentName, java.lang.String type)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;diagnoseCreationFailure&lt;/code&gt; is too long (# Non-comment source statements = 86) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/MacroInstance.java</file>
+    <line>168</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.MacroInstance java.lang.String macroSubs(java.lang.String s, java.util.Map&lt;java.lang.String,java.lang.String&gt; macroMapping)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;macroSubs&lt;/code&gt; is too long (# Non-comment source statements = 54) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/MacroInstance.java</file>
+    <line>246</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.MacroInstance org.apache.tools.ant.UnknownElement copy(org.apache.tools.ant.UnknownElement ue, boolean nested)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;copy&lt;/code&gt; is too long (# Non-comment source statements = 54) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/MacroInstance.java</file>
+    <line>338</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.MacroInstance void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 44) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Tar.java</file>
+    <line>395</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Tar void tarResource(org.apache.tools.ant.types.Resource r, org.apache.tools.tar.TarOutputStream tOut, java.lang.String vPath, org.apache.tools.ant.taskdefs.Tar.TarFileSet tarFileSet)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;tarResource&lt;/code&gt; is too long (# Non-comment source statements = 72) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Tar.java</file>
+    <line>595</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Tar boolean check(org.apache.tools.ant.types.ResourceCollection rc)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;check&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Tar.java</file>
+    <line>259</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Tar void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 48) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Concat.java</file>
+    <line>290</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Concat.MultiReader int read(char[] cbuf, int off, int len)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;read&lt;/code&gt; is too long (# Non-comment source statements = 34) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Move.java</file>
+    <line>105</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Move void doFileOperations()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;doFileOperations&lt;/code&gt; is too long (# Non-comment source statements = 66) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Zip.java</file>
+    <line>1320</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Zip org.apache.tools.ant.taskdefs.Zip.ArchiveState getResourcesToAdd(org.apache.tools.ant.types.FileSet[] filesets, java.io.File zipFile, boolean needsUpdate)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;getResourcesToAdd&lt;/code&gt; is too long (# Non-comment source statements = 58) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Zip.java</file>
+    <line>899</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Zip void addResources(org.apache.tools.ant.types.FileSet fileset, org.apache.tools.ant.types.Resource[] resources, org.apache.tools.zip.ZipOutputStream zOut)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;addResources&lt;/code&gt; is too long (# Non-comment source statements = 51) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Zip.java</file>
+    <line>615</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Zip void executeMain()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;executeMain&lt;/code&gt; is too long (# Non-comment source statements = 102) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Zip.java</file>
+    <line>1774</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Zip void zipFile(java.io.InputStream in, org.apache.tools.zip.ZipOutputStream zOut, java.lang.String vPath, long lastModified, java.io.File fromArchive, int mode)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;zipFile&lt;/code&gt; is too long (# Non-comment source statements = 48) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Jar.java</file>
+    <line>631</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Jar void createIndexList(org.apache.tools.zip.ZipOutputStream zOut)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;createIndexList&lt;/code&gt; is too long (# Non-comment source statements = 37) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Copy.java</file>
+    <line>863</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Copy void doFileOperations()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;doFileOperations&lt;/code&gt; is too long (# Non-comment source statements = 40) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Copy.java</file>
+    <line>432</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Copy void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 90) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/XmlProperty.java</file>
+    <line>338</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.XmlProperty java.lang.Object processNode(org.w3c.dom.Node node, java.lang.String prefix, java.lang.Object container)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;processNode&lt;/code&gt; is too long (# Non-comment source statements = 55) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/XmlProperty.java</file>
+    <line>232</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.XmlProperty void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 33) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/ManifestClassPath.java</file>
+    <line>55</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.ManifestClassPath void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 44) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/SubAnt.java</file>
+    <line>187</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.SubAnt void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 51) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/XSLTProcess.java</file>
+    <line>338</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.XSLTProcess void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 79) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Replace.java</file>
+    <line>487</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Replace void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 47) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Delete.java</file>
+    <line>529</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Delete void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 94) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/AbstractCvsTask.java</file>
+    <line>262</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.AbstractCvsTask void runCommand(org.apache.tools.ant.types.Commandline toExecute)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;runCommand&lt;/code&gt; is too long (# Non-comment source statements = 57) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Jikes.java</file>
+    <line>75</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Jikes void compile(java.lang.String[] args)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;compile&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Execute.java</file>
+    <line>107</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Execute java.util.Map&lt;java.lang.String,java.lang.String&gt; getEnvironmentVariables()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;getEnvironmentVariables&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/StreamPumper.java</file>
+    <line>115</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.StreamPumper void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;run&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Redirector.java</file>
+    <line>573</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Redirector void createStreams()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;createStreams&lt;/code&gt; is too long (# Non-comment source statements = 68) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Redirector.java</file>
+    <line>918</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.Redirector void complete()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;complete&lt;/code&gt; is too long (# Non-comment source statements = 38) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/SignJar.java</file>
+    <line>466</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.SignJar void signOneJar(java.io.File jarSource, java.io.File jarTarget)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;signOneJar&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/SignJar.java</file>
+    <line>371</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.SignJar void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java</file>
+    <line>191</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.rmic</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter org.apache.tools.ant.types.Commandline setupRmicCommand(java.lang.String[] options)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;setupRmicCommand&lt;/code&gt; is too long (# Non-comment source statements = 38) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java</file>
+    <line>383</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.rmic</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter.RmicFileNameMapper java.lang.String[] mapFileName(java.lang.String name)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;mapFileName&lt;/code&gt; is too long (# Non-comment source statements = 39) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/email/EmailTask.java</file>
+    <line>437</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.email</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.email.EmailTask void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 86) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/email/EmailAddress.java</file>
+    <line>49</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.email</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.email.EmailAddress EmailAddress(java.lang.String email)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;EmailAddress&lt;/code&gt; is too long (# Non-comment source statements = 41) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/email/MimeMailer.java</file>
+    <line>133</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.email</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.email.MimeMailer void send()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;send&lt;/code&gt; is too long (# Non-comment source statements = 93) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/email/PlainMailer.java</file>
+    <line>42</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.email</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.email.PlainMailer void send()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;send&lt;/code&gt; is too long (# Non-comment source statements = 49) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/cvslib/CvsVersion.java</file>
+    <line>111</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.cvslib</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.cvslib.CvsVersion void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 44) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/cvslib/ChangeLogTask.java</file>
+    <line>235</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.cvslib</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.cvslib.ChangeLogTask void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 63) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/cvslib/CvsTagDiff.java</file>
+    <line>419</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.cvslib</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.cvslib.CvsTagDiff void writeTagDiff(CvsTagEntry[] entries)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;writeTagDiff&lt;/code&gt; is too long (# Non-comment source statements = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/TraXLiaison.java</file>
+    <line>387</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.TraXLiaison javax.xml.transform.TransformerFactory getFactory()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;getFactory&lt;/code&gt; is too long (# Non-comment source statements = 34) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/Cab.java</file>
+    <line>239</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.Cab void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 62) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/NetRexxC.java</file>
+    <line>812</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.NetRexxC void doNetRexxCompile()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;doNetRexxCompile&lt;/code&gt; is too long (# Non-comment source statements = 76) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/NetRexxC.java</file>
+    <line>580</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.NetRexxC void init()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;init&lt;/code&gt; is too long (# Non-comment source statements = 65) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/Rpm.java</file>
+    <line>113</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.Rpm void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 49) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/EchoProperties.java</file>
+    <line>259</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.EchoProperties void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 65) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ReplaceRegExp.java</file>
+    <line>353</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ReplaceRegExp void doReplace(java.io.File f, int options)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;doReplace&lt;/code&gt; is too long (# Non-comment source statements = 56) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WebsphereDeploymentTool.java</file>
+    <line>680</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.WebsphereDeploymentTool boolean isRebuildRequired(java.io.File genericJarFile, java.io.File websphereJarFile)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;isRebuildRequired&lt;/code&gt; is too long (# Non-comment source statements = 94) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java</file>
+    <line>571</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/JonasDeploymentTool.java</file>
+    <line>520</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.JonasDeploymentTool void addGenICGeneratedFiles(java.io.File genericJarFile, java.util.Hashtable ejbFiles)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;addGenICGeneratedFiles&lt;/code&gt; is too long (# Non-comment source statements = 75) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/BorlandDeploymentTool.java</file>
+    <line>395</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.BorlandDeploymentTool void buildBorlandStubs(java.util.Iterator ithomes)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;buildBorlandStubs&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java</file>
+    <line>762</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.GenericDeploymentTool void writeJar(java.lang.String baseName, java.io.File jarfile, java.util.Hashtable files, java.lang.String publicId)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;writeJar&lt;/code&gt; is too long (# Non-comment source statements = 52) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/IPlanetDeploymentTool.java</file>
+    <line>243</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.IPlanetDeploymentTool java.util.Hashtable parseEjbFiles(java.lang.String descriptorFileName, javax.xml.parsers.SAXParser saxParser)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;parseEjbFiles&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/IPlanetEjbc.java</file>
+    <line>254</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc void main(java.lang.String[] args)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;main&lt;/code&gt; is too long (# Non-comment source statements = 51) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/IPlanetEjbc.java</file>
+    <line>1135</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo long sourceClassesModified(java.io.File buildDir)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;sourceClassesModified&lt;/code&gt; is too long (# Non-comment source statements = 45) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java</file>
+    <line>712</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.WeblogicDeploymentTool boolean isRebuildRequired(java.io.File genericJarFile, java.io.File weblogicJarFile)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;isRebuildRequired&lt;/code&gt; is too long (# Non-comment source statements = 94) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java</file>
+    <line>539</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ejb</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ejb.WeblogicDeploymentTool void buildWeblogicJar(java.io.File sourceJar, java.io.File destJar, java.lang.String publicId)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;buildWeblogicJar&lt;/code&gt; is too long (# Non-comment source statements = 58) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/jsp/JspC.java</file>
+    <line>425</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.jsp</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.jsp.JspC void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 41) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/jsp/WLJspc.java</file>
+    <line>107</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.jsp</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.jsp.WLJspc void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 52) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/SetProxy.java</file>
+    <line>179</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.net.SetProxy void applyWebProxySettings()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;applyWebProxySettings&lt;/code&gt; is too long (# Non-comment source statements = 50) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java</file>
+    <line>492</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTP.FTPDirectoryScanner void scandir(java.lang.String dir, java.lang.String vpath, boolean fast)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;scandir&lt;/code&gt; is too long (# Non-comment source statements = 38) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java</file>
+    <line>388</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTP.FTPDirectoryScanner void checkIncludePatterns()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;checkIncludePatterns&lt;/code&gt; is too long (# Non-comment source statements = 47) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java</file>
+    <line>2424</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTP void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 59) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTP.java</file>
+    <line>1730</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTP int transferFiles(FTPClient ftp, org.apache.tools.ant.types.FileSet fs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;transferFiles&lt;/code&gt; is too long (# Non-comment source statements = 41) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java</file>
+    <line>261</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.net.RExecTask.AntRExecClient void waitForEOF(java.lang.Integer timeout)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;waitForEOF&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPConfigurator.java</file>
+    <line>42</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTPConfigurator FTPClient configure(FTPClient client, FTPTaskConfig task)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;configure&lt;/code&gt; is too long (# Non-comment source statements = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java</file>
+    <line>393</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirrorImpl.FTPDirectoryScanner void scandir(java.lang.String dir, java.lang.String vpath, boolean fast)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;scandir&lt;/code&gt; is too long (# Non-comment source statements = 38) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java</file>
+    <line>289</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirrorImpl.FTPDirectoryScanner void checkIncludePatterns()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;checkIncludePatterns&lt;/code&gt; is too long (# Non-comment source statements = 47) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java</file>
+    <line>1116</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirrorImpl int transferFiles(FTPClient ftp, org.apache.tools.ant.types.FileSet fs)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;transferFiles&lt;/code&gt; is too long (# Non-comment source statements = 42) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/net/FTPTaskMirrorImpl.java</file>
+    <line>1820</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.net</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirrorImpl void doFTP()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;doFTP&lt;/code&gt; is too long (# Non-comment source statements = 58) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHSession.java</file>
+    <line>136</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ssh</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ssh.SSHSession void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 37) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java</file>
+    <line>353</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ssh</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ssh.SSHExec void executeCommand(Session session, java.lang.String cmd, java.lang.StringBuffer sb)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;executeCommand&lt;/code&gt; is too long (# Non-comment source statements = 64) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java</file>
+    <line>278</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ssh</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ssh.SSHExec void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 39) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessage.java</file>
+    <line>224</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.ssh</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.ssh.ScpToMessage void sendFileToRemote(java.io.File localFile, java.io.InputStream in, java.io.OutputStream out)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;sendFileToRemote&lt;/code&gt; is too long (# Non-comment source statements = 34) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/i18n/Translate.java</file>
+    <line>497</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.i18n</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.i18n.Translate void translate()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;translate&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/i18n/Translate.java</file>
+    <line>432</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.i18n</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.i18n.Translate void loadResourceMap(java.io.FileInputStream ins)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;loadResourceMap&lt;/code&gt; is too long (# Non-comment source statements = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/i18n/Translate.java</file>
+    <line>550</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.i18n</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.i18n.Translate void translateOneFile(java.io.File src, java.io.File dest)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;translateOneFile&lt;/code&gt; is too long (# Non-comment source statements = 39) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/j2ee/JonasHotDeploymentTool.java</file>
+    <line>164</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.j2ee</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.j2ee.JonasHotDeploymentTool void validateAttributes()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;validateAttributes&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/pvcs/Pvcs.java</file>
+    <line>148</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.pvcs</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.pvcs.Pvcs void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 76) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/unix/Symlink.java</file>
+    <line>552</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.unix</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.unix.Symlink java.util.Properties loadLinks(java.util.Vector v)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;loadLinks&lt;/code&gt; is too long (# Non-comment source statements = 34) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/image/Image.java</file>
+    <line>284</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.image</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.image.Image void processFile(java.io.File file, java.io.File newFile)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;processFile&lt;/code&gt; is too long (# Non-comment source statements = 37) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/jlink/ClassNameReader.java</file>
+    <line>48</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.jlink</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool ConstantPool(java.io.DataInput data)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;ConstantPool&lt;/code&gt; is too long (# Non-comment source statements = 40) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/DOMUtil.java</file>
+    <line>166</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.DOMUtil org.w3c.dom.Node importNode(org.w3c.dom.Node parent, org.w3c.dom.Node child)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;importNode&lt;/code&gt; is too long (# Non-comment source statements = 48) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java</file>
+    <line>930</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask void runTestsInThreads(java.util.List&lt;java.util.List&gt; testList, int numThreads)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;runTestsInThreads&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java</file>
+    <line>1142</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.TestResultHolder executeAsForked(JUnitTest test, org.apache.tools.ant.taskdefs.ExecuteWatchdog watchdog, java.io.File casesFile)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;executeAsForked&lt;/code&gt; is too long (# Non-comment source statements = 96) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java</file>
+    <line>1552</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.TestResultHolder executeInVM(JUnitTest arg)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;executeInVM&lt;/code&gt; is too long (# Non-comment source statements = 46) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java</file>
+    <line>1059</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask void execute(java.util.List testList, int thread)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java</file>
+    <line>1831</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask void logVmExit(FormatterElement[] feArray, JUnitTest test, java.lang.String message, java.lang.String testCase)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;logVmExit&lt;/code&gt; is too long (# Non-comment source statements = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTest.java</file>
+    <line>274</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTest java.lang.String[] parseTestMethodNamesList(java.lang.String methodNames)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;parseTestMethodNamesList&lt;/code&gt; is too long (# Non-comment source statements = 67) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java</file>
+    <line>588</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner boolean containsTests(java.lang.Class&lt;?&gt; testClass, boolean isJUnit4)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;containsTests&lt;/code&gt; is too long (# Non-comment source statements = 32) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java</file>
+    <line>894</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner void main(java.lang.String[] args)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;main&lt;/code&gt; is too long (# Non-comment source statements = 105) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java</file>
+    <line>358</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner void run()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;run&lt;/code&gt; is too long (# Non-comment source statements = 110) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/PlainJUnitResultFormatter.java</file>
+    <line>119</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter void endTestSuite(JUnitTest suite)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;endTestSuite&lt;/code&gt; is too long (# Non-comment source statements = 40) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/AggregateTransformer.java</file>
+    <line>241</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer void transform()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;transform&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/FormatterElement.java</file>
+    <line>273</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.FormatterElement JUnitTaskMirror.JUnitResultFormatterMirror createFormatter(java.lang.ClassLoader loader)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;createFormatter&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/depend/Depend.java</file>
+    <line>302</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.depend</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.depend.Depend void determineDependencies()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;determineDependencies&lt;/code&gt; is too long (# Non-comment source statements = 92) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/depend/AntAnalyzer.java</file>
+    <line>53</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.depend</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.depend.AntAnalyzer void determineDependencies(java.util.Vector&lt;java.io.File&gt; files, java.util.Vector&lt;java.lang.String&gt; classes)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;determineDependencies&lt;/code&gt; is too long (# Non-comment source statements = 49) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPoolEntry.java</file>
+    <line>116</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.depend.constantpool</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.depend.constantpool.ConstantPoolEntry org.apache.tools.ant.taskdefs.optional.depend.constantpool.ConstantPoolEntry readEntry(java.io.DataInputStream cpStream)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;readEntry&lt;/code&gt; is too long (# Non-comment source statements = 49) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/javacc/JavaCC.java</file>
+    <line>423</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.javacc</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.javacc.JavaCC java.lang.String getMainClass(org.apache.tools.ant.types.Path path, int type)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;getMainClass&lt;/code&gt; is too long (# Non-comment source statements = 47) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/javacc/JJTree.java</file>
+    <line>217</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.javacc</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.javacc.JJTree void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/script/ScriptDef.java</file>
+    <line>184</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.script</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.script.ScriptDef void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/splash/SplashTask.java</file>
+    <line>161</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.splash</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.splash.SplashTask void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 68) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/jdepend/JDependTask.java</file>
+    <line>449</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.jdepend</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.jdepend.JDependTask int executeInVM(org.apache.tools.ant.types.CommandlineJava commandline)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;executeInVM&lt;/code&gt; is too long (# Non-comment source statements = 66) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/jdepend/JDependTask.java</file>
+    <line>581</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.jdepend</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.jdepend.JDependTask int executeAsForked(org.apache.tools.ant.types.CommandlineJava commandline, org.apache.tools.ant.taskdefs.ExecuteWatchdog watchdog)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;executeAsForked&lt;/code&gt; is too long (# Non-comment source statements = 45) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/testing/Funtest.java</file>
+    <line>395</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.testing</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.testing.Funtest void execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 51) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/extension/Extension.java</file>
+    <line>494</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.extension</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.extension.Extension java.lang.String toString()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;toString&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/extension/LibraryDisplayer.java</file>
+    <line>54</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.extension</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.extension.LibraryDisplayer void displayLibrary(java.io.File file, java.util.jar.Manifest manifest)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;displayLibrary&lt;/code&gt; is too long (# Non-comment source statements = 39) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/extension/Specification.java</file>
+    <line>401</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.extension</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.optional.extension.Specification java.lang.String toString()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;toString&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/compilers/Jikes.java</file>
+    <line>46</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.compilers</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.compilers.Jikes boolean execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 62) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/compilers/Jvc.java</file>
+    <line>40</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.compilers</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.compilers.Jvc boolean execute()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;execute&lt;/code&gt; is too long (# Non-comment source statements = 37) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/compilers/Gcj.java</file>
+    <line>56</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.compilers</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.compilers.Gcj org.apache.tools.ant.types.Commandline setupGCJCommand()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;setupGCJCommand&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/compilers/Kjc.java</file>
+    <line>54</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.compilers</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.compilers.Kjc org.apache.tools.ant.types.Commandline setupKjcCommand()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;setupKjcCommand&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java</file>
+    <line>450</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.compilers</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter int executeExternalCompile(java.lang.String[] args, int firstFileName, boolean quoteFiles)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;executeExternalCompile&lt;/code&gt; is too long (# Non-comment source statements = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java</file>
+    <line>201</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.compilers</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter org.apache.tools.ant.types.Commandline setupJavacCommandlineSwitches(org.apache.tools.ant.types.Commandline cmd, boolean useDebugLevel)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;setupJavacCommandlineSwitches&lt;/code&gt; is too long (# Non-comment source statements = 70) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/condition/Os.java</file>
+    <line>244</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.condition</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.condition.Os boolean isOs(java.lang.String family, java.lang.String name, java.lang.String arch, java.lang.String version)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;isOs&lt;/code&gt; is too long (# Non-comment source statements = 46) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/condition/IsReachable.java</file>
+    <line>142</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.condition</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.ant.taskdefs.condition.IsReachable boolean eval()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;eval&lt;/code&gt; is too long (# Non-comment source statements = 38) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/tar/TarEntry.java</file>
+    <line>956</line>
+    <module>ant</module>
+    <package>org.apache.tools.tar</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.tar.TarEntry void parseTarHeader(byte[] header, org.apache.tools.zip.ZipEncoding encoding, boolean oldStyle)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;parseTarHeader&lt;/code&gt; is too long (# Non-comment source statements = 50) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/tar/TarInputStream.java</file>
+    <line>254</line>
+    <module>ant</module>
+    <package>org.apache.tools.tar</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.tar.TarInputStream TarEntry getNextEntry()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;getNextEntry&lt;/code&gt; is too long (# Non-comment source statements = 41) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/tar/TarInputStream.java</file>
+    <line>563</line>
+    <module>ant</module>
+    <package>org.apache.tools.tar</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.tar.TarInputStream int read(byte[] buf, int offset, int numToRead)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;read&lt;/code&gt; is too long (# Non-comment source statements = 34) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/zip/ExtraFieldUtils.java</file>
+    <line>133</line>
+    <module>ant</module>
+    <package>org.apache.tools.zip</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.zip.ExtraFieldUtils ZipExtraField[] parse(byte[] data, boolean local, org.apache.tools.zip.ExtraFieldUtils.UnparseableExtraField onUnparseableData)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;parse&lt;/code&gt; is too long (# Non-comment source statements = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/zip/ZipOutputStream.java</file>
+    <line>1188</line>
+    <module>ant</module>
+    <package>org.apache.tools.zip</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.zip.ZipOutputStream byte[] createCentralFileHeader(ZipEntry ze, java.nio.ByteBuffer name, long lfhOffset, boolean needsZip64Extra)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;createCentralFileHeader&lt;/code&gt; is too long (# Non-comment source statements = 36) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/zip/ZipFile.java</file>
+    <line>480</line>
+    <module>ant</module>
+    <package>org.apache.tools.zip</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.zip.ZipFile void readCentralDirectoryEntry(java.util.Map&lt;ZipEntry,org.apache.tools.zip.ZipFile.NameAndComment&gt; noUTF8Flag)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;readCentralDirectoryEntry&lt;/code&gt; is too long (# Non-comment source statements = 50) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2InputStream.java</file>
+    <line>466</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.CBZip2InputStream void hbCreateDecodeTables(int[] limit, int[] base, int[] perm, char[] length, int minLen, int maxLen, int alphaSize)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;hbCreateDecodeTables&lt;/code&gt; is too long (# Non-comment source statements = 33) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2InputStream.java</file>
+    <line>620</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.CBZip2InputStream void getAndMoveToFrontDecode()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;getAndMoveToFrontDecode&lt;/code&gt; is too long (# Non-comment source statements = 121) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2InputStream.java</file>
+    <line>508</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.CBZip2InputStream void recvDecodingTables()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;recvDecodingTables&lt;/code&gt; is too long (# Non-comment source statements = 61) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/BlockSort.java</file>
+    <line>915</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.BlockSort void mainSort(CBZip2OutputStream.Data dataShadow, int lastShadow)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;mainSort&lt;/code&gt; is too long (# Non-comment source statements = 108) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/BlockSort.java</file>
+    <line>807</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.BlockSort void mainQSort3(CBZip2OutputStream.Data dataShadow, int loSt, int hiSt, int dSt, int last)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;mainQSort3&lt;/code&gt; is too long (# Non-comment source statements = 69) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/BlockSort.java</file>
+    <line>594</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.BlockSort boolean mainSimpleSort(CBZip2OutputStream.Data dataShadow, int lo, int hi, int d, int lastShadow)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;mainSimpleSort&lt;/code&gt; is too long (# Non-comment source statements = 109) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/BlockSort.java</file>
+    <line>470</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.BlockSort void fallbackSort(int[] fmap, byte[] block, int nblock)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;fallbackSort&lt;/code&gt; is too long (# Non-comment source statements = 73) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/BlockSort.java</file>
+    <line>342</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.BlockSort void fallbackQSort3(int[] fmap, int[] eclass, int loSt, int hiSt)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;fallbackQSort3&lt;/code&gt; is too long (# Non-comment source statements = 63) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java</file>
+    <line>375</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.CBZip2OutputStream void hbMakeCodeLengths(byte[] len, int[] freq, org.apache.tools.bzip2.CBZip2OutputStream.Data dat, int alphaSize, int maxLen)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;hbMakeCodeLengths&lt;/code&gt; is too long (# Non-comment source statements = 96) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java</file>
+    <line>667</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.CBZip2OutputStream void writeRun()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;writeRun&lt;/code&gt; is too long (# Non-comment source statements = 39) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java</file>
+    <line>1289</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.CBZip2OutputStream void sendMTFValues6(int nGroups, int alphaSize)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;sendMTFValues6&lt;/code&gt; is too long (# Non-comment source statements = 42) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java</file>
+    <line>219</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.CBZip2OutputStream void hbMakeCodeLengths(char[] len, int[] freq, int alphaSize, int maxLen)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;hbMakeCodeLengths&lt;/code&gt; is too long (# Non-comment source statements = 96) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java</file>
+    <line>1038</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.CBZip2OutputStream int sendMTFValues1(int nGroups, int alphaSize)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;sendMTFValues1&lt;/code&gt; is too long (# Non-comment source statements = 83) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java</file>
+    <line>1417</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.CBZip2OutputStream void generateMTFValues()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;generateMTFValues&lt;/code&gt; is too long (# Non-comment source statements = 74) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/bzip2/CBZip2OutputStream.java</file>
+    <line>1208</line>
+    <module>ant</module>
+    <package>org.apache.tools.bzip2</package>
+    <entry_point TYPE="method" FQNAME="org.apache.tools.bzip2.CBZip2OutputStream void sendMTFValues4()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly long method</problem_class>
+    <description>&lt;code&gt;sendMTFValues4&lt;/code&gt; is too long (# Non-comment source statements = 34) #loc</description>
+  </problem>
+</problems>
+

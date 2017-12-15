@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/internal/ContentManagerImpl.java</file>
+    <line>84</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.internal</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.internal.ContentManagerImpl" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ContentManagerImpl&lt;/code&gt; (cyclomatic complexity = 163) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/internal/editing/ContentEditorImpl.java</file>
+    <line>88</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.internal.editing</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.internal.editing.ContentEditorImpl" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ContentEditorImpl&lt;/code&gt; (cyclomatic complexity = 99) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/internal/filesystem/SimpleFilesystemResourceManager.java</file>
+    <line>69</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.internal.filesystem</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.internal.filesystem.SimpleFilesystemResourceManager" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;SimpleFilesystemResourceManager&lt;/code&gt; (cyclomatic complexity = 108) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/cms/internal/filesystem/MetadataIndex.java</file>
+    <line>74</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.cms.internal.filesystem</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.cms.internal.filesystem.MetadataIndex" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;MetadataIndex&lt;/code&gt; (cyclomatic complexity = 92) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/aardvark-backend/src/main/java/uk/ac/ed/ph/orycteropus/processor/internal/ProcessorController.java</file>
+    <line>75</line>
+    <module>aardvark-backend</module>
+    <package>uk.ac.ed.ph.orycteropus.processor.internal</package>
+    <entry_point TYPE="class" FQNAME="uk.ac.ed.ph.orycteropus.processor.internal.ProcessorController" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly complex class</problem_class>
+    <description>Overly complex class &lt;code&gt;ProcessorController&lt;/code&gt; (cyclomatic complexity = 97) #loc</description>
+  </problem>
+</problems>
+

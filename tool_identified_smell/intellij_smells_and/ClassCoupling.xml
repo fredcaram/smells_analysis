@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/DependSet.java</file>
+    <line>84</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.DependSet" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;DependSet&lt;/code&gt; is overly coupled (dependencies = 17) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Javadoc.java</file>
+    <line>86</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Javadoc" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;Javadoc&lt;/code&gt; is overly coupled (dependencies = 18) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Java.java</file>
+    <line>53</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Java" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;Java&lt;/code&gt; is overly coupled (dependencies = 20) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/ExecuteOn.java</file>
+    <line>52</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.ExecuteOn" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;ExecuteOn&lt;/code&gt; is overly coupled (dependencies = 19) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/AbstractFileSet.java</file>
+    <line>62</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.AbstractFileSet" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;AbstractFileSet&lt;/code&gt; is overly coupled (dependencies = 31) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/types/FilterChain.java</file>
+    <line>48</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.types</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.types.FilterChain" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;FilterChain&lt;/code&gt; is overly coupled (dependencies = 27) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/IntrospectionHelper.java</file>
+    <line>61</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.IntrospectionHelper" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;IntrospectionHelper&lt;/code&gt; is overly coupled (dependencies = 20) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Project.java</file>
+    <line>65</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.Project" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;Project&lt;/code&gt; is overly coupled (dependencies = 21) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/Main.java</file>
+    <line>63</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.Main" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;Main&lt;/code&gt; is overly coupled (dependencies = 19) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Tar.java</file>
+    <line>66</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Tar" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;Tar&lt;/code&gt; is overly coupled (dependencies = 17) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Concat.java</file>
+    <line>79</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Concat" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;Concat&lt;/code&gt; is overly coupled (dependencies = 21) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Zip.java</file>
+    <line>79</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Zip" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;Zip&lt;/code&gt; is overly coupled (dependencies = 28) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Jar.java</file>
+    <line>67</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Jar" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;Jar&lt;/code&gt; is overly coupled (dependencies = 20) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Copy.java</file>
+    <line>68</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Copy" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;Copy&lt;/code&gt; is overly coupled (dependencies = 19) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/XSLTProcess.java</file>
+    <line>70</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.XSLTProcess" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;XSLTProcess&lt;/code&gt; is overly coupled (dependencies = 26) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Delete.java</file>
+    <line>79</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Delete" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;Delete&lt;/code&gt; is overly coupled (dependencies = 35) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/MatchingTask.java</file>
+    <line>58</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.MatchingTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;MatchingTask&lt;/code&gt; is overly coupled (dependencies = 26) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/Redirector.java</file>
+    <line>57</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.Redirector" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;Redirector&lt;/code&gt; is overly coupled (dependencies = 16) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/TraXLiaison.java</file>
+    <line>73</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.TraXLiaison" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;TraXLiaison&lt;/code&gt; is overly coupled (dependencies = 16) #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java</file>
+    <line>131</line>
+    <module>ant</module>
+    <package>org.apache.tools.ant.taskdefs.optional.junit</package>
+    <entry_point TYPE="class" FQNAME="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overly coupled class</problem_class>
+    <description>&lt;code&gt;JUnitTask&lt;/code&gt; is overly coupled (dependencies = 20) #loc</description>
+  </problem>
+</problems>
+
