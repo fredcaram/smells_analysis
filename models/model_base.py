@@ -1,14 +1,20 @@
 import abc
-#from imblearn.under_sampling import NearMiss
+from imblearn.under_sampling import NearMiss
 from imblearn.combine import SMOTETomek
+from imblearn.over_sampling import SMOTE
 from sklearn.model_selection import train_test_split
 import numpy as np
 import pandas as pd
-from sklearn.tree import DecisionTreeClassifier
 
+from sklearn import preprocessing
+from imblearn.pipeline import Pipeline
 from sklearn.metrics import precision_recall_fscore_support
 from sklearn.model_selection import cross_val_score, cross_val_predict
+from sklearn.model_selection import KFold
 from messages import error_messages
+from sklearn.calibration import CalibratedClassifierCV
+from sklearn.model_selection import RandomizedSearchCV
+from scipy.stats import randint as sp_randint
 
 
 class model_base:
@@ -29,6 +35,16 @@ class model_base:
     @abc.abstractproperty
     def get_classifier(self):
         raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_classifier'))
+
+    def get_optimization_metrics(self, n_features):
+        return {
+            "ovs__kind": ["regular", "borderline1", "borderline2"],
+            #"clf__max_depth": sp_randint(1, 8),
+            #"clf__max_features": sp_randint(1, n_features),
+            #"clf__min_samples_split": sp_randint(2, 11),
+            #"clf__min_samples_leaf": sp_randint(1, 11),
+            #"clf__criterion": ["gini", "entropy"]
+        }
 
 
     @abc.abstractproperty
@@ -56,8 +72,8 @@ class model_base:
 
     def get_train_test_split(self, X_data, y):
         X_train, X_test, y_train, y_test = train_test_split(X_data, y, test_size=0.2)
-        X_train_resampled, y_train_resampled = self.get_balanced_data(X_train, y_train)
-        return X_train_resampled, X_test, y_train_resampled, y_test
+        #X_train_resampled, y_train_resampled = self.get_balanced_data(X_train, y_train)
+        return X_train, X_test, y_train, y_test
 
 
     def train_model(self, X_train, y_train):
@@ -102,7 +118,7 @@ class model_base:
             y_pred = self.get_prediction(trained_classifier, X_test)
             self.print_score(y_pred, y_test)
 
-    def run_train_test_validation_with_cv(self):
+    def run_cv_validation(self):
         projects = self.get_dataset()
         X_data = self.get_X_features(projects)
 
@@ -115,25 +131,77 @@ class model_base:
             if len(np.unique(y)) < 2:
                 continue
 
-            X_resampled, y_resampled = self.get_balanced_data(X_data, y)
+            features = []
+            scores = []
+            for train_index, test_index in KFold(n_splits=5, shuffle=True, random_state=42).split(X_data, y):
+                print("TRAIN:", train_index, "TEST:", test_index)
+                X_train, X_test = X_data.iloc[train_index,:], X_data.iloc[test_index,:]
+                y_train, y_test = y[train_index], y[test_index]
+
+                X_train_resampled, y_train_resampled = self.get_balanced_data(X_train, y_train)
+                print("Training Smell:{0}".format(smell))
+                trained_classifier = self.train_model(X_train_resampled, y_train_resampled)
+                print("Results for smell:{0}".format(smell))
+                self.get_score(trained_classifier, X_test, y_test)
+                features.append(self.print_features(trained_classifier, X_data.columns.values))
+                y_pred = self.get_prediction(trained_classifier, X_test)
+                scores.append(self.print_score(y_pred, y_test))
+
+            print("Precision, Recall, F1 Score, Support:")
+            scores = np.delete(scores, -1, axis=1)
+            print(np.mean(scores, axis=0))
+
+            features_df = pd.DataFrame(np.mean(features, axis=0), index=X_data.columns.values)
+            print("Relevant Features:")
+            print(features_df)
+
+
+    def run_balanced_classifier_cv(self):
+        projects = self.get_dataset()
+        X_data = self.get_X_features(projects)
+
+        for smell in self.get_handled_smells():
+            if not smell in projects.columns.values:
+                continue
+
+            y = self.get_y_feature(projects, smell)
+
+            if len(np.unique(y)) < 2:
+                continue
+
+            print("Non-Smells: {0}".format(np.sum(y == 0)))
+            print("Smells: {0}".format(np.sum(y == 1)))
+
+            X_train, X_test, y_train, y_test = train_test_split(X_data, y, test_size=0.2)
+
+            #X_resampled, y_resampled = self.get_balanced_data(X_data, y)
             print("Results for smell: {0}".format(smell))
-            clf = self.get_classifier()
+            clf = Pipeline([("scl", preprocessing.StandardScaler()), ("ovs", SMOTE()), ("clf", self.get_classifier())])
 
-            score = cross_val_score(clf, X_resampled, y_resampled, cv=10)
-            print("Score: {0}".format(np.mean(score)))
-            y_pred = cross_val_predict(clf, X_resampled, y_resampled, cv=10)
+            #score = cross_val_score(clf, X_resampled, y_resampled, cv=10)
+            #print("Score: {0}".format(np.mean(score)))
+            random_search = RandomizedSearchCV(clf, param_distributions=self.get_optimization_metrics(n_features=X_data.shape[1]),
+                                               n_iter=10, scoring='f1', cv=3)
+            random_search.fit(X_train, y_train)
+            #cclf = CalibratedClassifierCV(random_search, cv='prefit')
+            #cclf.fit(X_train, y_train)
+            y_pred = random_search.predict(X_test)
 
-            self.print_score(y_pred, y_resampled)
+            self.get_score(random_search, X_test, y_test)
+            self.print_score(y_pred, y_test)
 
 
     def print_score(self, y_pred, y_test):
         print("Precision, Recall, F1 Score, Support:")
         prec_rec_f = precision_recall_fscore_support(y_test, y_pred, average="binary")
         print(prec_rec_f)
+        return prec_rec_f
 
 
     def print_features(self, trained_classifier, X_features_columns):
         print("Relevant Features:")
-        features = trained_classifier.feature_importances_
-        df = pd.DataFrame(features, index=X_features_columns)
+        features = trained_classifier.coef_
+        df = pd.DataFrame(features)
+        #df = pd.DataFrame(features, index=X_features_columns)
         print(df)
+        return features

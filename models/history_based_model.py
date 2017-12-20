@@ -1,12 +1,12 @@
 
-from sklearn.tree import DecisionTreeClassifier
+from sklearn.svm import LinearSVC
 
 from models.model_base import model_base
 from repositories.smells_repository.relationships_smells_repository import relationship_smells_repository
 
 
 class history_based_model(model_base):
-    def __init__(self, classifier=DecisionTreeClassifier()):
+    def __init__(self, classifier=LinearSVC()):
         self.classifier = classifier
         model_base.__init__(self)
         self.history_based_smells = ['ShotgunSurgery', "DivergentChange"]#, "ParallelInheritance"

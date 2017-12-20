@@ -25,7 +25,7 @@ class method_smells_repository(base_smells_repository):
         if len(method_metrics_df) == 0:
             return method_metrics_df
 
-        method_metrics_df.loc[:, "instance"] = method_metrics_df["instance"].apply(lambda m: self.get_method_part(m))
+        method_metrics_df.loc[:, "instance"] = method_metrics_df["instance"].apply(lambda m: m.replace(";", ""))
         method_metrics_df["class_instance"] = method_metrics_df.loc[:, "instance"].apply(lambda m: extract_class_from_method(m))
 
         #Long method has class instead of method
@@ -39,13 +39,18 @@ class method_smells_repository(base_smells_repository):
 
 
     def get_method_part(self, instance):
-        regex_match = re.match("(.+);.+", instance)
+        regex_match = re.match("(.+;).+", instance)
         if regex_match is None:
             method = instance
         else:
             method = regex_match.group(1)
 
-        return method.replace(";", "").replace('.java', '')
+        #Remove o .java e o que estiver na frente
+        #method = re.sub("\.java\..*", "", method)
+        # Removetudo que houver após o ultimo ponto antes do parentesis
+        #method = re.sub("\.[^.]*\(.*", "", method)
+
+        return method.replace(";", "").replace(" ", "").replace('.java', '')
 
 
     def convert_smells_list_to_df(self, smells):
