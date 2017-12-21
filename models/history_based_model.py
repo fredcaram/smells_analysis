@@ -10,7 +10,7 @@ from repositories.smells_repository.relationships_smells_repository import relat
 
 
 class history_based_model(model_base):
-    def __init__(self, classifier=OneClassSVM(kernel="linear")):
+    def __init__(self, classifier=OneClassSVM(kernel="linear", max_iter=1000)):
         self.classifier = classifier
         model_base.__init__(self)
         self.history_based_smells = ['ShotgunSurgery', "DivergentChange"]#, "ParallelInheritance"

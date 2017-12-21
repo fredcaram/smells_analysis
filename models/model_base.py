@@ -189,7 +189,7 @@ class model_base:
             print("Results for smell: {0}".format(smell))
             clf = self.get_pipeline()
 
-            rcv = RandomizedSearchCV(clf, param_distributions=self.get_optimization_metrics(), scoring="f1", n_iter=3)
+            rcv = RandomizedSearchCV(clf, param_distributions=self.get_optimization_metrics(), scoring="f1", n_iter=3, cv=2)
             rcv.fit(X_train, y_train)
             y_pred = rcv.predict(X_test)
 

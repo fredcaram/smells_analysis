@@ -10,7 +10,7 @@ from repositories.smells_repository.blob_repository import blob_repository
 
 
 class class_metrics_model(model_base):
-    def __init__(self, classifier=OneClassSVM(kernel="linear")):
+    def __init__(self, classifier=OneClassSVM(kernel="linear", max_iter=1000)):
         model_base.__init__(self)
         self.classifier = classifier
         self.class_metrics_smells = ["Blob"]

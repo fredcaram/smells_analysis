@@ -10,7 +10,7 @@ from repositories.smells_repository.method_smells_repository import method_smell
 
 
 class method_based_model(model_base):
-    def __init__(self, classifier=OneClassSVM(kernel="linear")):
+    def __init__(self, classifier=OneClassSVM(kernel="linear", max_iter=1000)):
         model_base.__init__(self)
         self.classifier = classifier
         self.method_based_smells = ["LongMethod", "FeatureEnvy"]
