@@ -10,8 +10,8 @@ start = time.time()
 
 model = method_based_model()
 #model.run_train_test_validation()
-model.run_balanced_classifier_cv()
-#model.run_cv_validation()
+#model.run_balanced_classifier_cv()
+model.run_cv_validation()
 
 #model = method_based_model()
 #model.dataset_ids = [2]
@@ -20,8 +20,8 @@ model.run_balanced_classifier_cv()
 
 model = class_metrics_model()
 #model.run_train_test_validation()
-model.run_balanced_classifier_cv()
-#model.run_cv_validation()
+#model.run_balanced_classifier_cv()
+model.run_cv_validation()
 
 #model = class_metrics_model()
 #model.dataset_ids = [2]
@@ -30,8 +30,8 @@ model.run_balanced_classifier_cv()
 
 model = history_based_model()
 #model.run_train_test_validation()
-model.run_balanced_classifier_cv()
-#model.run_cv_validation()
+#model.run_balanced_classifier_cv()
+model.run_cv_validation()
 
 end = time.time()
 print("Spent time")

@@ -8,7 +8,7 @@ from imblearn.over_sampling import SMOTE
 from imblearn.under_sampling import TomekLinks
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.metrics import precision_recall_fscore_support
-from sklearn.model_selection import KFold
+from sklearn.model_selection import StratifiedKFold
 from sklearn.model_selection import train_test_split
 
 from messages import error_messages
@@ -86,7 +86,7 @@ class model_base:
 
 
     def train_model(self, X_train, y_train):
-        clf = self.get_pipeline(np.sum(y_train == 0))
+        clf = self.get_pipeline()
         trained_clf = clf.fit(X_train, y_train)
         return trained_clf
 
@@ -143,17 +143,17 @@ class model_base:
 
             features = []
             scores = []
-            for train_index, test_index in KFold(n_splits=5, shuffle=True, random_state=42).split(X_data, y):
+            for train_index, test_index in StratifiedKFold(n_splits=5, shuffle=True, random_state=42).split(X_data, y):
                 print("TRAIN:", train_index, "TEST:", test_index)
                 X_train, X_test = X_data.iloc[train_index,:], X_data.iloc[test_index,:]
                 y_train, y_test = y[train_index], y[test_index]
 
-                X_train_resampled, y_train_resampled = self.get_balanced_data(X_train, y_train)
+                #X_train_resampled, y_train_resampled = self.get_balanced_data(X_train, y_train)
                 print("Training Smell:{0}".format(smell))
-                trained_classifier = self.train_model(X_train_resampled, y_train_resampled)
+                trained_classifier = self.train_model(X_train, y_train)
                 print("Results for smell:{0}".format(smell))
                 self.get_score(trained_classifier, X_test, y_test)
-                features.append(self.print_features(trained_classifier, X_data.columns.values))
+                #features.append(self.print_features(trained_classifier, X_data.columns.values))
                 y_pred = self.get_prediction(trained_classifier, X_test)
                 scores.append(self.print_score(y_pred, y_test))
 
@@ -161,9 +161,9 @@ class model_base:
             scores = np.delete(scores, -1, axis=1)
             print(np.mean(scores, axis=0))
 
-            features_df = pd.DataFrame(np.mean(features, axis=0), index=X_data.columns.values)
-            print("Relevant Features:")
-            print(features_df)
+            #features_df = pd.DataFrame(np.mean(features, axis=0), index=X_data.columns.values)
+            #print("Relevant Features:")
+            #print(features_df)
 
 
     def run_balanced_classifier_cv(self):
