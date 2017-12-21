@@ -24,7 +24,7 @@ class model_base:
         self.dataset_ids = [1, 2]
         self.remove_from_train = ["instance"]
         self.smell_proportion = 0.08
-        self.pu_adapter_enabled = False
+        self.pu_adapter_enabled = True
 
 
     @abc.abstractproperty
@@ -47,7 +47,7 @@ class model_base:
 
     def get_ratio(self, y):
         non_smell_number = np.sum(y==0)
-        return {0: non_smell_number, 1: math.ceil(non_smell_number * self.smell_proportion)}
+        return {0: non_smell_number, 1: math.ceil((non_smell_number+ 1) * self.smell_proportion)}
 
     def get_optimization_metrics(self, n_features):
         return {
@@ -129,7 +129,7 @@ class model_base:
             X_train, X_test, y_train, y_test = self.get_train_test_split(X_data, y)
             trained_classifier = self.train_model(X_train, y_train)
             print("Results for smell:{0}".format(smell))
-            self.get_score(trained_classifier, X_test, y_test)
+            #self.get_score(trained_classifier, X_test, y_test)
             y_pred = self.get_prediction(trained_classifier, X_test)
             self.print_score(y_pred, y_test)
 
@@ -155,7 +155,7 @@ class model_base:
                 print("Training Smell:{0}".format(smell))
                 trained_classifier = self.train_model(X_train, y_train)
                 print("Results for smell:{0}".format(smell))
-                self.get_score(trained_classifier, X_test, y_test)
+                #self.get_score(trained_classifier, X_test, y_test)
                 y_pred = self.get_prediction(trained_classifier, X_test)
                 scores.append(self.print_score(y_pred, y_test))
 
@@ -189,7 +189,7 @@ class model_base:
             cclf.fit(X_train, y_train)
             y_pred = cclf.predict(X_test)
 
-            self.get_score(cclf, X_test, y_test)
+            #self.get_score(cclf, X_test, y_test)
             self.print_score(y_pred, y_test)
 
 

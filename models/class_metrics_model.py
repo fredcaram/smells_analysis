@@ -10,7 +10,7 @@ from repositories.smells_repository.blob_repository import blob_repository
 
 
 class class_metrics_model(model_base):
-    def __init__(self, classifier=SGDClassifier()):
+    def __init__(self, classifier=SGDClassifier(loss="modified_huber")):
         model_base.__init__(self)
         self.classifier = classifier
         self.class_metrics_smells = ["Blob"]
