@@ -3,14 +3,14 @@ from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import Pipeline
 from imblearn.under_sampling import TomekLinks
 from sklearn import preprocessing
-from sklearn.svm import LinearSVC
+from sklearn.linear_model import SGDClassifier
 
 from models.model_base import model_base
 from repositories.smells_repository.relationships_smells_repository import relationship_smells_repository
 
 
 class history_based_model(model_base):
-    def __init__(self, classifier=LinearSVC()):
+    def __init__(self, classifier=SGDClassifier()):
         self.classifier = classifier
         model_base.__init__(self)
         self.history_based_smells = ['ShotgunSurgery', "DivergentChange"]#, "ParallelInheritance"
@@ -29,5 +29,5 @@ class history_based_model(model_base):
     def get_pipeline(self):
         ppl = Pipeline([("scl", preprocessing.StandardScaler()),
                         ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=3, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
-                        ("clf", self.get_classifier())])
+                        ("clf", self.get_puAdapter())])
         return ppl

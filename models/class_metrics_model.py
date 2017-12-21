@@ -3,14 +3,14 @@ from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import Pipeline
 from imblearn.under_sampling import TomekLinks
 from sklearn import preprocessing
-from sklearn.svm import LinearSVC
+from sklearn.linear_model import SGDClassifier
 
 from models.model_base import model_base
 from repositories.smells_repository.blob_repository import blob_repository
 
 
 class class_metrics_model(model_base):
-    def __init__(self, classifier=LinearSVC()):
+    def __init__(self, classifier=SGDClassifier()):
         model_base.__init__(self)
         self.classifier = classifier
         self.class_metrics_smells = ["Blob"]
@@ -28,6 +28,6 @@ class class_metrics_model(model_base):
     def get_pipeline(self):
         ppl = Pipeline([("scl", preprocessing.StandardScaler()),
                         ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=5, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
-                        ("clf", self.get_classifier())])
+                        ("clf", self.get_puAdapter())])
         return ppl
 

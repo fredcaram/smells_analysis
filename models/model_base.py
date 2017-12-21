@@ -10,6 +10,7 @@ from sklearn.calibration import CalibratedClassifierCV
 from sklearn.metrics import precision_recall_fscore_support
 from sklearn.model_selection import StratifiedKFold
 from sklearn.model_selection import train_test_split
+from puAdapter import PUAdapter
 
 from messages import error_messages
 
@@ -23,6 +24,7 @@ class model_base:
         self.dataset_ids = [1, 2]
         self.remove_from_train = ["instance"]
         self.smell_proportion = 0.08
+        self.pu_adapter_enabled = False
 
 
     @abc.abstractproperty
@@ -37,6 +39,11 @@ class model_base:
     @abc.abstractproperty
     def get_pipeline(self):
         raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_pipeline'))
+
+    def get_puAdapter(self):
+        if self.pu_adapter_enabled:
+            return PUAdapter(estimator=self.get_classifier(), hold_out_ratio=self.smell_proportion)
+        return self.get_classifier()
 
     def get_ratio(self, y):
         non_smell_number = np.sum(y==0)
@@ -81,7 +88,6 @@ class model_base:
 
     def get_train_test_split(self, X_data, y):
         X_train, X_test, y_train, y_test = train_test_split(X_data, y, test_size=0.2)
-        #X_train_resampled, y_train_resampled = self.get_balanced_data(X_train, y_train)
         return X_train, X_test, y_train, y_test
 
 
@@ -124,7 +130,6 @@ class model_base:
             trained_classifier = self.train_model(X_train, y_train)
             print("Results for smell:{0}".format(smell))
             self.get_score(trained_classifier, X_test, y_test)
-            #self.print_features(trained_classifier, X_data.columns.values)
             y_pred = self.get_prediction(trained_classifier, X_test)
             self.print_score(y_pred, y_test)
 
@@ -141,29 +146,22 @@ class model_base:
             if len(np.unique(y)) < 2:
                 continue
 
-            features = []
             scores = []
             for train_index, test_index in StratifiedKFold(n_splits=5, shuffle=True, random_state=42).split(X_data, y):
                 print("TRAIN:", train_index, "TEST:", test_index)
                 X_train, X_test = X_data.iloc[train_index,:], X_data.iloc[test_index,:]
                 y_train, y_test = y[train_index], y[test_index]
 
-                #X_train_resampled, y_train_resampled = self.get_balanced_data(X_train, y_train)
                 print("Training Smell:{0}".format(smell))
                 trained_classifier = self.train_model(X_train, y_train)
                 print("Results for smell:{0}".format(smell))
                 self.get_score(trained_classifier, X_test, y_test)
-                #features.append(self.print_features(trained_classifier, X_data.columns.values))
                 y_pred = self.get_prediction(trained_classifier, X_test)
                 scores.append(self.print_score(y_pred, y_test))
 
             print("Precision, Recall, F1 Score, Support:")
             scores = np.delete(scores, -1, axis=1)
             print(np.mean(scores, axis=0))
-
-            #features_df = pd.DataFrame(np.mean(features, axis=0), index=X_data.columns.values)
-            #print("Relevant Features:")
-            #print(features_df)
 
 
     def run_balanced_classifier_cv(self):
@@ -184,21 +182,16 @@ class model_base:
 
             X_train, X_test, y_train, y_test = train_test_split(X_data, y, test_size=0.2)
 
-            #X_resampled, y_resampled = self.get_balanced_data(X_data, y)
             print("Results for smell: {0}".format(smell))
             clf = self.get_pipeline()
 
-            #score = cross_val_score(clf, X_resampled, y_resampled, cv=10)
-            #print("Score: {0}".format(np.mean(score)))
-            #random_search = RandomizedSearchCV(clf, param_distributions=self.get_optimization_metrics(n_features=X_data.shape[1]),
-            #                                   n_iter=10, scoring='f1', cv=3)
-            #random_search.fit(X_train, y_train)
             cclf = CalibratedClassifierCV(clf, cv=8)
             cclf.fit(X_train, y_train)
             y_pred = cclf.predict(X_test)
 
             self.get_score(cclf, X_test, y_test)
             self.print_score(y_pred, y_test)
+
 
 
     def print_score(self, y_pred, y_test):
