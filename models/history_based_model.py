@@ -3,14 +3,14 @@ from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import Pipeline
 from imblearn.under_sampling import TomekLinks
 from sklearn import preprocessing
-from sklearn.linear_model import SGDClassifier
+from sklearn.svm import SVC
 
 from models.model_base import model_base
 from repositories.smells_repository.relationships_smells_repository import relationship_smells_repository
 
 
 class history_based_model(model_base):
-    def __init__(self, classifier=SGDClassifier(loss="modified_huber")):
+    def __init__(self, classifier=SVC(kernel="linear", probability=True)):
         self.classifier = classifier
         model_base.__init__(self)
         self.history_based_smells = ['ShotgunSurgery', "DivergentChange"]#, "ParallelInheritance"

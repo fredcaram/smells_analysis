@@ -3,14 +3,14 @@ from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import Pipeline
 from imblearn.under_sampling import TomekLinks
 from sklearn import preprocessing
-from sklearn.linear_model import SGDClassifier
+from sklearn.svm import SVC
 
 from models.model_base import model_base
 from repositories.smells_repository.method_smells_repository import method_smells_repository
 
 
 class method_based_model(model_base):
-    def __init__(self, classifier=SGDClassifier(loss="modified_huber")):
+    def __init__(self, classifier=SVC(kernel="linear", probability=True)):
         model_base.__init__(self)
         self.classifier = classifier
         self.method_based_smells = ["LongMethod", "FeatureEnvy"]
