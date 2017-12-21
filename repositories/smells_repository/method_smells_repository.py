@@ -14,6 +14,10 @@ class method_smells_repository(base_smells_repository):
         self.metrics_repository = method_metrics_repository()
         self.ck_metrics_repository = class_metrics_repository()
         self.ck_metrics_repository.metrics_reloaded_class_metrics = ["ck"]
+        self.cache_file_name = "methods"
+
+    def get_cache_file_name(self):
+        return self.cache_file_name
 
 
     def get_handled_smell_types(self):

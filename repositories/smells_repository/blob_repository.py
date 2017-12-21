@@ -9,6 +9,10 @@ class blob_repository(base_smells_repository):
         base_smells_repository.__init__(self)
         self.handled_smell_types = ["Blob"]
         self.metrics_repository = class_metrics_repository()
+        self.cache_file_name = "blob"
+
+    def get_cache_file_name(self):
+        return self.cache_file_name
 
 
     def get_handled_smell_types(self):

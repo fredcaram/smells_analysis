@@ -14,6 +14,10 @@ class relationship_smells_repository(base_smells_repository):
         self.history_change_metrics_repo = history_change_metrics_repository()
         self.class_metrics_repo = class_metrics_repository()
         self.class_metrics_repo.metrics_reloaded_class_metrics = ["ck"]
+        self.cache_file_name = "relationships"
+
+    def get_cache_file_name(self):
+        return self.cache_file_name
 
     def get_handled_smell_types(self):
         return self.handled_smell_types

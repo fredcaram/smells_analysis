@@ -18,6 +18,12 @@ class base_smells_repository:
     def get_handled_smell_types(self):
         raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_handled_smell_types'))
 
+    @abc.abstractproperty
+    def get_cache_file_name(self):
+        raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_cache_file_name'))
+
+    def get_trated_cache_file_name(self):
+        return "dataset_cache/{0}.csv".format(self.get_cache_file_name())
 
     @abc.abstractmethod
     def get_metrics_dataframe(self, prefix, dataset_id):
@@ -70,11 +76,17 @@ class base_smells_repository:
 
     def get_smells_dataset_from_projects(self, project_ids, dataset_ids):
         projects_df = pd.DataFrame()
+        cache_file = self.get_trated_cache_file_name()
+
+        if os.path.exists(cache_file):
+            return pd.read_csv(cache_file, header=0)
+
         for dataset_id in dataset_ids:
             for project_id in project_ids:
                 df = self.get_smells_dataset_by_project_id(project_id, dataset_id)
                 projects_df = pd.concat((projects_df, df), ignore_index=True)
 
         projects_df.fillna(0, inplace=True)
+        projects_df.to_csv(cache_file)
 
         return projects_df
