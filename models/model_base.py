@@ -1,20 +1,17 @@
 import abc
-from imblearn.under_sampling import NearMiss
-from imblearn.combine import SMOTETomek
-from imblearn.over_sampling import SMOTE
-from sklearn.model_selection import train_test_split
+import math
+
 import numpy as np
 import pandas as pd
-
-from sklearn import preprocessing
-from imblearn.pipeline import Pipeline
-from sklearn.metrics import precision_recall_fscore_support
-from sklearn.model_selection import cross_val_score, cross_val_predict
-from sklearn.model_selection import KFold
-from messages import error_messages
+from imblearn.combine import SMOTETomek
+from imblearn.over_sampling import SMOTE
+from imblearn.under_sampling import TomekLinks
 from sklearn.calibration import CalibratedClassifierCV
-from sklearn.model_selection import RandomizedSearchCV
-from scipy.stats import randint as sp_randint
+from sklearn.metrics import precision_recall_fscore_support
+from sklearn.model_selection import KFold
+from sklearn.model_selection import train_test_split
+
+from messages import error_messages
 
 
 class model_base:
@@ -25,6 +22,7 @@ class model_base:
                              110, 111, 112, 127, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126]
         self.dataset_ids = [1, 2]
         self.remove_from_train = ["instance"]
+        self.smell_proportion = 0.08
 
 
     @abc.abstractproperty
@@ -36,9 +34,19 @@ class model_base:
     def get_classifier(self):
         raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_classifier'))
 
+    @abc.abstractproperty
+    def get_pipeline(self):
+        raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_pipeline'))
+
+    def get_ratio(self, y):
+        non_smell_number = np.sum(y==0)
+        return {0: non_smell_number, 1: math.ceil(non_smell_number * self.smell_proportion)}
+
     def get_optimization_metrics(self, n_features):
         return {
             "ovs__kind": ["regular", "borderline1", "borderline2"],
+            #"clf__n_estimators ": sp_randint(40, 100),
+            #"clf__learning_rate ": sp_randint(.95, 1.05)
             #"clf__max_depth": sp_randint(1, 8),
             #"clf__max_features": sp_randint(1, n_features),
             #"clf__min_samples_split": sp_randint(2, 11),
@@ -63,7 +71,8 @@ class model_base:
     def get_balanced_data(self, X_data, y):
         print("Samples before balancing:")
         self.get_smells_proportion(y)
-        balancer = SMOTETomek(random_state=42)
+        ratio = {0: np.sum(y == 0), 1: math.ceil(np.sum(y == 0) * self.smell_proportion)}
+        balancer = SMOTETomek(ratio=ratio, smote=SMOTE(k_neighbors=3, ratio=ratio), tomek=TomekLinks(ratio=ratio))
         X_resampled, y_resampled = balancer.fit_sample(X_data, y)
         print("Samples after balancing:")
         self.get_smells_proportion(y_resampled)
@@ -77,7 +86,8 @@ class model_base:
 
 
     def train_model(self, X_train, y_train):
-        trained_clf = self.get_classifier().fit(X_train, y_train)
+        clf = self.get_pipeline(np.sum(y_train == 0))
+        trained_clf = clf.fit(X_train, y_train)
         return trained_clf
 
 
@@ -114,7 +124,7 @@ class model_base:
             trained_classifier = self.train_model(X_train, y_train)
             print("Results for smell:{0}".format(smell))
             self.get_score(trained_classifier, X_test, y_test)
-            self.print_features(trained_classifier, X_data.columns.values)
+            #self.print_features(trained_classifier, X_data.columns.values)
             y_pred = self.get_prediction(trained_classifier, X_test)
             self.print_score(y_pred, y_test)
 
@@ -176,18 +186,18 @@ class model_base:
 
             #X_resampled, y_resampled = self.get_balanced_data(X_data, y)
             print("Results for smell: {0}".format(smell))
-            clf = Pipeline([("scl", preprocessing.StandardScaler()), ("ovs", SMOTE()), ("clf", self.get_classifier())])
+            clf = self.get_pipeline()
 
             #score = cross_val_score(clf, X_resampled, y_resampled, cv=10)
             #print("Score: {0}".format(np.mean(score)))
-            random_search = RandomizedSearchCV(clf, param_distributions=self.get_optimization_metrics(n_features=X_data.shape[1]),
-                                               n_iter=10, scoring='f1', cv=3)
-            random_search.fit(X_train, y_train)
-            #cclf = CalibratedClassifierCV(random_search, cv='prefit')
-            #cclf.fit(X_train, y_train)
-            y_pred = random_search.predict(X_test)
+            #random_search = RandomizedSearchCV(clf, param_distributions=self.get_optimization_metrics(n_features=X_data.shape[1]),
+            #                                   n_iter=10, scoring='f1', cv=3)
+            #random_search.fit(X_train, y_train)
+            cclf = CalibratedClassifierCV(clf, cv=8)
+            cclf.fit(X_train, y_train)
+            y_pred = cclf.predict(X_test)
 
-            self.get_score(random_search, X_test, y_test)
+            self.get_score(cclf, X_test, y_test)
             self.print_score(y_pred, y_test)
 
 
@@ -200,7 +210,7 @@ class model_base:
 
     def print_features(self, trained_classifier, X_features_columns):
         print("Relevant Features:")
-        features = trained_classifier.coef_
+        features = trained_classifier.feature_importances_
         df = pd.DataFrame(features)
         #df = pd.DataFrame(features, index=X_features_columns)
         print(df)

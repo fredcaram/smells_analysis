@@ -1,3 +1,8 @@
+from imblearn.combine import SMOTETomek
+from imblearn.over_sampling import SMOTE
+from imblearn.pipeline import Pipeline
+from imblearn.under_sampling import TomekLinks
+from sklearn import preprocessing
 from sklearn.svm import LinearSVC
 
 from models.model_base import model_base
@@ -9,6 +14,7 @@ class class_metrics_model(model_base):
         model_base.__init__(self)
         self.classifier = classifier
         self.class_metrics_smells = ["Blob"]
+        self.smell_proportion = 0.1
 
     def get_classifier(self):
         return self.classifier
@@ -18,4 +24,10 @@ class class_metrics_model(model_base):
 
     def get_handled_smells(self):
         return self.class_metrics_smells
+
+    def get_pipeline(self):
+        ppl = Pipeline([("scl", preprocessing.StandardScaler()),
+                        ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=5, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
+                        ("clf", self.get_classifier())])
+        return ppl
 
