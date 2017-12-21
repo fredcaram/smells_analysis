@@ -24,7 +24,8 @@ class model_base:
         self.dataset_ids = [1, 2]
         self.remove_from_train = ["instance"]
         self.smell_proportion = 0.08
-        self.pu_adapter_enabled = True
+        self.pu_adapter_enabled = False
+        self.negative_class = -1
 
 
     @abc.abstractproperty
@@ -75,15 +76,15 @@ class model_base:
         print("Smells: {0}".format(nsmells))
         print("Smells Proportion: {0}".format(nsmells / len(y)))
 
-    def get_balanced_data(self, X_data, y):
-        print("Samples before balancing:")
-        self.get_smells_proportion(y)
-        ratio = {0: np.sum(y == 0), 1: math.ceil(np.sum(y == 0) * self.smell_proportion)}
-        balancer = SMOTETomek(ratio=ratio, smote=SMOTE(k_neighbors=3, ratio=ratio), tomek=TomekLinks(ratio=ratio))
-        X_resampled, y_resampled = balancer.fit_sample(X_data, y)
-        print("Samples after balancing:")
-        self.get_smells_proportion(y_resampled)
-        return X_resampled, y_resampled
+    # def get_balanced_data(self, X_data, y):
+    #     print("Samples before balancing:")
+    #     self.get_smells_proportion(y)
+    #     ratio = {0: np.sum(y == 0), 1: math.ceil(np.sum(y == 0) * self.smell_proportion)}
+    #     balancer = SMOTETomek(ratio=ratio, smote=SMOTE(k_neighbors=3, ratio=ratio), tomek=TomekLinks(ratio=ratio))
+    #     X_resampled, y_resampled = balancer.fit_sample(X_data, y)
+    #     print("Samples after balancing:")
+    #     self.get_smells_proportion(y_resampled)
+    #     return X_resampled, y_resampled
 
 
     def get_train_test_split(self, X_data, y):
@@ -108,7 +109,9 @@ class model_base:
 
 
     def get_y_feature(self, projects, smell):
-        y = projects[smell]
+        y = np.array(projects[smell])
+        if self.negative_class != 0:
+            y[y==0] = -1
         return y
 
 
@@ -156,6 +159,7 @@ class model_base:
                 trained_classifier = self.train_model(X_train, y_train)
                 print("Results for smell:{0}".format(smell))
                 #self.get_score(trained_classifier, X_test, y_test)
+                self.get_classifier().set_params(nu=(np.sum(y==1)/len(y)))
                 y_pred = self.get_prediction(trained_classifier, X_test)
                 scores.append(self.print_score(y_pred, y_test))
 
