@@ -24,7 +24,7 @@ class model_base:
         self.dataset_ids = [1, 2]
         self.remove_from_train = ["instance"]
         self.smell_proportion = 0.08
-        self.pu_adapter_enabled = True
+        self.pu_adapter_enabled = False
 
 
     @abc.abstractproperty

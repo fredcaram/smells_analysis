@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f2db29c-bd5d-41cd-92f6-d08cb00fc32a" name="Default" comment="" />
+    <list default="true" id="0f2db29c-bd5d-41cd-92f6-d08cb00fc32a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/model_base.py" afterPath="$PROJECT_DIR$/models/model_base.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +23,11 @@
       <file leaf-file-name="model_base.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/model_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,8 +211,8 @@
         <option value="$PROJECT_DIR$/models/method_based_model.py" />
         <option value="$PROJECT_DIR$/models/history_based_model.py" />
         <option value="$PROJECT_DIR$/models/class_metrics_model.py" />
-        <option value="$PROJECT_DIR$/models/model_base.py" />
         <option value="$PROJECT_DIR$/puAdapter.py" />
+        <option value="$PROJECT_DIR$/models/model_base.py" />
       </list>
     </option>
   </component>
@@ -961,9 +965,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/model_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
