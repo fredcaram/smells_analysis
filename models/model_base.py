@@ -8,6 +8,7 @@ from imblearn.over_sampling import SMOTE
 from imblearn.under_sampling import TomekLinks
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.metrics import precision_recall_fscore_support
+from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import StratifiedKFold
 from sklearn.model_selection import train_test_split
 from puAdapter import PUAdapter
@@ -50,9 +51,9 @@ class model_base:
         non_smell_number = np.sum(y==0)
         return {0: non_smell_number, 1: math.ceil((non_smell_number+ 1) * self.smell_proportion)}
 
-    def get_optimization_metrics(self, n_features):
+    def get_optimization_metrics(self):
         return {
-            "ovs__kind": ["regular", "borderline1", "borderline2"],
+            "clf__kernel": ["linear", "poly", "rbf"],
             #"clf__n_estimators ": sp_randint(40, 100),
             #"clf__learning_rate ": sp_randint(.95, 1.05)
             #"clf__max_depth": sp_randint(1, 8),
@@ -167,6 +168,35 @@ class model_base:
             scores = np.delete(scores, -1, axis=1)
             print(np.mean(scores, axis=0))
 
+    def run_random_search_cv(self):
+        projects = self.get_dataset()
+        X_data = self.get_X_features(projects)
+
+        for smell in self.get_handled_smells():
+            if not smell in projects.columns.values:
+                continue
+
+            y = self.get_y_feature(projects, smell)
+
+            if len(np.unique(y)) < 2:
+                continue
+
+            print("Non-Smells: {0}".format(np.sum(y == 0)))
+            print("Smells: {0}".format(np.sum(y == 1)))
+
+            X_train, X_test, y_train, y_test = train_test_split(X_data, y, test_size=0.2)
+
+            print("Results for smell: {0}".format(smell))
+            clf = self.get_pipeline()
+
+            rcv = RandomizedSearchCV(clf, param_distributions=self.get_optimization_metrics(), scoring="f1", n_iter=3)
+            rcv.fit(X_train, y_train)
+            y_pred = rcv.predict(X_test)
+
+            # self.get_score(cclf, X_test, y_test)
+            self.print_score(y_pred, y_test)
+            print("Best params:")
+            print(rcv.best_params_)
 
     def run_balanced_classifier_cv(self):
         projects = self.get_dataset()
