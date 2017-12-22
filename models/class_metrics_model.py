@@ -1,7 +1,7 @@
-from imblearn.combine import SMOTETomek
+from imblearn.combine import SMOTEENN
 from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import Pipeline
-from imblearn.under_sampling import TomekLinks
+from imblearn.under_sampling import EditedNearestNeighbours
 from sklearn import preprocessing
 from sklearn.svm import SVC
 
@@ -27,7 +27,7 @@ class class_metrics_model(model_base):
 
     def get_pipeline(self, smell):
         ppl = Pipeline([("scl", preprocessing.StandardScaler()),
-                        ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=5, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
+                        ("ovs", SMOTEENN(ratio=self.get_ratio,smote=SMOTE(k_neighbors=3, ratio=self.get_ratio),  enn=EditedNearestNeighbours(ratio=self.get_ratio, n_neighbors=3))),
                         ("clf", self.get_puAdapter(smell))])
         return ppl
 
