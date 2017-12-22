@@ -16,7 +16,7 @@ class class_metrics_model(model_base):
         self.class_metrics_smells = ["Blob"]
         self.smell_proportion = 0.1
 
-    def get_classifier(self):
+    def get_classifier(self, smell):
         return self.classifier
 
     def get_dataset(self):
@@ -25,9 +25,9 @@ class class_metrics_model(model_base):
     def get_handled_smells(self):
         return self.class_metrics_smells
 
-    def get_pipeline(self):
+    def get_pipeline(self, smell):
         ppl = Pipeline([("scl", preprocessing.StandardScaler()),
                         ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=5, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
-                        ("clf", self.get_puAdapter())])
+                        ("clf", self.get_puAdapter(smell))])
         return ppl
 

@@ -35,17 +35,17 @@ class model_base:
 
 
     @abc.abstractproperty
-    def get_classifier(self):
+    def get_classifier(self, smell):
         raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_classifier'))
 
     @abc.abstractproperty
-    def get_pipeline(self):
+    def get_pipeline(self, smell):
         raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_pipeline'))
 
-    def get_puAdapter(self):
+    def get_puAdapter(self, smell):
         if self.pu_adapter_enabled:
-            return PUAdapter(estimator=self.get_classifier(), hold_out_ratio=self.smell_proportion)
-        return self.get_classifier()
+            return PUAdapter(estimator=self.get_classifier(smell), hold_out_ratio=self.smell_proportion)
+        return self.get_classifier(smell)
 
     def get_ratio(self, y):
         non_smell_number = np.sum(y==0)
@@ -93,8 +93,8 @@ class model_base:
         return X_train, X_test, y_train, y_test
 
 
-    def train_model(self, X_train, y_train):
-        clf = self.get_pipeline()
+    def train_model(self, X_train, y_train, smell):
+        clf = self.get_pipeline(smell)
         trained_clf = clf.fit(X_train, y_train)
         return trained_clf
 
@@ -131,7 +131,7 @@ class model_base:
 
             print("Training Smell:{0}".format(smell))
             X_train, X_test, y_train, y_test = self.get_train_test_split(X_data, y)
-            trained_classifier = self.train_model(X_train, y_train)
+            trained_classifier = self.train_model(X_train, y_train, smell)
             print("Results for smell:{0}".format(smell))
             #self.get_score(trained_classifier, X_test, y_test)
             y_pred = self.get_prediction(trained_classifier, X_test)
@@ -157,7 +157,7 @@ class model_base:
                 y_train, y_test = y[train_index], y[test_index]
 
                 print("Training Smell:{0}".format(smell))
-                trained_classifier = self.train_model(X_train, y_train)
+                trained_classifier = self.train_model(X_train, y_train, smell)
                 print("Results for smell:{0}".format(smell))
                 #self.get_score(trained_classifier, X_test, y_test)
                 #self.get_classifier().set_params(nu=(np.sum(y==1)/len(y)))
@@ -187,7 +187,7 @@ class model_base:
             X_train, X_test, y_train, y_test = train_test_split(X_data, y, test_size=0.2)
 
             print("Results for smell: {0}".format(smell))
-            clf = self.get_pipeline()
+            clf = self.get_pipeline(smell)
 
             rcv = RandomizedSearchCV(clf, param_distributions=self.get_optimization_metrics(), scoring="f1", n_iter=3, cv=3)
             rcv.fit(X_train, y_train)
@@ -217,7 +217,7 @@ class model_base:
             X_train, X_test, y_train, y_test = train_test_split(X_data, y, test_size=0.2)
 
             print("Results for smell: {0}".format(smell))
-            clf = self.get_pipeline()
+            clf = self.get_pipeline(smell)
 
             cclf = CalibratedClassifierCV(clf, cv=8)
             cclf.fit(X_train, y_train)
