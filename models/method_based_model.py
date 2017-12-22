@@ -3,14 +3,14 @@ from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import Pipeline
 from imblearn.under_sampling import TomekLinks
 from sklearn import preprocessing
-from sklearn.svm import OneClassSVM
+from sklearn.svm import SVC
 
 from models.model_base import model_base
 from repositories.smells_repository.method_smells_repository import method_smells_repository
 
 
 class method_based_model(model_base):
-    def __init__(self, classifier=OneClassSVM(kernel="linear", max_iter=1000)):
+    def __init__(self, classifier=SVC(kernel="linear", max_iter=10000)):
         model_base.__init__(self)
         self.classifier = classifier
         self.method_based_smells = ["LongMethod", "FeatureEnvy"]
@@ -27,6 +27,6 @@ class method_based_model(model_base):
 
     def get_pipeline(self):
         ppl = Pipeline([("scl", preprocessing.StandardScaler()),
-                        #("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=5, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
+                        ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=5, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
                         ("clf", self.get_puAdapter())])
         return ppl

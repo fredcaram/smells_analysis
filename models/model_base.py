@@ -26,7 +26,7 @@ class model_base:
         self.remove_from_train = ["instance"]
         self.smell_proportion = 0.08
         self.pu_adapter_enabled = False
-        self.negative_class = -1
+        self.negative_class = 0
 
 
     @abc.abstractproperty
@@ -160,7 +160,7 @@ class model_base:
                 trained_classifier = self.train_model(X_train, y_train)
                 print("Results for smell:{0}".format(smell))
                 #self.get_score(trained_classifier, X_test, y_test)
-                self.get_classifier().set_params(nu=(np.sum(y==1)/len(y)))
+                #self.get_classifier().set_params(nu=(np.sum(y==1)/len(y)))
                 y_pred = self.get_prediction(trained_classifier, X_test)
                 scores.append(self.print_score(y_pred, y_test))
 
@@ -189,7 +189,7 @@ class model_base:
             print("Results for smell: {0}".format(smell))
             clf = self.get_pipeline()
 
-            rcv = RandomizedSearchCV(clf, param_distributions=self.get_optimization_metrics(), scoring="f1", n_iter=3, cv=2)
+            rcv = RandomizedSearchCV(clf, param_distributions=self.get_optimization_metrics(), scoring="f1", n_iter=3, cv=3)
             rcv.fit(X_train, y_train)
             y_pred = rcv.predict(X_test)
 

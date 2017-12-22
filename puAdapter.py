@@ -33,14 +33,18 @@ class PUAdapter(object):
         self.estimator = estimator
         self.c = 1.0
         self.hold_out_ratio = hold_out_ratio
-        
-        if precomputed_kernel:
+
+        self.precomputed_kernel = precomputed_kernel
+        self.set_fit_method()
+
+        self.estimator_fitted = False
+
+    def set_fit_method(self):
+        if self.precomputed_kernel:
             self.fit = self.__fit_precomputed_kernel
         else:
             self.fit = self.__fit_no_precomputed_kernel
 
-        self.estimator_fitted = False
-        
     def __str__(self):
         return 'Estimator:' + str(self.estimator) + '\n' + 'p(s=1|y=1,x) ~= ' + str(self.c) + '\n' + \
             'Fitted: ' + str(self.estimator_fitted)
@@ -152,6 +156,18 @@ class PUAdapter(object):
             raise Exception('The estimator must be fitted before calling predict(...).')
 
         return np.array([1. if p > treshold else 0. for p in self.predict_proba(X)])
-        
+
+    def get_params(self, deep):
+        return {
+            "estimator": self.estimator,
+            "hold_out_ratio":self.hold_out_ratio,
+            "precomputed_kernel": self.precomputed_kernel
+        }
+
+    def set_params(self, **kwargs):
+        self.estimator = kwargs.get("estimator", self.estimator)
+        self.hold_out_ratio = kwargs.get("hold_out_ratio", self.hold_out_ratio)
+        self.precomputed_kernel = kwargs.get("precomputed_kernel", self.precomputed_kernel)
+        self.set_fit_method()
         
 
