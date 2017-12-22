@@ -10,11 +10,11 @@ from repositories.smells_repository.relationships_smells_repository import relat
 
 
 class history_based_model(model_base):
-    def __init__(self, classifier=SVC(kernel="linear", max_iter=10000)):
+    def __init__(self, classifier=SVC(kernel="rbf")):
         self.classifier = classifier
         model_base.__init__(self)
         self.history_based_smells = ['ShotgunSurgery', "DivergentChange"]#, "ParallelInheritance"
-        self.smell_proportion = 0.02
+        self.smell_proportion = 0.009
 
     def get_classifier(self):
         return self.classifier
@@ -28,6 +28,6 @@ class history_based_model(model_base):
 
     def get_pipeline(self):
         ppl = Pipeline([("scl", preprocessing.StandardScaler()),
-                        ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=2, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
+                        ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=3, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
                         ("clf", self.get_puAdapter())])
         return ppl
