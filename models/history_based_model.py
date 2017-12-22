@@ -27,7 +27,7 @@ class history_based_model(model_base):
         return self.history_based_smells
 
     def get_pipeline(self):
-        ppl = Pipeline([("scl", preprocessing.StandardScaler()),
+        ppl = Pipeline([("scl", preprocessing.MinMaxScaler()),
                         ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=3, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
                         ("clf", self.get_puAdapter())])
         return ppl
