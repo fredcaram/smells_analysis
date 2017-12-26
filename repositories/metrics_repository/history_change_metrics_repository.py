@@ -12,7 +12,10 @@ class history_change_metrics_repository(base_metrics_repository):
         self.metrics_dir = "change_history"
         self.handled_smell_types = ['ShotgunSurgery', "DivergentChange"]
         self.file_name = "methodChanges"
+        self.save_association_rules = False
         self.support_by_project = {"apache_james": 0.01,
+                                   "apache_tomcat": 0.003,
+                                   "cassandra": 0.004,
                                    "default": 0.006}
 
 
@@ -32,6 +35,8 @@ class history_change_metrics_repository(base_metrics_repository):
         metrics_df = metrics_df.drop_duplicates()
 
         a_rules_df = self.get_association_rules(metrics_df, prefix)
+        if self.save_association_rules:
+            a_rules_df.to_csv("logs/assoc_{0}.csv".format(prefix))
         a_rules_df = a_rules_df.drop(["antecedants", "commit"], axis=1, errors="ignore")
 
         return a_rules_df
