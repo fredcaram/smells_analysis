@@ -3,18 +3,18 @@ from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import Pipeline
 from imblearn.under_sampling import TomekLinks
 from sklearn import preprocessing
-from sklearn.ensemble import AdaBoostClassifier
+from sklearn.ensemble import RandomForestClassifier
 
 from models.model_base import model_base
 from repositories.smells_repository.blob_repository import blob_repository
 
 
 class class_metrics_model(model_base):
-    def __init__(self, classifier=AdaBoostClassifier()):
+    def __init__(self, classifier=RandomForestClassifier()):
         model_base.__init__(self)
         self.classifier = classifier
         self.class_metrics_smells = ["Blob"]
-        self.smell_proportion = 0.09
+        self.smell_proportion = 0.095
 
     def get_classifier(self, smell):
         return self.classifier
