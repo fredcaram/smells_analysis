@@ -14,7 +14,7 @@ class class_metrics_model(model_base):
         model_base.__init__(self)
         self.classifier = classifier
         self.class_metrics_smells = ["Blob"]
-        self.smell_proportion = 0.095
+        self.smell_proportion = 0.09
 
     def get_classifier(self, smell):
         return self.classifier
