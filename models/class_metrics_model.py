@@ -16,11 +16,12 @@ from repositories.smells_repository.blob_repository import blob_repository
 
 
 class class_metrics_model(model_base):
-    def __init__(self, classifier=xgb.XGBClassifier(booster="dart", max_depth=5, reg_lambda=0.9)):
+    def __init__(self, classifier=xgb.XGBClassifier(booster="dart", max_depth=5, reg_lambda=0.9, reg_alpha=0.1)):
         model_base.__init__(self)
         self.classifier = classifier
         self.class_metrics_smells = ["Blob"]
         self.smell_proportion = 0.095
+        self.pu_adapter_enabled = True
 
     def get_classifier(self, smell):
         return self.classifier
