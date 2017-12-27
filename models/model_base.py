@@ -29,16 +29,16 @@ class model_base:
         self.negative_class = 0
 
 
-    @abc.abstractproperty
+    @abc.abstractmethod
     def get_dataset(self):
         raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_metrics'))
 
 
-    @abc.abstractproperty
+    @abc.abstractmethod
     def get_classifier(self, smell):
         raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_classifier'))
 
-    @abc.abstractproperty
+    @abc.abstractmethod
     def get_pipeline(self, smell):
         raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_pipeline'))
 
