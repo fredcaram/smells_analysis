@@ -6,16 +6,18 @@ from sklearn import preprocessing
 import os
 
 # xgboost fix
-mingw_path = 'C:\\Program Files\\mingw-w64\\x86_64-7.1.0-posix-seh-rt_v5-rev2\\mingw64\\bin'
-os.environ['PATH'] = mingw_path + ';' + os.environ['PATH']
-import xgboost as xgb
+#mingw_path = 'C:\\Program Files\\mingw-w64\\x86_64-7.1.0-posix-seh-rt_v5-rev2\\mingw64\\bin'
+#os.environ['PATH'] = mingw_path + ';' + os.environ['PATH']
+#import xgboost as xgb
+
+import lightgbm as lgb
 
 from models.model_base import model_base
 from repositories.smells_repository.blob_repository import blob_repository
 
 
 class class_metrics_model(model_base):
-    def __init__(self, classifier=xgb.XGBClassifier(max_depth=5)):
+    def __init__(self, classifier=lgb.LGBMClassifier()):
         model_base.__init__(self)
         self.classifier = classifier
         self.class_metrics_smells = ["Blob"]
