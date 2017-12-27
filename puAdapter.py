@@ -145,7 +145,7 @@ class PUAdapter(object):
         return probabilistic_predictions / self.c
     
     
-    def predict(self, X, treshold=0.5):
+    def predict(self, X, threshold=0.5):
         """
         Assign labels to feature vectors based on the estimator's predictions
 
@@ -155,7 +155,7 @@ class PUAdapter(object):
         if not self.estimator_fitted:
             raise Exception('The estimator must be fitted before calling predict(...).')
 
-        return np.array([1. if p > treshold else 0. for p in self.predict_proba(X)])
+        return np.array([1. if p > threshold else 0. for p in self.predict_proba(X)])
 
     def get_params(self, deep):
         return {
