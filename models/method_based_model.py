@@ -21,6 +21,7 @@ class method_based_model(model_base):
         self.classifier = classifier
         self.method_based_smells = ["LongMethod", "FeatureEnvy"]
         self.smell_proportion = 0.06
+        self.pu_adapter_enabled = True
 
     def get_classifier(self, smell):
         return self.classifier
