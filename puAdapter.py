@@ -5,8 +5,10 @@ Created on Dec 21, 2012
 
 @author: Alexandre
 """
-import numpy as np
 import math
+
+import numpy as np
+
 
 class PUAdapter(object):
     """
@@ -169,5 +171,3 @@ class PUAdapter(object):
         self.hold_out_ratio = kwargs.get("hold_out_ratio", self.hold_out_ratio)
         self.precomputed_kernel = kwargs.get("precomputed_kernel", self.precomputed_kernel)
         self.set_fit_method()
-        
-

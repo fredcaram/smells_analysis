@@ -12,6 +12,7 @@ from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import StratifiedKFold
 from sklearn.model_selection import train_test_split
 from puAdapter import PUAdapter
+from puScorer import PUScorer
 
 from messages import error_messages
 
@@ -136,6 +137,7 @@ class model_base:
             #self.get_score(trained_classifier, X_test, y_test)
             y_pred = self.get_prediction(trained_classifier, X_test)
             self.print_score(y_pred, y_test)
+            self.get_pu_score(y_pred, y_test, True)
 
     def run_cv_validation(self):
         projects = self.get_dataset()
@@ -151,6 +153,7 @@ class model_base:
                 continue
 
             scores = []
+            pu_scores = []
             for train_index, test_index in StratifiedKFold(n_splits=5, shuffle=True, random_state=42).split(X_data, y):
                 print("TRAIN:", train_index, "TEST:", test_index)
                 X_train, X_test = X_data.iloc[train_index,:], X_data.iloc[test_index,:]
@@ -163,10 +166,15 @@ class model_base:
                 #self.get_classifier().set_params(nu=(np.sum(y==1)/len(y)))
                 y_pred = self.get_prediction(trained_classifier, X_test)
                 scores.append(self.print_score(y_pred, y_test))
+                pu_scores.append(self.get_pu_score(y_pred, y_test, True))
 
-            print("Precision, Recall, F1 Score, Support:")
+            print("Precision, Recall, F1 Score:")
             scores = np.delete(scores, -1, axis=1)
             print(np.mean(scores, axis=0))
+
+            print("PU scores: Precision, Recall, F1 Score:")
+            print(np.mean(pu_scores, axis=0))
+
 
     def run_random_search_cv(self):
         projects = self.get_dataset()
@@ -195,6 +203,7 @@ class model_base:
 
             # self.get_score(cclf, X_test, y_test)
             self.print_score(y_pred, y_test)
+            self.get_pu_score(y_pred, y_test, True)
             print("Best params:")
             print(rcv.best_params_)
 
@@ -225,6 +234,7 @@ class model_base:
 
             #self.get_score(cclf, X_test, y_test)
             self.print_score(y_pred, y_test)
+            self.get_pu_score(y_pred, y_test, True)
 
 
 
@@ -232,7 +242,18 @@ class model_base:
         print("Precision, Recall, F1 Score, Support:")
         prec_rec_f = precision_recall_fscore_support(y_test, y_pred, average="binary")
         print(prec_rec_f)
+
         return prec_rec_f
+
+    def get_pu_score(self, y_pred, y_test, print_score):
+        pu_scorer = PUScorer(self.smell_proportion, y_test, y_pred)
+        pu_prec = pu_scorer.get_precision()
+        pu_rec = pu_scorer.get_recall()
+        pu_f = pu_scorer.get_f_measure(pu_rec, pu_prec)
+        if print_score:
+            print("PU adjusted precision, recall and F1 score")
+            print("{0}, {1}, {2}", pu_prec, pu_rec, pu_f)
+        return pu_prec, pu_rec, pu_f
 
 
     def print_features(self, trained_classifier, X_features_columns):
