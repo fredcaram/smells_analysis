@@ -7,10 +7,16 @@ from sklearn.ensemble import GradientBoostingClassifier
 
 from models.model_base import model_base
 from repositories.smells_repository.method_smells_repository import method_smells_repository
+import os
+
+# xgboost fix
+mingw_path = 'C:\\Program Files\\mingw-w64\\x86_64-7.1.0-posix-seh-rt_v5-rev2\\mingw64\\bin'
+os.environ['PATH'] = mingw_path + ';' + os.environ['PATH']
+import xgboost as xgb
 
 
 class method_based_model(model_base):
-    def __init__(self, classifier=GradientBoostingClassifier()):
+    def __init__(self, classifier=xgb.XGBClassifier()):
         model_base.__init__(self)
         self.classifier = classifier
         self.method_based_smells = ["LongMethod", "FeatureEnvy"]
