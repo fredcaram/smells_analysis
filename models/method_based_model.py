@@ -16,7 +16,7 @@ import xgboost as xgb
 
 
 class method_based_model(model_base):
-    def __init__(self, classifier=xgb.XGBClassifier(reg_alpha=0.1)):
+    def __init__(self, classifier=xgb.XGBClassifier(reg_alpha=0.2)):
         model_base.__init__(self)
         self.classifier = classifier
         self.method_based_smells = ["LongMethod", "FeatureEnvy"]

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f2db29c-bd5d-41cd-92f6-d08cb00fc32a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset_cache/methods.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/method_based_model.py" afterPath="$PROJECT_DIR$/models/method_based_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/model_base.py" afterPath="$PROJECT_DIR$/models/model_base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repositories/metrics_repository/metrics_repository_helper.py" afterPath="$PROJECT_DIR$/repositories/metrics_repository/metrics_repository_helper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py" afterPath="$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +26,8 @@
       <file leaf-file-name="model_base.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/model_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+            <state relative-caret-position="515">
+              <caret line="264" column="35" lean-forward="true" selection-start-line="264" selection-start-column="35" selection-end-line="264" selection-end-column="35" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -31,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="method_based_model.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="method_based_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/method_based_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -55,21 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="method_smells_repository.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="method_smells_repository.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="294">
+              <caret line="63" column="47" lean-forward="true" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="metrics_repository_helper.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repositories/metrics_repository/metrics_repository_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="714">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,6 +113,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="base_smells_repository.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1514381434507" expanded="true" signature="173:1924" ph="..." />
+                <marker date="1514381434507" expanded="true" signature="1640:1652" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="class_metrics_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/class_metrics_model.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,20 +134,6 @@
               <caret line="18" column="97" lean-forward="true" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="110" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_smells_repository.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1514381434507" expanded="true" signature="173:1924" ph="..." />
-                <marker date="1514381434507" expanded="true" signature="1640:1652" ph="..." />
               </folding>
             </state>
           </provider>
@@ -174,6 +178,7 @@
       <find>get_pipeline</find>
       <find>train_model</find>
       <find>print_score</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,7 +207,6 @@
         <option value="$PROJECT_DIR$/smells_repository/blob_repository.py" />
         <option value="$PROJECT_DIR$/smells_repository/relationships_smells_repository.py" />
         <option value="$PROJECT_DIR$/metrics_repository/method_metrics_repository.py" />
-        <option value="$PROJECT_DIR$/repositories/metrics_repository/metrics_repository_helper.py" />
         <option value="$PROJECT_DIR$/metrics_files/ant_class_complexity.csv" />
         <option value="$PROJECT_DIR$/metrics_files/ant_class_dependencies.csv" />
         <option value="$PROJECT_DIR$/metrics_files/ant_martin.csv" />
@@ -215,16 +219,17 @@
         <option value="$PROJECT_DIR$/handle_landfill_data/download_data_from_service.py" />
         <option value="$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py" />
         <option value="$PROJECT_DIR$/repositories/smells_repository/blob_repository.py" />
-        <option value="$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py" />
         <option value="$PROJECT_DIR$/repositories/smells_repository/relationships_smells_repository.py" />
         <option value="$PROJECT_DIR$/repositories/metrics_repository/history_change_metrics_repository.py" />
         <option value="$PROJECT_DIR$/models/class_metrics_model.py" />
         <option value="$PROJECT_DIR$/puAdapter.py" />
         <option value="$PROJECT_DIR$/puScorer.py" />
-        <option value="$PROJECT_DIR$/models/model_base.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/models/history_based_model.py" />
         <option value="$PROJECT_DIR$/models/method_based_model.py" />
+        <option value="$PROJECT_DIR$/models/model_base.py" />
+        <option value="$PROJECT_DIR$/repositories/metrics_repository/metrics_repository_helper.py" />
+        <option value="$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py" />
       </list>
     </option>
   </component>
@@ -256,6 +261,11 @@
             <path>
               <item name="smells_analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="smells_analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smells_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smells_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset_cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smells_analysis" type="b2602c69:ProjectViewProjectNode" />
@@ -568,7 +578,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2531983" sideWeight="0.49589685" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22101842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22101842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -610,13 +620,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="142" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -632,13 +635,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/metrics_files/dataset_1/aard_class_dependencies.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/metrics_files/dataset_1/aard_method_complexity.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -790,13 +786,6 @@
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/sklearn/neighbors/base.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/imblearn/ensemble/balance_cascade.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/sklearn/model_selection/_split.py" />
-    <entry file="file://$PROJECT_DIR$/repositories/metrics_repository/metrics_repository_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/imblearn/base.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/imblearn/utils/validation.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/imblearn/combine/smote_tomek.py" />
@@ -831,19 +820,7 @@
         <state relative-caret-position="663">
           <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1514381434507" expanded="true" signature="173:1924" ph="..." />
-            <marker date="1514381434507" expanded="true" signature="1640:1652" ph="..." />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -852,14 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repositories/metrics_repository/base_metrics_repository.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -874,16 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/model_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repositories/metrics_repository/method_metrics_repository.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -891,14 +850,6 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,13 +873,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dataset_cache/methods.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="101" lean-forward="false" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repositories/metrics_repository/base_metrics_repository.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/base_smells_repository.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1514381434507" expanded="true" signature="173:1924" ph="..." />
+            <marker date="1514381434507" expanded="true" signature="1640:1652" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="264" column="35" lean-forward="true" selection-start-line="264" selection-start-column="35" selection-end-line="264" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/method_based_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repositories/metrics_repository/metrics_repository_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repositories/smells_repository/method_smells_repository.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="63" column="47" lean-forward="true" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>

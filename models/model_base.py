@@ -152,6 +152,9 @@ class model_base:
             if len(np.unique(y)) < 2:
                 continue
 
+            print("Non-Smells: {0}".format(np.sum(y == 0)))
+            print("Smells: {0}".format(np.sum(y == 1)))
+
             scores = []
             pu_scores = []
             for train_index, test_index in StratifiedKFold(n_splits=5, shuffle=True, random_state=42).split(X_data, y):
@@ -252,7 +255,7 @@ class model_base:
         pu_f = pu_scorer.get_f_measure(pu_rec, pu_prec)
         if print_score:
             print("PU adjusted precision, recall and F1 score")
-            print("{0}, {1}, {2}", pu_prec, pu_rec, pu_f)
+            print("{0}, {1}, {2}".format(pu_prec, pu_rec, pu_f))
         return pu_prec, pu_rec, pu_f
 
 
