@@ -4,7 +4,7 @@ import re
 from repositories.metrics_repository.method_metrics_repository import method_metrics_repository
 from repositories.smells_repository.base_smells_repository import base_smells_repository
 from repositories.metrics_repository.class_metrics_repository import class_metrics_repository
-from repositories.metrics_repository.metrics_repository_helper import extract_class_from_method
+from repositories.metrics_repository.metrics_repository_helper import extract_class_from_method, extract_path_until_method
 
 
 class method_smells_repository(base_smells_repository):
@@ -25,7 +25,9 @@ class method_smells_repository(base_smells_repository):
 
     def clean_method(self, method):
         method = method.replace(";", " ").replace(" ", "").replace(".java", "")
-        method = re.sub("([(].*[)])", "", method)
+        #method = re.sub(r'.*[.]java', "", method)
+        method = re.sub(r'\(.*\)', "", method)
+        #method = extract_path_until_method(method)
         return method
 
 
@@ -48,28 +50,30 @@ class method_smells_repository(base_smells_repository):
 
 
     def get_instance(self, instance, smell):
-        if smell == "LongMethod":
+        if smell == "FeatureEnvy":
             return self.get_method_part(instance)
 
         return extract_class_from_method(instance)
 
 
     def get_method_part(self, instance):
-        regex_match = re.match("(.+;?).*", instance)
+        regex_match = re.match("(.+;).+", instance)
         if regex_match is None:
             method = instance
         else:
             method = regex_match.group(1)
 
         #Remove os tipos do parâmetro do método
-        method = re.sub("([(].*[)])", "", method)
+        #method = re.sub("([(].*[)])", "", method)
 
         #Remove o .java e o que estiver na frente
         #method = re.sub("\.java\..*", "", method)
         # Removetudo que houver após o ultimo ponto antes do parentesis
         #method = re.sub("\.[^.]*\(.*", "", method)
 
-        return method.replace(";", "").replace(" ", "").replace('.java', '')
+        method = self.clean_method(method)
+        return method
+
 
 
     def convert_smells_list_to_df(self, smells):
