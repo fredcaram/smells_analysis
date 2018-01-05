@@ -19,7 +19,7 @@ class blob_repository(base_smells_repository):
         return self.handled_smell_types
 
 
-    def get_metrics_dataframe(self, prefix, dataset_id):
+    def get_metrics_dataframe(self, prefix, dataset_id, smell):
         return self.metrics_repository.get_metrics_dataframe(prefix, dataset_id)
 
 

@@ -26,8 +26,10 @@ class method_based_model(model_base):
     def get_classifier(self, smell):
         return self.classifier
 
-    def get_dataset(self):
-        return method_smells_repository().get_smells_dataset_from_projects(self.projects_ids, self.dataset_ids)
+    def get_dataset(self, smell):
+        df = method_smells_repository().get_smells_dataset_from_projects(smell, self.projects_ids, self.dataset_ids)
+        df["smell"] = smell
+        return df
 
     def get_handled_smells(self):
         return self.method_based_smells

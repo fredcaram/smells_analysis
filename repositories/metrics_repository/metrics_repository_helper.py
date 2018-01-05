@@ -1,7 +1,7 @@
 import re
 
 def extract_namespace_from_path(full_name, verbose=False):
-    m = re.match(r'(.*)[.][A-Z].*', full_name)
+    m = re.match(r'([^A-Z]*)[.][A-Z].*', full_name)
 
     if not m is None:
         namespace = m.group(1)
@@ -13,7 +13,7 @@ def extract_namespace_from_path(full_name, verbose=False):
 
 
 def extract_class_from_path(full_name, verbose=False):
-    m = re.match(r'.*[.]([A-Z]\w*)[.]?.*', full_name)
+    m = re.match(r'[^A-Z]*[.]([A-Z][^.:]*)[.]?.*', full_name)
 
     if not m is None:
         class_ = m.group(1)
@@ -21,18 +21,18 @@ def extract_class_from_path(full_name, verbose=False):
 
     if verbose:
         print("Warning: Couldn't extract class from path: {0}".format(full_name))
-        return ""
+    return ""
 
 def extract_method_from_path(full_name, verbose=False):
-    m = re.match(r'.*[.][A-Z]\w*[.:]([a-z]\w*([(].*[)])?)[.]?.*', full_name)
+    m = re.match(r'[^A-Z]*[.]([A-Z]\w*[.:])+([a-z]\w*([(].*[)])?)[.]?.*', full_name)
 
-    if not m is None:
-        method = m.group(1)
+    if not m is None and not m.group(2) is None:
+        method = m.group(2)
         return method
 
     if verbose:
         print("Warning: Couldn't extract method from path: {0}".format(full_name))
-        return ""
+    return ""
 
 
 def decompose_class_members(full_name, verbose=False):

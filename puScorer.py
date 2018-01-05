@@ -16,8 +16,8 @@ class PUScorer(object):
 
     def __get_false_positive__(self):
         original_fp = self.conf_matrix.FP
-        recall = self.conf_matrix.TPR
-        adjusted_fp = original_fp + self._positive_proportion * np.sum(self.conf_matrix.y_true() == 0) * (1 - recall)
+        fpr = self.conf_matrix.FPR
+        adjusted_fp = original_fp + self._positive_proportion * np.sum(self.conf_matrix.y_true() == 0) * (1 - fpr)
         return adjusted_fp
 
     def __get_false_negative__(self):
@@ -39,4 +39,6 @@ class PUScorer(object):
         return adjusted_tp / (adjusted_fp + adjusted_tp)
 
     def get_f_measure(self, recall, precision):
+        if recall == 0 or precision == 0:
+            return 0
         return 2 / (1 / recall + 1/precision)

@@ -24,14 +24,14 @@ class model_base:
         self.projects_ids = [49, 52, 54, 55, 56, 57, 60, 61, 63, 64, 70, 71, 72, 73, 77, 78, 79, 80, 81, 86, 108, 109,
                              110, 111, 112, 127, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126]
         self.dataset_ids = [1, 2]
-        self.remove_from_train = ["instance"]
+        self.remove_from_train = ["instance", "smell"]
         self.smell_proportion = 0.08
         self.pu_adapter_enabled = False
         self.negative_class = 0
 
 
     @abc.abstractmethod
-    def get_dataset(self):
+    def get_dataset(self, smell):
         raise NotImplementedError(error_messages.NOT_IMPLEMENTED_ERROR_MESSAGE('get_metrics'))
 
 
@@ -106,7 +106,7 @@ class model_base:
 
     def get_X_features(self, projects):
         X_data = projects.drop(
-            [col for col in self.remove_from_train + self.get_handled_smells() if col in projects.columns.values], axis=1)
+            [col for col in self.remove_from_train + self.get_handled_smells() if col in projects.columns.values], axis=1, errors="ignore")
         return X_data
 
 
@@ -118,10 +118,10 @@ class model_base:
 
 
     def run_train_test_validation(self):
-        projects = self.get_dataset()
-        X_data = self.get_X_features(projects)
-
         for smell in self.get_handled_smells():
+            projects = self.get_dataset(smell)
+            X_data = self.get_X_features(projects)
+
             if not smell in projects.columns.values:
                 continue
 
@@ -140,10 +140,10 @@ class model_base:
             self.get_pu_score(y_pred, y_test, True)
 
     def run_cv_validation(self):
-        projects = self.get_dataset()
-        X_data = self.get_X_features(projects)
-
         for smell in self.get_handled_smells():
+            projects = self.get_dataset(smell)
+            X_data = self.get_X_features(projects)
+
             if not smell in projects.columns.values:
                 continue
 
@@ -180,10 +180,10 @@ class model_base:
 
 
     def run_random_search_cv(self):
-        projects = self.get_dataset()
-        X_data = self.get_X_features(projects)
-
         for smell in self.get_handled_smells():
+            projects = self.get_dataset(smell)
+            X_data = self.get_X_features(projects)
+
             if not smell in projects.columns.values:
                 continue
 
@@ -211,10 +211,10 @@ class model_base:
             print(rcv.best_params_)
 
     def run_balanced_classifier_cv(self):
-        projects = self.get_dataset()
-        X_data = self.get_X_features(projects)
-
         for smell in self.get_handled_smells():
+            projects = self.get_dataset(smell)
+            X_data = self.get_X_features(projects)
+
             if not smell in projects.columns.values:
                 continue
 

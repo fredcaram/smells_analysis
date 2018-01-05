@@ -26,12 +26,12 @@ class method_smells_repository(base_smells_repository):
     def clean_method(self, method):
         method = method.replace(";", " ").replace(" ", "").replace(".java", "")
         #method = re.sub(r'.*[.]java', "", method)
-        method = re.sub(r'\(.*\)', "", method)
-        #method = extract_path_until_method(method)
+        method = re.sub(r'\(.*\).*', "", method)
+        method = extract_path_until_method(method)
         return method
 
 
-    def get_metrics_dataframe(self, prefix, dataset_id):
+    def get_metrics_dataframe(self, prefix, dataset_id, smell):
         method_metrics_df = self.metrics_repository.get_metrics_dataframe(prefix, dataset_id)
         if len(method_metrics_df) == 0:
             return method_metrics_df
@@ -57,7 +57,7 @@ class method_smells_repository(base_smells_repository):
 
 
     def get_method_part(self, instance):
-        regex_match = re.match("(.+;).+", instance)
+        regex_match = re.match("(.+[;]).+", instance)
         if regex_match is None:
             method = instance
         else:

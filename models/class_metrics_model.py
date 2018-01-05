@@ -26,8 +26,8 @@ class class_metrics_model(model_base):
     def get_classifier(self, smell):
         return self.classifier
 
-    def get_dataset(self):
-        return blob_repository().get_smells_dataset_from_projects(self.projects_ids, self.dataset_ids)
+    def get_dataset(self, smell):
+        return blob_repository().get_smells_dataset_from_projects(smell, self.projects_ids, self.dataset_ids)
 
     def get_handled_smells(self):
         return self.class_metrics_smells
