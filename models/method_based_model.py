@@ -52,7 +52,7 @@ class feature_envy_model(method_based_model):
         method_based_model.__init__(self)
         self.classifier = classifier
         self.method_based_smells = ["FeatureEnvy"]
-        self.smell_proportion = 0.002
+        self.smell_proportion = 0.0025
         self.pu_adapter_enabled = True
 
     def get_pipeline(self, smell):
