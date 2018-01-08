@@ -20,6 +20,7 @@ class method_based_model(model_base):
         self.classifier = classifier
         self.method_based_smells = ["LongMethod", "FeatureEnvy"]
         self.smell_proportion = 0.06
+        self.samples_proportion = 0.5
         self.pu_adapter_enabled = True
 
     def get_classifier(self, smell):
@@ -39,6 +40,7 @@ class long_method_model(method_based_model):
         self.classifier = classifier
         self.method_based_smells = ["LongMethod"]
         self.smell_proportion = 0.06
+        self.samples_proportion = 0.5
         self.pu_adapter_enabled = True
 
     def get_pipeline(self, smell):
@@ -53,6 +55,7 @@ class feature_envy_model(method_based_model):
         self.classifier = classifier
         self.method_based_smells = ["FeatureEnvy"]
         self.smell_proportion = 0.0025
+        self.samples_proportion = 0.5
         self.pu_adapter_enabled = True
 
     def get_pipeline(self, smell):

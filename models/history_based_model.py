@@ -19,6 +19,7 @@ class history_based_model(model_base):
         model_base.__init__(self)
         self.history_based_smells = ['ShotgunSurgery', "DivergentChange"]#, "ParallelInheritance"
         self.smell_proportion = 0.0085
+        self.samples_proportion = 0.5
 
     def get_classifier(self, smell):
         if type(self.classifier) is dict:
@@ -41,6 +42,8 @@ class divergent_change_model(history_based_model):
         history_based_model.__init__(self)
         self.history_based_smells = ["DivergentChange"]#, "ParallelInheritance"
         self.smell_proportion = 0.0085
+        self.samples_proportion = 0.5
+
 
     def get_pipeline(self, smell):
         return Pipeline([("scl", preprocessing.StandardScaler()),
@@ -56,6 +59,7 @@ class shotgun_surgery_model(history_based_model):
         history_based_model.__init__(self)
         self.history_based_smells = ["ShotgunSurgery"]#, "ParallelInheritance"
         self.smell_proportion = 0.0085
+        self.samples_proportion = 0.5
 
     def get_pipeline(self, smell):
         return Pipeline([("scl", preprocessing.StandardScaler()),

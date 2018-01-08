@@ -25,7 +25,8 @@ class model_base:
                              110, 111, 112, 127, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126]
         self.dataset_ids = [1, 2]
         self.remove_from_train = ["instance", "smell"]
-        self.smell_proportion = 0.08
+        self.smell_proportion = 0.1
+        self.samples_proportion = 0.5
         self.pu_adapter_enabled = False
         self.negative_class = 0
 
@@ -50,7 +51,7 @@ class model_base:
 
     def get_ratio(self, y):
         non_smell_number = np.sum(y==0)
-        return {0: non_smell_number, 1: math.ceil((non_smell_number+ 1) * self.smell_proportion)}
+        return {0: non_smell_number, 1: math.ceil((non_smell_number+ 1) * self.samples_proportion)}
 
     def get_optimization_metrics(self):
         return {
@@ -249,7 +250,7 @@ class model_base:
         return prec_rec_f
 
     def get_pu_score(self, y_pred, y_test, print_score):
-        pu_scorer = PUScorer(self.smell_proportion, y_test, y_pred)
+        pu_scorer = PUScorer(self.smell_proportion, y_test, np.ravel(y_pred))
         pu_prec = pu_scorer.get_precision()
         pu_rec = pu_scorer.get_recall()
         pu_f = pu_scorer.get_f_measure(pu_rec, pu_prec)
