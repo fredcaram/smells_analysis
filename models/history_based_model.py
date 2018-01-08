@@ -33,14 +33,33 @@ class history_based_model(model_base):
     def get_handled_smells(self):
         return self.history_based_smells
 
+
+class divergent_change_model(history_based_model):
+    def __init__(self, classifier=RandomForestClassifier()):
+        self.classifier = classifier
+
+        history_based_model.__init__(self)
+        self.history_based_smells = ["DivergentChange"]#, "ParallelInheritance"
+        self.smell_proportion = 0.0085
+
     def get_pipeline(self, smell):
-        if smell == "ShotgunSurgery":
-            ppl = Pipeline([("scl", preprocessing.StandardScaler()),
-                            ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=3, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
+        return Pipeline([("scl", preprocessing.StandardScaler()),
+                            ("ovs",
+                             SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=2, ratio=self.get_ratio),
+                                        tomek=TomekLinks(ratio=self.get_ratio))),
                             ("clf", self.get_puAdapter(smell))])
-        else:
-            ppl = Pipeline([("scl", preprocessing.StandardScaler()),
-                            ("ovs", SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=2, ratio=self.get_ratio),
-                                               tomek=TomekLinks(ratio=self.get_ratio))),
+
+class shotgun_surgery_model(history_based_model):
+    def __init__(self, classifier=RandomForestClassifier()):
+        self.classifier = classifier
+
+        history_based_model.__init__(self)
+        self.history_based_smells = ["ShotgunSurgery"]#, "ParallelInheritance"
+        self.smell_proportion = 0.0085
+
+    def get_pipeline(self, smell):
+        return Pipeline([("scl", preprocessing.StandardScaler()),
+                            ("ovs",
+                             SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=3, ratio=self.get_ratio),
+                                        tomek=TomekLinks(ratio=self.get_ratio))),
                             ("clf", self.get_puAdapter(smell))])
-        return ppl

@@ -1,23 +1,24 @@
 import time
 from models.class_metrics_model import class_metrics_model
-from models.method_based_model import method_based_model
-from models.history_based_model import history_based_model
+from models.method_based_model import long_method_model, feature_envy_model
+from models.history_based_model import divergent_change_model, shotgun_surgery_model
 import numpy as np
 
 np.random.seed(42)
 
 start = time.time()
 
-model = method_based_model()
+model = long_method_model()
 #model.run_train_test_validation()
 #model.run_balanced_classifier_cv()
 model.run_cv_validation()
 #model.run_random_search_cv()
 
-#model = method_based_model()
-#model.dataset_ids = [2]
+model = feature_envy_model()
 #model.run_train_test_validation()
-#model.run_cv_validation()
+#model.run_balanced_classifier_cv()
+model.run_cv_validation()
+#model.run_random_search_cv()
 
 model = class_metrics_model()
 #model.run_train_test_validation()
@@ -25,12 +26,13 @@ model = class_metrics_model()
 model.run_cv_validation()
 #model.run_random_search_cv()
 
-#model = class_metrics_model()
-#model.dataset_ids = [2]
+model = shotgun_surgery_model()
 #model.run_train_test_validation()
-#model.run_train_test_validation_with_cv()
+#model.run_balanced_classifier_cv()
+model.run_cv_validation()
+#model.run_random_search_cv()
 
-model = history_based_model()
+model = divergent_change_model()
 #model.run_train_test_validation()
 #model.run_balanced_classifier_cv()
 model.run_cv_validation()

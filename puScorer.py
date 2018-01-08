@@ -12,18 +12,21 @@ class PUScorer(object):
         original_tp = self.conf_matrix.TP
         recall = self.conf_matrix.TPR
         adjusted_tp = original_tp + self._positive_proportion * np.sum(self.conf_matrix.y_true() == 0) * recall
+        #adjusted_tp = self._positive_proportion * np.sum(self.conf_matrix.y_true() == 0) * recall
         return adjusted_tp
 
     def __get_false_positive__(self):
-        original_fp = self.conf_matrix.FP
+        #original_fp = self.conf_matrix.FP
         fpr = self.conf_matrix.FPR
-        adjusted_fp = original_fp + self._positive_proportion * np.sum(self.conf_matrix.y_true() == 0) * (1 - fpr)
+        #adjusted_fp = np.sum(self.conf_matrix.y_true() == 0) * self._positive_proportion - np.sum(self.conf_matrix.y_true() == 0) * self._positive_proportion * fpr
+        adjusted_fp = np.sum(self.conf_matrix.y_true() == 0) * self._positive_proportion * (1 - fpr)
         return adjusted_fp
 
     def __get_false_negative__(self):
         original_fn = self.conf_matrix.FN
         recall = self.conf_matrix.TPR
-        adjusted_fn = original_fn + (1 - recall) * np.sum(self.conf_matrix.y_true() == 0) * self._positive_proportion
+        adjusted_fn = original_fn +  self._positive_proportion * (1 - recall) * np.sum(self.conf_matrix.y_true() == 0)
+        #adjusted_fn = (1 - recall) * np.sum(self.conf_matrix.y_true() == 0) * self._positive_proportion
         return adjusted_fn
 
     def get_recall(self):

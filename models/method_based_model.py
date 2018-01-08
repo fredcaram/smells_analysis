@@ -14,7 +14,6 @@ mingw_path = 'C:\\Program Files\\mingw-w64\\x86_64-7.1.0-posix-seh-rt_v5-rev2\\m
 os.environ['PATH'] = mingw_path + ';' + os.environ['PATH']
 import xgboost as xgb
 
-
 class method_based_model(model_base):
     def __init__(self, classifier=xgb.XGBClassifier(reg_alpha=0.2)):
         model_base.__init__(self)
@@ -33,6 +32,28 @@ class method_based_model(model_base):
 
     def get_handled_smells(self):
         return self.method_based_smells
+
+class long_method_model(method_based_model):
+    def __init__(self, classifier=xgb.XGBClassifier(reg_alpha=0.2)):
+        method_based_model.__init__(self)
+        self.classifier = classifier
+        self.method_based_smells = ["LongMethod"]
+        self.smell_proportion = 0.06
+        self.pu_adapter_enabled = True
+
+    def get_pipeline(self, smell):
+        ppl = Pipeline([("scl", preprocessing.StandardScaler()),
+                        #("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=5, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
+                        ("clf", self.get_puAdapter(smell))])
+        return ppl
+
+class feature_envy_model(method_based_model):
+    def __init__(self, classifier=xgb.XGBClassifier(reg_alpha=0.2)):
+        method_based_model.__init__(self)
+        self.classifier = classifier
+        self.method_based_smells = ["FeatureEnvy"]
+        self.smell_proportion = 0.002
+        self.pu_adapter_enabled = True
 
     def get_pipeline(self, smell):
         ppl = Pipeline([("scl", preprocessing.StandardScaler()),
