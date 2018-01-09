@@ -45,14 +45,14 @@ class divergent_change_model(history_based_model):
         self.history_based_smells = ["DivergentChange"]#, "ParallelInheritance"
         self.smell_proportion = 0.0001
         self.samples_proportion = 0.25
-        self.pu_adapter_enabled = False
+        self.pu_adapter_enabled = True
 
 
     def get_pipeline(self, smell):
         return Pipeline([("scl", preprocessing.StandardScaler()),
-                            ("ovs",
-                             SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=2, ratio=self.get_ratio),
-                                       tomek=TomekLinks(ratio=self.get_ratio))),
+                            # ("ovs",
+                            #  SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=2, ratio=self.get_ratio),
+                            #            tomek=TomekLinks(ratio=self.get_ratio))),
                             ("clf", self.get_puAdapter(smell))])
 
 class shotgun_surgery_model(history_based_model):
