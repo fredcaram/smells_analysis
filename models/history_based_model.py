@@ -8,13 +8,15 @@ from sklearn.ensemble import RandomForestClassifier
 from models.model_base import model_base
 from repositories.smells_repository.relationships_smells_repository import relationship_smells_repository
 
+import os
+# xgboost fix
+mingw_path = 'C:\\Program Files\\mingw-w64\\x86_64-7.1.0-posix-seh-rt_v5-rev2\\mingw64\\bin'
+os.environ['PATH'] = mingw_path + ';' + os.environ['PATH']
+import xgboost as xgb
 
 class history_based_model(model_base):
-    def __init__(self, classifier=None):
-        if classifier is None:
-            self.classifier = {"ShotgunSurgery": RandomForestClassifier(), "DivergentChange": RandomForestClassifier()}
-        else:
-            self.classifier = classifier
+    def __init__(self, classifier=RandomForestClassifier()):
+        self.classifier = classifier
 
         model_base.__init__(self)
         self.history_based_smells = ['ShotgunSurgery', "DivergentChange"]#, "ParallelInheritance"
@@ -36,7 +38,7 @@ class history_based_model(model_base):
 
 
 class divergent_change_model(history_based_model):
-    def __init__(self, classifier=RandomForestClassifier()):
+    def __init__(self, classifier=xgb.XGBClassifier()):
         self.classifier = classifier
 
         history_based_model.__init__(self)
@@ -47,9 +49,9 @@ class divergent_change_model(history_based_model):
 
     def get_pipeline(self, smell):
         return Pipeline([("scl", preprocessing.StandardScaler()),
-                            ("ovs",
-                             SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=2, ratio=self.get_ratio),
-                                        tomek=TomekLinks(ratio=self.get_ratio))),
+                            # ("ovs",
+                            #  SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=2, ratio=self.get_ratio),
+                            #            tomek=TomekLinks(ratio=self.get_ratio))),
                             ("clf", self.get_puAdapter(smell))])
 
 class shotgun_surgery_model(history_based_model):
