@@ -38,7 +38,7 @@ class class_metrics_model(model_base):
 
     def get_pipeline(self, smell):
         ppl = Pipeline([("scl", preprocessing.StandardScaler()),
-                        #("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=4, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
+                        ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=4, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
                         ("clf", self.get_puAdapter(smell))
          ])
         return ppl
