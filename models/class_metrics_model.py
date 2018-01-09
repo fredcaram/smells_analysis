@@ -4,7 +4,10 @@ from imblearn.pipeline import Pipeline
 from imblearn.under_sampling import TomekLinks
 from sklearn import preprocessing
 import os
+from models.dnn_models import simple_dnn
 from sklearn.metrics import f1_score
+from tensorflow.python.keras.wrappers.scikit_learn import KerasClassifier
+
 
 # xgboost fix
 mingw_path = 'C:\\Program Files\\mingw-w64\\x86_64-7.1.0-posix-seh-rt_v5-rev2\\mingw64\\bin'
@@ -16,7 +19,7 @@ from repositories.smells_repository.blob_repository import blob_repository
 
 
 class class_metrics_model(model_base):
-    def __init__(self, classifier=xgb.XGBClassifier(booster="dart", max_depth=5, reg_lambda=0.9, reg_alpha=0.15, subsample=0.8)):
+    def __init__(self, classifier=KerasClassifier(build_fn=simple_dnn(input_dim=10).build_simple_dnn_model)):
         model_base.__init__(self)
         self.classifier = classifier
         self.class_metrics_smells = ["Blob"]
@@ -35,7 +38,8 @@ class class_metrics_model(model_base):
 
     def get_pipeline(self, smell):
         ppl = Pipeline([("scl", preprocessing.StandardScaler()),
-                        ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=4, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
-                        ("clf", self.get_puAdapter(smell))])
+                        #("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=4, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
+                        ("clf", self.get_puAdapter(smell))
+         ])
         return ppl
 
