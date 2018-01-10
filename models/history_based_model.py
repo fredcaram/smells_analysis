@@ -59,13 +59,13 @@ class divergent_change_model(history_based_model):
                             ("clf", self.get_puAdapter(smell))])
 
 class shotgun_surgery_model(history_based_model):
-    def __init__(self, classifier=xgb.XGBClassifier(learning_rate=0.06)):
+    def __init__(self, classifier=LGBMClassifier(learning_rate=0.06)):
         history_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.history_based_smells = ["ShotgunSurgery"]#, "ParallelInheritance"
         self.smell_proportion = 0.002
         self.samples_proportion = 0.4
-        self.pu_adapter_enabled = True
+        self.pu_adapter_enabled = False
 
     def get_pipeline(self, smell):
         return Pipeline([("scl", preprocessing.StandardScaler()),
