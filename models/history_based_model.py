@@ -41,20 +41,20 @@ class history_based_model(model_base):
 
 
 class divergent_change_model(history_based_model):
-    def __init__(self, classifier=KerasClassifier(build_fn=simple_dnn(input_dim=10).build_simple_dnn_model)):
+    def __init__(self, classifier=KerasClassifier(build_fn=simple_dnn(input_dim=10).build_simple_nn_model)):
         history_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.history_based_smells = ["DivergentChange"]#, "ParallelInheritance"
         self.smell_proportion = 0.0015
         self.samples_proportion = 0.2
-        self.pu_adapter_enabled = True
+        self.pu_adapter_enabled = False
 
 
     def get_pipeline(self, smell):
         return Pipeline([("scl", preprocessing.StandardScaler()),
-                            ("ovs",
-                             SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=2, ratio=self.get_ratio),
-                                       tomek=TomekLinks(ratio=self.get_ratio))),
+                            # ("ovs",
+                            #  SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=2, ratio=self.get_ratio),
+                            #            tomek=TomekLinks(ratio=self.get_ratio))),
                             ("clf", self.get_puAdapter(smell))])
 
 class shotgun_surgery_model(history_based_model):
