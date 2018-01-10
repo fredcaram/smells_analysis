@@ -9,7 +9,7 @@ class simple_dnn:
 
     def build_simple_nn_model(self):
         model = Sequential()
-        model.add(Dense(12, input_dim=self.input_dim, activation='relu'))
+        model.add(Dense(8, input_dim=self.input_dim, activation='relu'))
         model.add(Dense(1, activation='sigmoid'))
         model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
         return model
