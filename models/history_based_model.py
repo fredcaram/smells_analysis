@@ -4,6 +4,7 @@ from imblearn.pipeline import Pipeline
 from imblearn.under_sampling import TomekLinks
 from sklearn import preprocessing
 from sklearn.ensemble import RandomForestClassifier
+from lightgbm import LGBMClassifier
 
 from models.dnn_models import simple_dnn
 from tensorflow.python.keras.wrappers.scikit_learn import KerasClassifier
@@ -18,7 +19,7 @@ os.environ['PATH'] = mingw_path + ';' + os.environ['PATH']
 import xgboost as xgb
 
 class history_based_model(model_base):
-    def __init__(self, classifier=RandomForestClassifier()):
+    def __init__(self, classifier=LGBMClassifier()):
         self.classifier = classifier
 
         model_base.__init__(self)
@@ -41,13 +42,13 @@ class history_based_model(model_base):
 
 
 class divergent_change_model(history_based_model):
-    def __init__(self, classifier=xgb.XGBClassifier()):
+    def __init__(self, classifier=LGBMClassifier()):
         history_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.history_based_smells = ["DivergentChange"]#, "ParallelInheritance"
         self.smell_proportion = 0.0015
-        self.samples_proportion = 0.2
-        self.pu_adapter_enabled = True
+        self.samples_proportion = 0.4
+        self.pu_adapter_enabled = False
 
 
     def get_pipeline(self, smell):
