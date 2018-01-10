@@ -39,7 +39,7 @@ class long_method_model(method_based_model):
         method_based_model.__init__(self)
         self.classifier = classifier
         self.method_based_smells = ["LongMethod"]
-        self.smell_proportion = 0.06
+        self.smell_proportion = 0.018
         self.samples_proportion = 0.5
         self.pu_adapter_enabled = True
 

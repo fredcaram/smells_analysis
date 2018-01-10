@@ -5,6 +5,9 @@ from imblearn.under_sampling import TomekLinks
 from sklearn import preprocessing
 from sklearn.ensemble import RandomForestClassifier
 
+from models.dnn_models import simple_dnn
+from tensorflow.python.keras.wrappers.scikit_learn import KerasClassifier
+
 from models.model_base import model_base
 from repositories.smells_repository.relationships_smells_repository import relationship_smells_repository
 
@@ -43,7 +46,7 @@ class divergent_change_model(history_based_model):
 
         history_based_model.__init__(self)
         self.history_based_smells = ["DivergentChange"]#, "ParallelInheritance"
-        self.smell_proportion = 0.0001
+        self.smell_proportion = 0.0015
         self.samples_proportion = 0.4
         self.pu_adapter_enabled = True
 
@@ -61,7 +64,7 @@ class shotgun_surgery_model(history_based_model):
 
         history_based_model.__init__(self)
         self.history_based_smells = ["ShotgunSurgery"]#, "ParallelInheritance"
-        self.smell_proportion = 0.0085
+        self.smell_proportion = 0.002
         self.samples_proportion = 0.5
 
     def get_pipeline(self, smell):

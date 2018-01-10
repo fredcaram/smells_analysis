@@ -5,7 +5,6 @@ from imblearn.under_sampling import TomekLinks
 from sklearn import preprocessing
 import os
 from models.dnn_models import simple_dnn
-from sklearn.metrics import f1_score
 from tensorflow.python.keras.wrappers.scikit_learn import KerasClassifier
 
 

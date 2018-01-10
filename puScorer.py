@@ -33,8 +33,9 @@ class PUScorer(object):
         if fpr == 0:
             return 0
 
-        # This yields the same result as the one above
-        adjusted_fp = np.sum(self.y_true == 0) * self._positive_proportion * (1 - fpr)
+        #adjusted_fp = fpr * (np.sum(self.y_pred == 1) - (np.sum(self.y_true == 0) * self._positive_proportion + np.sum(self.y_true == 1)))
+        #adjusted_fp = fpr * (np.sum(self.y_pred == 1) - np.sum(self.y_true == 1))
+        adjusted_fp = fpr * np.sum(self.y_true == 0) * (1 - self._positive_proportion)
         return adjusted_fp
 
     def __get_false_negative__(self):
@@ -43,8 +44,10 @@ class PUScorer(object):
         if recall == 0:
             return 0
 
+        #adjusted_fn = np.sum(self.y_true == 1) + np.sum(self.y_true == 0) * self._positive_proportion - self.__get_true_positive__()
+        #Yields the same result as above
         adjusted_fn = original_fn +  self._positive_proportion * (1 - recall) * np.sum(self.y_true == 0)
-        #adjusted_fn = (1 - recall) * np.sum(self.conf_matrix.y_true() == 0) * self._positive_proportion
+
         return adjusted_fn
 
     def get_recall(self):
