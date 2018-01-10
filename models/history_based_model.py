@@ -42,7 +42,7 @@ class history_based_model(model_base):
 
 
 class divergent_change_model(history_based_model):
-    def __init__(self, classifier=LGBMClassifier()):
+    def __init__(self, classifier=LGBMClassifier(boosting="rf", learning_rate=0.046)):
         history_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.history_based_smells = ["DivergentChange"]#, "ParallelInheritance"
