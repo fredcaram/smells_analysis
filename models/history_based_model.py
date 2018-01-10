@@ -65,7 +65,7 @@ class shotgun_surgery_model(history_based_model):
         self.history_based_smells = ["ShotgunSurgery"]#, "ParallelInheritance"
         self.smell_proportion = 0.002
         self.samples_proportion = 0.4
-        self.pu_adapter_enabled = False
+        self.pu_adapter_enabled = True
 
     def get_pipeline(self, smell):
         return Pipeline([("scl", preprocessing.StandardScaler()),
