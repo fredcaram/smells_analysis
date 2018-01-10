@@ -59,17 +59,17 @@ class divergent_change_model(history_based_model):
                             ("clf", self.get_puAdapter(smell))])
 
 class shotgun_surgery_model(history_based_model):
-    def __init__(self, classifier=CatBoostClassifier()):
+    def __init__(self, classifier=CatBoostClassifier(random_seed=42, learning_rate=0.03)):
         history_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.history_based_smells = ["ShotgunSurgery"]#, "ParallelInheritance"
-        self.smell_proportion = 0.002
-        self.samples_proportion = 0.4
+        self.smell_proportion = 0.0015
+        self.samples_proportion = 0.5
         self.pu_adapter_enabled = True
 
     def get_pipeline(self, smell):
         return Pipeline([("scl", preprocessing.StandardScaler()),
-                            # ("ovs",
-                            #  SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=3, ratio=self.get_ratio),
-                            #             tomek=TomekLinks(ratio=self.get_ratio))),
+                            ("ovs",
+                             SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=3, ratio=self.get_ratio),
+                                        tomek=TomekLinks(ratio=self.get_ratio))),
                             ("clf", self.get_puAdapter(smell))])
