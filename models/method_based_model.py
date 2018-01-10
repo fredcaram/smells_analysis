@@ -36,7 +36,7 @@ class method_based_model(model_base):
 
 class long_method_model(method_based_model):
     def __init__(self, classifier=xgb.XGBClassifier(reg_alpha=0.2)):
-        method_based_model.__init__(self)
+        method_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.method_based_smells = ["LongMethod"]
         self.smell_proportion = 0.018
@@ -51,7 +51,7 @@ class long_method_model(method_based_model):
 
 class feature_envy_model(method_based_model):
     def __init__(self, classifier=xgb.XGBClassifier(reg_alpha=0.2)):
-        method_based_model.__init__(self)
+        method_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.method_based_smells = ["FeatureEnvy"]
         self.smell_proportion = 0.0025
