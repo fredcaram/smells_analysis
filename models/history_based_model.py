@@ -16,7 +16,7 @@ import os
 # xgboost fix
 mingw_path = 'C:\\Program Files\\mingw-w64\\x86_64-7.1.0-posix-seh-rt_v5-rev2\\mingw64\\bin'
 os.environ['PATH'] = mingw_path + ';' + os.environ['PATH']
-from catboost import CatBoostClassifier
+import xgboost as xgb
 
 class history_based_model(model_base):
     def __init__(self, classifier=LGBMClassifier()):
@@ -48,7 +48,7 @@ class divergent_change_model(history_based_model):
         self.history_based_smells = ["DivergentChange"]#, "ParallelInheritance"
         self.smell_proportion = 0.0015
         self.samples_proportion = 0.4
-        self.pu_adapter_enabled = True
+        self.pu_adapter_enabled = False
 
 
     def get_pipeline(self, smell):
@@ -59,7 +59,7 @@ class divergent_change_model(history_based_model):
                             ("clf", self.get_puAdapter(smell))])
 
 class shotgun_surgery_model(history_based_model):
-    def __init__(self, classifier=CatBoostClassifier(random_seed=42, learning_rate=0.03)):
+    def __init__(self, classifier=xgb.XGBClassifier(learning_rate=0.06)):
         history_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.history_based_smells = ["ShotgunSurgery"]#, "ParallelInheritance"

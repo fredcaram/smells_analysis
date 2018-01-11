@@ -4,8 +4,10 @@ from sklearn.metrics import confusion_matrix, roc_curve
 
 
 class PUScorer(object):
-    def __init__(self, positive_proportion, y_true, y_pred):
-        self._positive_proportion = positive_proportion
+    def __init__(self, positive_proportion, y_true, y_pred, smell_stats):
+        self._positive_proportion = smell_stats["mean"]
+        self._ci_ub = smell_stats["ci_ub"]
+        self._ci_lb = smell_stats["ci_lb"]
         self.y_true = y_true
         self.y_pred = y_pred
         self.tn, self.fp, self.fn, self.tp = confusion_matrix(y_true, y_pred).ravel()

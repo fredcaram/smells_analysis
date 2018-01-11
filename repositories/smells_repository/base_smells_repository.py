@@ -48,6 +48,7 @@ class base_smells_repository:
 
         smells_df = self.convert_smells_list_to_df(smells)
         smells_df = self.get_smells_dummies(smells_df)
+        smells_df["project_id"] = project_id
         return smells_df
 
 
@@ -88,5 +89,6 @@ class base_smells_repository:
 
         projects_df.fillna(0, inplace=True)
         projects_df.to_csv(cache_file)
+
 
         return projects_df

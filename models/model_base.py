@@ -13,6 +13,7 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn.model_selection import train_test_split
 from puAdapter import PUAdapter
 from puScorer import PUScorer
+import scipy.stats as st
 
 from messages import error_messages
 
@@ -24,7 +25,7 @@ class model_base:
         self.projects_ids = [49, 52, 54, 55, 56, 57, 60, 61, 63, 64, 70, 71, 72, 73, 77, 78, 79, 80, 81, 86, 108, 109,
                              110, 111, 112, 127, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126]
         self.dataset_ids = [1, 2]
-        self.remove_from_train = ["instance", "smell"]
+        self.remove_from_train = ["instance", "smell", "project_id"]
         self.smell_proportion = 0.1
         self.samples_proportion = 0.5
         self.pu_adapter_enabled = False
@@ -90,6 +91,7 @@ class model_base:
     #     return X_resampled, y_resampled
 
 
+
     def get_train_test_split(self, X_data, y):
         X_train, X_test, y_train, y_test = train_test_split(X_data, y, test_size=0.2)
         return X_train, X_test, y_train, y_test
@@ -117,6 +119,12 @@ class model_base:
             y[y==0] = -1
         return y
 
+    def get_smells_stats(self, projects, smell, interval):
+        smells_by_project_id = projects.groupby("project_id").aggregate({"smell": "count", smell: "sum"})
+        projects_means = smells_by_project_id[smell] / smells_by_project_id["smell"]
+        total_mean = np.mean(projects_means)
+        ci_lb, ci_ub = st.t.interval(0.95, len(projects_means) - 1, loc=np.mean(total_mean), scale=st.sem(projects_means))
+        return {"mean": total_mean, "ci_lb": ci_lb, "ci_ub": ci_ub}
 
     def run_train_test_validation(self):
         for smell in self.get_handled_smells():
@@ -144,6 +152,7 @@ class model_base:
         for smell in self.get_handled_smells():
             projects = self.get_dataset(smell)
             X_data = self.get_X_features(projects)
+            smell_stats = self.get_smells_stats(projects, smell, 0.95)
 
             if not smell in projects.columns.values:
                 continue
@@ -170,7 +179,7 @@ class model_base:
                 #self.get_classifier().set_params(nu=(np.sum(y==1)/len(y)))
                 y_pred = self.get_prediction(trained_classifier, X_test)
                 scores.append(self.print_score(y_pred, y_test))
-                pu_scores.append(self.get_pu_score(y_pred, y_test, True))
+                pu_scores.append(self.get_pu_score(y_pred, y_test, smell_stats, True))
 
             print("Precision, Recall, F1 Score:")
             scores = np.delete(scores, -1, axis=1)
@@ -249,8 +258,8 @@ class model_base:
 
         return prec_rec_f
 
-    def get_pu_score(self, y_pred, y_test, print_score):
-        pu_scorer = PUScorer(self.smell_proportion, y_test, np.ravel(y_pred))
+    def get_pu_score(self, y_pred, y_test, smell_stats, print_score):
+        pu_scorer = PUScorer(self.smell_proportion, y_test, np.ravel(y_pred), smell_stats)
         pu_prec = pu_scorer.get_precision()
         pu_rec = pu_scorer.get_recall()
         pu_f = pu_scorer.get_f_measure(pu_rec, pu_prec)
