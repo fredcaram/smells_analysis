@@ -48,7 +48,6 @@ class base_smells_repository:
 
         smells_df = self.convert_smells_list_to_df(smells)
         smells_df = self.get_smells_dummies(smells_df)
-        smells_df["project_id"] = project_id
         return smells_df
 
 
@@ -86,6 +85,7 @@ class base_smells_repository:
             for project_id in project_ids:
                 df = self.get_smells_dataset_by_project_id(smell, project_id, dataset_id)
                 projects_df = pd.concat((projects_df, df), ignore_index=True)
+                projects_df["project_id"] = project_id
 
         projects_df.fillna(0, inplace=True)
         projects_df.to_csv(cache_file)

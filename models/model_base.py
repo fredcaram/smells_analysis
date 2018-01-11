@@ -119,12 +119,12 @@ class model_base:
             y[y==0] = -1
         return y
 
-    def get_smells_stats(self, projects, smell, interval):
-        smells_by_project_id = projects.groupby("project_id").aggregate({smell: "sum"})
-        projects_means = smells_by_project_id[smell] / len(smells_by_project_id)
+    def get_smells_stats(self, projects, smell, interval=0.95):
+        smells_by_project_id = projects.groupby("project_id").aggregate({smell: "sum", "instance": "count"})
+        projects_means = smells_by_project_id[smell] / smells_by_project_id["instance"]
         total_mean = np.mean(projects_means)
-        ci_lb, ci_ub = st.t.interval(0.95, len(projects_means) - 1, loc=np.mean(total_mean), scale=st.sem(projects_means))
-        return {"mean": total_mean, "ci_lb": ci_lb, "ci_ub": ci_ub}
+        ci_lb, ci_ub = st.t.interval(interval, len(projects_means) - 1, loc=np.mean(total_mean), scale=st.sem(projects_means))
+        return {"ci_lb": ci_lb, "mean": total_mean, "ci_ub": ci_ub}
 
     def run_train_test_validation(self):
         for smell in self.get_handled_smells():
@@ -152,7 +152,7 @@ class model_base:
         for smell in self.get_handled_smells():
             projects = self.get_dataset(smell)
             X_data = self.get_X_features(projects)
-            smell_stats = self.get_smells_stats(projects, smell, 0.95)
+            smell_stats = self.get_smells_stats(projects, smell)
 
             if not smell in projects.columns.values:
                 continue
@@ -162,31 +162,35 @@ class model_base:
             if len(np.unique(y)) < 2:
                 continue
 
+            print("Results for smell:{0}".format(smell))
+
             print("Non-Smells: {0}".format(np.sum(y == 0)))
             print("Smells: {0}".format(np.sum(y == 1)))
 
             scores = []
-            pu_scores = []
+            pu_scores = {"ci_lb": [], "mean": [], "ci_ub": []}
             for train_index, test_index in StratifiedKFold(n_splits=5, shuffle=True, random_state=42).split(X_data, y):
-                print("TRAIN:", train_index, "TEST:", test_index)
+                #print("TRAIN:", train_index, "TEST:", test_index)
                 X_train, X_test = X_data.iloc[train_index,:], X_data.iloc[test_index,:]
                 y_train, y_test = y[train_index], y[test_index]
 
-                print("Training Smell:{0}".format(smell))
+                #print("Training Smell:{0}".format(smell))
                 trained_classifier = self.train_model(X_train, y_train, smell)
-                print("Results for smell:{0}".format(smell))
+
                 #self.get_score(trained_classifier, X_test, y_test)
                 #self.get_classifier().set_params(nu=(np.sum(y==1)/len(y)))
                 y_pred = self.get_prediction(trained_classifier, X_test)
-                scores.append(self.print_score(y_pred, y_test))
-                pu_scores.append(self.get_pu_score(y_pred, y_test, smell_stats, True))
+                scores.append(self.print_score(y_pred, y_test, False))
+                for k, v in smell_stats.items():
+                    pu_scores[k].append(self.get_pu_score(y_pred, y_test, v, False, k))
 
             print("Precision, Recall, F1 Score:")
             scores = np.delete(scores, -1, axis=1)
             print(np.mean(scores, axis=0))
 
-            print("PU scores: Precision, Recall, F1 Score:")
-            print(np.mean(pu_scores, axis=0))
+            for k, scores in pu_scores.items():
+                print("PU({0}) scores: Precision, Recall, F1 Score:".format(k))
+                print(np.mean(scores, axis=0))
 
 
     def run_random_search_cv(self):
@@ -251,20 +255,22 @@ class model_base:
 
 
 
-    def print_score(self, y_pred, y_test):
-        print("Precision, Recall, F1 Score, Support:")
+    def print_score(self, y_pred, y_test, print_score):
         prec_rec_f = precision_recall_fscore_support(y_test, y_pred, average="binary")
-        print(prec_rec_f)
+        if print_score:
+            print("Precision, Recall, F1 Score, Support:")
+            print(prec_rec_f)
 
         return prec_rec_f
 
-    def get_pu_score(self, y_pred, y_test, smell_stats, print_score):
-        pu_scorer = PUScorer(self.smell_proportion, y_test, np.ravel(y_pred), smell_stats)
+    def get_pu_score(self, y_pred, y_test, beta, print_score, label="beta"):
+        pu_scorer = PUScorer(beta, y_test,
+                             np.ravel(y_pred))
         pu_prec = pu_scorer.get_precision()
         pu_rec = pu_scorer.get_recall()
         pu_f = pu_scorer.get_f_measure(pu_rec, pu_prec)
         if print_score:
-            print("PU adjusted precision, recall and F1 score")
+            print("PU({0}) adjusted precision, recall and F1 score".format(label))
             print("{0}, {1}, {2}".format(pu_prec, pu_rec, pu_f))
         return pu_prec, pu_rec, pu_f
 
