@@ -120,8 +120,8 @@ class model_base:
         return y
 
     def get_smells_stats(self, projects, smell, interval):
-        smells_by_project_id = projects.groupby("project_id").aggregate({"smell": "count", smell: "sum"})
-        projects_means = smells_by_project_id[smell] / smells_by_project_id["smell"]
+        smells_by_project_id = projects.groupby("project_id").aggregate({smell: "sum"})
+        projects_means = smells_by_project_id[smell] / len(smells_by_project_id)
         total_mean = np.mean(projects_means)
         ci_lb, ci_ub = st.t.interval(0.95, len(projects_means) - 1, loc=np.mean(total_mean), scale=st.sem(projects_means))
         return {"mean": total_mean, "ci_lb": ci_lb, "ci_ub": ci_ub}
