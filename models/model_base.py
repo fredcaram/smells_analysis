@@ -26,7 +26,7 @@ class model_base:
                              110, 111, 112, 127, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126]
         self.dataset_ids = [1, 2]
         self.remove_from_train = ["instance", "smell", "project_id"]
-        self.smell_proportion = 0.1
+        self.smell_weight = 0.1
         self.samples_proportion = 0.5
         self.pu_adapter_enabled = False
         self.negative_class = 0
@@ -47,7 +47,7 @@ class model_base:
 
     def get_puAdapter(self, smell):
         if self.pu_adapter_enabled:
-            return PUAdapter(estimator=self.get_classifier(smell), hold_out_ratio=self.smell_proportion)
+            return PUAdapter(estimator=self.get_classifier(smell), hold_out_ratio=self.smell_weight)
         return self.get_classifier(smell)
 
     def get_ratio(self, y):
@@ -172,31 +172,6 @@ class model_base:
             self.print_score(y_pred, y, True)
             for k, v in smell_stats.items():
                 self.get_pu_score(y_pred, y, v, True, k)
-
-            # scores = []
-            # pu_scores = {"ci_lb": [], "mean": [], "ci_ub": []}
-            # for train_index, test_index in StratifiedKFold(n_splits=5, shuffle=True, random_state=42).split(X_data, y):
-            #     #print("TRAIN:", train_index, "TEST:", test_index)
-            #     X_train, X_test = X_data.iloc[train_index,:], X_data.iloc[test_index,:]
-            #     y_train, y_test = y[train_index], y[test_index]
-            #
-            #     #print("Training Smell:{0}".format(smell))
-            #     trained_classifier = self.train_model(X_train, y_train, smell)
-            #
-            #     #self.get_score(trained_classifier, X_test, y_test)
-            #     #self.get_classifier().set_params(nu=(np.sum(y==1)/len(y)))
-            #     y_pred = self.get_prediction(trained_classifier, X_test)
-            #     scores.append(self.print_score(y_pred, y_test, False))
-            #     for k, v in smell_stats.items():
-            #         pu_scores[k].append(self.get_pu_score(y_pred, y_test, v, False, k))
-            #
-            # print("Precision, Recall, F1 Score:")
-            # scores = np.delete(scores, -1, axis=1)
-            # print(np.mean(scores, axis=0))
-            #
-            # for k, scores in pu_scores.items():
-            #     print("PU({0}) scores: Precision, Recall, F1 Score:".format(k))
-            #     print(np.mean(scores, axis=0))
 
 
     def run_random_search_cv(self):

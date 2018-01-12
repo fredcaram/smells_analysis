@@ -19,7 +19,7 @@ class method_based_model(model_base):
         model_base.__init__(self)
         self.classifier = classifier
         self.method_based_smells = ["LongMethod", "FeatureEnvy"]
-        self.smell_proportion = 0.06
+        self.smell_weight = 0.06
         self.samples_proportion = 0.5
         self.pu_adapter_enabled = True
 
@@ -39,7 +39,7 @@ class long_method_model(method_based_model):
         method_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.method_based_smells = ["LongMethod"]
-        self.smell_proportion = 0.018
+        self.smell_weight = 0.018
         self.samples_proportion = 0.5
         self.pu_adapter_enabled = True
 
@@ -54,7 +54,7 @@ class feature_envy_model(method_based_model):
         method_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.method_based_smells = ["FeatureEnvy"]
-        self.smell_proportion = 0.0025
+        self.smell_weight = 0.0025
         self.samples_proportion = 0.5
         self.pu_adapter_enabled = True
 

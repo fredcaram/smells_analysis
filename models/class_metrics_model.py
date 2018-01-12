@@ -18,12 +18,12 @@ from repositories.smells_repository.blob_repository import blob_repository
 
 
 class class_metrics_model(model_base):
-    def __init__(self, classifier=KerasClassifier(build_fn=simple_dnn(input_dim=10).build_simple_2layer_dnn_model)):
+    def __init__(self, classifier=xgb.XGBClassifier(reg_alpha=0.9, subsample=0.9)):
         model_base.__init__(self)
         self.classifier = classifier
         self.class_metrics_smells = ["Blob"]
         self.samples_proportion = 0.4
-        self.smell_proportion = 0.09
+        self.smell_weight = 0.09
         self.pu_adapter_enabled = True
 
     def get_classifier(self, smell):
@@ -37,7 +37,7 @@ class class_metrics_model(model_base):
 
     def get_pipeline(self, smell):
         ppl = Pipeline([("scl", preprocessing.StandardScaler()),
-                        ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=4, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
+                        #("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=4, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
                         ("clf", self.get_puAdapter(smell))
          ])
         return ppl

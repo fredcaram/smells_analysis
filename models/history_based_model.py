@@ -24,7 +24,7 @@ class history_based_model(model_base):
 
         model_base.__init__(self)
         self.history_based_smells = ['ShotgunSurgery', "DivergentChange"]#, "ParallelInheritance"
-        self.smell_proportion = 0.0085
+        self.smell_weight = 0.0085
         self.samples_proportion = 0.5
 
     def get_classifier(self, smell):
@@ -46,7 +46,7 @@ class divergent_change_model(history_based_model):
         history_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.history_based_smells = ["DivergentChange"]#, "ParallelInheritance"
-        self.smell_proportion = 0.0015
+        self.smell_weight = 0.0015
         self.samples_proportion = 0.4
         self.pu_adapter_enabled = False
 
@@ -63,7 +63,7 @@ class shotgun_surgery_model(history_based_model):
         history_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.history_based_smells = ["ShotgunSurgery"]#, "ParallelInheritance"
-        self.smell_proportion = 0.0015
+        self.smell_weight = 0.0015
         self.samples_proportion = 0.5
         self.pu_adapter_enabled = True
 
