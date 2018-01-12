@@ -50,16 +50,16 @@ class long_method_model(method_based_model):
         return ppl
 
 class feature_envy_model(method_based_model):
-    def __init__(self, classifier=xgb.XGBClassifier(reg_alpha=0.2)):
+    def __init__(self, classifier=xgb.XGBClassifier(reg_lambda=0.9, learning_rate=0.4)):
         method_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.method_based_smells = ["FeatureEnvy"]
-        self.smell_weight = 0.0025
-        self.samples_proportion = 0.5
+        self.smell_weight = 0.002
+        self.samples_proportion = 0.4
         self.pu_adapter_enabled = True
 
     def get_pipeline(self, smell):
         ppl = Pipeline([("scl", preprocessing.StandardScaler()),
-                        #("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=5, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
+                        ("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=3, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
                         ("clf", self.get_puAdapter(smell))])
         return ppl
