@@ -9,7 +9,7 @@ from imblearn.under_sampling import TomekLinks
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.metrics import precision_recall_fscore_support
 from sklearn.model_selection import RandomizedSearchCV
-from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import StratifiedKFold, cross_val_predict
 from sklearn.model_selection import train_test_split
 from puAdapter import PUAdapter
 from puScorer import PUScorer
@@ -167,30 +167,36 @@ class model_base:
             print("Non-Smells: {0}".format(np.sum(y == 0)))
             print("Smells: {0}".format(np.sum(y == 1)))
 
-            scores = []
-            pu_scores = {"ci_lb": [], "mean": [], "ci_ub": []}
-            for train_index, test_index in StratifiedKFold(n_splits=5, shuffle=True, random_state=42).split(X_data, y):
-                #print("TRAIN:", train_index, "TEST:", test_index)
-                X_train, X_test = X_data.iloc[train_index,:], X_data.iloc[test_index,:]
-                y_train, y_test = y[train_index], y[test_index]
+            clf = self.get_pipeline(smell)
+            y_pred = cross_val_predict(clf, X_data, y, cv=StratifiedKFold(n_splits=5, shuffle=True, random_state=42))
+            self.print_score(y_pred, y, True)
+            for k, v in smell_stats.items():
+                self.get_pu_score(y_pred, y, v, True, k)
 
-                #print("Training Smell:{0}".format(smell))
-                trained_classifier = self.train_model(X_train, y_train, smell)
-
-                #self.get_score(trained_classifier, X_test, y_test)
-                #self.get_classifier().set_params(nu=(np.sum(y==1)/len(y)))
-                y_pred = self.get_prediction(trained_classifier, X_test)
-                scores.append(self.print_score(y_pred, y_test, False))
-                for k, v in smell_stats.items():
-                    pu_scores[k].append(self.get_pu_score(y_pred, y_test, v, False, k))
-
-            print("Precision, Recall, F1 Score:")
-            scores = np.delete(scores, -1, axis=1)
-            print(np.mean(scores, axis=0))
-
-            for k, scores in pu_scores.items():
-                print("PU({0}) scores: Precision, Recall, F1 Score:".format(k))
-                print(np.mean(scores, axis=0))
+            # scores = []
+            # pu_scores = {"ci_lb": [], "mean": [], "ci_ub": []}
+            # for train_index, test_index in StratifiedKFold(n_splits=5, shuffle=True, random_state=42).split(X_data, y):
+            #     #print("TRAIN:", train_index, "TEST:", test_index)
+            #     X_train, X_test = X_data.iloc[train_index,:], X_data.iloc[test_index,:]
+            #     y_train, y_test = y[train_index], y[test_index]
+            #
+            #     #print("Training Smell:{0}".format(smell))
+            #     trained_classifier = self.train_model(X_train, y_train, smell)
+            #
+            #     #self.get_score(trained_classifier, X_test, y_test)
+            #     #self.get_classifier().set_params(nu=(np.sum(y==1)/len(y)))
+            #     y_pred = self.get_prediction(trained_classifier, X_test)
+            #     scores.append(self.print_score(y_pred, y_test, False))
+            #     for k, v in smell_stats.items():
+            #         pu_scores[k].append(self.get_pu_score(y_pred, y_test, v, False, k))
+            #
+            # print("Precision, Recall, F1 Score:")
+            # scores = np.delete(scores, -1, axis=1)
+            # print(np.mean(scores, axis=0))
+            #
+            # for k, scores in pu_scores.items():
+            #     print("PU({0}) scores: Precision, Recall, F1 Score:".format(k))
+            #     print(np.mean(scores, axis=0))
 
 
     def run_random_search_cv(self):
