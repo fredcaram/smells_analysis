@@ -1,5 +1,8 @@
 import re
 
+from docutils.nodes import fully_normalize_name
+
+
 def extract_namespace_from_path(full_name, verbose=False):
     m = re.match(r'([^A-Z]*)[.][A-Z].*', full_name)
 
@@ -13,6 +16,9 @@ def extract_namespace_from_path(full_name, verbose=False):
 
 
 def extract_class_from_path(full_name, verbose=False):
+    if not isinstance(full_name, str):
+        return ""
+
     m = re.match(r'[^A-Z]*[.]([A-Z][^.:]*)[.]?.*', full_name)
 
     if not m is None:
