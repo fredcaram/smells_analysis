@@ -4,6 +4,7 @@ from imblearn.pipeline import Pipeline
 from imblearn.under_sampling import TomekLinks
 from sklearn import preprocessing
 from sklearn.ensemble import GradientBoostingClassifier
+from models.ensemble_model import EnsenbleModelBuilder
 
 from models.model_base import model_base
 from repositories.smells_repository.method_smells_repository import method_smells_repository
@@ -50,13 +51,13 @@ class long_method_model(method_based_model):
         return ppl
 
 class feature_envy_model(method_based_model):
-    def __init__(self, classifier=xgb.XGBClassifier(reg_lambda=0.9, learning_rate=0.4)):
+    def __init__(self, classifier=EnsenbleModelBuilder(weights=[2.58204251, 0, 2.75587262, 0.69195661, 0]).create_ensemble_model()):
         method_based_model.__init__(self, classifier)
         self.classifier = classifier
         self.method_based_smells = ["FeatureEnvy"]
-        self.smell_weight = 0.002
-        self.samples_proportion = 0.4
-        self.pu_adapter_enabled = True
+        self.smell_weight = 0.005
+        self.samples_proportion = 0.5
+        self.pu_adapter_enabled = False
 
     def get_pipeline(self, smell):
         ppl = Pipeline([("scl", preprocessing.StandardScaler()),

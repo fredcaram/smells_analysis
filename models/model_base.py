@@ -14,8 +14,25 @@ from sklearn.model_selection import train_test_split
 from puAdapter import PUAdapter
 from puScorer import PUScorer
 import scipy.stats as st
+import random
+from pyswarm import pso
 
 from messages import error_messages
+
+class RandintVector(st.rv_discrete):
+
+    def __init__(self, lower_range, upper_range, size):
+        super(RandintVector, self).__init__()
+        self.size = size # Only for initialization
+        self.lower_range = lower_range
+        self.upper_range = upper_range
+
+    def rvs(self, random_state):
+        values = []
+        for i in range(self.size):
+            values.append(st.randint(self.lower_range, self.upper_range).rvs(random_state=random_state))
+
+        return values
 
 
 class model_base:
@@ -56,7 +73,7 @@ class model_base:
 
     def get_optimization_metrics(self):
         return {
-            "clf__kernel": ["linear", "poly", "rbf"],
+            "clf__weights": RandintVector(0, 5, 5)
             #"clf__n_estimators ": sp_randint(40, 100),
             #"clf__learning_rate ": sp_randint(.95, 1.05)
             #"clf__max_depth": sp_randint(1, 8),
@@ -124,6 +141,9 @@ class model_base:
         projects_means = smells_by_project_id[smell] / smells_by_project_id["instance"]
         total_mean = np.mean(projects_means)
         ci_lb, ci_ub = st.t.interval(interval, len(projects_means) - 1, loc=np.mean(total_mean), scale=st.sem(projects_means))
+        if ci_lb < 0:
+            ci_lb = 0
+
         return {"ci_lb": ci_lb, "mean": total_mean, "ci_ub": ci_ub}
 
     def run_train_test_validation(self):
@@ -149,6 +169,48 @@ class model_base:
             self.get_pu_score(y_pred, y_test, True)
 
     def run_cv_validation(self):
+        f_measures = []
+        for smell in self.get_handled_smells():
+            projects = self.get_dataset(smell)
+            X_data = self.get_X_features(projects)
+            smell_stats = self.get_smells_stats(projects, smell)
+
+            if not smell in projects.columns.values:
+                continue
+
+            y = self.get_y_feature(projects, smell)
+
+            if len(np.unique(y)) < 2:
+                continue
+
+            print("Results for smell:{0}".format(smell))
+
+            print("Non-Smells: {0}".format(np.sum(y == 0)))
+            print("Smells: {0}".format(np.sum(y == 1)))
+            print("Confidence Intervals: ")
+            print(smell_stats)
+
+            clf = self.get_pipeline(smell)
+            y_pred = cross_val_predict(clf, X_data, y, cv=StratifiedKFold(n_splits=5, shuffle=True, random_state=42))
+            prf = self.print_score(y_pred, y, True)
+            for k, v in smell_stats.items():
+                self.get_pu_score(y_pred, y, v, True, k)
+
+            f_measures.append(prf[2])
+
+        return np.average(f_measures)
+
+    def optimize_ensemble_with_swarm(self):
+        xopt, fopt = pso(self.optimize_ensemble_cross_validation,
+                         np.array([0,0,0,0,0]),
+                         np.array([10,10,10,10,10]),
+                         swarmsize=10,
+                         maxiter=5)
+        print(xopt)
+        print(fopt)
+
+    def optimize_ensemble_cross_validation(self, weights):
+        f_measures = []
         for smell in self.get_handled_smells():
             projects = self.get_dataset(smell)
             X_data = self.get_X_features(projects)
@@ -168,16 +230,21 @@ class model_base:
             print("Smells: {0}".format(np.sum(y == 1)))
 
             clf = self.get_pipeline(smell)
+            clf.set_params(**{"clf__weights": weights})
             y_pred = cross_val_predict(clf, X_data, y, cv=StratifiedKFold(n_splits=5, shuffle=True, random_state=42))
-            self.print_score(y_pred, y, True)
+            prf = self.print_score(y_pred, y, True)
             for k, v in smell_stats.items():
                 self.get_pu_score(y_pred, y, v, True, k)
 
+            f_measures.append(prf[2])
+
+        return -1 * np.average(f_measures)
 
     def run_random_search_cv(self):
         for smell in self.get_handled_smells():
             projects = self.get_dataset(smell)
             X_data = self.get_X_features(projects)
+            smell_stats = self.get_smells_stats(projects, smell)
 
             if not smell in projects.columns.values:
                 continue
@@ -190,18 +257,17 @@ class model_base:
             print("Non-Smells: {0}".format(np.sum(y == 0)))
             print("Smells: {0}".format(np.sum(y == 1)))
 
-            X_train, X_test, y_train, y_test = train_test_split(X_data, y, test_size=0.2)
-
             print("Results for smell: {0}".format(smell))
             clf = self.get_pipeline(smell)
 
-            rcv = RandomizedSearchCV(clf, param_distributions=self.get_optimization_metrics(), scoring="f1", n_iter=3, cv=3)
-            rcv.fit(X_train, y_train)
-            y_pred = rcv.predict(X_test)
+            rcv = RandomizedSearchCV(clf, param_distributions=self.get_optimization_metrics(), scoring="f1", n_iter=10, cv=StratifiedKFold(n_splits=5, shuffle=True, random_state=42))
+            rcv.fit(X_data, y)
+            y_pred = rcv.predict(X_data)
 
             # self.get_score(cclf, X_test, y_test)
-            self.print_score(y_pred, y_test)
-            self.get_pu_score(y_pred, y_test, True)
+            self.print_score(y_pred, y, True)
+            for k, v in smell_stats.items():
+                self.get_pu_score(y_pred, y, v, True, k)
             print("Best params:")
             print(rcv.best_params_)
 

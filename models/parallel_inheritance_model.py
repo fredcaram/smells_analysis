@@ -24,8 +24,9 @@ class parallel_inheritance_model(model_base):
 
         model_base.__init__(self)
         self.history_based_smells = ['ParallelInheritance']
-        self.smell_proportion = 0.0085
+        self.smell_proportion = 0.01
         self.samples_proportion = 0.5
+        self.pu_adapter_enabled = True
 
     def get_classifier(self, smell):
         if type(self.classifier) is dict:
@@ -43,6 +44,6 @@ class parallel_inheritance_model(model_base):
     def get_pipeline(self, smell):
         return Pipeline([("scl", preprocessing.StandardScaler()),
                             ("ovs",
-                             SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=2, ratio=self.get_ratio),
+                             SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=3, ratio=self.get_ratio),
                                        tomek=TomekLinks(ratio=self.get_ratio))),
                             ("clf", self.get_puAdapter(smell))])
