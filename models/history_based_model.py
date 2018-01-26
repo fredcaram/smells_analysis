@@ -6,8 +6,7 @@ from sklearn import preprocessing
 from sklearn.ensemble import RandomForestClassifier
 from lightgbm import LGBMClassifier
 
-from models.dnn_models import simple_dnn
-from tensorflow.python.keras.wrappers.scikit_learn import KerasClassifier
+from sklearn.linear_model import LogisticRegression
 
 from models.model_base import model_base
 from repositories.smells_repository.relationships_smells_repository import relationship_smells_repository
@@ -21,11 +20,14 @@ import xgboost as xgb
 class history_based_model(model_base):
     def __init__(self, classifier=LGBMClassifier()):
         self.classifier = classifier
-
         model_base.__init__(self)
         self.history_based_smells = ['ShotgunSurgery', "DivergentChange"]#, "ParallelInheritance"
         self.smell_weight = 0.0085
         self.samples_proportion = 0.5
+
+        self.baseline_models = {
+            "association_rules": LogisticRegression()
+        }
 
     def get_classifier(self, smell):
         if type(self.classifier) is dict:
@@ -49,14 +51,21 @@ class divergent_change_model(history_based_model):
         self.smell_weight = 0.0015
         self.samples_proportion = 0.4
         self.pu_adapter_enabled = False
+        self.use_smote_tomek = True
 
 
     def get_pipeline(self, smell):
-        return Pipeline([("scl", preprocessing.StandardScaler()),
-                            ("ovs",
+        pipeline_steps = []
+        if self.use_scaler:
+            pipeline_steps.append(("scl", preprocessing.StandardScaler()))
+
+        if self.use_smote_tomek:
+            pipeline_steps.append(("ovs",
                              SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=2, ratio=self.get_ratio),
-                                       tomek=TomekLinks(ratio=self.get_ratio))),
-                            ("clf", self.get_puAdapter(smell))])
+                                       tomek=TomekLinks(ratio=self.get_ratio))),)
+        pipeline_steps.append(("clf", self.get_puAdapter(smell)))
+
+        return Pipeline(pipeline_steps)
 
 class shotgun_surgery_model(history_based_model):
     def __init__(self, classifier=xgb.XGBClassifier(learning_rate=0.06)):
@@ -66,10 +75,17 @@ class shotgun_surgery_model(history_based_model):
         self.smell_weight = 0.0015
         self.samples_proportion = 0.5
         self.pu_adapter_enabled = True
+        self.use_smote_tomek = True
 
     def get_pipeline(self, smell):
-        return Pipeline([("scl", preprocessing.StandardScaler()),
-                            ("ovs",
+        pipeline_steps = []
+        if self.use_scaler:
+            pipeline_steps.append(("scl", preprocessing.StandardScaler()))
+
+        if self.use_smote_tomek:
+            pipeline_steps.append(("ovs",
                              SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=3, ratio=self.get_ratio),
-                                        tomek=TomekLinks(ratio=self.get_ratio))),
-                            ("clf", self.get_puAdapter(smell))])
+                                       tomek=TomekLinks(ratio=self.get_ratio))),)
+        pipeline_steps.append(("clf", self.get_puAdapter(smell)))
+
+        return Pipeline(pipeline_steps)

@@ -25,6 +25,7 @@ class class_metrics_model(model_base):
         self.samples_proportion = 0.4
         self.smell_weight = 0.09
         self.pu_adapter_enabled = True
+        self.use_smote_tomek = False
 
     def get_classifier(self, smell):
         return self.classifier
@@ -36,9 +37,15 @@ class class_metrics_model(model_base):
         return self.class_metrics_smells
 
     def get_pipeline(self, smell):
-        ppl = Pipeline([("scl", preprocessing.StandardScaler()),
-                        #("ovs", SMOTETomek(ratio=self.get_ratio,smote=SMOTE(k_neighbors=4, ratio=self.get_ratio), tomek=TomekLinks(ratio=self.get_ratio))),
-                        ("clf", self.get_puAdapter(smell))
-         ])
-        return ppl
+        pipeline_steps = []
+        if self.use_scaler:
+            pipeline_steps.append(("scl", preprocessing.StandardScaler()))
+
+        if self.use_smote_tomek:
+            pipeline_steps.append(("ovs",
+                             SMOTETomek(ratio=self.get_ratio, smote=SMOTE(k_neighbors=3, ratio=self.get_ratio),
+                                       tomek=TomekLinks(ratio=self.get_ratio))),)
+        pipeline_steps.append(("clf", self.get_puAdapter(smell)))
+
+        return Pipeline(pipeline_steps)
 

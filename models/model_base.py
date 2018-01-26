@@ -17,6 +17,19 @@ import scipy.stats as st
 import random
 from pyswarm import pso
 
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.naive_bayes import GaussianNB
+from models.ensemble_model import EnsenbleModelBuilder
+from sklearn.svm import OneClassSVM
+from sklearn.ensemble import IsolationForest
+from sklearn.neighbors import LocalOutlierFactor
+
+import xgboost as xgb
+
+import lightgbm as lgbm
+import catboost as cat
+
 from messages import error_messages
 
 class RandintVector(st.rv_discrete):
@@ -46,7 +59,31 @@ class model_base:
         self.smell_weight = 0.1
         self.samples_proportion = 0.5
         self.pu_adapter_enabled = False
+        self.use_smote_tomek = False
+        self.use_scaler = True
         self.negative_class = 0
+        self.baseline_models = {
+            "decision_tree": DecisionTreeClassifier(),
+            "random_forest": RandomForestClassifier(),
+            "naive_bayes": GaussianNB()
+        }
+
+        # Uses 1 and -1, doesn't provide predict_proba
+        self.one_class_classifiers = {
+            "one_class_svm": OneClassSVM(),
+            "isolation_forest": IsolationForest()#,
+            #"local_outlier_factor": LocalOutlierFactor()
+        }
+
+        self.boosting_models = {
+            "xgboost": xgb.XGBClassifier(),
+            "lightgbm": lgbm.LGBMClassifier(),
+            "catboost": cat.CatBoostClassifier(logging_level="Silent")
+        }
+
+        self.emsemble_models = {
+            "soft_voting_emsemble": EnsenbleModelBuilder().create_ensemble_model()
+        }
 
 
     @abc.abstractmethod
@@ -68,8 +105,8 @@ class model_base:
         return self.get_classifier(smell)
 
     def get_ratio(self, y):
-        non_smell_number = np.sum(y==0)
-        return {0: non_smell_number, 1: math.ceil((non_smell_number+ 1) * self.samples_proportion)}
+        non_smell_number = np.sum(y==self.negative_class)
+        return {self.negative_class: non_smell_number, 1: math.ceil((non_smell_number+ 1) * self.samples_proportion)}
 
     def get_optimization_metrics(self):
         return {
@@ -169,7 +206,8 @@ class model_base:
             self.get_pu_score(y_pred, y_test, True)
 
     def run_cv_validation(self):
-        f_measures = []
+        prf = []
+        pu_scores = {}
         for smell in self.get_handled_smells():
             projects = self.get_dataset(smell)
             X_data = self.get_X_features(projects)
@@ -185,7 +223,7 @@ class model_base:
 
             print("Results for smell:{0}".format(smell))
 
-            print("Non-Smells: {0}".format(np.sum(y == 0)))
+            print("Non-Smells: {0}".format(np.sum(y == self.negative_class)))
             print("Smells: {0}".format(np.sum(y == 1)))
             print("Confidence Intervals: ")
             print(smell_stats)
@@ -194,11 +232,9 @@ class model_base:
             y_pred = cross_val_predict(clf, X_data, y, cv=StratifiedKFold(n_splits=5, shuffle=True, random_state=42))
             prf = self.print_score(y_pred, y, True)
             for k, v in smell_stats.items():
-                self.get_pu_score(y_pred, y, v, True, k)
+                pu_scores[k] = self.get_pu_score(y_pred, y, v, True, k)
 
-            f_measures.append(prf[2])
-
-        return np.average(f_measures)
+        return prf, pu_scores
 
     def optimize_ensemble_with_swarm(self):
         xopt, fopt = pso(self.optimize_ensemble_cross_validation,
