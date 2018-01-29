@@ -61,7 +61,7 @@ class ExperimentData:
             for model_name, one_class_model in model.one_class_classifiers.items():
                 print("Model: {0}".format(model_name))
                 experiment_df = experiment_df.append(self.execute_model(one_class_model, model_name, model, smell, False, False, -1), ignore_index=True)
-                experiment_df = experiment_df.append(self.execute_model(one_class_model, model_name, model, smell, True, False, -1), ignore_index=True)
+                #experiment_df = experiment_df.append(self.execute_model(one_class_model, model_name, model, smell, True, False, -1), ignore_index=True)
 
             for model_name, boosting_model in model.boosting_models.items():
                 print("Model: {0}".format(model_name))

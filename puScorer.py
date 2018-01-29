@@ -4,13 +4,14 @@ from sklearn.metrics import confusion_matrix, roc_curve
 
 
 class PUScorer(object):
-    def __init__(self, beta, y_true, y_pred):
+    def __init__(self, beta, y_true, y_pred, negative_class=0):
         self._beta = beta
         self.y_true = y_true
         self.y_pred = y_pred
         self.tn, self.fp, self.fn, self.tp = confusion_matrix(y_true, y_pred).ravel()
         self._recall = recall_score(y_true, y_pred, 1)
         self._fpr = self.__get_fpr__()
+        self.negative_class = negative_class
 
     def __get_fpr__(self):
         if self.fp == 0:
@@ -24,7 +25,7 @@ class PUScorer(object):
         if recall == 0:
             return 0
 
-        adjusted_tp = original_tp + self._beta * np.sum(self.y_true == 0) * recall
+        adjusted_tp = original_tp + self._beta * np.sum(self.y_true == self.negative_class) * recall
         return adjusted_tp
 
     def __get_false_positive__(self):
@@ -32,7 +33,7 @@ class PUScorer(object):
         if fpr == 0:
             return 0
 
-        adjusted_fp = fpr * np.sum(self.y_true == 0) * (1 - self._beta)
+        adjusted_fp = fpr * np.sum(self.y_true == self.negative_class) * (1 - self._beta)
         return adjusted_fp
 
     def __get_false_negative__(self):
@@ -43,7 +44,7 @@ class PUScorer(object):
 
         #adjusted_fn = np.sum(self.y_true == 1) + np.sum(self.y_true == 0) * self._positive_proportion - self.__get_true_positive__()
         #Yields the same result as above
-        adjusted_fn = original_fn + self._beta * (1 - recall) * np.sum(self.y_true == 0)
+        adjusted_fn = original_fn + self._beta * (1 - recall) * np.sum(self.y_true == self.negative_class)
 
         return adjusted_fn
 

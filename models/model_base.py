@@ -348,7 +348,7 @@ class model_base:
 
     def get_pu_score(self, y_pred, y_test, beta, print_score, label="beta"):
         pu_scorer = PUScorer(beta, y_test,
-                             np.ravel(y_pred))
+                             np.ravel(y_pred), self.negative_class)
         pu_prec = pu_scorer.get_precision()
         pu_rec = pu_scorer.get_recall()
         pu_f = pu_scorer.get_f_measure(pu_rec, pu_prec)
