@@ -12,7 +12,7 @@ np.random.seed(42)
 
 start = time.time()
 
-exp_data = ExperimentData()
+exp_data = ExperimentData(1)
 #exp_data.get_statistical_data()
 exp_data.get_experiment_data()
 

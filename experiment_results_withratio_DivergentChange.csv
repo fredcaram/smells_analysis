@@ -1,0 +1,2 @@
+,fmeasure,model,precision,pu_fmeasure_ci_lb,pu_fmeasure_ci_ub,pu_fmeasure_mean,pu_precision_ci_lb,pu_precision_ci_ub,pu_precision_mean,pu_recall_ci_lb,pu_recall_ci_ub,pu_recall_mean,recall,smell,use_puadapter,use_smotenn
+0,0.7058823529411764,association_rules,0.8571428571428571,0.7059177836541188,0.7062586710969796,0.7060885534530936,0.8572473490848445,0.8582534575334705,0.8577511921089326,0.6000000000000001,0.6,0.6,0.6,DivergentChange,0.0,0.0

@@ -1,0 +1,2 @@
+,fmeasure,model,precision,pu_fmeasure_ci_lb,pu_fmeasure_ci_ub,pu_fmeasure_mean,pu_precision_ci_lb,pu_precision_ci_ub,pu_precision_mean,pu_recall_ci_lb,pu_recall_ci_ub,pu_recall_mean,recall,smell,use_puadapter,use_smotenn
+0,0.9285714285714286,association_rules,0.9285714285714286,0.9285714285714286,0.9293402842574079,0.9288162282804616,0.9285714285714286,0.9301104142210906,0.9290611570968491,0.9285714285714286,0.9285714285714286,0.9285714285714285,0.9285714285714286,ShotgunSurgery,0.0,0.0

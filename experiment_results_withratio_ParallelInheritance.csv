@@ -1,0 +1,2 @@
+,fmeasure,model,precision,pu_fmeasure_ci_lb,pu_fmeasure_ci_ub,pu_fmeasure_mean,pu_precision_ci_lb,pu_precision_ci_ub,pu_precision_mean,pu_recall_ci_lb,pu_recall_ci_ub,pu_recall_mean,recall,smell,use_puadapter,use_smotenn
+0,0.8125000000000001,association_rules,1.0,0.8125,0.8125,0.8125,1.0,1.0,1.0,0.6842105263157895,0.6842105263157895,0.6842105263157895,0.6842105263157895,ParallelInheritance,0.0,0.0

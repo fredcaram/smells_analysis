@@ -8,7 +8,8 @@ from models.parallel_inheritance_model import parallel_inheritance_model
 
 
 class ExperimentData:
-    def __init__(self):
+    def __init__(self, force_ratio=None):
+        self.force_ratio = force_ratio
         self.models = {
             "Blob": class_metrics_model(),
             "LongMethod": long_method_model(),
@@ -46,46 +47,56 @@ class ExperimentData:
 
     def get_experiment_data(self):
         for smell, model in self.models.items():
+            if self.force_ratio is not None:
+                model.samples_proportion = self.force_ratio
             experiment_df = pd.DataFrame()
             print("Smell: {0}".format(smell))
-            for model_name, baseline_model in model.baseline_models.items():
+            for model_name, baseline_clf in model.baseline_models.items():
                 print("Model: {0}".format(model_name))
-                experiment_df = experiment_df.append(self.execute_model(baseline_model, model_name, model, smell, False, False), ignore_index=True)
-                experiment_df = experiment_df.append(self.execute_model(baseline_model, model_name, model, smell, True, False), ignore_index=True)
-                experiment_df = experiment_df.append(self.execute_model(baseline_model, model_name, model, smell, False, True), ignore_index=True)
-                experiment_df = experiment_df.append(self.execute_model(baseline_model, model_name, model, smell, True, True), ignore_index=True)
+                experiment_df = experiment_df.append(self.execute_model(baseline_clf, model_name, model, smell, False, False), ignore_index=True)
+                #experiment_df = experiment_df.append(self.execute_model(baseline_clf, model_name, model, smell, True, False), ignore_index=True)
+                #experiment_df = experiment_df.append(self.execute_model(baseline_clf, model_name, model, smell, False, True), ignore_index=True)
+                #experiment_df = experiment_df.append(self.execute_model(baseline_clf, model_name, model, smell, True, True), ignore_index=True)
 
-            for model_name, one_class_model in model.one_class_classifiers.items():
-                print("Model: {0}".format(model_name))
-                experiment_df = experiment_df.append(self.execute_model(one_class_model, model_name, model, smell, False, False, -1), ignore_index=True)
-                #experiment_df = experiment_df.append(self.execute_model(one_class_model, model_name, model, smell, True, False, -1), ignore_index=True)
+            # for model_name, one_class_clf in model.one_class_classifiers.items():
+            #     print("Model: {0}".format(model_name))
+            #     experiment_df = experiment_df.append(self.execute_model(one_class_clf, model_name, model, smell, False, False, -1), ignore_index=True)
+            #     #experiment_df = experiment_df.append(self.execute_model(one_class_clf, model_name, model, smell, True, False, -1), ignore_index=True)
+            #
+            # for model_name, boosting_clf in model.boosting_models.items():
+            #     print("Model: {0}".format(model_name))
+            #     experiment_df = experiment_df.append(self.execute_model(boosting_clf, model_name, model, smell, False, False), ignore_index=True)
+            #     experiment_df = experiment_df.append(self.execute_model(boosting_clf, model_name, model, smell, True, False), ignore_index=True)
+            #     experiment_df = experiment_df.append(self.execute_model(boosting_clf, model_name, model, smell, False, True), ignore_index=True)
+            #     experiment_df = experiment_df.append(self.execute_model(boosting_clf, model_name, model, smell, True, True), ignore_index=True)
+            #
+            # for model_name, ensemble_clf in model.emsemble_models.items():
+            #     print("Model: {0}".format(model_name))
+            #     experiment_df = experiment_df.append(self.execute_model(ensemble_clf, model_name, model, smell, False, False), ignore_index=True)
+            #     experiment_df = experiment_df.append(self.execute_model(ensemble_clf, model_name, model, smell, True, False), ignore_index=True)
+            #     experiment_df = experiment_df.append(self.execute_model(ensemble_clf, model_name, model, smell, False, True), ignore_index=True)
+            #     experiment_df = experiment_df.append(self.execute_model(ensemble_clf, model_name, model, smell, True, True), ignore_index=True)
 
-            for model_name, boosting_model in model.boosting_models.items():
-                print("Model: {0}".format(model_name))
-                experiment_df = experiment_df.append(self.execute_model(boosting_model, model_name, model, smell, False, False), ignore_index=True)
-                experiment_df = experiment_df.append(self.execute_model(boosting_model, model_name, model, smell, True, False), ignore_index=True)
-                experiment_df = experiment_df.append(self.execute_model(boosting_model, model_name, model, smell, False, True), ignore_index=True)
-                experiment_df = experiment_df.append(self.execute_model(boosting_model, model_name, model, smell, True, True), ignore_index=True)
+            if self.force_ratio is None:
+                experiment_df.to_csv("experiment_results_{0}.csv".format(smell))
+            else:
+                experiment_df.to_csv("experiment_results_withratio_{0}.csv".format(smell))
 
-            for model_name, ensemble_model in model.emsemble_models.items():
-                print("Model: {0}".format(model_name))
-                experiment_df = experiment_df.append(self.execute_model(ensemble_model, model_name, model, smell, False, False), ignore_index=True)
-                experiment_df = experiment_df.append(self.execute_model(ensemble_model, model_name, model, smell, True, False), ignore_index=True)
-                experiment_df = experiment_df.append(self.execute_model(ensemble_model, model_name, model, smell, False, True), ignore_index=True)
-                experiment_df = experiment_df.append(self.execute_model(ensemble_model, model_name, model, smell, True, True), ignore_index=True)
-
-            experiment_df.to_csv("experiment_results_{0}.csv".format(smell))
-
-    def execute_model(self, baseline_model, model_name, model, smell, use_smotenn, use_puadapter, negative_class=0):
+    def execute_model(self, classifier, model_name, model, smell, use_smotenn, use_puadapter, negative_class=0):
         model_df = {}
         model_df["model"] = model_name
         model_df["smell"] = smell
         model_df["use_smotenn"] = use_smotenn
         model_df["use_puadapter"] = use_puadapter
-        model.classifier = baseline_model
+        model.classifier = classifier
         model.negative_class = negative_class
         model.pu_adapter_enabled = use_puadapter
-        score, pu_score = model.run_cv_validation()
+
+        if self.force_ratio is None:
+            score, pu_score = model.run_cv_validation()
+        else:
+            score, pu_score = model.run_cv_validation_with_simulated_ratio()
+
         model_df["precision"] = score[0]
         model_df["recall"] = score[1]
         model_df["fmeasure"] = score[2]

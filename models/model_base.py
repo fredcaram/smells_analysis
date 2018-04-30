@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from imblearn.combine import SMOTETomek
 from imblearn.over_sampling import SMOTE
-from imblearn.under_sampling import TomekLinks
+from imblearn.under_sampling import NearMiss
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.metrics import precision_recall_fscore_support
 from sklearn.model_selection import RandomizedSearchCV
@@ -107,6 +107,10 @@ class model_base:
     def get_ratio(self, y):
         non_smell_number = np.sum(y==self.negative_class)
         return {self.negative_class: non_smell_number, 1: math.ceil((non_smell_number+ 1) * self.samples_proportion)}
+
+    def get_undersampling_ratio(self, y):
+        smell_number = np.sum(y==1)
+        return {self.negative_class: math.ceil((smell_number+ 1) / self.samples_proportion), 1: smell_number}
 
     def get_optimization_metrics(self):
         return {
@@ -233,6 +237,45 @@ class model_base:
             prf = self.print_score(y_pred, y, True)
             for k, v in smell_stats.items():
                 pu_scores[k] = self.get_pu_score(y_pred, y, v, True, k)
+
+        return prf, pu_scores
+
+    def run_cv_validation_with_simulated_ratio(self):
+        prf = []
+        pu_scores = {}
+        for smell in self.get_handled_smells():
+            projects = self.get_dataset(smell)
+            X_data = self.get_X_features(projects)
+            smell_stats = self.get_smells_stats(projects, smell)
+
+            if not smell in projects.columns.values:
+                continue
+
+            y = self.get_y_feature(projects, smell)
+
+            if len(np.unique(y)) < 2:
+                continue
+
+            print("Results for smell:{0}".format(smell))
+
+            print("Non-Smells: {0}".format(np.sum(y == self.negative_class)))
+            print("Smells: {0}".format(np.sum(y == 1)))
+            print("Confidence Intervals: ")
+            print(smell_stats)
+
+            near_miss = NearMiss(ratio=self.get_undersampling_ratio)
+            X_res, y_res = near_miss.fit_sample(X_data, y)
+
+            print("******Undersampled values******")
+
+            print("Non-Smells: {0}".format(np.sum(y_res == 0)))
+            print("Smells: {0}".format(np.sum(y_res == 1)))
+
+            clf = self.get_pipeline(smell)
+            y_pred = cross_val_predict(clf, X_res, y_res, cv=StratifiedKFold(n_splits=5, shuffle=True, random_state=42))
+            prf = self.print_score(y_pred, y_res, True)
+            for k, v in smell_stats.items():
+                pu_scores[k] = self.get_pu_score(y_pred, y_res, v, True, k)
 
         return prf, pu_scores
 
