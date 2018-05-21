@@ -1,0 +1,17 @@
+org.apache.tools.ant.taskdefs.Available.checkFile();org.apache.tools.ant.types.Path
+
+org.apache.tools.ant.taskdefs.Available.execute();org.apache.tools.ant.taskdefs.optional.junit.JUnitTask
+
+org.apache.tools.ant.taskdefs.Available.eval();org.apache.tools.ant.types.Path
+
+org.apache.tools.ant.taskdefs.Java.execute();org.apache.tools.ant.types.Path
+
+org.apache.tools.ant.taskdefs.Zip.execute();org.apache.tools.ant.taskdefs.optional.junit.JUnitTask
+
+org.apache.tools.ant.taskdefs.Jar.initZipOutputStream(ZipOutputStream);org.apache.tools.ant.taskdefs.Zip
+
+org.apache.tools.ant.taskdefs.XSLTProcess.execute();org.apache.tools.ant.types.Path
+
+org.apache.tools.ant.Main.Main(String);org.apache.tools.ant.taskdefs.optional.ejb.WebsphereDeploymentTool
+
+org.apache.tools.ant.taskdefs.Java.executeJava();org.apache.tools.ant.types.Path

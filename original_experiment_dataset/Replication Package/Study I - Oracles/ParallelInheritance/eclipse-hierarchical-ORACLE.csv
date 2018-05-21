@@ -1,0 +1,10 @@
+ParagraphListRewriter;ListRewriter;
+org.eclipse.jface.viewers.LabelProvider;BaseConfigurationBlock;
+JavaSearchResultCollector;AbstractJavaSearchTests;
+TestASTRequestor;AbstractASTTests;
+TypeNameRequestor;SearchRequestor;
+TypeNameRequestor;FullSourceWorkspaceTests;
+org.eclipse.jdt.core.tests.model.ModifyingResourceTests;org.eclipse.jdt.core.dom.ASTVisitor;
+ParagraphListRewriter;ASTVisitor;
+ListRewriter;ASTVisitor;
+SelectionOnQualifiedNameReference.java;CompletionOnQualifiedNameReference.java;

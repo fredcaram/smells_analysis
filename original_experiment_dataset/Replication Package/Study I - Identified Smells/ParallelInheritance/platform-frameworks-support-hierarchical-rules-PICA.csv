@@ -1,0 +1,17 @@
+android.support.appcompat.app.ActionBarImplCompat.java;android.support.appcompat.app.ActionBarImplHC.java;
+
+android.support.appcompat.view.menu.ActionMenuView.java;android.support.appcompat.view.menu.ListMenuItemView.java;
+
+android.support.appcompat.widget.ActionBarOverlayLayout.java;android.support.appcompat.widget.ActionBarContainer.java;
+
+android.support.v8.renderscript.Allocation.java;android.support.v8.renderscript.Sampler.java;
+
+android.support.v13.app.FragmentPagerAdapter.java;android.support.v13.app.FragmentStatePagerAdapter.java;
+
+android.support.v4.app.NoSaveStateFrameLayout.java;android.support.appcompat.widget.ActionBarOverlayLayout.java;
+
+android.support.v4.view.ViewPager.java;android.support.appcompat.widget.AbsActionBarView.java;
+
+android.support.v4.widget.SlidingPaneLayout.java;android.support.appcompat.widget.AbsActionBarView.java;
+
+com.android.volley.ServerError.java;com.android.volley.NetworkError.java;

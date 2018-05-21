@@ -1,0 +1,8 @@
+Refactoring Type	Source Entity	Target Class	Entity Placement	Rate it!
+Move Method	org.apache.commons.io.input.XmlStreamReader::doLenientDetection(java.lang.String, org.apache.commons.io.input.XmlStreamReaderException):java.lang.String	org.apache.commons.io.input.XmlStreamReaderException	0.7873746394776935	
+Move Method	org.apache.commons.io.monitor.FileAlterationObserver::doDelete(org.apache.commons.io.monitor.FileEntry):void	org.apache.commons.io.monitor.FileEntry	0.7892346304387773	
+Move Method	org.apache.commons.io.monitor.FileAlterationObserver::doMatch(org.apache.commons.io.monitor.FileEntry, java.io.File):void	org.apache.commons.io.monitor.FileEntry	0.7893473240101928	
+Move Method	org.apache.commons.io.input.BOMInputStream::getBOMCharsetName():java.lang.String	org.apache.commons.io.ByteOrderMark	0.7895030667219193	
+Move Method	org.apache.commons.io.input.BOMInputStream::matches(org.apache.commons.io.ByteOrderMark):boolean	org.apache.commons.io.ByteOrderMark	0.789504501581278	
+Move Method	org.apache.commons.io.output.DeferredFileOutputStream::getData():byte[]	org.apache.commons.io.output.ByteArrayOutputStream	0.7895377000480824	
+	current system		0.7895978099923914	

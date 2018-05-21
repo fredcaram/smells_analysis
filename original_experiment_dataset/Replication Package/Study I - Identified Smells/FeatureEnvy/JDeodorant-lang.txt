@@ -1,0 +1,2 @@
+org.apache.commons.lang3.time.FastDateParser::isNextNumber():boolean	org.apache.commons.lang3.time.FastDateParser.Strategy	0.9447497659015804	
+org.apache.commons.lang3.text.StrTokenizer::readWithQuotes(char[], int, int, org.apache.commons.lang3.text.StrBuilder, java.util.List<java.lang.String>, int, int):int	org.apache.commons.lang3.text.StrBuilder	0.9448814733925613	

@@ -1,0 +1,3 @@
+android.webkit.PrivateHandler.handleMessage(Message);android.webkit.WebView.init()
+android.webkit.PrivateHandler.handleMessage(Message);android.webkit.WebView.updateZoomButtonsEnabled()
+android.webkit.PrivateHandler.handleMessage(Message);android.webkit.DragTrackerHandler.DragTrackerHandler(float,float,DragTracker)s

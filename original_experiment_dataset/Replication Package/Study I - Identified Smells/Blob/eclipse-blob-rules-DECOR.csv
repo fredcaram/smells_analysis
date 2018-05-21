@@ -1,0 +1,4 @@
+org.eclipse.jdt.internal.core.JavaModelManager;2751;
+org.eclipse.jdt.internal.core.DeltaProcessor;2406;
+org.eclipse.jdt.internal.codeassist.complete.CompletionParser;
+org.eclipse.jdt.internal.compiler.parser.Scanner;

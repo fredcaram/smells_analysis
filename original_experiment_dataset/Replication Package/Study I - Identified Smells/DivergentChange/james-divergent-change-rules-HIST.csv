@@ -1,0 +1,6 @@
+13;{org.apache.james.mime4j.field.Fields.subject(String)};=>;{org.apache.james.mime4j.field.Fields.contentTransferEncoding(String)};0.0182648401826484;0.8;43.8
+10;{org.apache.james.mime4j.field.Fields.date(Date)};=>;{org.apache.james.mime4j.field.Fields.contentType(String)};0.0182648401826484;1;36.5
+11;{org.apache.james.mime4j.field.Fields.contentTransferEncoding(String)};=>;{org.apache.james.mime4j.field.Fields.contentType(String,Map<String,;String>)};0.0182648401826484;1;36.5
+14;{org.apache.james.mime4j.field.Fields.contentTransferEncoding(String)};=>;{org.apache.james.mime4j.field.Fields.contentType(String)};0.0182648401826484;1;36.5
+16;{org.apache.james.mime4j.field.Fields.subject(String)};=>;{org.apache.james.mime4j.field.Fields.contentType(String)};0.0228310502283105;1;36.5
+15;{org.apache.james.mime4j.field.Fields.subject(String)};=>;{org.apache.james.mime4j.field.Fields.contentType(String,Map<String,;String>)};0.0182648401826484;0.8;29.2

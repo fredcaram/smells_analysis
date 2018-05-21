@@ -1,0 +1,11 @@
+3 {ParagraphListRewriter} => {ListRewriter} 0.00500417014178482 1 199.833333333333
+9 {org.eclipse.jface.viewers.LabelProvider} => {BaseConfigurationBlock} 0.00542118432026689 1 184.461538461538
+2 {JavaSearchResultCollector} => {AbstractJavaSearchTests} 0.00500417014178482 1 104.260869565217
+1 {JavaSearchDocument} => {RuntimeException} 0.00542118432026689 1 57.0952380952381
+7 {TestASTRequestor} => {AbstractASTTests} 0.00500417014178482 1 57.0952380952381
+12 {TypeNameRequestor} => {SearchRequestor} 0.00500417014178482 0.705882352941177 45.7488076311606
+13 {TypeNameRequestor} => {FullSourceWorkspaceTests} 0.00500417014178482 0.705882352941177 42.3176470588235
+14 {org.eclipse.jdt.core.tests.model.ModifyingResourceTests} => {org.eclipse.jdt.core.dom.ASTVisitor} 0.00542118432026689 0.722222222222222 40.2764857881137
+5 {ParagraphListRewriter} => {ASTVisitor} 0.00500417014178482 1 26.3516483516484
+6 {ListRewriter} => {ASTVisitor} 0.00500417014178482 1 26.3516483516484
+11 {org.eclipse.jdt.core.tests.junit.extension.TestCase.org.eclipse.jdt.core.tests.junit.extension.TestCase} => {ASTVisitor} 0.00625521267723103 0.833333333333333 21.959706959707

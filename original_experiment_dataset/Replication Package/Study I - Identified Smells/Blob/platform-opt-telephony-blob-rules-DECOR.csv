@@ -1,0 +1,10 @@
+src.java.com.android.internal.telephony.DataConnection;
+src.java.com.android.internal.telephony.CallManager;
+src.java.com.android.internal.telephony.DataConnectionTracker;
+com.android.internal.telephony.PhoneBase;
+com.android.internal.telephony.gsm.SIMRecords;
+com.android.internal.telephony.cdma.CdmaServiceStateTracker;
+com.android.internal.telephony.gsm.GsmServiceStateTracker;
+src.java.com.android.internal.telephony.test.SimulatedCommands;
+src.java.com.android.internal.telephony.CommandsInterface;
+src.java.com.android.internal.telephony.gsm.GSMPhone;

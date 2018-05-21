@@ -1,0 +1,5 @@
+METHOD;org.eclipse.jdt.internal.codeassist.complete.CompletionParser.buildMoreCompletionContext(Expression);MODIFIED;METHOD;org.eclipse.jdt.internal.core.search.AllTypeDeclarationsVisitor;90.0;13
+METHOD;org.eclipse.jdt.internal.compiler.lookup.Scope.findMemberType(char,ReferenceBinding);MODIFIED;METHOD;org.eclipse.jdt.internal.core.search.AllTypeDeclarationsVisitor;90.0;16
+METHOD;org.eclipse.jdt.internal.compiler.ast.QualifiedNameReference.generateCode(BlockScope,CodeStream,boolean);MODIFIED;METHOD;org.eclipse.jdt.internal.core.search.AllTypeDeclarationsVisitor;90.0;12
+METHOD;org.eclipse.jdt.internal.codeassist.complete.CompletionParser.consumeToken(int);MODIFIED;METHOD;org.eclipse.jdt.internal.core.search.AllTypeDeclarationsVisitor;90.0;21
+METHOD;org.eclipse.jdt.internal.compiler.ast.SingleNameReference.computeConversion(Scope,TypeBinding,TypeBinding);MODIFIED;METHOD;org.eclipse.jdt.internal.core.search.AllTypeDeclarationsVisitor;90.0;11

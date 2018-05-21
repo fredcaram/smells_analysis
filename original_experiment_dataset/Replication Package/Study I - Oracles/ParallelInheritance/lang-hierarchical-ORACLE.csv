@@ -1,0 +1,14 @@
+org.apache.commons.lang.enum.Extended3Enum;org.apache.commons.lang.enum.Extended2Enum
+org.apache.commons.lang.enum.Extended3Enum;org.apache.commons.lang.enum.Extended1Enum
+org.apache.commons.lang.enum.Extended2Enum;org.apache.commons.lang.enum.Extended1Enum
+org.apache.commons.lang.enum.Broken2OperationEnum;org.apache.commons.lang.enum.Broken5OperationEnum
+org.apache.commons.lang.enum.Broken2OperationEnum;org.apache.commons.lang.enum.Broken1OperationEnum
+org.apache.commons.lang.enum.Broken2OperationEnum;org.apache.commons.lang.enum.Broken4OperationEnum
+org.apache.commons.lang.enum.Broken2OperationEnum;org.apache.commons.lang.enum.Broken3OperationEnum
+org.apache.commons.lang.enum.Broken5OperationEnum;org.apache.commons.lang.enum.Broken1OperationEnum
+org.apache.commons.lang.enum.Broken5OperationEnum;org.apache.commons.lang.enum.Broken4OperationEnum
+org.apache.commons.lang.enum.Broken5OperationEnum;org.apache.commons.lang.enum.Broken3OperationEnum
+org.apache.commons.lang.enum.Broken1OperationEnum;org.apache.commons.lang.enum.Broken4OperationEnum
+org.apache.commons.lang.enum.Broken1OperationEnum;org.apache.commons.lang.enum.Broken3OperationEnum
+org.apache.commons.lang.enum.Broken4OperationEnum;org.apache.commons.lang.enum.Broken3OperationEnum
+

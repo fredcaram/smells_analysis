@@ -1,0 +1,3 @@
+org.apache.commons.logging.impl.LogFactoryImpl.java;org.apache.commons.logging.tccl.custom.MyLogFactoryImpl.java;
+org.apache.commons.logging.AltHashtable.java;org.apache.commons.logging.impl.WeakHashtable.java;
+org.apache.commons.logging.tccl.custom.MyLogFactoryImpl.java;org.apache.commons.logging.impl.LogFactoryImpl.java;

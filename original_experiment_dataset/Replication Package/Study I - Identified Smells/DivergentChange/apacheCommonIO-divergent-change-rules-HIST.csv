@@ -1,0 +1,3 @@
+1;{org.apache.commons.io.FileUtilsTestCase.testCopyFile1()};=>;{org.apache.commons.io.FileUtilsTestCase.testCopyFile2ToDir()};0.0216049382716049;1;46.2857142857143
+3;{org.apache.commons.io.FileUtilsTestCase.testCopyFile1()};=>;{org.apache.commons.io.FileUtilsTestCase.testCopyFile1ToDir()};0.0216049382716049;1;27
+4;{org.apache.commons.io.FileUtilsTestCase.testCopyFile2ToDir()};=>;{org.apache.commons.io.FileUtilsTestCase.testCopyFile1ToDir()};0.0216049382716049;1;27

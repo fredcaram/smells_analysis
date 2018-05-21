@@ -1,0 +1,3 @@
+Refactoring Type	Source Entity	Target Class	Entity Placement	Rate it!
+Move Method	com.mongodb.jdbc.MongoResultSet::_getNumber(java.lang.String):java.lang.Number	com.mongodb.jdbc.DBObject	0.973731442076507	
+	current system		0.9752434725898077	

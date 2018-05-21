@@ -1,0 +1,4 @@
+FileCleaner.java; org.apache.commons.io;
+AndFileFilter.java; org.apache.commons.io.filefilter;
+TeeOutputStream.java; org.apache.commons.io.output;
+XmlStreamReaderUtilitiesCompatibilityTest.java; org.apache.commons.io.input.compatibility;

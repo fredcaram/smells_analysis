@@ -1,0 +1,4 @@
+org.eclipse.jdt.internal.core.search.SourceMapper;
+METHOD;org.eclipse.jdt.core.tests.model.Container;
+org.eclipse.jdt.internal.core.JavaModelManager;
+org.eclipse.jdt.internal.core.DeltaProcessor;

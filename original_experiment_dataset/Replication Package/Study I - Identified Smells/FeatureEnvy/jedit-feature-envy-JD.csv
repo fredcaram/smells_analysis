@@ -1,0 +1,3 @@
+org.gjt.sp.jedit.Buffer.recoverAutosave(org.gjt.sp.jedit.View);org.gjt.sp.jedit.io.VFS;
+org.gjt.sp.jedit.search.HyperSearchRequest.doHyperSearch(org.gjt.sp.jedit.Buffer,int,int,javax.swing.tree.DefaultMutableTreeNode);
+org.gjt.sp.jedit.gui.OptionsDialog.addOptionPane(org.gjt.sp.jedit.OptionPane,org.gjt.sp.jedit.OptionGroup);org.gjt.sp.jedit.OptionGroup;

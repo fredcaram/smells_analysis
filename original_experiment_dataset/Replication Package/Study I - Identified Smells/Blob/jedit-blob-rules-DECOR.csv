@@ -1,0 +1,5 @@
+com.microstar.xml.XmlParser;
+org.gjt.sp.jedit.View;
+org.gjt.sp.jedit.Buffer;
+org.gjt.sp.jedit.textarea.JEditTextArea;
+org.gjt.sp.jedit.jEdit;

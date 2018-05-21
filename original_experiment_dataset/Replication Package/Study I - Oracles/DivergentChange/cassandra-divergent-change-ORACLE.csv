@@ -1,0 +1,3 @@
+org.apache.cassandra.config.CFMetaData;
+org.apache.cassandra.cli.CliClient;
+org.apache.cassandra.thrift.TCustomNonblockingServerSocket.java;

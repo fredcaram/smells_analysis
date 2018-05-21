@@ -1,0 +1,2 @@
+org.apache.commons.logging.impl.LogFactoryImpl;
+org.apache.commons.logging.LogFactory;

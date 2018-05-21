@@ -1,0 +1,7 @@
+com.android.sdkmanager.Main;
+com.android.sdkuilib.internal.repository.UpdaterWindowImpl;
+com.android.ide.eclipse.adt.internal.editors.layout.configuration.ConfigurationComposite;
+com.android.ide.eclipse.adt.internal.editors.uimodel.UiElementNode;
+com.android.ide.eclipse.adt.internal.editors.layout.gle2.LayoutCanvas;
+com.android.sdklib.SdkManager;
+com.android.ddmlib.testrunner.InstrumentationResultParser;

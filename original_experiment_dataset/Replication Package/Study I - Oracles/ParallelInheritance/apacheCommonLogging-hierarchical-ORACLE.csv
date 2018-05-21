@@ -1,0 +1,2 @@
+org.apache.commons.logging.AltHashtable.java;org.apache.commons.logging.impl.WeakHashtable.java;
+org.apache.commons.logging.impl.WeakHashtableTest;org.apache.commons.logging.impl.WeakHashtable;

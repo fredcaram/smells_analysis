@@ -5,6 +5,9 @@ from models.class_metrics_model import class_metrics_model
 from models.history_based_model import divergent_change_model, shotgun_surgery_model
 from models.method_based_model import long_method_model, feature_envy_model
 from models.parallel_inheritance_model import parallel_inheritance_model
+from models.hard_threshold_model import DivergentChangeWithHardThresholdModel, \
+    ShotgunSurgeryWithHardThresholdModel, \
+    ParallelInheritanceWithHardThresholdModel
 
 
 class ExperimentData:
@@ -75,6 +78,26 @@ class ExperimentData:
                 experiment_df = experiment_df.append(self.execute_model(ensemble_model, model_name, model, smell, True, True), ignore_index=True)
 
             experiment_df.to_csv("experiment_results_{0}.csv".format(smell))
+
+
+    def get_hard_threshold_data(self):
+        experiment_df = pd.DataFrame()
+        print("Model: {0}".format("Hard Threshold Model"))
+        model = (DivergentChangeWithHardThresholdModel())
+        experiment_df = experiment_df.append(self.execute_model(model.classifier, "DivergentChangeHardThreshold",
+                                                                model,
+                                                                "DivergentChange", False, False), ignore_index=True)
+        model = (ShotgunSurgeryWithHardThresholdModel())
+        experiment_df = experiment_df.append(self.execute_model(model.classifier, "ShotgunSurgeryHardThreshold",
+                                                                model,
+                                                                "ShotgunSurgery", False, False), ignore_index=True)
+        model = (ParallelInheritanceWithHardThresholdModel())
+        experiment_df = experiment_df.append(self.execute_model(model.classifier, "ParallelInheritanceHardThreshold",
+                                                                model,
+                                                                "ParallelInheritance", False, False), ignore_index=True)
+
+        experiment_df.to_csv("hard_threshold_results_{0}.csv")
+
 
     def execute_model(self, baseline_model, model_name, model, smell, use_smotenn, use_puadapter, negative_class=0):
         model_df = {}

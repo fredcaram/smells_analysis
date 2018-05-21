@@ -1,0 +1,5 @@
+3;{org.eclipse.jdt.core.tests.model.ProgressCounter.isCanceled()};=>;{org.eclipse.jdt.core.tests.model.Container.initialize(IPath,IJavaProject)};0.388571428571429;1;1.64930555555556
+7;{org.eclipse.jdt.internal.core.search.AllTypeDeclarationsVisitor.visit(TypeDeclaration,ClassScope)};=>;{org.eclipse.jdt.core.tests.model.Container.initialize(IPath,IJavaProject)};0.606315789473684;0.702765512433186;1.1590750639089
+9;{org.eclipse.jdt.internal.core.search.AllTypeDeclarationsVisitor.visit(TypeDeclaration,CompilationUnitScope)};=>;{org.eclipse.jdt.core.tests.model.Container.initialize(IPath,IJavaProject)};0.606315789473684;0.702765512433186;1.1590750639089
+4;{org.eclipse.jdt.core.tests.model.ProgressCounter.isCanceled()};=>;{org.eclipse.jdt.internal.core.search.AllTypeDeclarationsVisitor.visit(TypeDeclaration,ClassScope)};0.388571428571429;1;1.1590750639089
+5;{org.eclipse.jdt.core.tests.model.ProgressCounter.isCanceled()};=>;{org.eclipse.jdt.internal.core.search.AllTypeDeclarationsVisitor.visit(TypeDeclaration,CompilationUnitScope)};0.388571428571429;1;1.1590750639089

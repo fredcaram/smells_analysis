@@ -1,0 +1,15 @@
+bsh.BSHWhileStatement.java;bsh.BSHSwitchLabel.java;
+gnu.regexp.RE.java;gnu.regexp.RETokenBackRef.java;
+installer.InstallThread.java;org.gjt.sp.jedit.EditServer.java;
+org.gjt.sp.jedit.ModeCatalogHandler.java;org.gjt.sp.jedit.ActionListHandler.java;
+org.gjt.sp.jedit.browser.VFSFileChooserDialog.java;org.gjt.sp.jedit.gui.CloseDialog.java;
+org.gjt.sp.jedit.buffer.IndentFoldHandler.java;org.gjt.sp.jedit.buffer.DummyFoldHandler.java;
+org.gjt.sp.jedit.gui.CloseDialog.java;org.gjt.sp.jedit.browser.VFSFileChooserDialog.java;
+org.gjt.sp.jedit.io.UrlVFS.java;org.gjt.sp.jedit.io.FavoritesVFS.java;
+org.gjt.sp.jedit.msg.CreateDockableWindow.java;org.gjt.sp.jedit.msg.EditorExitRequested.java;
+org.gjt.sp.jedit.options.EditingOptionPane.java;MacOSOptionPane.java;
+org.gjt.sp.jedit.pluginmgr.PluginManager.java;org.gjt.sp.jedit.browser.VFSFileChooserDialog.java;
+org.gjt.sp.jedit.search.HyperSearchResults.java;QuickNotepad.java;
+org.gjt.sp.jedit.syntax.XModeHandler.java;org.gjt.sp.jedit.ModeCatalogHandler.java;
+org.gjt.sp.jedit.textarea.Gutter.java;org.gjt.sp.jedit.gui.ErrorListCellRenderer.java;
+org.gjt.sp.util.WorkThread.java;installer.InstallThread.java;

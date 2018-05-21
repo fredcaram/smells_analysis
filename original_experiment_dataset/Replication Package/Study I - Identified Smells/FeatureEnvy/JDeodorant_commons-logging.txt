@@ -1,0 +1,10 @@
+Refactoring Type	Source Entity	Target Class	Entity Placement	Rate it!
+Move Method	org.apache.commons.logging.jdk14.test.CustomConfigTestCase::checkLogRecords(boolean):void	org.apache.commons.logging.jdk14.test.TestHandler	0.9032743900453833	
+Move Method	org.apache.commons.logging.impl.test.WeakHashtableTestCase::testPutAll():void	org.apache.commons.logging.impl.WeakHashtable	0.9035031911906128	
+Move Method	org.apache.commons.logging.jdk14.test.DefaultConfigTestCase::testPristineFactory():void	org.apache.commons.logging.LogFactory	0.9035879101071783	
+Move Method	org.apache.commons.logging.impl.test.WeakHashtableTestCase::testPut():void	org.apache.commons.logging.impl.WeakHashtable	0.9036476858148695	
+Move Method	org.apache.commons.logging.simple.test.DefaultConfigTestCase::testPristineFactory():void	org.apache.commons.logging.LogFactory	0.9036707087994458	
+Move Method	org.apache.commons.logging.logkit.test.StandardTestCase::testPristineFactory():void	org.apache.commons.logging.LogFactory	0.9037129369778062	
+Move Method	org.apache.commons.logging.impl.test.WeakHashtableTestCase::testRemove():void	org.apache.commons.logging.impl.WeakHashtable	0.9037480878109988	
+Move Method	org.apache.commons.logging.impl.test.WeakHashtableTestCase::testContainsKey():void	org.apache.commons.logging.impl.WeakHashtable	0.9037922202398988	
+	current system		0.904199705634041	

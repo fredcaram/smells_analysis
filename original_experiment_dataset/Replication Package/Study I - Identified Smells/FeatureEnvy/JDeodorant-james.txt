@@ -1,0 +1,11 @@
+org.apache.james.mime4j.codec.core.Base64InputStream::handleUnexpecedPad(int):void	org.apache.james.mime4j.codec.core.DecodeMonitor	0.8587727303423873	
+org.apache.james.mime4j.codec.core.Base64InputStream::handleUnexpectedEof(int):void	org.apache.james.mime4j.codec.core.DecodeMonitor	0.8587815856366412	
+org.apache.james.mime4j.stream.core.RawFieldParser::copyQuotedContent(org.apache.james.mime4j.util.ByteSequence, org.apache.james.mime4j.stream.core.ParserCursor, java.lang.StringBuilder):void	org.apache.james.mime4j.stream.core.ParserCursor	0.858802297266692	
+org.apache.james.mime4j.stream.core.RawFieldParser::parseRawBody(org.apache.james.mime4j.stream.core.RawField):org.apache.james.mime4j.stream.core.RawBody	org.apache.james.mime4j.stream.core.RawField	0.8588195191628714	
+org.apache.james.mime4j.stream.core.RawFieldParser::skipComment(org.apache.james.mime4j.util.ByteSequence, org.apache.james.mime4j.stream.core.ParserCursor):void	org.apache.james.mime4j.stream.core.ParserCursor	0.8589144316835111	
+org.apache.james.mime4j.message.AbstractEntity::setText(org.apache.james.mime4j.dom.TextBody, java.lang.String):void	org.apache.james.mime4j.dom.TextBody	0.8589156558262214	
+org.apache.james.mime4j.stream.core.MimeEntity::message(org.apache.james.mime4j.stream.core.Event):java.lang.String	org.apache.james.mime4j.stream.core.Event	0.8589514532156248	
+org.apache.james.mime4j.stream.core.RawFieldParser::copyContent(org.apache.james.mime4j.util.ByteSequence, org.apache.james.mime4j.stream.core.ParserCursor, java.util.BitSet, java.lang.StringBuilder):void	org.apache.james.mime4j.stream.core.ParserCursor	0.858960791373997	
+org.apache.james.mime4j.field.address.AddressFormatter::encode(java.lang.StringBuilder, org.apache.james.mime4j.dom.address.Mailbox):void	org.apache.james.mime4j.dom.address.Mailbox	0.8590049659314665	
+org.apache.james.mime4j.field.address.AddressFormatter::format(java.lang.StringBuilder, org.apache.james.mime4j.dom.address.Mailbox, boolean):void	org.apache.james.mime4j.dom.address.Mailbox	0.8590373820279278	
+org.apache.james.mime4j.stream.core.RawFieldParser::skipWhiteSpace(org.apache.james.mime4j.util.ByteSequence, org.apache.james.mime4j.stream.core.ParserCursor):void	org.apache.james.mime4j.stream.core.ParserCursor	0.8590743525235143	

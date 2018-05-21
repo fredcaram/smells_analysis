@@ -1,0 +1,6 @@
+1;{com.mongodb.Mongo.Mongo(MongoURI)};=>;{com.mongodb.Mongo.Mongo(ServerAddress,ServerAddress,MongoOptions)};0.0101010101010101;1;66
+2;{com.mongodb.Mongo.Mongo(MongoURI)};=>;{com.mongodb.Mongo.Mongo(ServerAddress,MongoOptions)};0.0101010101010101;1;66
+8;{com.mongodb.Mongo.Mongo(ServerAddress,ServerAddress,MongoOptions)};=>;{com.mongodb.Mongo.Mongo(ServerAddress,MongoOptions)};0.0151515151515152;1;66
+4;{com.mongodb.Mongo.Mongo(List<ServerAddress>,MongoOptions)};=>;{com.mongodb.Mongo.Mongo(ServerAddress,ServerAddress,MongoOptions)};0.0126262626262626;0.833333333333333;55
+6;{com.mongodb.Mongo.Mongo(List<ServerAddress>,MongoOptions)};=>;{com.mongodb.Mongo.Mongo(ServerAddress,MongoOptions)};0.0126262626262626;0.833333333333333;55
+

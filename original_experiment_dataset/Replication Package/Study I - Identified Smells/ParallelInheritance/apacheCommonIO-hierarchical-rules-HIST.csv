@@ -1,0 +1,2 @@
+rules support confidence lift
+1 {org.apache.commons.io.filefilter.OrFileFilter} => {org.apache.commons.io.filefilter.AndFileFilter} 0.0246913580246914 1 40.5

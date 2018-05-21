@@ -1,0 +1,7 @@
+ddms.app.src.com.android.ddms.UIThread;
+ddms.libs.ddmuilib.src.com.android.ddmuilib.NativeHeapPanel;
+ddms.libs.ddmuilib.src.com.android.ddmuilib.logcat.LogPanel;
+ddms.libs.ddmuilib.src.com.android.ddmuilib.logcat.LogCatPanel;
+hierarchyviewer.src.com.android.hierarchyviewer.ui.Workspace;
+sdkmanager.libs.sdklib.src.com.android.sdklib.internal.avd.AvdManager;
+sdkmanager.libs.sdkuilib.src.com.android.sdkuilib.internal.repository.sdkman2.PackagesPage;

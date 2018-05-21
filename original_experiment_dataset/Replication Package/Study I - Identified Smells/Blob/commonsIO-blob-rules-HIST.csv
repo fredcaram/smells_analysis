@@ -1,0 +1,3 @@
+METHOD;org.apache.commons.io.IOUtils;9.527273178100586%;131;100.0;
+METHOD;org.apache.commons.io.IOUtil;10.836363792419434%;149;100.0;
+METHOD;org.apache.commons.io.FileUtils;16.509090423583984%;227;100.0;

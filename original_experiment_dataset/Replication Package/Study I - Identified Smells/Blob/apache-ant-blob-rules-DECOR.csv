@@ -1,0 +1,10 @@
+proposal.sandbox.antlib.src.main.org.apache.tools.ant.Project;
+src.main.org.apache.tools.ant.Project;
+src.main.org.apache.tools.ant.taskdefs.Javadoc;
+src.main.org.apache.tools.ant.taskdefs.AbstractCvsTask;
+src.main.org.apache.tools.ant.taskdefs.Javac;
+src.main.org.apache.tools.ant.taskdefs.optional.IContract;
+src.main.org.apache.tools.ant.taskdefs.optional.NetRexxC;
+src.main.org.apache.tools.ant.taskdefs.optional.dotnet.CSharp;
+src.main.org.apache.tools.ant.taskdefs.optional.ejb.WebsphereDeploymentTool;
+src.main.org.apache.tools.ant.taskdefs.optional.ejb.JonasDeploymentTool;

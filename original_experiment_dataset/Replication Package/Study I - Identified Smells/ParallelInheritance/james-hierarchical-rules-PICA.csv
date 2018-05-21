@@ -1,0 +1,10 @@
+org.apache.james.mime4j.MimeIOException.java;org.apache.james.mime4j.io.core.MaxLineLimitException.java;
+org.apache.james.mime4j.codec.core.QuotedPrintableOutputStream.java;org.apache.james.mime4j.codec.core.Base64OutputStream.java;
+org.apache.james.mime4j.dom.BinaryBody.java;org.apache.james.mime4j.dom.TextBody.java;
+org.apache.james.mime4j.dom.address.Group.java;org.apache.james.mime4j.dom.address.Mailbox.java;
+org.apache.james.mime4j.dom.field.ParseException.java;org.apache.james.mime4j.io.core.MaxHeaderLengthLimitException.java;
+org.apache.james.mime4j.field.ContentLanguageFieldLenientImpl.java;org.apache.james.mime4j.field.ContentDescriptionFieldImpl.java;
+org.apache.james.mime4j.io.core.BufferedLineReaderInputStream.java;org.apache.james.mime4j.io.core.MimeBoundaryInputStream.java;
+org.apache.james.mime4j.message.AbstractMessage.java;org.apache.james.mime4j.message.BodyPart.java;
+org.apache.james.mime4j.storage.StringTextBody.java;org.apache.james.mime4j.storage.StorageTextBody.java;
+org.apache.james.mime4j.stream.core.MimeParseEventException.java;org.apache.james.mime4j.dom.field.ParseException.java;

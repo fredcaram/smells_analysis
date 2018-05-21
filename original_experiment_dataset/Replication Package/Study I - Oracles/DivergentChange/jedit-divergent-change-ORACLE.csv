@@ -1,0 +1,4 @@
+org.gjt.sp.jedit.textarea.MouseHandler.doSingleClick(MouseEvent);org.gjt.sp.jedit.browser.MouseHandler.mousePressed(MouseEvent)
+org.gjt.sp.jedit.textarea.MouseHandler.mouseReleased(MouseEvent);org.gjt.sp.jedit.browser.MouseHandler.mousePressed(MouseEvent)
+org.gjt.sp.jedit.textarea.MouseHandler.mouseDragged(MouseEvent)};org.gjt.sp.jedit.browser.MouseHandler.mousePressed(MouseEvent)
+RE.java.getPosixSet;RE.java.initialize;RE.java.isMatch;RE.java.setRepeated;RE.java.setUncle;RE.java.substitute;RE.java.getMatch;RE.java.getMatchEnumeration;RE.java.getMatchEnumeration;RE.java.dump;RE.java.getAllMatches;RE.java.getAllMatches;RE.java.substitute;RE.java.substitute;RE.java.substituteAll;

@@ -1,0 +1,10 @@
+org.apache.tools.ant.taskdefs.Exec;
+org.apache.tools.ant.taskdefs.Zip;
+org.apache.tools.ant.Project;
+org.apache.tools.ant.types.Commandline;
+org.apache.tools.ant.taskdefs.javadoc.Javadoc;
+org.apache.tools.ant.taskdefs.Java;
+org.apache.tools.ant.types.Path;
+org.apache.tools.ant.taskdefs.Property;
+org.apache.tools.ant.taskdefs.optional.vss.MSVSS;
+org.apache.tools.ant.taskdefs.optional.junit.JUnitTask;

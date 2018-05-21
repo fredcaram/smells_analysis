@@ -1,0 +1,10 @@
+Resources.java; org.apache.cassandra.auth;
+SerializingCache.java; org.apache.cassandra.cache;
+ConcurrentLinkedHashCache.java; org.apache.cassandra.cache;
+NativeAllocator.java; org.apache.cassandra.io.util;
+StreamingMetrics.java; org.apache.cassandra.metrics;
+SyncComplete.java; org.apache.cassandra.repair.messages;
+ValidationComplete.java; org.apache.cassandra.repair.messages;
+StreamException.java; org.apache.cassandra.streaming;
+StreamStateCompositeData.java; org.apache.cassandra.streaming.management;
+TCustomNonblockingServerSocket.java; org.apache.cassandra.thrift;

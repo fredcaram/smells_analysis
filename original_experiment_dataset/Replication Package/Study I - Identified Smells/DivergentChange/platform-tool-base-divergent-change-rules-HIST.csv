@@ -1,0 +1,1 @@
+com.android.sdklib.devices.DeviceWriter.generateHardwareNode(Hardware,Document);com.android.sdklib.devices.DeviceWriter.addStorageElement(Document,Element,String,Collection<Storage>)

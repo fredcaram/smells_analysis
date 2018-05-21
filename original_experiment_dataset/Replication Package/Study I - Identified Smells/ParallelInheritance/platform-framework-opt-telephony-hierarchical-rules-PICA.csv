@@ -1,0 +1,17 @@
+com.android.internal.telephony.IccFileTypeMismatch.java;com.android.internal.telephony.IccVmNotSupportedException.java;
+
+com.android.internal.telephony.cat.RilMessageDecoder.java;com.android.internal.telephony.DataConnection.java;
+
+com.android.internal.telephony.cdma.RuimRecords.java;com.android.internal.telephony.gsm.SIMRecords.java;
+
+com.android.internal.telephony.cdma.sms.CdmaSmsAddress.java;com.android.internal.telephony.gsm.GsmSmsAddress.java;
+
+com.android.internal.telephony.gsm.GsmConnection.java;com.android.internal.telephony.cdma.CdmaConnection.java;
+
+com.android.internal.telephony.ims.IsimUiccRecords.java;com.android.internal.telephony.cdma.RuimRecords.java;
+
+com.android.internal.telephony.sip.SipCallBase.java;com.android.internal.telephony.cdma.CdmaCall.java;
+
+com.android.internal.telephony.test.SimulatedGsmCallState.java;com.android.internal.telephony.CallTracker.java;
+
+com.android.internal.telephony.uicc.UiccController.java;com.android.internal.telephony.CallTracker.java;

@@ -1,0 +1,3 @@
+com.google.common.base.Joiner.MapJoiner::appendTo(A, java.util.Iterator<? extends java.util.Map.Entry<?,?>>):A	com.google.common.base.Joiner
+com.google.common.primitives.UnsignedInteger::bigIntegerValue():java.math.BigInteger	com.google.common.primitives.UnsignedInts
+com.google.common.cache.AbstractCache.SimpleStatsCounter::incrementBy(com.google.common.cache.AbstractCache.StatsCounter):void	com.google.common.cache.LongAdder

@@ -1,0 +1,2 @@
+rules support confidence lift
+1 {org.apache.commons.logging.impl.WeakHashtableTest} => {org.apache.commons.logging.impl.WeakHashtable} 0.0555555555555556 1 18
