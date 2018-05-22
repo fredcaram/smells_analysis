@@ -61,6 +61,7 @@ class model_base:
         self.pu_adapter_enabled = False
         self.use_smote_tomek = False
         self.use_scaler = True
+        self.use_only_positive_class = False
         self.negative_class = 0
         self.baseline_models = {
             "decision_tree": DecisionTreeClassifier(),
@@ -231,8 +232,10 @@ class model_base:
             clf = self.get_pipeline(smell)
             y_pred = cross_val_predict(clf, X_data, y, cv=StratifiedKFold(n_splits=5, shuffle=True, random_state=42))
             prf = self.print_score(y_pred, y, True)
-            for k, v in smell_stats.items():
-                pu_scores[k] = self.get_pu_score(y_pred, y, v, True, k)
+
+            if not self.use_only_positive_class:
+                for k, v in smell_stats.items():
+                    pu_scores[k] = self.get_pu_score(y_pred, y, v, True, k)
 
         return prf, pu_scores
 
@@ -244,6 +247,7 @@ class model_base:
                          maxiter=5)
         print(xopt)
         print(fopt)
+
 
     def optimize_ensemble_cross_validation(self, weights):
         f_measures = []
@@ -339,7 +343,13 @@ class model_base:
 
 
     def print_score(self, y_pred, y_test, print_score):
-        prec_rec_f = precision_recall_fscore_support(y_test, y_pred, average="binary")
+        if self.use_only_positive_class:
+            prec_rec_f = np.asarray(precision_recall_fscore_support(y_test, y_pred, average=None))
+            prec_rec_f = prec_rec_f[:, 1]
+            prec_rec_f.tolist()
+        else:
+            prec_rec_f = precision_recall_fscore_support(y_test, y_pred, average="binary")
+
         if print_score:
             print("Precision, Recall, F1 Score, Support:")
             print(prec_rec_f)

@@ -34,6 +34,7 @@ class DivergentChangeHardThresholdClassifier(HardThresholClassifierBase):
 
     def predict(self, X, y=None):
         y_pred = super().predict(X, y)
+        #y_pred = np.logical_and(y_pred, X["cardinality"] >= 3)
 
         return y_pred
 
@@ -64,6 +65,7 @@ class ShotgunSurgeryHardThresholdClassifier(HardThresholClassifierBase):
 
     def predict(self, X, y=None):
         y_pred = super().predict(X, y)
+        y_pred = np.logical_and(y_pred, X["cardinality"] >= 3)
 
         return y_pred
 

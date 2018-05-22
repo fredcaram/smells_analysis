@@ -12,8 +12,9 @@ def current_experiment():
     #pass
     exp_data = ExperimentData()
     exp_data.get_hard_threshold_data()
+    exp_data.get_hard_threshold_data_for_positive_only()
     # exp_data.get_statistical_data()
-    # exp_data.get_experiment_data()
+    #exp_data.get_experiment_data()
     # model = long_method_model()
     # model.run_train_test_validation()
     # model.run_balanced_classifier_cv()
