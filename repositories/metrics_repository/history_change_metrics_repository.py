@@ -67,7 +67,7 @@ class history_change_metrics_repository(base_metrics_repository):
 
         one_ante_rule = rules[[len(ante) == 1 for ante in rules["antecedants"]]]
         one_ante_rule.loc[:, "antecedants"] = one_ante_rule["antecedants"].apply(lambda x: next(iter(x)))
-        one_ante_rule.loc[:, "cardinality"] = one_ante_rule[[len(cons) for cons in one_ante_rule["consequents"]]]
+        one_ante_rule.loc[:, "cardinality"] = [len(cons) for cons in one_ante_rule["consequents"]]
         one_ante_rule = one_ante_rule.drop("consequents", axis=1)
         max_ante_rule = one_ante_rule.groupby("antecedants").max().reset_index()
 

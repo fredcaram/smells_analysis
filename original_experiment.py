@@ -7,10 +7,6 @@ import numpy as np
 import os
 from sklearn.externals import joblib
 
-from weka.classifiers import Classifier, Evaluation, GridSearch
-from weka.core.converters import Loader
-from weka.core.classes import Random
-
 from rpy2.robjects import r, pandas2ri, numpy2ri
 
 class OriginalExperiment:
