@@ -839,7 +839,7 @@
 837,13.0,1.0,2.0,2.0,0.0,23.0,12.0,0.0,org.apache.commons.lang3.tuple.Pair,0.0,60,0.0
 838,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2476190476190476,AbstractComparableTest,2.476190476190476,61,0.04338842975206612
 839,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.10743801652892561,AbstractRegressionTest,2.476190476190476,61,0.1
-840,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.625,FullSourceWorkspaceTests,58.17307692307692,61,0.01652892561983471
+840,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.625,FullSourceWorkspaceTests,58.17307692307692,61,0.01652892561983471
 841,4.0,0.0,4.0,0.0,0.0,5.0,5.0,0.0,org.eclipse.jdt.core.BufferChangedEvent,0.0,61,0.0
 842,7.0,0.0,1.0,0.0,0.0,12.0,13.0,0.0,org.eclipse.jdt.core.CheckDebugAttributes,0.0,61,0.0
 843,6.0,0.0,5.0,1.0,0.0,6.0,6.0,0.0,org.eclipse.jdt.core.ClasspathContainerInitializer,0.0,61,0.0

@@ -1,4 +1,4 @@
 ,fmeasure,model,precision,recall,smell,use_puadapter,use_smotenn
-0,0.028169014084507046,DivergentChangeHardThreshold,0.015151515151515152,0.2,DivergentChange,0.0,0.0
-1,0.4242424242424242,ShotgunSurgeryHardThreshold,0.3684210526315789,0.5,ShotgunSurgery,0.0,0.0
-2,0.03508771929824561,ParallelInheritanceHardThreshold,0.02631578947368421,0.05263157894736842,ParallelInheritance,0.0,0.0
+0,0.031496062992125984,DivergentChangeHardThreshold,0.017391304347826087,0.16666666666666666,DivergentChange,0.0,0.0
+1,0.5263157894736842,ShotgunSurgeryHardThreshold,0.4166666666666667,0.7142857142857143,ShotgunSurgery,0.0,0.0
+2,0.034482758620689655,ParallelInheritanceHardThreshold,0.02631578947368421,0.05,ParallelInheritance,0.0,0.0

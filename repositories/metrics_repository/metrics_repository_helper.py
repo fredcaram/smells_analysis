@@ -40,6 +40,29 @@ def extract_method_from_path(full_name, verbose=False):
         print("Warning: Couldn't extract method from path: {0}".format(full_name))
     return ""
 
+def extract_class(full_name, verbose=False):
+    m = re.match(r'^((?:\w*[.:])+)(\w*[(].*[)])?$', full_name)
+
+    if not m is None and not m.group(1) is None:
+        class_ = m.group(1)
+        class_ = class_[:-1]
+        return class_
+
+    if verbose:
+        print("Warning: Couldn't extract method from path: {0}".format(full_name))
+    return full_name
+
+def extract_method_without_parameters(full_name, verbose=False):
+    m = re.match(r'^((?:\w*[.:]\w*)+(?:[(].*[)])?)', full_name)
+
+    if not m is None and not m.group(1) is None:
+        method = m.group(1)
+        return method
+
+    if verbose:
+        print("Warning: Couldn't extract method from path: {0}".format(full_name))
+    return ""
+
 
 def decompose_class_members(full_name, verbose=False):
     namespace = extract_namespace_from_path(full_name, verbose)
@@ -49,8 +72,9 @@ def decompose_class_members(full_name, verbose=False):
 
 
 def extract_class_from_method(method_desc, verbose=False):
-    members = decompose_class_members(method_desc)
-    return "{0}.{1}".format(members["namespace"], members["class"])
+    #members = decompose_class_members(method_desc)
+    #return "{0}.{1}".format(members["namespace"], members["class"])
+    return extract_class(method_desc, verbose)
 
 def extract_path_until_method(method_desc, verbose=False):
     members = decompose_class_members(method_desc)

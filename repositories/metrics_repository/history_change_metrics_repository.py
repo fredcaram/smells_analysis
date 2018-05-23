@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from mlxtend.frequent_patterns import apriori, association_rules
 from mlxtend.preprocessing import OnehotTransactions
 
@@ -16,7 +17,7 @@ class history_change_metrics_repository(base_metrics_repository):
         self.support_by_project = {"apache_james": 0.01,
                                    "apache_tomcat": 0.003,
                                    "cassandra": 0.004,
-                                   "default": 0.006}
+                                   "default": 0.008}
 
 
     def get_metrics_dataframe(self, prefix):
@@ -66,8 +67,31 @@ class history_change_metrics_repository(base_metrics_repository):
             return df
 
         one_ante_rule = rules[[len(ante) == 1 for ante in rules["antecedants"]]]
+        del(rules)
+
         one_ante_rule.loc[:, "antecedants"] = one_ante_rule["antecedants"].apply(lambda x: next(iter(x)))
-        one_ante_rule.loc[:, "cardinality"] = [len(cons) for cons in one_ante_rule["consequents"]]
+
+        category = []
+        consequent_not_in_association = []
+        for i, rule in one_ante_rule.iterrows():
+            n_ocurrences = 0
+            category.append(len(rule["consequents"]))
+
+            for conseq in rule["consequents"]:
+                rules_with_conseq = one_ante_rule[one_ante_rule["antecedants"] == conseq]
+
+                for conseq_from_conseq in list(rules_with_conseq["consequents"]):
+                    if not (conseq_from_conseq in list(rule["consequents"]) or
+                                    conseq_from_conseq == rule["antecedants"]):
+                        n_ocurrences += 1
+                        break
+
+            consequent_not_in_association.append(int(n_ocurrences == 0))
+
+
+        one_ante_rule.loc[:, "cardinality"] = category
+        one_ante_rule.loc[:, "consequent_not_in_association"] = consequent_not_in_association
+
         one_ante_rule = one_ante_rule.drop("consequents", axis=1)
         max_ante_rule = one_ante_rule.groupby("antecedants").max().reset_index()
 
