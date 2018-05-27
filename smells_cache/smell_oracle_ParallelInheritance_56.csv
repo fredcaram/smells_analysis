@@ -1,0 +1,5 @@
+,instance,smell_type
+0,org.apache.commons.logging.AltHashtable,ParallelInheritance
+1,org.apache.commons.logging.impl.WeakHashtableTest,ParallelInheritance
+2,org.apache.commons.logging.impl.WeakHashtable,ParallelInheritance
+3,org.apache.commons.logging.impl.WeakHashtable,ParallelInheritance

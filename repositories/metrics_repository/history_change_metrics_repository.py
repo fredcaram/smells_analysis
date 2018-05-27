@@ -4,7 +4,8 @@ from mlxtend.frequent_patterns import apriori, association_rules
 from mlxtend.preprocessing import OnehotTransactions
 
 from repositories.metrics_repository.base_metrics_repository import base_metrics_repository
-from repositories.metrics_repository.metrics_repository_helper import extract_class_from_method
+from repositories.metrics_repository.metrics_repository_helper import extract_class_from_method, \
+    extract_method_without_parameters
 
 
 class history_change_metrics_repository(base_metrics_repository):
@@ -31,7 +32,7 @@ class history_change_metrics_repository(base_metrics_repository):
             metrics_df = self.handle_default_method_change_file(file_df)
 
         metrics_df.columns = ["commit", "instance"]
-
+        #metrics_df["instance"] = list([extract_method_without_parameters(method) for method in metrics_df["instance"].values])
         metrics_df["instance"] = list([extract_class_from_method(method) for method in metrics_df["instance"].values])
         metrics_df = metrics_df.drop_duplicates()
 
@@ -93,6 +94,7 @@ class history_change_metrics_repository(base_metrics_repository):
         one_ante_rule.loc[:, "consequent_not_in_association"] = consequent_not_in_association
 
         one_ante_rule = one_ante_rule.drop("consequents", axis=1)
+        #one_ante_rule.loc[:, "antecedants"] = list([extract_class_from_method(method) for method in one_ante_rule["antecedants"].values])
         max_ante_rule = one_ante_rule.groupby("antecedants").max().reset_index()
 
         df = df.merge(max_ante_rule, left_on="instance", right_on="antecedants")

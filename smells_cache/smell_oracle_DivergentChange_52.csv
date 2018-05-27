@@ -1,0 +1,4 @@
+,instance,smell_type
+0,com.android.server.PackageManagerService,DivergentChange
+1,com.android.server.WindowManagerService,DivergentChange
+2,android.support.v4.view.ViewPager,DivergentChange

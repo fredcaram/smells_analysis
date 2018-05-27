@@ -1,0 +1,7 @@
+,instance,smell_type
+0,org.gjt.sp.jedit.browser.VFSFileChooserDialog,ParallelInheritance
+1,bsh.BSHWhileStatement,ParallelInheritance
+2,org.gjt.sp.jedit.syntax.XModeHandler,ParallelInheritance
+3,org.gjt.sp.jedit.gui.CloseDialog,ParallelInheritance
+4,bsh.BSHSwitchLabel,ParallelInheritance
+5,org.gjt.sp.jedit.ModeCatalogHandler,ParallelInheritance

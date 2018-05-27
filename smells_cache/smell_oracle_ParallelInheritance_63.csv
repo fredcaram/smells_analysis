@@ -1,0 +1,7 @@
+,instance,smell_type
+0,org.apache.cassandra.cql3.AbstractMarker,ParallelInheritance
+1,org.apache.cassandra.repair.messages.SyncRequest,ParallelInheritance
+2,org.apache.hadoop.conf.Reducer,ParallelInheritance
+3,org.apache.cassandra.cql3.functions.FunctionCall,ParallelInheritance
+4,org.apache.cassandra.repair.messages.SyncComplete,ParallelInheritance
+5,org.apache.hadoop.conf.Configured,ParallelInheritance

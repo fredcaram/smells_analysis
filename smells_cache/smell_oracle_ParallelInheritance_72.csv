@@ -1,0 +1,3 @@
+,instance,smell_type
+0,org.apache.commons.io.filefilter.OrFileFilter,ParallelInheritance
+1,org.apache.commons.io.filefilter.AndFileFilter,ParallelInheritance

@@ -1,0 +1,11 @@
+,instance,smell_type
+0,org.gjt.sp.jedit.jEdit,ShotgunSurgery
+1,org.gjt.sp.jedit.PluginJAR,ShotgunSurgery
+2,org.gjt.sp.jedit.syntax.TokenMarker,ShotgunSurgery
+3,org.gjt.sp.jedit.textarea.ChunkCache,ShotgunSurgery
+4,org.gjt.sp.jedit.gui.KeyEventTranslator,ShotgunSurgery
+5,org.gjt.sp.jedit.textarea.JEditTextArea,ShotgunSurgery
+6,org.gjt.sp.jedit.textarea.BufferChangeHandler,ShotgunSurgery
+7,org.gjt.sp.jedit.textarea.TextAreaPainter,ShotgunSurgery
+8,org.gjt.sp.jedit.textarea.FirstLine,ShotgunSurgery
+9,org.gjt.sp.jedit.textarea.BufferChangeHandler,ShotgunSurgery
