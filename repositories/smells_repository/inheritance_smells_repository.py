@@ -35,14 +35,14 @@ class inheritance_smells_repository(base_smells_repository):
         return self.get_class_part(instance, pos)
 
     def clean_class(self, method):
-        clean_class = method.replace(";", " ").replace(" ", "").replace(".java", "")
-        clean_class = re.sub(r'\(.*\).*', "", clean_class)
-        clean_class = extract_class_from_method(clean_class)
+        clean_class = method.replace(";", "").strip().replace(".java", "")
+        #clean_class = re.sub(r'\(.*\).*', "", clean_class)
+        #clean_class = extract_class_from_method(clean_class)
         return clean_class
 
 
     def get_class_part(self, instance, pos):
-        regex_match = re.match("^(.+[;])(.+)$", instance)
+        regex_match = re.match("^(.+)[;](.+)$", instance)
         if regex_match is None:
             class_ = instance
         else:

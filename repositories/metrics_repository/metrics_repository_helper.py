@@ -53,7 +53,7 @@ def extract_class(full_name, verbose=False):
     return full_name
 
 def extract_method_name(full_name, verbose=False):
-    m = re.match(r'^((?:\w*[.:]\w*)+)([(].*[)])?$', full_name)
+    m = re.match(r'^((?:\w*[.:]\w*)+)([(].*[)])?', full_name)
 
     if not m is None and not m.group(1) is None:
         method = m.group(1)

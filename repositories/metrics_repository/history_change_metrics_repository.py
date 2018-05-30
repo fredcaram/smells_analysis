@@ -14,10 +14,10 @@ class history_change_metrics_repository(base_metrics_repository):
         self.metrics_dir = "change_history"
         self.handled_smell_types = ['ShotgunSurgery', "DivergentChange"]
         self.file_name = "methodChanges"
-        self.save_association_rules = False
+        self.save_association_rules = True
         self.support_by_project = {"apache_james": 0.01,
-                                   "apache_tomcat": 0.003,
-                                   "cassandra": 0.004,
+                                   "apache_tomcat": 0.008,
+                                   "cassandra": 0.008,
                                    "default": 0.008}
 
 
@@ -32,8 +32,8 @@ class history_change_metrics_repository(base_metrics_repository):
             metrics_df = self.handle_default_method_change_file(file_df)
 
         metrics_df.columns = ["commit", "instance"]
-        #metrics_df["instance"] = list([extract_method_without_parameters(method) for method in metrics_df["instance"].values])
-        metrics_df["instance"] = list([extract_class_from_method(method) for method in metrics_df["instance"].values])
+        metrics_df["instance"] = list([extract_method_without_parameters(method) for method in metrics_df["instance"].values])
+        #metrics_df["instance"] = list([extract_class_from_method(method) for method in metrics_df["instance"].values])
         metrics_df = metrics_df.drop_duplicates()
 
         a_rules_df = self.get_association_rules(metrics_df, prefix)
@@ -94,9 +94,10 @@ class history_change_metrics_repository(base_metrics_repository):
         one_ante_rule.loc[:, "consequent_not_in_association"] = consequent_not_in_association
 
         one_ante_rule = one_ante_rule.drop("consequents", axis=1)
-        #one_ante_rule.loc[:, "antecedants"] = list([extract_class_from_method(method) for method in one_ante_rule["antecedants"].values])
+        one_ante_rule.loc[:, "antecedants"] = list([extract_class_from_method(method) for method in one_ante_rule["antecedants"].values])
         max_ante_rule = one_ante_rule.groupby("antecedants").max().reset_index()
 
+        df["instance"] = list([extract_class_from_method(method) for method in df["instance"].values])
         df = df.merge(max_ante_rule, left_on="instance", right_on="antecedants")
 
         return df

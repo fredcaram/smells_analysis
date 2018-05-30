@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from mlxtend.frequent_patterns import apriori, association_rules
-from mlxtend.preprocessing import OnehotTransactions
+from mlxtend.preprocessing import TransactionEncoder
 
 from repositories.metrics_repository.base_metrics_repository import base_metrics_repository
 from repositories.metrics_repository.metrics_repository_helper import extract_class_from_path
@@ -15,12 +15,14 @@ class parallel_inheritance_metrics_repository(base_metrics_repository):
         self.handled_smell_types = ["ParallelInheritance"]
         self.file_name = "parallelInheritance"
         self.save_association_rules = False
-        self.support_by_project = {"apache_io": 0.03,
-                                   "apache_logging": 0.03,
-                                   "cassandra": 0.01,
-                                    "jedit": 0.01,
+        self.support_by_project = {"apache_io": 0.01,
+                                   "apache_logging": 0.01,
+                                   "apache_tomcat": 0.003,
+                                   "cassandra": 0.013,
+                                    "jedit": 0.012,
+                                   "eclipse_core": 0.005,
                                     "ant": 0.001,
-                                   "default": 0.01}
+                                   "default": 0.008}
 
 
     def get_metrics_dataframe(self, prefix, dataset_id=None):
@@ -32,36 +34,40 @@ class parallel_inheritance_metrics_repository(base_metrics_repository):
 
         metrics_df = file_df.drop(["Entity", "Change"], axis=1, errors="ignore")
 
-        metrics_df.columns = ["commit", "class", "instance"]
+        metrics_df.columns = ["commit", "instance", "superclass"]
         #metrics_df["instance"] = list([extract_class_from_path(class_) for class_ in metrics_df["instance"].values])
+
+        metrics_df.loc[:,"commit_superclass"] = \
+            np.char.add(list(metrics_df["commit"].astype(str).values),
+                        list(metrics_df["superclass"].values))
+
+        metrics_df = metrics_df.drop(["commit", "superclass"], axis=1, errors="ignore")
 
         metrics_df = metrics_df.drop_duplicates()
 
         a_rules_df = self.get_association_rules(metrics_df, prefix)
         if self.save_association_rules:
             a_rules_df.to_csv("logs/assoc_{0}.csv".format(prefix))
-        a_rules_df = a_rules_df.drop(["antecedants", "commit", "class"], axis=1, errors="ignore")
+        a_rules_df = a_rules_df.drop(["antecedants", "commit_superclass"], axis=1, errors="ignore")
 
         return a_rules_df
 
-    def remove_one_change_only_commit(self, df):
-        combined_df = df.groupby("commit")
-        cleaned_df = combined_df.filter(lambda c: c["instance"].count() > 1)
-        return cleaned_df
+    def remove_one_change_only_commit(self, data):
+        return [d for d in data if len(d) > 0]
 
 
     def get_association_rules(self, df, prefix):
 
-        oht = OnehotTransactions()
-        #treated_df = self.remove_one_change_only_commit(df)
+        oht = TransactionEncoder()
 
         data = []
         superclasses = []
 
-        for k, v in df.groupby("commit"):
-            data.append(list(v["instance"].values) + list(v["class"].values))
-            #superclasses.append(list(v["instance"].values))
+        for k, v in df.groupby("commit_superclass"):
+            data.append(list(v["instance"].values.astype(str)))
+            #superclasses.append(list(v["superclass"].values))
 
+        #data = self.remove_one_change_only_commit(data)
         #superclasses = np.ravel(superclasses)
         #superclasses = np.unique(superclasses)
 
@@ -72,6 +78,9 @@ class parallel_inheritance_metrics_repository(base_metrics_repository):
         print("Generating Apriori for {0} with support {1}".format(prefix, support))
         frequent_itemsets = apriori(oht_df, min_support=support, use_colnames=True)
         #frequent_itemsets = apriori(oht_df, min_support=0.002, use_colnames=True)
+        #if len(frequent_itemsets) == 0:
+            #return df
+
         rules = association_rules(frequent_itemsets, metric="lift", min_threshold=1)
 
         if len(rules) == 0:
