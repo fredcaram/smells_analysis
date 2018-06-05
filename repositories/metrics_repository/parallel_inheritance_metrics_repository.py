@@ -14,10 +14,11 @@ class parallel_inheritance_metrics_repository(base_metrics_repository):
         self.metrics_dir = "change_history"
         self.handled_smell_types = ["ParallelInheritance"]
         self.file_name = "parallelInheritance"
-        self.save_association_rules = False
+        self.save_association_rules = True
         self.support_by_project = {"apache_io": 0.01,
                                    "apache_logging": 0.01,
                                    "apache_tomcat": 0.003,
+                                   "apache_lang": 0.02,
                                    "cassandra": 0.013,
                                     "jedit": 0.012,
                                    "eclipse_core": 0.005,
@@ -47,7 +48,7 @@ class parallel_inheritance_metrics_repository(base_metrics_repository):
 
         a_rules_df = self.get_association_rules(metrics_df, prefix)
         if self.save_association_rules:
-            a_rules_df.to_csv("logs/assoc_{0}.csv".format(prefix))
+            a_rules_df.to_csv("logs/parallel_{0}.csv".format(prefix))
         a_rules_df = a_rules_df.drop(["antecedants", "commit_superclass"], axis=1, errors="ignore")
 
         return a_rules_df

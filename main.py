@@ -1,5 +1,6 @@
 import time
 
+
 #jvm.start(system_cp=True, packages=True)
 
 
@@ -7,6 +8,7 @@ import numpy as np
 
 from original_experiment_run import original_experiment_replication
 from experiment_data import ExperimentData
+from models.method_based_model import long_method_model
 
 def current_experiment():
     #pass
@@ -24,8 +26,8 @@ def current_experiment():
     # print("pu_scores")
     # print(pu_scores)
     # model.run_random_search_cv()
-    # model = feature_envy_model()
-    # model.run_train_test_validation()
+    model = long_method_model()
+    model.run_train_test_validation()
     # model.run_balanced_classifier_cv()
     # model.run_cv_validation()
     # model.run_random_search_cv()

@@ -1,0 +1,5 @@
+,instance,commit_superclass,antecedants,antecedent support,consequent support,support,confidence,lift,leverage,conviction
+0,org.apache.catalina.tribes.tipis.LazyReplicatedMap,bba16653d1be84544236f59e620c31fa99953906AbstractReplicatedMap,org.apache.catalina.tribes.tipis.LazyReplicatedMap,0.005934718100890208,0.005934718100890208,0.005934718100890208,1.0,168.5,0.005899497221953174,inf
+1,org.apache.catalina.tribes.tipis.LazyReplicatedMap,4377d3349398a47a7ebd359db4f43f025f1cd2b4AbstractReplicatedMap,org.apache.catalina.tribes.tipis.LazyReplicatedMap,0.005934718100890208,0.005934718100890208,0.005934718100890208,1.0,168.5,0.005899497221953174,inf
+2,org.apache.catalina.tribes.tipis.ReplicatedMap,bba16653d1be84544236f59e620c31fa99953906AbstractReplicatedMap,org.apache.catalina.tribes.tipis.ReplicatedMap,0.005934718100890208,0.005934718100890208,0.005934718100890208,1.0,168.5,0.005899497221953174,inf
+3,org.apache.catalina.tribes.tipis.ReplicatedMap,4377d3349398a47a7ebd359db4f43f025f1cd2b4AbstractReplicatedMap,org.apache.catalina.tribes.tipis.ReplicatedMap,0.005934718100890208,0.005934718100890208,0.005934718100890208,1.0,168.5,0.005899497221953174,inf

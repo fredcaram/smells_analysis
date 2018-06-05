@@ -1,9 +1,0 @@
-Martin packaging metrics,Qui, 26 out 2017 11:38:26 BRST
-Package,A,Ca,Ce,D,I
-"org.apache.commons.io","0,05",40,18,"0,64","0,29"
-"org.apache.commons.io.comparator","0,10",11,13,"0,36","0,54"
-"org.apache.commons.io.filefilter","0,12",37,33,"0,41","0,47"
-"org.apache.commons.io.input","0,13",28,16,"0,51","0,36"
-"org.apache.commons.io.monitor","0,20",4,6,"0,20","0,60"
-"org.apache.commons.io.output","0,05",26,11,"0,65","0,30"
-

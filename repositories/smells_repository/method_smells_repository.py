@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 
+from repositories.metrics_repository.base_metrics_repository import base_metrics_repository
 from repositories.metrics_repository.method_metrics_repository import method_metrics_repository
 from repositories.smells_repository.base_smells_repository import base_smells_repository
 from repositories.metrics_repository.class_metrics_repository import class_metrics_repository
@@ -12,8 +13,8 @@ class method_smells_repository(base_smells_repository):
         base_smells_repository.__init__(self)
         self.handled_smell_types = ["LongMethod", "FeatureEnvy"]
         self.metrics_repository = method_metrics_repository()
-        self.ck_metrics_repository = class_metrics_repository()
-        self.ck_metrics_repository.metrics_reloaded_class_metrics = ["ck"]
+        self.class_metrics_repository = class_metrics_repository()
+        #self.ck_metrics_repository.metrics_reloaded_class_metrics = ["ck"]
         self.cache_file_name = "methods"
 
     def get_cache_file_name(self):
@@ -36,17 +37,20 @@ class method_smells_repository(base_smells_repository):
         if len(method_metrics_df) == 0:
             return method_metrics_df
 
-        method_metrics_df.loc[:, "instance"] = method_metrics_df["instance"].apply(lambda m: self.clean_method(m))
-        method_metrics_df["class_instance"] = method_metrics_df.loc[:, "instance"].apply(lambda m: extract_class_from_method(m))
+        method_metrics_df.loc[:, "method"] = method_metrics_df["instance"].apply(lambda m: self.clean_method(m))
+        method_metrics_df["type"] = method_metrics_df.loc[:, "instance"].apply(lambda m: extract_class_from_method(m))
 
         #Long method has class instead of method
-        if dataset_id == 2:
-            method_metrics_df["instance"] = method_metrics_df["class_instance"]
+        #if dataset_id == 2:
+            #method_metrics_df["instance"] = method_metrics_df["class_instance"]
 
-        ckmetrics_df = self.ck_metrics_repository.get_metrics_dataframe(prefix, dataset_id)
-        combined_df = method_metrics_df.merge(ckmetrics_df, how="left", left_on="class_instance", right_on="instance", suffixes=("", "_y"))
-        combined_df = combined_df.drop(["class_instance", "instance_y"], axis=1)
-        return combined_df
+        class_metrics_df = self.class_metrics_repository.get_metrics_dataframe(prefix, dataset_id)
+        class_metrics_df[":", "type"] = class_metrics_df["instance"]
+        combined_df = method_metrics_df.merge(class_metrics_df, how="left", left_on="type", right_on="type", suffixes=("_method", "_type"))
+        #combined_df = combined_df.drop(["class_instance", "instance_y"], axis=1)
+        new_df = base_metrics_repository.get_transformed_dataset(combined_df)
+        #new_df.loc[:, "instance"] = combined_df["instance"]
+        return new_df
 
 
     def get_instance(self, instance, smell):

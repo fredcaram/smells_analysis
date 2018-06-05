@@ -1,6 +1,0 @@
-Interface,Cyclic,Dcy,Dcy*,Dpt,Dpt*
-"org.apache.commons.io.filefilter.ConditionalFileFilter",0,1,1,5,70
-"org.apache.commons.io.filefilter.IOFileFilter",0,0,0,29,92
-"org.apache.commons.io.input.TailerListener",1,1,30,4,4
-"org.apache.commons.io.monitor.FilesystemListener",2,1,8,3,7
-

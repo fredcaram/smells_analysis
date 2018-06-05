@@ -1,0 +1,13 @@
+Package,C(rec),LOC(rec),METH(rec)
+"",94,43.562,480
+"completion",13,15.337,60
+"csidekick",24,3.877,174
+"csidekick.node",15,1.609,136
+"csidekick.parser",5,2.162,24
+"csidekick.parser.c",n/a,498,n/a
+"csidekick.parser.cpp",3,1.630,20
+"dtds",n/a,17.795,n/a
+"dtds.ent",n/a,1.543,n/a
+"options",4,207,9
+"parser",10,1.860,71
+

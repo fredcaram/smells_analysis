@@ -9,7 +9,7 @@ class method_metrics_repository(base_metrics_repository):
     def __init__(self):
         base_metrics_repository.__init__(self)
         self.metrics_dir = "metrics_files"
-        self.metrics_reloaded_class_metrics = ["method_complexity"]
+        self.metrics_reloaded_class_metrics = ["method"]
 
     def get_metrics_dataframe(self, prefix, dataset_id):
         metrics_df = pd.DataFrame()

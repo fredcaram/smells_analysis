@@ -1,0 +1,5 @@
+,instance,commit_superclass,antecedants,antecedent support,consequent support,support,confidence,lift,leverage,conviction
+0,org.apache.commons.io.filefilter.OrFileFilter,af8c5ede85a9544966f41fd730a0171a028bcda8.AbstractFileFilter,org.apache.commons.io.filefilter.OrFileFilter,0.015151515151515152,0.015151515151515152,0.015151515151515152,1.0,66.0,0.01492194674012856,inf
+1,org.apache.commons.io.filefilter.OrFileFilter,98f773d2defd22668a5f1178d102cd79496757ca.AbstractFileFilter,org.apache.commons.io.filefilter.OrFileFilter,0.015151515151515152,0.015151515151515152,0.015151515151515152,1.0,66.0,0.01492194674012856,inf
+2,org.apache.commons.io.filefilter.AndFileFilter,af8c5ede85a9544966f41fd730a0171a028bcda8.AbstractFileFilter,org.apache.commons.io.filefilter.AndFileFilter,0.015151515151515152,0.015151515151515152,0.015151515151515152,1.0,66.0,0.01492194674012856,inf
+3,org.apache.commons.io.filefilter.AndFileFilter,98f773d2defd22668a5f1178d102cd79496757ca.AbstractFileFilter,org.apache.commons.io.filefilter.AndFileFilter,0.015151515151515152,0.015151515151515152,0.015151515151515152,1.0,66.0,0.01492194674012856,inf

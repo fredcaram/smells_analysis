@@ -52,8 +52,10 @@ class model_base:
     def __init__(self, metaclass=abc.ABCMeta):
         self.smells_columns = ['Blob', 'FeatureEnvy', 'LongMethod', 'ShotgunSurgery',
                                "DivergentChange", "ParallelInheritance"]
-        self.projects_ids = [49, 52, 54, 55, 56, 57, 60, 61, 63, 64, 70, 71, 72, 73, 77, 78, 79, 80, 81, 86, 108, 109,
-                             110, 111, 112, 127, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126]
+        # self.projects_ids = [49, 52, 54, 55, 56, 57, 60, 61, 63, 64, 70, 71, 72, 73, 77, 78, 79, 80, 81, 86, 108, 109,
+        #                      110, 111, 112, 127, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126]
+        self.projects_ids = [108, 109, 110, 111, 112, 127, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124,
+                             125, 126]
         self.dataset_ids = [1, 2]
         self.remove_from_train = ["instance", "smell", "project_id"]
         self.smell_weight = 0.1
