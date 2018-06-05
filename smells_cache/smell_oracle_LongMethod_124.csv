@@ -1,0 +1,12 @@
+,instance,smell_type
+0,org.gjt.sp.jedit.jEdit,LongMethod
+1,org.gjt.sp.jedit.bsh.org.objectweb.asm.CodeWriter,LongMethod
+2,org.gjt.sp.jedit.PluginJAR,LongMethod
+3,org.gjt.sp.jedit.syntax.TokenMarker,LongMethod
+4,org.gjt.sp.jedit.textarea.DisplayManager,LongMethod
+5,org.gjt.sp.jedit.gui.KeyEventWorkaround,LongMethod
+6,org.gjt.sp.jedit.pluginmgr.InstallPanel,LongMethod
+7,org.gjt.sp.jedit.browser.VFSDirectoryEntryTable,LongMethod
+8,org.gjt.sp.jedit.bsh.Parser,LongMethod
+9,org.gjt.sp.jedit.bsh.Parser,LongMethod
+10,org.gjt.sp.jedit.PluginJAR,LongMethod

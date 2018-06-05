@@ -1,0 +1,12 @@
+,instance,smell_type
+0,net.sourceforge.atunes.kernel.modules.cdripper.encoders.FlacEncoder,LongMethod
+1,net.sourceforge.atunes.kernel.modules.cdripper.cdda2wav.Cdda2wav,LongMethod
+2,net.sourceforge.atunes.kernel.modules.cdripper.encoders.LameEncoder,LongMethod
+3,net.sourceforge.atunes.kernel.modules.player.mplayer.MPlayerEngine,LongMethod
+4,net.sourceforge.atunes.kernel.modules.cdripper.encoders.OggEncoder,LongMethod
+5,net.sourceforge.atunes.kernel.modules.cdripper.encoders.Mp4Encoder,LongMethod
+6,net.sourceforge.atunes.kernel.modules.cdripper.cdda2wav.Cdda2wav,LongMethod
+7,net.sourceforge.atunes.kernel.modules.repository.tags.tag.ImageInfo,LongMethod
+8,net.sourceforge.atunes.gui.views.dialogs.fullScreen.FullScreenWindow,LongMethod
+9,net.sourceforge.atunes.kernel.controllers.editTagDialog.EditTagDialogController,LongMethod
+10,net.sourceforge.atunes.kernel.modules.cdripper.cdda2wav.Cdparanoia,LongMethod

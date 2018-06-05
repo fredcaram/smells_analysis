@@ -1,0 +1,11 @@
+,instance,smell_type
+0,org.apache.cassandra.config.DatabaseDescriptor,LongMethod
+1,org.apache.cassandra.stress.Session,LongMethod
+2,org.apache.cassandra.tools.NodeCmd,LongMethod
+3,org.apache.cassandra.thrift.CfDef,LongMethod
+4,org.apache.cassandra.cql.QueryProcessor,LongMethod
+5,org.apache.cassandra.thrift.CfDef,LongMethod
+6,org.apache.cassandra.thrift.CfDef,LongMethod
+7,org.apache.cassandra.cli.CliClient,LongMethod
+8,org.apache.cassandra.service.MoveTest,LongMethod
+9,org.apache.cassandra.service.LeaveAndBootstrapTest,LongMethod

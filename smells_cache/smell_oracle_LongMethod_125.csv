@@ -1,0 +1,14 @@
+,instance,smell_type
+0,org.jhotdraw.color.HSLPhysiologicColorSpace,LongMethod
+1,org.jhotdraw.samples.svg.io.SVGInputFormat,LongMethod
+2,org.jhotdraw.samples.draw.DrawLiveConnectApplet,LongMethod
+3,org.jhotdraw.geom.BezierPath,LongMethod
+4,org.jhotdraw.io.StreamPosTokenizer,LongMethod
+5,org.jhotdraw.io.Base64,LongMethod
+6,org.jhotdraw.samples.svg.SVGCreateFromFileTool,LongMethod
+7,org.jhotdraw.samples.svg.figures.SVGTextAreaFigure,LongMethod
+8,net.n3.nanoxml.StdXMLParser,LongMethod
+9,org.jhotdraw.draw.TextAreaFigure,LongMethod
+10,org.jhotdraw.samples.svg.SVGApplet,LongMethod
+11,org.jhotdraw.samples.svg.io.SVGInputFormat,LongMethod
+12,org.jhotdraw.samples.svg.figures.SVGPathFigure,LongMethod

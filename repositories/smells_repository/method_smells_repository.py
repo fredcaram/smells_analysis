@@ -38,17 +38,22 @@ class method_smells_repository(base_smells_repository):
             return method_metrics_df
 
         method_metrics_df.loc[:, "method"] = method_metrics_df["instance"].apply(lambda m: self.clean_method(m))
-        method_metrics_df["type"] = method_metrics_df.loc[:, "instance"].apply(lambda m: extract_class_from_method(m))
+        method_metrics_df.columns = [c + "_method" for c in method_metrics_df.columns]
+        method_metrics_df.loc[:, "type"] = method_metrics_df.loc[:, "instance_method"].apply(lambda m: extract_class_from_method(m))
 
         #Long method has class instead of method
         #if dataset_id == 2:
             #method_metrics_df["instance"] = method_metrics_df["class_instance"]
 
         class_metrics_df = self.class_metrics_repository.get_metrics_dataframe(prefix, dataset_id)
-        class_metrics_df[":", "type"] = class_metrics_df["instance"]
+        class_metrics_df.columns = [c + "_type" for c in class_metrics_df.columns]
+        class_metrics_df.loc[:, "type"] = class_metrics_df["instance_type"]
+
         combined_df = method_metrics_df.merge(class_metrics_df, how="left", left_on="type", right_on="type", suffixes=("_method", "_type"))
-        #combined_df = combined_df.drop(["class_instance", "instance_y"], axis=1)
+
         new_df = base_metrics_repository.get_transformed_dataset(combined_df)
+        new_df.loc[:, "instance"] = new_df["method"]
+        new_df = new_df.drop(["method", "type"], axis=1)
         #new_df.loc[:, "instance"] = combined_df["instance"]
         return new_df
 

@@ -1,0 +1,5 @@
+,instance,smell_type
+0,org.apache.log4j.spi.LocationInfo,LongMethod
+1,com.psibt.framework.net.Log4jRequestHandler,LongMethod
+2,org.apache.log4j.helpers.ISO8601DateFormat,LongMethod
+3,org.apache.log4j.pattern.NameAbbreviator,LongMethod

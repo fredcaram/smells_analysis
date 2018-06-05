@@ -205,8 +205,8 @@ class model_base:
             print("Results for smell:{0}".format(smell))
             #self.get_score(trained_classifier, X_test, y_test)
             y_pred = self.get_prediction(trained_classifier, X_test)
-            self.print_score(y_pred, y_test)
-            self.get_pu_score(y_pred, y_test, True)
+            self.print_score(y_pred, y_test, True)
+            #self.get_pu_score(y_pred, y_test, True)
 
     def run_cv_validation(self):
         prf = []

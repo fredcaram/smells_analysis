@@ -27,7 +27,7 @@ def current_experiment():
     # print(pu_scores)
     # model.run_random_search_cv()
     model = long_method_model()
-    model.run_train_test_validation()
+    model.run_cv_validation()
     # model.run_balanced_classifier_cv()
     # model.run_cv_validation()
     # model.run_random_search_cv()
@@ -42,10 +42,9 @@ if __name__ == '__main__':
 
     current_experiment()
 
-    #original_experiment_replication()
+    original_experiment_replication()
 
 
     end = time.time()
     print("Spent time")
     print(end - start)
-

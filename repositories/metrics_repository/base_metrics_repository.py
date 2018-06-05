@@ -18,7 +18,7 @@ metric_names_list = [
     ("TCC_type", "TCC_type"),
     ("LCOM_type", "LCOM5_type"),
     ("", "ATFD_type"),
-    ("Dcy*_type", "FDP_type"),
+    ("Dpt_type", "FDP_type"),
     ("RFC_type", "RFC_type"),
     ("CBO_type", "CBO_type"),
     ("QUERY_type", "CFNAMM_type"),
@@ -70,7 +70,10 @@ class base_metrics_repository:
         new_df = pd.DataFrame()
         for old_metric, new_metric in metric_names_list:
             #cleaned_old_metric = old_metric.replace("_method", "").replace.replace("_type", "")
-            new_df.loc[:, new_metric] = old_df[:, old_metric]
+            if old_metric in old_df.columns:
+                new_df.loc[:, new_metric] = old_df.loc[:, old_metric]
+            else:
+                new_df.loc[:, new_metric] = pd.Series()
 
         return new_df
 

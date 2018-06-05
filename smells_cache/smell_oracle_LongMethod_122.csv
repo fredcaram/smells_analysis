@@ -1,0 +1,11 @@
+,instance,smell_type
+0,freemind.view.mindmapview.EditNodeTextField,LongMethod
+1,plugins.script.ScriptEditorPanel,LongMethod
+2,freemind.preferences.layout.KeyEventWorkaround,LongMethod
+3,freemind.main.XMLElement,LongMethod
+4,accessories.plugins.time.TimeManagement,LongMethod
+5,accessories.plugins.dialogs.ManagePatternsPopupDialog,LongMethod
+6,freemind.modes.XMLElementAdapter,LongMethod
+7,freemind.main.FreeMind,LongMethod
+8,freemind.main.Tools,LongMethod
+9,accessories.plugins.ChangeNodeLevelAction,LongMethod
