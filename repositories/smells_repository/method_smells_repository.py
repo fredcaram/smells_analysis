@@ -25,10 +25,10 @@ class method_smells_repository(base_smells_repository):
         return self.handled_smell_types
 
     def clean_method(self, method):
-        method = method.replace(";", " ").replace(" ", "").replace(".java", "")
+        method = method.strip().replace(" ", "").replace(";", " ").replace(".java", "")
         #method = re.sub(r'.*[.]java', "", method)
         method = re.sub(r'\(.*\).*', "", method)
-        method = extract_path_until_method(method)
+        #method = extract_path_until_method(method)
         return method
 
 
@@ -66,9 +66,10 @@ class method_smells_repository(base_smells_repository):
 
 
     def get_method_part(self, instance):
-        regex_match = re.match("(.+[;]).+", instance)
+        method = self.clean_method(instance)
+        regex_match = re.match("(.+[;]).+", method)
         if regex_match is None:
-            method = instance
+            method = method
         else:
             method = regex_match.group(1)
 
@@ -80,7 +81,7 @@ class method_smells_repository(base_smells_repository):
         # Removetudo que houver após o ultimo ponto antes do parentesis
         #method = re.sub("\.[^.]*\(.*", "", method)
 
-        method = self.clean_method(method)
+
         return method
 
 

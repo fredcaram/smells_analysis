@@ -9,6 +9,7 @@ import numpy as np
 from original_experiment_run import original_experiment_replication
 from experiment_data import ExperimentData
 from models.class_metrics_model import class_metrics_model
+from models.method_based_model import feature_envy_model
 
 def current_experiment():
     #pass
@@ -26,7 +27,7 @@ def current_experiment():
     # print("pu_scores")
     # print(pu_scores)
     # model.run_random_search_cv()
-    model = class_metrics_model()
+    model = feature_envy_model()
     model.run_cv_validation()
     # model.run_balanced_classifier_cv()
     # model.run_cv_validation()
