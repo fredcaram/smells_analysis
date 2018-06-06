@@ -13,12 +13,12 @@ from models.hard_threshold_model import DivergentChangeWithHardThresholdModel, \
 class ExperimentData:
     def __init__(self):
         self.models = {
-            "Blob": class_metrics_model(),
-            "LongMethod": long_method_model(),
-            "FeatureEnvy": feature_envy_model(),
-            "ParallelInheritance": parallel_inheritance_model(),
-            "DivergentChange": divergent_change_model(),
-            "ShotgunSurgery": shotgun_surgery_model()
+            # "Blob": class_metrics_model(),
+            # "LongMethod": long_method_model(),
+            # "FeatureEnvy": feature_envy_model(),
+             "ParallelInheritance": parallel_inheritance_model(),
+             "DivergentChange": divergent_change_model(),
+             "ShotgunSurgery": shotgun_surgery_model()
         }
 
     def get_project_stats(self, projects, smell):
@@ -130,7 +130,7 @@ class ExperimentData:
         model.classifier = baseline_model
         model.negative_class = negative_class
         model.pu_adapter_enabled = use_puadapter
-        score, pu_score = model.run_cv_validation()
+        clf, score, pu_score = model.run_cv_validation()
         model_df["precision"] = score[0]
         model_df["recall"] = score[1]
         model_df["fmeasure"] = score[2]

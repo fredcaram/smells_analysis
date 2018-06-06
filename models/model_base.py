@@ -81,7 +81,7 @@ class model_base:
         self.boosting_models = {
             "xgboost": xgb.XGBClassifier(),
             "lightgbm": lgbm.LGBMClassifier(),
-            "catboost": cat.CatBoostClassifier(logging_level="Silent")
+            #"catboost": cat.CatBoostClassifier(logging_level="Silent")
         }
 
         self.emsemble_models = {
@@ -232,14 +232,15 @@ class model_base:
             print(smell_stats)
 
             clf = self.get_pipeline(smell)
-            y_pred = cross_val_predict(clf, X_data, y, cv=StratifiedKFold(n_splits=5, shuffle=True, random_state=42))
+            X_data = X_data.replace([np.inf, -np.inf], 0)
+            y_pred = cross_val_predict(clf, X_data, y, cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42))
             prf = self.print_score(y_pred, y, True)
 
             if not self.use_only_positive_class:
                 for k, v in smell_stats.items():
                     pu_scores[k] = self.get_pu_score(y_pred, y, v, True, k)
 
-        return prf, pu_scores
+        return clf, prf, pu_scores
 
     def optimize_ensemble_with_swarm(self):
         xopt, fopt = pso(self.optimize_ensemble_cross_validation,
@@ -341,8 +342,6 @@ class model_base:
             #self.get_score(cclf, X_test, y_test)
             self.print_score(y_pred, y_test)
             self.get_pu_score(y_pred, y_test, True)
-
-
 
     def print_score(self, y_pred, y_test, print_score):
         if self.use_only_positive_class:

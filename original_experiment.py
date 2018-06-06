@@ -6,6 +6,7 @@ from sklearn.metrics import precision_recall_fscore_support
 import numpy as np
 import os
 from sklearn.externals import joblib
+import re
 
 from rpy2.robjects import r, pandas2ri, numpy2ri
 
@@ -28,6 +29,17 @@ class OriginalExperiment:
         new_data = data[[col for col in data.columns.values
                       if col not in ["id", "project", "package", "complextype", "method", "is_smell"]]]
         new_data = new_data.iloc[:, :-26]
+        return new_data
+
+    @staticmethod
+    def remove_types_after_at(col_name):
+        new_name = re.sub("@.*$", "", col_name)
+        return new_name
+
+    @staticmethod
+    def standardize_columns(data):
+        new_data = data
+        new_data.columns = [OriginalExperiment.remove_types_after_at(col) for col in new_data.columns]
         return new_data
 
     @staticmethod

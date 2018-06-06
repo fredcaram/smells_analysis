@@ -32,6 +32,17 @@ class method_smells_repository(base_smells_repository):
         return method
 
 
+    def merge_metrics_with_annotation(self, metrics_df, smells_df):
+        assert "instance" in smells_df.columns.values
+        #smells_grouped_by_class = smells_df.groupby("instance").max().reset_index()
+        metrics_df_grouped_by_class = metrics_df.groupby("instance").max().reset_index()
+        matches = [metrics_df[metrics_df['instance'].str.contains(x)].index[0] for x in smells_df['instance']]
+
+        #combined_df = metrics_df_grouped_by_class.merge(smells_df, how="left", left_on="instance", right_on="instance")
+        combined_df = metrics_df.assign(subcode=pd.Series(data=smells_df['instance'], index=matches)).merge(smells_df, left_on='subcode', right_on='instance').drop('subcode', axis='columns')
+        return combined_df
+
+
     def get_metrics_dataframe(self, prefix, dataset_id, smell):
         method_metrics_df = self.metrics_repository.get_metrics_dataframe(prefix, dataset_id)
         if len(method_metrics_df) == 0:

@@ -1,3 +1,4 @@
+import os
 import time
 
 
@@ -5,11 +6,15 @@ import time
 
 
 import numpy as np
+from sklearn.model_selection import cross_val_predict, StratifiedKFold
 
+import original_experiment
+from models.model_base import model_base
+from original_experiment import OriginalExperiment
 from original_experiment_run import original_experiment_replication
 from experiment_data import ExperimentData
 from models.class_metrics_model import class_metrics_model
-from models.method_based_model import feature_envy_model
+from models.method_based_model import long_method_model, feature_envy_model
 
 def current_experiment():
     #pass
@@ -29,6 +34,20 @@ def current_experiment():
     # model.run_random_search_cv()
     model = feature_envy_model()
     model.run_cv_validation()
+
+    model = long_method_model()
+    clf, prf, pus = model.run_cv_validation()
+    lm_arff = OriginalExperiment.read_arff(os.path.join(".", "original_experiment_dataset", "long-method.arff"))
+    lm_cols = lm_arff.columns.values
+    lm_arff = lm_arff.rename(columns={lm_cols[0]: "id", lm_cols[1]: "project", lm_cols[2]: "package",
+                                      lm_cols[3]: "complextype", lm_cols[4]: "method", lm_cols[-1]: "is_smell"})
+    lm_arff = lm_arff.fillna(0)
+    x_data = original_experiment.OriginalExperiment.get_x(lm_arff)
+    x_data = original_experiment.OriginalExperiment.standardize_columns(x_data)
+    y_data = lm_arff["is_smell"].values.astype(bool).astype(int)
+
+    y_pred = cross_val_predict(clf, x_data, y_data, cv=StratifiedKFold(n_splits=5, shuffle=True, random_state=42))
+    original_experiment.OriginalExperiment.print_score(y_data, y_pred, True)
     # model.run_balanced_classifier_cv()
     # model.run_cv_validation()
     # model.run_random_search_cv()
