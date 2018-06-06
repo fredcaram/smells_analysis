@@ -1,0 +1,3 @@
+,instance,smell_type
+0,org.apache.nutch.analysis.lang.NGramProfile,Blob
+1,org.apache.nutch.segment.SegmentReader,Blob

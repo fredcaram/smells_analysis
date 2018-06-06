@@ -1,0 +1,4 @@
+,instance,smell_type
+0,org.apache.log4j.helpers.OptionConverter,FeatureEnvy
+1,org.apache.log4j.or.jms.MessageRenderer,FeatureEnvy
+2,org.apache.log4j.helpers.SyslogWriter,FeatureEnvy

@@ -1,5 +1,6 @@
 import pandas as pd
 
+from repositories.metrics_repository.base_metrics_repository import base_metrics_repository
 from repositories.metrics_repository.class_metrics_repository import  class_metrics_repository
 from repositories.smells_repository.base_smells_repository import base_smells_repository
 
@@ -20,7 +21,13 @@ class blob_repository(base_smells_repository):
 
 
     def get_metrics_dataframe(self, prefix, dataset_id, smell):
-        return self.metrics_repository.get_metrics_dataframe(prefix, dataset_id)
+        metrics_df = self.metrics_repository.get_metrics_dataframe(prefix, dataset_id)
+        metrics_df.columns = [c + "_type" for c in metrics_df.columns]
+        metrics_df.loc[:, "type_type"] = metrics_df["instance_type"]
+        metrics_df = base_metrics_repository.get_transformed_dataset(metrics_df)
+        metrics_df.loc[:, "instance"] = metrics_df["type"]
+        metrics_df = metrics_df.drop(["type"], axis=1)
+        return metrics_df
 
 
     def convert_smells_list_to_df(self, smells):

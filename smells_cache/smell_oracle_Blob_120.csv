@@ -1,0 +1,10 @@
+,instance,smell_type
+0,net.sourceforge.atunes.kernel.modules.state.ApplicationState,Blob
+1,net.sourceforge.atunes.kernel.modules.repository.tags.tag.ImageInfo,Blob
+2,net.sourceforge.atunes.gui.views.dialogs.RipCdDialog,Blob
+3,net.sourceforge.atunes.kernel.modules.repository.data.AudioFile,Blob
+4,net.sourceforge.atunes.kernel.modules.gui.GuiHandler,Blob
+5,net.sourceforge.atunes.kernel.modules.webservices.lastfm.LastFmService,Blob
+6,net.sourceforge.atunes.gui.views.dialogs.MultiFolderSelectionDialog,Blob
+7,net.sourceforge.atunes.kernel.modules.repository.RepositoryHandler,Blob
+8,net.sourceforge.atunes.kernel.modules.gui.GuiHandler,Blob

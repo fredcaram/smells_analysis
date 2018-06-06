@@ -1,0 +1,9 @@
+,instance,smell_type
+0,org.jhotdraw.io.StreamPosTokenizer,FeatureEnvy
+1,org.jhotdraw.samples.svg.io.SVGInputFormat,FeatureEnvy
+2,org.jhotdraw.samples.color.JMixer,FeatureEnvy
+3,org.jhotdraw.samples.odg.io.ODGInputFormat,FeatureEnvy
+4,org.jhotdraw.samples.svg.gui.CanvasToolBar,FeatureEnvy
+5,org.jhotdraw.samples.svg.gui.StrokeToolBar,FeatureEnvy
+6,org.jhotdraw.samples.odg.io.ODGInputFormat,FeatureEnvy
+7,org.jhotdraw.samples.svg.gui.FontToolBar,FeatureEnvy

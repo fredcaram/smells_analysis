@@ -1,0 +1,8 @@
+,instance,smell_type
+0,org.apache.tools.bzip2r.CBZip2OutputStream,Blob
+1,org.apache.pig.PigServer,Blob
+2,org.apache.pig.tools.pigstats.ScriptState,Blob
+3,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLocalRearrange,Blob
+4,org.apache.pig.impl.plan.OperatorPlan,Blob
+5,org.apache.hadoop.zebra.types.Partition,Blob
+6,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer,Blob

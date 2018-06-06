@@ -1,0 +1,14 @@
+,instance,smell_type
+0,org.jhotdraw.draw.DefaultDrawingView,Blob
+1,org.jhotdraw.gui.plaf.palette.PaletteToolBarUI,Blob
+2,org.jhotdraw.io.StreamPosTokenizer,Blob
+3,org.jhotdraw.samples.odg.io.ODGInputFormat,Blob
+4,org.jhotdraw.app.MDIApplication,Blob
+5,org.jhotdraw.app.OSXApplication,Blob
+6,org.jhotdraw.draw.BezierFigure,Blob
+7,org.jhotdraw.samples.svg.io.SVGOutputFormat,Blob
+8,org.jhotdraw.draw.DefaultDrawingViewTransferHandler,Blob
+9,org.jhotdraw.geom.BezierPath,Blob
+10,org.jhotdraw.samples.svg.io.SVGInputFormat,Blob
+11,org.jhotdraw.gui.JSheet,Blob
+12,org.jhotdraw.io.Base64,Blob

@@ -1,0 +1,8 @@
+,instance,smell_type
+0,org.apache.pig.tools.pigstats.PigStats,FeatureEnvy
+1,.,FeatureEnvy
+2,.,FeatureEnvy
+3,.,FeatureEnvy
+4,.,FeatureEnvy
+5,.,FeatureEnvy
+6,org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil,FeatureEnvy

@@ -1,0 +1,11 @@
+,instance,smell_type
+0,freemind.main.Tools,Blob
+1,freemind.modes.NodeAdapter,Blob
+2,freemind.main.FreeMind,Blob
+3,freemind.controller.Controller,Blob
+4,freemind.modes.ControllerAdapter,Blob
+5,freemind.view.mindmapview.MapView,Blob
+6,freemind.view.mindmapview.NodeView,Blob
+7,accessories.plugins.time.JDayChooser,Blob
+8,freemind.preferences.layout.OptionPanel,Blob
+9,freemind.main.XMLElement,Blob

@@ -1,0 +1,14 @@
+,instance,smell_type
+0,org.apache.struts2.jasper.JspC,Blob
+1,org.apache.struts2.jasper.EmbeddedServletOptions,Blob
+2,org.apache.struts2.jasper.JspCompilationContext,Blob
+3,org.apache.struts2.components.UIBean,Blob
+4,org.apache.struts2.dispatcher.Dispatcher,Blob
+5,org.apache.struts2.jasper.compiler.JspUtil,Blob
+6,org.apache.struts2.convention.PackageBasedActionConfigBuilder,Blob
+7,org.apache.struts2.xwork2.config.providers.XmlConfigurationProvider,Blob
+8,org.apache.struts2.jasper.runtime.JspRuntimeLibrary,Blob
+9,org.apache.struts2.jasper.runtime.PageContextImpl,Blob
+10,org.apache.struts2.views.jsp.ui.FormTagTest,Blob
+11,org.apache.struts2.jasper.xmlparser.XMLChar,Blob
+12,org.apache.struts2.el.parser.ELParser,Blob

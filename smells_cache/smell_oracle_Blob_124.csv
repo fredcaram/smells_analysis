@@ -1,0 +1,16 @@
+,instance,smell_type
+0,org.gjt.sp.jedit.textarea.TextAreaPainter,Blob
+1,org.gjt.sp.jedit.buffer.JEditBuffer,Blob
+2,org.gjt.sp.jedit.textarea.Gutter,Blob
+3,org.gjt.sp.jedit.jEdit,Blob
+4,org.gjt.sp.jedit.Buffer,Blob
+5,org.gjt.sp.jedit.browser.VFSBrowser,Blob
+6,org.gjt.sp.jedit.bsh.Interpreter,Blob
+7,org.gjt.sp.jedit.GUIUtilities,Blob
+8,org.gjt.sp.jedit.View,Blob
+9,org.gjt.sp.jedit.bsh.classpath.BshClassPath,Blob
+10,org.gjt.sp.jedit.bsh.NameSpace,Blob
+11,org.gjt.sp.jedit.textarea.TextArea,Blob
+12,org.gjt.sp.jedit.search.SearchAndReplace,Blob
+13,org.gjt.sp.jedit.bsh.org.objectweb.asm.CodeWriter,Blob
+14,org.gjt.sp.jedit.bsh.JThis,Blob

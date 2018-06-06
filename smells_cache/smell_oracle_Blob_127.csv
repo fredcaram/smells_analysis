@@ -1,0 +1,6 @@
+,instance,smell_type
+0,org.apache.log4j.net.SMTPAppender,Blob
+1,org.apache.log4j.xml.DOMConfigurator,Blob
+2,org.apache.log4j.Category,Blob
+3,org.apache.log4j.net.SyslogAppender,Blob
+4,org.apache.log4j.TestLogMF,Blob

@@ -1,0 +1,6 @@
+,instance,smell_type
+0,org.apache.karaf.features.internal.FeaturesServiceImpl,Blob
+1,org.apache.karaf.webconsole.gogo.Terminal,Blob
+2,org.apache.karaf.util.collections.CopyOnWriteArrayIdentityList,Blob
+3,org.apache.karaf.jaas.modules.ldap.LDAPLoginModule,Blob
+4,org.apache.karaf.shell.wrapper.InstallCommand,Blob
