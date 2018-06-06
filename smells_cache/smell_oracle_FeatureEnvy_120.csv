@@ -1,0 +1,9 @@
+,instance,smell_type
+0,net.sourceforge.atunes.kernel.controllers.editTagDialog.EditTagDialogController,FeatureEnvy
+1,net.sourceforge.atunes.kernel.modules.cdripper.cdda2wav.Cdda2wav,FeatureEnvy
+2,net.sourceforge.atunes.gui.views.dialogs.RipCdDialog,FeatureEnvy
+3,net.sourceforge.atunes.gui.views.dialogs.fullScreen.FullScreenWindow,FeatureEnvy
+4,net.sourceforge.atunes.gui.views.panels.PlayListControlsPanel,FeatureEnvy
+5,net.sourceforge.atunes.kernel.modules.repository.RepositoryLoader,FeatureEnvy
+6,net.sourceforge.atunes.kernel.modules.navigator.RadioNavigationView,FeatureEnvy
+7,net.sourceforge.atunes.gui.views.dialogs.editPreferences.PluginsPanel,FeatureEnvy
