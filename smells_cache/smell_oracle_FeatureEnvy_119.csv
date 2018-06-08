@@ -1,0 +1,6 @@
+,instance,smell_type
+0,org.argouml.uml.diagram.sequence.ui.FigClassifierRole,FeatureEnvy
+1,org.argouml.uml.notation.uml.ClassifierRoleNotationUml,FeatureEnvy
+2,org.argouml.uml.notation.uml.OperationNotationUml,FeatureEnvy
+3,org.argouml.uml.reveng.JavaRecognizer,FeatureEnvy
+4,org.argouml.uml.notation.uml.AttributeNotationUml,FeatureEnvy

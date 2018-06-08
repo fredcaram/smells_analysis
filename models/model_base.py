@@ -240,7 +240,7 @@ class model_base:
                 for k, v in smell_stats.items():
                     pu_scores[k] = self.get_pu_score(y_pred, y, v, True, k)
 
-        return clf, prf, pu_scores
+            return clf, prf, pu_scores
 
     def optimize_ensemble_with_swarm(self):
         xopt, fopt = pso(self.optimize_ensemble_cross_validation,

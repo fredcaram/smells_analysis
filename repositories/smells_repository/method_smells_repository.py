@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import re
 
 from repositories.metrics_repository.base_metrics_repository import base_metrics_repository
@@ -36,10 +37,19 @@ class method_smells_repository(base_smells_repository):
         assert "instance" in smells_df.columns.values
         #smells_grouped_by_class = smells_df.groupby("instance").max().reset_index()
         metrics_df_grouped_by_class = metrics_df.groupby("instance").max().reset_index()
-        matches = [metrics_df[metrics_df['instance'].str.contains(x)].index[0] for x in smells_df['instance']]
+        matches = pd.DataFrame(columns=["smells_instance", "metrics_instance"], dtype=str)
+        for x in smells_df["instance"].values:
+            match = metrics_df[metrics_df['instance'].str.contains(x)]
+            for m in match["instance"].values:
+                matches.append({"smells_instance": x, "metrics_instance": m}, ignore_index=True)
+
 
         #combined_df = metrics_df_grouped_by_class.merge(smells_df, how="left", left_on="instance", right_on="instance")
-        combined_df = metrics_df.assign(subcode=pd.Series(data=smells_df['instance'], index=matches)).merge(smells_df, left_on='subcode', right_on='instance').drop('subcode', axis='columns')
+        combined_df = metrics_df.merge(matches, how="left", left_on='instance', right_on='metrics_instance').drop('instance', axis='columns')
+        combined_df = combined_df.merge(smells_df, how="left", left_on='smells_instance', right_on='instance').drop(
+            ['instance', 'smells_instance'], axis='columns')
+        combined_df.loc[:, "instance"] = combined_df["metrics_instance"]
+        combined_df.drop('metrics_instance', axis='columns')
         return combined_df
 
 

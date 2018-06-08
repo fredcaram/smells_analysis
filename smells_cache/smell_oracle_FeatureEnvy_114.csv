@@ -1,0 +1,12 @@
+,instance,smell_type
+0,src.org.apache.nutch.crawl.CrawlDbReducer,FeatureEnvy
+1,src.org.apache.nutch.segment.SegmentMerger,FeatureEnvy
+2,src.org.apache.nutch.segment.SegmentReader,FeatureEnvy
+3,src.org.apache.nutch.parse.ParseOutputFormat,FeatureEnvy
+4,src.org.apache.nutch.tools.arc.ArcSegmentCreator,FeatureEnvy
+5,org.apache.nutch.scoring.webgraph.WebGraph,FeatureEnvy
+6,org.apache.nutch.crawl.Generator,FeatureEnvy
+7,org.apache.nutch.util.URLUtil,FeatureEnvy
+8,org.apache.nutch.analysis.lang.LanguageIdentifier,FeatureEnvy
+9,org.apache.nutch.tools.arc.ArcRecordReader,FeatureEnvy
+10,org.apache.nutch.tools.arc.ArcSegmentCreator,FeatureEnvy
