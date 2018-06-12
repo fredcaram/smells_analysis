@@ -4,7 +4,7 @@ from pathlib import Path
 #file_suffixes= ["dependencies", "complexity"]
 raw_metrics_folder = "raw_metrics_files"
 metrics_folder = "metrics_files"
-datasets_folders = ["dataset_2"]
+datasets_folders = ["dataset_1"]
 
 def get_project_prefix(file_name):
     regex_str = '(\w*)_.*\.csv'

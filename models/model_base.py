@@ -232,7 +232,7 @@ class model_base:
             print(smell_stats)
 
             clf = self.get_pipeline(smell)
-            X_data = X_data.replace([np.inf, -np.inf], 0)
+            X_data = X_data.replace(np.inf, 99999)
             y_pred = cross_val_predict(clf, X_data, y, cv=StratifiedKFold(n_splits=3, shuffle=True, random_state=42))
             prf = self.print_score(y_pred, y, True)
 

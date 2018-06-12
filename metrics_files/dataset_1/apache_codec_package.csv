@@ -1,0 +1,12 @@
+Package,C(rec),LOC(rec),METH(rec)
+"",52,9.563,401
+"org",52,9.563,401
+"org.apache",52,9.563,401
+"org.apache.commons",52,9.563,401
+"org.apache.commons.codec",52,9.563,401
+"org.apache.commons.codec.binary",12,2.946,118
+"org.apache.commons.codec.digest",1,556,38
+"org.apache.commons.codec.language",23,3.944,172
+"org.apache.commons.codec.language.bm",10,1.315,58
+"org.apache.commons.codec.net",6,1.406,57
+

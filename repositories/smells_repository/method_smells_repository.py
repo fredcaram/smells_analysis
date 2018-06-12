@@ -35,21 +35,21 @@ class method_smells_repository(base_smells_repository):
 
     def merge_metrics_with_annotation(self, metrics_df, smells_df):
         assert "instance" in smells_df.columns.values
-        #smells_grouped_by_class = smells_df.groupby("instance").max().reset_index()
+        smells_grouped_by_class = smells_df.groupby("instance").max().reset_index()
         metrics_df_grouped_by_class = metrics_df.groupby("instance").max().reset_index()
-        matches = pd.DataFrame(columns=["smells_instance", "metrics_instance"], dtype=str)
-        for x in smells_df["instance"].values:
-            match = metrics_df[metrics_df['instance'].str.contains(x)]
+
+        matches = pd.DataFrame(columns=["smells_instance", "metrics_instance"])
+        for x in smells_grouped_by_class["instance"].values:
+            match = metrics_df_grouped_by_class[metrics_df_grouped_by_class['instance'].str.contains(x)]
             for m in match["instance"].values:
-                matches.append({"smells_instance": x, "metrics_instance": m}, ignore_index=True)
+                matches = matches.append({"smells_instance": x, "metrics_instance": m}, ignore_index=True)
 
 
         #combined_df = metrics_df_grouped_by_class.merge(smells_df, how="left", left_on="instance", right_on="instance")
-        combined_df = metrics_df.merge(matches, how="left", left_on='instance', right_on='metrics_instance').drop('instance', axis='columns')
-        combined_df = combined_df.merge(smells_df, how="left", left_on='smells_instance', right_on='instance').drop(
-            ['instance', 'smells_instance'], axis='columns')
-        combined_df.loc[:, "instance"] = combined_df["metrics_instance"]
-        combined_df.drop('metrics_instance', axis='columns')
+        combined_df = metrics_df_grouped_by_class.merge(matches, how="left", left_on='instance', right_on='metrics_instance').drop(
+            'metrics_instance', axis='columns')
+        combined_df = combined_df.merge(smells_grouped_by_class, how="left", left_on='smells_instance', right_on='instance',
+                                        suffixes=["", "_smell"]).drop(['smells_instance', 'instance_smell'], axis='columns')
         return combined_df
 
 

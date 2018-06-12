@@ -1,0 +1,12 @@
+Package,C(rec),LOC(rec),METH(rec)
+"",104,21.337,965
+"org",104,21.337,965
+"org.apache",104,21.337,965
+"org.apache.commons",104,21.337,965
+"org.apache.commons.io",104,21.337,965
+"org.apache.commons.io.comparator",10,910,30
+"org.apache.commons.io.filefilter",25,3.528,163
+"org.apache.commons.io.input",23,4.215,210
+"org.apache.commons.io.monitor",5,1.007,68
+"org.apache.commons.io.output",19,3.186,172
+

@@ -1,0 +1,17 @@
+Package,C(rec),LOC(rec),METH(rec)
+"",238,23.248,1.862
+"android",238,23.248,1.862
+"android.support",238,23.248,1.862
+"android.support.v4",238,23.248,1.862
+"android.support.v4.accessibilityservice",4,211,23
+"android.support.v4.app",68,8.894,571
+"android.support.v4.content",21,1.763,105
+"android.support.v4.content.pm",1,35,1
+"android.support.v4.database",1,55,3
+"android.support.v4.net",12,276,36
+"android.support.v4.os",2,55,4
+"android.support.v4.util",7,1.347,83
+"android.support.v4.view",92,8.152,857
+"android.support.v4.view.accessibility",26,2.886,484
+"android.support.v4.widget",31,2.495,180
+
